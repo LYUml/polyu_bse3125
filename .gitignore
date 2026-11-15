@@ -8,3 +8,4 @@ tmp/
 *.dwl2
 05_Calculations/data/cad_entities.json
 05_Calculations/data/source_plan_preview.png
+05_Calculations/data/baseline-page-*.png

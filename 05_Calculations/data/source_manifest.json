@@ -1,17 +1,17 @@
 {
   "originals": [
     {
-      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\BSE3125 DIALux Assignment 2627.pdf",
+      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\01_Assignment_Brief\\BSE3125 DIALux Assignment 2627.pdf",
       "sha256": "1774438e251086dd20f93e571f7021b7eb612b0ed8edcef19a4d73cc443edcfc",
       "bytes": 22001
     },
     {
-      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\Project layout.dwg",
+      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\01_Assignment_Brief\\Building_Drawings\\Project layout.dwg",
       "sha256": "5c5f0360987784171dc3b798132b25046cbd8253cf5566ba8eb2d110d1315c20",
       "bytes": 241862
     }
   ],
-  "toolkit_commit": null,
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
   "native_conversion_manifest": {
     "schema": "dialux-agent/native-cad-survey/v1",
     "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\Project layout.dwg",

@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-11-15T15:06:27.057569+00:00",
+  "finished_utc": "2026-11-15T15:06:47.984368+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "arguments": [
+    "desktop-export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-baseline-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-baseline-v1.pdf"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"operation\": \"export_pdf\",\n  \"status\": \"exported\",\n  \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.pdf\",\n  \"project\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.evo\",\n  \"bytes\": 2064185,\n  \"pages\": 34,\n  \"sha256\": \"6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503\",\n  \"uses_codex_computer_use\": false,\n  \"fresh_calculation_verified\": false,\n  \"evidence\": \"Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation.\"\n}\n",
+  "stderr": "",
+  "result": {
+    "operation": "export_pdf",
+    "status": "exported",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.pdf",
+    "project": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.evo",
+    "bytes": 2064185,
+    "pages": 34,
+    "sha256": "6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503",
+    "uses_codex_computer_use": false,
+    "fresh_calculation_verified": false,
+    "evidence": "Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation."
+  }
+}

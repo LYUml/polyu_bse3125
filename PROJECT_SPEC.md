@@ -1,6 +1,6 @@
 # BSE3125 lighting design
 
-Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged. This is work in progress, not an accepted submission.
+Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. This is work in progress, not an accepted submission.
 
 ## Deliverables and acceptance
 
@@ -25,7 +25,7 @@ Mini_Design_Submission.html: due 22 November 2026 23:59, one group representativ
 - Native-converted drawing: millimetres, footprint 45 x 30 m; selected office is L-shaped around northern core.
 - Initial interior polygon: 1042.097970 m2 before columns, 1032.573045 m2 after eight source-linked column intersections. Source text says 1022 m2. Discrepancy remains open; do not force a match or label annotation a measurement.
 - Initial assumptions: ceiling 2.8 m, workplane 0.8 m, MF 0.80, ceiling/wall/floor 70/50/20%. These are adjustable design assumptions.
-- Native geometry import completed; native readback, furniture arrangement, calculation objects and lighting design pending.
+- Native geometry import and initial 142-fixture automatic arrangement calculated and saved. Baseline PDF pp14-15: 501 lx, Uo 0.005, 4.36 W/m2; rectangular-room glare estimate 20. **Not accepted**. Native readback, furniture/task surfaces, directional UGR, grid alignment and optimization pending. See data/baseline-calculation-observation-v1.json.
 - Candidate RC132V G6 43S/840 SIA W60L60 OC IA4, 910505102802: source photometry cached by toolkit. Datasheet/photometry dimensions differ; reconcile nominal module versus physical envelope and power before final selection.
 - International source row/edition and Hong Kong BEC applicability must be verified. Course's illustrative 8.5 W/m2 must not substitute for the correct >200 m2 category in BEC 2024.
 

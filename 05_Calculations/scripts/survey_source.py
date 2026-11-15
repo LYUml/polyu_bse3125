@@ -8,11 +8,12 @@ TOOLKIT=ROOT.parent/'dialux-agent-toolkit'
 OUT=ROOT/'05_Calculations/data'
 OUT.mkdir(parents=True,exist_ok=True)
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-originals=[ROOT/'BSE3125 DIALux Assignment 2627.pdf',ROOT/'Project layout.dwg']
+originals=[ROOT/'01_Assignment_Brief/BSE3125 DIALux Assignment 2627.pdf',ROOT/'01_Assignment_Brief/Building_Drawings/Project layout.dwg']
 native=TOOLKIT/'local/bse3125-native-v2'
 assert sha(originals[1])==sha(native/'source-copy.dwg')
+import subprocess
 record={'originals':[{'path':str(p),'sha256':sha(p),'bytes':p.stat().st_size} for p in originals],
- 'toolkit_commit':None,'native_conversion_manifest':json.loads((native/'manifest.json').read_text()),
+ 'toolkit_commit':subprocess.check_output(['git','-C',str(TOOLKIT),'rev-parse','HEAD'],text=True).strip(),'native_conversion_manifest':json.loads((native/'manifest.json').read_text()),
  'converted_dxf':str(native/'source-copy.dxf'),'converted_dxf_sha256':sha(native/'source-copy.dxf')}
 (OUT/'source_manifest.json').write_text(json.dumps(record,indent=2),encoding='utf-8')
 d=ezdxf.readfile(native/'source-copy.dxf'); m=d.modelspace()

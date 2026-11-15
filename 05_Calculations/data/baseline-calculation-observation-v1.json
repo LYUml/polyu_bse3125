@@ -1,0 +1,22 @@
+{
+  "status": "initial native calculation; not accepted design",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "project": "05_Calculations/models/office-baseline-v1.evo",
+  "saved_project_sha256": "b59138a8f09ef2e1d7358333b6387a2ac6c12680aa93f497a171ecb4111c068f",
+  "native_operations_observed": ["STF import", "Save As geometry", "ULD import 910505102802", "automatic arrangement", "Save As baseline", "fresh calculate returned results_available", "save calculated project", "native PDF export"],
+  "product_source_sha256": "c494e0c34167c1bc9fd874ae419cab6140134e519f1802125fb413bc88e88c97",
+  "fixture_count": 142,
+  "product_flux_reported_lm": 4303,
+  "product_input_power_reported_W": 32,
+  "report": "05_Calculations/models/office-baseline-v1.pdf",
+  "report_sha256": "6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503",
+  "summary_pages": [14, 15],
+  "average_illuminance_lx": 501,
+  "uniformity_u0": 0.005,
+  "reported_lpd_W_m2": 4.36,
+  "rectangular_space_glare_estimate": 20,
+  "glare_scope": "Report footnote: rectangular space 44.640 x 29.620 m and SHR 0.25. This is not a verified directional UGR evaluation of the L-shaped occupied office.",
+  "reported_parameters": {"area_m2":1042.10,"ceiling_height_m":2.8,"mounting_height_m":2.835,"working_plane_height_m":0.8,"wall_zone_m":0,"ceiling_reflectance_pct":70,"wall_reflectance_pct":50,"floor_reflectance_pct":20,"maintenance_factor":0.8},
+  "visual_review": "Summary pages 14 and 15 rendered and inspected. L shape and columns visible; low-value contour regions around columns. No task-surface or pointwise glare acceptance established.",
+  "remaining": ["Verify all source/model boundaries and eight column objects", "Resolve source annotation area discrepancy", "Add justified furniture and critical desk calculation surfaces", "Set appropriate column/obstacle exclusions without hiding occupied task failures", "Verify grid-aligned fixture positions", "Directional UGR at 1.2 m eye height", "Reconcile mounting reference and manufacturer geometry", "International criteria and BEC scope checks", "Optimize design", "Native project reopen comparison", "Independent CAD plan", "Final report and combined PDF acceptance"]
+}

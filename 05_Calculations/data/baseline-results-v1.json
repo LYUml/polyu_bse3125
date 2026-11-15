@@ -1,0 +1,73 @@
+{
+  "started_utc": "2026-11-15T15:07:02.713615+00:00",
+  "finished_utc": "2026-11-15T15:07:03.936269+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "arguments": [
+    "report-read-all",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-baseline-v1.pdf"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"summaries\": [\n    {\n      \"room_scene_header\": \"Building Open plan office \\u00b7 Storey Open plan office \\u00b7 Open plan office (Light scene 1)\",\n      \"area_m2\": 1042.1,\n      \"height_m\": 2.8,\n      \"workplane_m\": 0.8,\n      \"unavailable_measurements\": [],\n      \"measurements\": [\n        {\n          \"metric\": \"average_perpendicular_illuminance\",\n          \"value\": 501.0,\n          \"unit\": \"lx\",\n          \"calculation_surface\": \"WP1\",\n          \"page\": 15,\n          \"summary_id\": \"328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394\",\n          \"room_scene_header\": \"Building Open plan office \\u00b7 Storey Open plan office \\u00b7 Open plan office (Light scene 1)\",\n          \"evidence\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503\"\n        },\n        {\n          \"metric\": \"uniformity_u0\",\n          \"value\": 0.005,\n          \"unit\": \"1\",\n          \"calculation_surface\": \"WP1\",\n          \"page\": 15,\n          \"summary_id\": \"328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394\",\n          \"room_scene_header\": \"Building Open plan office \\u00b7 Storey Open plan office \\u00b7 Open plan office (Light scene 1)\",\n          \"evidence\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503\"\n        },\n        {\n          \"metric\": \"lighting_power_density\",\n          \"value\": 4.36,\n          \"unit\": \"W/m2\",\n          \"calculation_surface\": \"space\",\n          \"page\": 15,\n          \"summary_id\": \"328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394\",\n          \"room_scene_header\": \"Building Open plan office \\u00b7 Storey Open plan office \\u00b7 Open plan office (Light scene 1)\",\n          \"evidence\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503\"\n        }\n      ],\n      \"summary_id\": \"328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394\",\n      \"summary_pages\": [\n        14,\n        15\n      ]\n    }\n  ],\n  \"summary_count\": 1,\n  \"document_pages\": 34,\n  \"complete_project_coverage_verified\": false,\n  \"schema\": \"dialux-agent/report-results/v1\",\n  \"source\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-baseline-v1.pdf\",\n  \"sha256\": \"6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503\",\n  \"compliance_status\": \"not_evaluated\",\n  \"warnings\": [\n    \"Only recognized English two-page summaries are parsed; project coverage is unverified.\",\n    \"Room/scene identities are normalized report headers, not native project object IDs.\",\n    \"Values are neither authenticated nor a compliance conclusion; no room or scene aggregation performed.\"\n  ]\n}\n",
+  "stderr": "",
+  "result": {
+    "summaries": [
+      {
+        "room_scene_header": "Building Open plan office · Storey Open plan office · Open plan office (Light scene 1)",
+        "area_m2": 1042.1,
+        "height_m": 2.8,
+        "workplane_m": 0.8,
+        "unavailable_measurements": [],
+        "measurements": [
+          {
+            "metric": "average_perpendicular_illuminance",
+            "value": 501.0,
+            "unit": "lx",
+            "calculation_surface": "WP1",
+            "page": 15,
+            "summary_id": "328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394",
+            "room_scene_header": "Building Open plan office · Storey Open plan office · Open plan office (Light scene 1)",
+            "evidence": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503"
+          },
+          {
+            "metric": "uniformity_u0",
+            "value": 0.005,
+            "unit": "1",
+            "calculation_surface": "WP1",
+            "page": 15,
+            "summary_id": "328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394",
+            "room_scene_header": "Building Open plan office · Storey Open plan office · Open plan office (Light scene 1)",
+            "evidence": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503"
+          },
+          {
+            "metric": "lighting_power_density",
+            "value": 4.36,
+            "unit": "W/m2",
+            "calculation_surface": "space",
+            "page": 15,
+            "summary_id": "328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394",
+            "room_scene_header": "Building Open plan office · Storey Open plan office · Open plan office (Light scene 1)",
+            "evidence": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.pdf#page=15;sha256=6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503"
+          }
+        ],
+        "summary_id": "328146123c1e6456186d0c18ae45af26ce3832a0790159c2fb462a5e5d33b394",
+        "summary_pages": [
+          14,
+          15
+        ]
+      }
+    ],
+    "summary_count": 1,
+    "document_pages": 34,
+    "complete_project_coverage_verified": false,
+    "schema": "dialux-agent/report-results/v1",
+    "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.pdf",
+    "sha256": "6bdacfdb794bb910faafb1395d0f3116a74149f54a3899fcd8034d3ff7a1d503",
+    "compliance_status": "not_evaluated",
+    "warnings": [
+      "Only recognized English two-page summaries are parsed; project coverage is unverified.",
+      "Room/scene identities are normalized report headers, not native project object IDs.",
+      "Values are neither authenticated nor a compliance conclusion; no room or scene aggregation performed."
+    ]
+  }
+}
