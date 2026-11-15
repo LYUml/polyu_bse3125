@@ -1,0 +1,34 @@
+{
+  "originals": [
+    {
+      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\BSE3125 DIALux Assignment 2627.pdf",
+      "sha256": "1774438e251086dd20f93e571f7021b7eb612b0ed8edcef19a4d73cc443edcfc",
+      "bytes": 22001
+    },
+    {
+      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\Project layout.dwg",
+      "sha256": "5c5f0360987784171dc3b798132b25046cbd8253cf5566ba8eb2d110d1315c20",
+      "bytes": 241862
+    }
+  ],
+  "toolkit_commit": null,
+  "native_conversion_manifest": {
+    "schema": "dialux-agent/native-cad-survey/v1",
+    "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\Project layout.dwg",
+    "source_sha256": "5c5f0360987784171dc3b798132b25046cbd8253cf5566ba8eb2d110d1315c20",
+    "original_unchanged": true,
+    "dxf": "C:\\Users\\lyuml-win\\Desktop\\DIALux-agent\\local\\bse3125-native-v2\\source-copy.dxf",
+    "dxf_sha256": "d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2",
+    "native_variables": {
+      "ACADVER": "26.0",
+      "INSUNITS": "4",
+      "LUNITS": "2",
+      "MEASUREMENT": "1",
+      "EXTMIN": "(64345.9 13371.0 0.0)",
+      "EXTMAX": "(109346.0 45925.6 0.0)"
+    },
+    "geometry_verified": false
+  },
+  "converted_dxf": "C:\\Users\\lyuml-win\\Desktop\\dialux-agent-toolkit\\local\\bse3125-native-v2\\source-copy.dxf",
+  "converted_dxf_sha256": "d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2"
+}

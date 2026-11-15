@@ -1,0 +1,150 @@
+{
+  "name": "Open plan office",
+  "units": "m",
+  "contour": [
+    [
+      0.18,
+      0.18
+    ],
+    [
+      44.82,
+      0.18
+    ],
+    [
+      44.82,
+      29.8
+    ],
+    [
+      30.863333,
+      29.8
+    ],
+    [
+      30.863333,
+      20.67
+    ],
+    [
+      0.18,
+      20.67
+    ]
+  ],
+  "height_m": 2.8,
+  "workplane_m": 0.8,
+  "maintenance_factor": 0.8,
+  "ceiling_reflectance_pct": 70,
+  "wall_reflectance_pct": 50,
+  "floor_reflectance_pct": 20,
+  "obstacles": [
+    {
+      "name": "Column-3A66",
+      "center_m": [
+        44.3475,
+        0.89
+      ],
+      "size_m": [
+        0.9449998000000003,
+        1.4199998000000003,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-4085",
+      "center_m": [
+        0.6525,
+        0.89
+      ],
+      "size_m": [
+        0.9449998000000001,
+        1.4199998000000003,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-4086",
+      "center_m": [
+        44.3475,
+        29.1
+      ],
+      "size_m": [
+        0.9449998000000003,
+        1.3999998000000022,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-4087",
+      "center_m": [
+        44.3475,
+        15.0
+      ],
+      "size_m": [
+        0.9449998000000003,
+        1.1249998,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-408A",
+      "center_m": [
+        0.6525,
+        15.0
+      ],
+      "size_m": [
+        0.9449998000000001,
+        1.1249998,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-408F",
+      "center_m": [
+        30.300833,
+        0.6525
+      ],
+      "size_m": [
+        1.1249998,
+        0.9449998000000001,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-4091",
+      "center_m": [
+        15.0,
+        0.6525
+      ],
+      "size_m": [
+        1.1249998,
+        0.9449998000000001,
+        2.8
+      ],
+      "reflectance_pct": 40
+    },
+    {
+      "name": "Column-4093",
+      "center_m": [
+        30.300833,
+        15.0
+      ],
+      "size_m": [
+        1.1249998,
+        1.1249998,
+        2.8
+      ],
+      "reflectance_pct": 40
+    }
+  ],
+  "assumptions": [
+    "Interior L-shaped boundary interpreted from supplied ARCH lines 3E42,3E43,3D31,4053,4054,4097,4098,4052,4099,409A. Door opening to core closed at office boundary for electric-light-only model.",
+    "Coordinates transformed from native DXF INSUNITS=4 with WCS metre origin [64.34593225182503,15.92558365525945].",
+    "Ceiling height 2.8 m, workplane 0.8 m, MF 0.80 and reflectances 70/50/20 percent are adopted design assumptions, not surveyed data.",
+    "Column footprints follow source handles with edge columns clipped to office interior. Column reflectance fixed at 40 percent by supported STF box adapter.",
+    "No office furniture or facade opening dimensions supplied. Initial electric-light-only calculation; no daylight credit. Task-area and glare evaluation remain pending.",
+    "Boundary area 1042.098 m2 differs from source annotation 1022 m2. Retain both; investigate before final area/LPD adoption."
+  ]
+}

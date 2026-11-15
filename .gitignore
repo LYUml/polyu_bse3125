@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+*.dmp
+*.bak
+*.dwl
+*.dwl2
+05_Calculations/data/cad_entities.json
+05_Calculations/data/source_plan_preview.png

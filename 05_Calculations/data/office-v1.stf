@@ -1,0 +1,99 @@
+[VERSION]
+STFF=1.0.5
+Progname=MCP_Dialux
+Progvers=0.1
+
+[Project]
+Name=DIALux Agent Toolkit
+Date=2026-11-16
+Operator=DIALux Agent Toolkit
+NrRooms=1
+Room1=ROOM.R1
+
+[ROOM.R1]
+Name=Open plan office
+Height=2.8
+WorkingPlane=0.8
+NrPoints=6
+Point1=0.18 0.18
+Point2=44.82 0.18
+Point3=44.82 29.8
+Point4=30.863 29.8
+Point5=30.863 20.67
+Point6=0.18 20.67
+R_Ceiling=70
+R_Floor=20
+R_Wall1=50
+R_Wall2=50
+R_Wall3=50
+R_Wall4=50
+R_Wall5=50
+R_Wall6=50
+MF=0.8
+NrLums=0
+NrStruct=0
+NrFurns=8
+Furn1=Column-3A66
+Furn1.Ref=ROOM.R1.F1
+Furn1.Pos=44.347 0.89 1.4
+Furn1.Rot=0 0 0
+Furn1.Size=0.945 1.42 2.8
+Furn2=Column-4085
+Furn2.Ref=ROOM.R1.F2
+Furn2.Pos=0.652 0.89 1.4
+Furn2.Rot=0 0 0
+Furn2.Size=0.945 1.42 2.8
+Furn3=Column-4086
+Furn3.Ref=ROOM.R1.F3
+Furn3.Pos=44.347 29.1 1.4
+Furn3.Rot=0 0 0
+Furn3.Size=0.945 1.4 2.8
+Furn4=Column-4087
+Furn4.Ref=ROOM.R1.F4
+Furn4.Pos=44.347 15 1.4
+Furn4.Rot=0 0 0
+Furn4.Size=0.945 1.125 2.8
+Furn5=Column-408A
+Furn5.Ref=ROOM.R1.F5
+Furn5.Pos=0.652 15 1.4
+Furn5.Rot=0 0 0
+Furn5.Size=0.945 1.125 2.8
+Furn6=Column-408F
+Furn6.Ref=ROOM.R1.F6
+Furn6.Pos=30.301 0.652 1.4
+Furn6.Rot=0 0 0
+Furn6.Size=1.125 0.945 2.8
+Furn7=Column-4091
+Furn7.Ref=ROOM.R1.F7
+Furn7.Pos=15 0.652 1.4
+Furn7.Rot=0 0 0
+Furn7.Size=1.125 0.945 2.8
+Furn8=Column-4093
+Furn8.Ref=ROOM.R1.F8
+Furn8.Pos=30.301 15 1.4
+Furn8.Rot=0 0 0
+Furn8.Size=1.125 1.125 2.8
+
+[ROOM.R1.F1]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F2]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F3]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F4]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F5]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F6]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F7]
+Poly.Color=40 150 150 150
+
+[ROOM.R1.F8]
+Poly.Color=40 150 150 150
