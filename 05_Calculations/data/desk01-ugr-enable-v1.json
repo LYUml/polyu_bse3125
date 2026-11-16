@@ -1,0 +1,37 @@
+{
+  "request": {
+    "expected_project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+    "expected_name": "Desk-01",
+    "values": {},
+    "enable_ugr": true,
+    "evidence": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/data/desk01-ugr-enable-v1.json"
+  },
+  "state": "configured_unsaved",
+  "steps": [],
+  "before": {},
+  "after": {},
+  "ugr_before": 0,
+  "ugr_after": 1,
+  "final_state": {
+    "backend": "pywinauto-uia",
+    "pid": 21620,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-task-development-v1.evo* - DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": true
+      },
+      "CalculationButtonStart": {
+        "count": 1,
+        "enabled": true
+      },
+      "DiscardResultsButton": {
+        "count": 1,
+        "enabled": false
+      }
+    },
+    "dialogs": [],
+    "uses_codex_computer_use": false
+  }
+}

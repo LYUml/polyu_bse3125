@@ -29,7 +29,17 @@ Mini_Design_Submission.html: due 22 November 2026 23:59, one group representativ
 - Candidate RC132V G6 43S/840 SIA W60L60 OC IA4, 910505102802: source photometry cached by toolkit. Datasheet/photometry dimensions differ; reconcile nominal module versus physical envelope and power before final selection.
 - International source row/edition and Hong Kong BEC applicability must be verified. Course's illustrative 8.5 W/m2 must not substitute for the correct >200 m2 category in BEC 2024.
 
-## Reuse
+## Native task-surface milestone, 2026-11-16
+
+- Two 1.6 x 0.8 m desk surfaces at 0.8 m height have actual DIALux results. Desk-01: 479 lx average, 387 lx minimum, Uo 0.81, maximum directional UGR 20.3. Desk-02-probe: 516 lx average, 407 lx minimum, Uo 0.79, maximum directional UGR 20.2. UGR eye offset is 0.4 m, giving 1.2 m seated height; directions cover 0–360 degrees at 15-degree intervals. Neither desk establishes final design acceptance.
+- An isolated native archive adapter cloned a surface created in DIALux. DIALux opened, freshly calculated, saved and reopened it. Both surface geometries and scoped report text persisted; see surface-clone-persistence-v1.json and office-surface-clone-native-v2.evo. This is bounded evidence for two surfaces, not a general project writer.
+- Source-linked full ceiling tiles have been enumerated for candidate layouts. Candidate positions are geometric proposals only and are not calculated installation results.
+- BEC 2024 Table 5.4 specifies 7.2 W/m2 for the office category above 200 m2, with automatic control requirements. Source clauses, control assumptions and limitations are recorded in 02_References/design-criteria.json. No comprehensive code compliance claim is made.
+- The first isolated white-finish archive experiment produced unchanged illumination/glare after fresh calculation. Material propagation remains unverified. A separate cache-omission probe is experimental until native opening and changed physical parameters/results are evidenced.
+- Subsequent cache rebuild succeeded: office-white-finish-native-v3.evo was calculated, saved, closed and reopened. Reopened PDF p18 confirms 80/70/20% reflection factors; pp30/31/33 give Desk-01 507 lx/Uo 0.82/UGR 19.7 and Desk-02 541 lx/Uo 0.80/UGR 19.6. Geometry, scoped report text and saved native bytes persist. Glare remains above 19. See white-finish-persistence-v1.json. This resolves propagation for this specific finish experiment, not final acceptance.
+- PowerBalance 910505103630 is a new lower-glare candidate: official ULD, LDT and leaflet cached with URLs/hashes. Native import/calculation and installation layout are still pending; catalogue UGR16 is not a room result.
+
+## Reuse implementation
 
 Use sibling dialux-agent-toolkit (CLI and MCP share backend), its MIT-licensed MCP_Dialux STF serializer/reader, installed ezdxf/Shapely/PDFium and native AutoCAD Core Console workflow. See 02_References/reuse-register.md. Do not copy synthetic simulation results into this assignment.
 

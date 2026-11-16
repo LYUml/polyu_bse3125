@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-16T02:40:30.911515+00:00",
+  "finished_utc": "2026-11-16T02:40:31.435389+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-status"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"backend\": \"pywinauto-uia\",\n  \"uses_codex_computer_use\": false,\n  \"state\": \"not_running\",\n  \"title\": \"\",\n  \"dialogs\": [],\n  \"controls\": {}\n}\n",
+  "stderr": "",
+  "result": {
+    "backend": "pywinauto-uia",
+    "uses_codex_computer_use": false,
+    "state": "not_running",
+    "title": "",
+    "dialogs": [],
+    "controls": {}
+  }
+}

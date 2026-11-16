@@ -1,0 +1,7 @@
+{
+  "expected_project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+  "expected_name": "Desk-01",
+  "values": {"Positioning_X":2.4,"Positioning_Y":2.4,"Positioning_Z":0.8,"Size_X":1.6,"Size_Y":0.8},
+  "enable_ugr": true,
+  "evidence": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/data/desk01-configuration-v1.json"
+}

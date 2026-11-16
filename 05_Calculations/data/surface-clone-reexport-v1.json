@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-11-15T15:40:03.579100+00:00",
+  "finished_utc": "2026-11-15T15:40:41.996485+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-surface-clone-native-v2.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-surface-clone-reopened-v2.pdf"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"operation\": \"export_pdf\", \"status\": \"exported\", \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-surface-clone-reopened-v2.pdf\", \"project\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-surface-clone-native-v2.evo\", \"bytes\": 3197436, \"pages\": 44, \"sha256\": \"2f1bbb1412b9e75672d8b69a6d4a7c90ea89c7c6717bc6354a9b310152745fd6\", \"uses_codex_computer_use\": false, \"fresh_calculation_verified\": false, \"evidence\": \"Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation.\"}\n",
+  "stderr": "",
+  "result": {
+    "operation": "export_pdf",
+    "status": "exported",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-surface-clone-reopened-v2.pdf",
+    "project": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-surface-clone-native-v2.evo",
+    "bytes": 3197436,
+    "pages": 44,
+    "sha256": "2f1bbb1412b9e75672d8b69a6d4a7c90ea89c7c6717bc6354a9b310152745fd6",
+    "uses_codex_computer_use": false,
+    "fresh_calculation_verified": false,
+    "evidence": "Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation."
+  }
+}

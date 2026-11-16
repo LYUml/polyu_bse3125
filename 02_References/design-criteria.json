@@ -1,0 +1,29 @@
+{
+  "status": "adopted course criteria and sourced energy design basis; project checks pending",
+  "quality_basis": {
+    "activity": "Writing, typing, reading and data processing in an open-plan office",
+    "adopted_average_maintained_task_illuminance_lx": 500,
+    "adopted_task_uniformity_u0": 0.6,
+    "adopted_glare_limit": 19,
+    "adopted_minimum_ra": 80,
+    "sources": [
+      {"type":"course instruction","source":"BSE3125 DIALux P01/P02 recordings, 20 and 27 October 2026","locations":"P01 8:56-17:24 and 20:45-21:30; P02 10:07-12:50 and 25:09-28:18","role":"Task illuminance/uniformity/glare criteria; 0.8 m desks and 1.2 m eye height"},
+      {"type":"published technical exposition","author":"Laura Bellia","title":"European Standard for Visual Environment","url":"https://www.rehva.eu/rehva-journal/chapter/european-standard-for-visual-environment","location":"Table 2 and following maintained illuminance, uniformity and glare discussion","role":"Author's exposition of EN 12464-1 requirements; not a claim to have independently reviewed the complete licensed standard"},
+      {"type":"software publisher guidance","url":"https://dialux4.support-en.dial.de/support/solutions/articles/9000080374-standard-values-for-office-interiors","role":"Office activity reference values; edition not established from this page, so not sole basis for a 2021-edition compliance claim"}
+    ],
+    "additional_2021_items": "REHVA Table 2 also lists cylindrical 150 lx, wall 150 lx and ceiling 100 lx with surface uniformity >=0.10. These are not proved by the four course metrics. Do not claim complete EN 12464-1 conformity without addressing them and other applicable requirements.",
+    "modified_illuminance": "No special critical/small/low-contrast/prolonged task or impaired-vision brief supplied. Use course's 500 lx baseline; re-evaluate context modifiers if activity assumptions change. No daylight is credited in the electric-light calculation."
+  },
+  "energy_basis": {
+    "code":"Hong Kong BEC 2024",
+    "source_url":"https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf",
+    "source_sha256":"9fae5eb2134caa7f5645735d618d82da0cf3f284e576a9f6402de9b8357f95b7",
+    "project_assumption":"Academic design of a normal daytime office; adopt BEC 2024 lighting provisions as design criteria. Actual installation dates and statutory applicability are unspecified, so this is not regulatory certification.",
+    "office_category":">200 m2",
+    "maximum_lpd_W_m2":7.2,
+    "lpd_reference":"Table 5.4, printed page 16 / PDF page 22; clauses 5.1 and 5.4.1-5.4.3 reviewed with complete fixed-lighting power basis",
+    "manual_controls":"Table 5.5, PDF page 24: at 1042.10 m2 the unreduced base number is 32 control points (1000 < A <=1050). Do not substitute occupant sensors for these control points. Any reduction under 5.5.2 must be separately calculated; default design should retain 32.",
+    "automatic_controls":{"source":"5.6.1.1 and 5.6.1.3-5.6.1.6, PDF pp24-25","maximum_zone_area_m2":250,"minimum_automatic_power_reduction_pct":50,"occupancy_timeout_max_min":15,"manual_override_max_min":120,"design_intent":"Propose zero general-lighting power after 10 minutes vacancy, independently zoned; verify actual zone mapping before claiming satisfaction."},
+    "daylight":"5.6.1.2 and 5.6.2 apply when exterior fenestration is provided. Supplied drawing lacks a defined glazing schedule. Preserve daylight control as an explicit design provision/conditional requirement; do not treat missing glazing information as an exemption."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "started_utc": "2026-11-16T02:47:46.887404+00:00",
+  "finished_utc": "2026-11-16T02:48:13.043565+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "calculate",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-white-finish-rebuild-probe-v2.evo",
+    "--recalculate"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"operation\": \"calculate\", \"status\": \"results_available\", \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-white-finish-rebuild-probe-v2.evo\", \"results\": [{\"id\": \"ResultsMonitorSurfaceResultAverage\", \"text\": \"507 lx\"}, {\"id\": \"ResultsMonitorSurfaceUniformityAverage\", \"text\": \"0.82\"}, {\"id\": \"ResultsMonitorSurfaceResultAverage\", \"text\": \"541 lx\"}, {\"id\": \"ResultsMonitorSurfaceUniformityAverage\", \"text\": \"0.80\"}, {\"id\": \"ResultsMonitorSurfaceResultAverage\", \"text\": \"523 lx\"}, {\"id\": \"ResultsMonitorSurfaceUniformityAverage\", \"text\": \"0.005\"}], \"native_project_saved\": false, \"results_scoped\": false, \"results_scope_warning\": \"Monitor values have no verified room/surface identity. Use a scoped native report for assessment.\", \"evidence\": \"Calculation invoked from enabled state; results controls available afterward\", \"uses_codex_computer_use\": false}\n",
+  "stderr": "",
+  "result": {
+    "operation": "calculate",
+    "status": "results_available",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-white-finish-rebuild-probe-v2.evo",
+    "results": [
+      {
+        "id": "ResultsMonitorSurfaceResultAverage",
+        "text": "507 lx"
+      },
+      {
+        "id": "ResultsMonitorSurfaceUniformityAverage",
+        "text": "0.82"
+      },
+      {
+        "id": "ResultsMonitorSurfaceResultAverage",
+        "text": "541 lx"
+      },
+      {
+        "id": "ResultsMonitorSurfaceUniformityAverage",
+        "text": "0.80"
+      },
+      {
+        "id": "ResultsMonitorSurfaceResultAverage",
+        "text": "523 lx"
+      },
+      {
+        "id": "ResultsMonitorSurfaceUniformityAverage",
+        "text": "0.005"
+      }
+    ],
+    "native_project_saved": false,
+    "results_scoped": false,
+    "results_scope_warning": "Monitor values have no verified room/surface identity. Use a scoped native report for assessment.",
+    "evidence": "Calculation invoked from enabled state; results controls available afterward",
+    "uses_codex_computer_use": false
+  }
+}

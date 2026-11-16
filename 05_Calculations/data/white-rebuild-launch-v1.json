@@ -1,0 +1,79 @@
+{
+  "started_utc": "2026-11-16T02:46:15.311258+00:00",
+  "finished_utc": "2026-11-16T02:46:42.315520+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-launch",
+    "--wait-for-ready"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"backend\": \"pywinauto-uia\",\n  \"pid\": 11240,\n  \"executable\": \"C:\\\\Program Files\\\\DIAL GmbH\\\\DIALux\\\\DIALux_x64.exe\",\n  \"title\": \"DIALux evo 14.1  (64-bit)\",\n  \"controls\": {\n    \"Save\": {\n      \"count\": 1,\n      \"enabled\": false\n    },\n    \"CalculationButtonStart\": {\n      \"count\": 0,\n      \"enabled\": false\n    },\n    \"DiscardResultsButton\": {\n      \"count\": 0,\n      \"enabled\": false\n    }\n  },\n  \"dialogs\": [\n    {\n      \"title\": \"\",\n      \"automation_id\": \"\",\n      \"class\": \"Popup\",\n      \"children\": [\n        {\n          \"type\": \"Custom\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \" \"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"Resend activation email\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"Resend activation email\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"Remember to activate your user account.\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"Delete\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        }\n      ]\n    }\n  ],\n  \"uses_codex_computer_use\": false\n}\n",
+  "stderr": "",
+  "result": {
+    "backend": "pywinauto-uia",
+    "pid": 11240,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": false
+      },
+      "CalculationButtonStart": {
+        "count": 0,
+        "enabled": false
+      },
+      "DiscardResultsButton": {
+        "count": 0,
+        "enabled": false
+      }
+    },
+    "dialogs": [
+      {
+        "title": "",
+        "automation_id": "",
+        "class": "Popup",
+        "children": [
+          {
+            "type": "Custom",
+            "text": ""
+          },
+          {
+            "type": "Image",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": " "
+          },
+          {
+            "type": "Button",
+            "text": "Resend activation email"
+          },
+          {
+            "type": "Text",
+            "text": "Resend activation email"
+          },
+          {
+            "type": "Text",
+            "text": "Remember to activate your user account."
+          },
+          {
+            "type": "Button",
+            "text": ""
+          },
+          {
+            "type": "Button",
+            "text": "Delete"
+          },
+          {
+            "type": "Image",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "uses_codex_computer_use": false
+  }
+}

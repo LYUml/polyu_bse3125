@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-15T15:28:57.933585+00:00",
+  "finished_utc": "2026-11-15T15:30:13.278306+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "arguments": [
+    "desktop-export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"Desktop operation timed out; outcome unknown. Inspect status before any retry.\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "Desktop operation timed out; outcome unknown. Inspect status before any retry."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "request": {
+    "expected_project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+    "expected_name": "Desk-01",
+    "values": {
+      "Positioning_X": 2.4,
+      "Positioning_Y": 2.4,
+      "Positioning_Z": 0.8,
+      "Size_X": 1.6,
+      "Size_Y": 0.8
+    },
+    "enable_ugr": true,
+    "evidence": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/data/desk01-configuration-v1.json"
+  },
+  "state": "failed_inspect_before_retry",
+  "steps": [
+    {
+      "field": "Positioning_X",
+      "value": "2.400"
+    },
+    {
+      "field": "Positioning_Y",
+      "value": "2.400"
+    },
+    {
+      "field": "Positioning_Z",
+      "value": "0.800"
+    },
+    {
+      "field": "Size_X",
+      "value": "1.600"
+    },
+    {
+      "field": "Size_Y",
+      "value": "0.800"
+    }
+  ],
+  "before": {
+    "Positioning_X": "2.000",
+    "Positioning_Y": "5.696",
+    "Positioning_Z": "0.000",
+    "Size_X": "1.000",
+    "Size_Y": "1.000"
+  },
+  "pending_field": "Size_Y",
+  "after": {
+    "Positioning_X": "2.400",
+    "Positioning_Y": "2.400",
+    "Positioning_Z": "0.800",
+    "Size_X": "1.600",
+    "Size_Y": "0.800"
+  },
+  "error": ""
+}

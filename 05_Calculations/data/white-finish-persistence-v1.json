@@ -1,0 +1,34 @@
+{
+  "status": "native finish change and two-surface persistence verified; design still fails glare target",
+  "native_sha256": "a9d93db909015f0adfa0f2209b09543f8cfef5e4f48351951b2211ff9e0617db",
+  "geometry_preserved": true,
+  "scoped_result_text_preserved": true,
+  "native_bytes_preserved_after_reopen_export": true,
+  "reflection_summary_page": 18,
+  "reflection_summary_text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nSummary\nGround area 1042.10 m\u00b2 Clearance height 2.800 m\nReflection factors Ceiling: 80.0 %, Mounting height 2.835 m\nWalls: 70.0 %,\nFloor: 20.0 % Height Working plane 0.800 m\nMaintenance factor 0.80 (fixed) Wall zone Working plane 0.000 m\n18",
+  "report_sha256": "16723b15bbac7f502918996c98c360ecf8d16ab9b4e092a33f7b6477dfa03e03",
+  "desk_results": [
+    {
+      "name": "Desk-01",
+      "average_lx": 507,
+      "minimum_lx": 415,
+      "maximum_lx": 597,
+      "u0": 0.82,
+      "max_directional_ugr": 19.7
+    },
+    {
+      "name": "Desk-02-probe",
+      "average_lx": 541,
+      "minimum_lx": 433,
+      "maximum_lx": 621,
+      "u0": 0.8,
+      "max_directional_ugr": 19.6
+    }
+  ],
+  "result_pages": [
+    30,
+    31,
+    33
+  ],
+  "scope": "Two provisional task surfaces only; fixture alignment, furniture layout and final occupied-area validation remain pending"
+}

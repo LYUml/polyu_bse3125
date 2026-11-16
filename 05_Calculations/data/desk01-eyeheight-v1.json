@@ -1,0 +1,47 @@
+{
+  "request": {
+    "expected_project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+    "expected_name": "Desk-01",
+    "values": {
+      "HeightOffset_Ugr": 0.4
+    },
+    "enable_ugr": false,
+    "evidence": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/data/desk01-eyeheight-v1.json"
+  },
+  "state": "configured_unsaved",
+  "steps": [
+    {
+      "field": "HeightOffset_Ugr",
+      "value": "0.400"
+    }
+  ],
+  "before": {
+    "HeightOffset_Ugr": "0.000"
+  },
+  "pending_field": "HeightOffset_Ugr",
+  "after": {
+    "HeightOffset_Ugr": "0.400"
+  },
+  "final_state": {
+    "backend": "pywinauto-uia",
+    "pid": 21620,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-task-development-v1.evo* - DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": true
+      },
+      "CalculationButtonStart": {
+        "count": 1,
+        "enabled": true
+      },
+      "DiscardResultsButton": {
+        "count": 1,
+        "enabled": false
+      }
+    },
+    "dialogs": [],
+    "uses_codex_computer_use": false
+  }
+}

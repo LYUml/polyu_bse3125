@@ -1,0 +1,30 @@
+{
+  "fetched_utc": "2026-11-16T02:52:03.797127+00:00",
+  "product_page": "https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103630_EU/product",
+  "assets": [
+    {
+      "path": "02_References\\Manufacturer\\910505103630.uld",
+      "url": "https://api.microservices.signify.com/api/configurator/v2/getPhotometricAssets/uld?id=910505103630&locale=en_AA",
+      "resolved_url": "https://api.microservices.signify.com/api/configurator/v2/getPhotometricAssets/uld?id=910505103630&locale=en_AA",
+      "content_type": "multipart/form-data",
+      "bytes": 155136,
+      "sha256": "7edfde22d7661e96efded51a013081f40793b53eb94a9bbdab549198f410319c"
+    },
+    {
+      "path": "02_References\\Manufacturer\\910505103630.ldt",
+      "url": "https://api.microservices.signify.com/api/configurator/v2/getPhotometricAssets/ldt?id=910505103630&locale=en_AA",
+      "resolved_url": "https://api.microservices.signify.com/api/configurator/v2/getPhotometricAssets/ldt?id=910505103630&locale=en_AA",
+      "content_type": "text/plain",
+      "bytes": 29153,
+      "sha256": "cdf6f0b56a354ebcb88d0c0672c65ffcea955a181155faa8793ffb074407bc55"
+    },
+    {
+      "path": "02_References\\Manufacturer\\910505103630.pdf",
+      "url": "https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf",
+      "resolved_url": "https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf",
+      "content_type": "application/pdf",
+      "bytes": 364410,
+      "sha256": "4bde82baeb01191ace976c26c451f3af80ca3b903bac5cf8a1cdbfd4c76de3cd"
+    }
+  ]
+}

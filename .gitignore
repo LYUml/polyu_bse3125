@@ -9,3 +9,9 @@ tmp/
 05_Calculations/data/cad_entities.json
 05_Calculations/data/source_plan_preview.png
 05_Calculations/data/baseline-page-*.png
+05_Calculations/data/ui-inventory-*.json
+05_Calculations/data/native-rectangle-command.png
+05_Calculations/data/desk01-page-*.png
+02_References/local/
+05_Calculations/sessions/
+05_Calculations/models/DIALux Agent Toolkit_Report.pdf

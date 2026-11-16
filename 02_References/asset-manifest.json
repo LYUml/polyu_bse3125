@@ -1,0 +1,42 @@
+[
+  {
+    "path": "02_References\\Manufacturer\\910505102802-datasheet.pdf",
+    "sha256": "a58a92f04ec6607c529c2bc8c18ddd3794db79211c2fcbfbc843feff3717be6c",
+    "bytes": 402983
+  },
+  {
+    "path": "02_References\\Manufacturer\\910505102802.ldt",
+    "sha256": "2e857aa0b08a46a263751791b51be046c88165af775a0a8430610c8de723fe58",
+    "bytes": 766
+  },
+  {
+    "path": "02_References\\Manufacturer\\910505102802.uld",
+    "sha256": "c494e0c34167c1bc9fd874ae419cab6140134e519f1802125fb413bc88e88c97",
+    "bytes": 23552
+  },
+  {
+    "path": "02_References\\Manufacturer\\911401890885.ldt",
+    "sha256": "e522dee4bdbb0acb3245b2510377e42894a485f5c63af5f6fac7e0c340d4baad",
+    "bytes": 762
+  },
+  {
+    "path": "02_References\\Manufacturer\\911401890885.uld",
+    "sha256": "3e6a57fadb35de3858dce7de154c9740e67375ac093c18d010e8768843ff541f",
+    "bytes": 23552
+  },
+  {
+    "path": "02_References\\Manufacturer\\911401891085.ldt",
+    "sha256": "6a6e528cb1b0ae2acb07eada47f9aab0d42d8cf11a96f4ef854ee710970d0616",
+    "bytes": 765
+  },
+  {
+    "path": "02_References\\Manufacturer\\911401891085.uld",
+    "sha256": "8592f2eaed409f3fa3eb6ac9069f8486e379535d8f02b6e94b7d40fe48d654bf",
+    "bytes": 23552
+  },
+  {
+    "path": "02_References\\Official\\BEC_2024_ENG.pdf",
+    "sha256": "9fae5eb2134caa7f5645735d618d82da0cf3f284e576a9f6402de9b8357f95b7",
+    "bytes": 5225501
+  }
+]
