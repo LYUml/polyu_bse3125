@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-16T13:12:32.429103+00:00",
+  "finished_utc": "2026-11-16T13:13:33.108946+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-calculate",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-reflectance-core-v1.evo"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"ValueError: Calculation completion not observed within 45 seconds; outcome unverified\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "ValueError: Calculation completion not observed within 45 seconds; outcome unverified"
+  }
+}
