@@ -1,0 +1,26 @@
+{
+  "status": "Prepared only; fresh native calculation and saved/reopened verification required",
+  "variant": "output90",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-brightness-native-v4.evo",
+  "source_sha256": "102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742",
+  "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-aux-v1.evo",
+  "output_sha256": "4ec29a5c9c106839fe6e428fb702c0496b8311675fb3e4c031f8ca4116b1a8c4",
+  "changes": [
+    {
+      "type": "LuminaireGroupRepresentationData",
+      "id": 4900,
+      "before": {
+        "RepresentedObject": "#192",
+        "DimValues": "((#6345, 1.))",
+        "LuminaireGroupScope": ".Inside."
+      },
+      "after": {
+        "RepresentedObject": "#192",
+        "DimValues": "((#6345, 0.9))",
+        "LuminaireGroupScope": ".Inside."
+      }
+    }
+  ],
+  "all_other_records_unchanged": true,
+  "cached_scene_and_results_removed": true
+}

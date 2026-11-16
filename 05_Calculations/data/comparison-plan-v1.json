@@ -1,0 +1,29 @@
+{
+  "status": "Comparison calculations in progress; final report unchanged pending verified results",
+  "original_inputs": {
+    "01_Assignment_Brief/BSE3125 DIALux Assignment 2627.pdf": "1774438e251086dd20f93e571f7021b7eb612b0ed8edcef19a4d73cc443edcfc",
+    "01_Assignment_Brief/Building_Drawings/Project layout.dwg": "5c5f0360987784171dc3b798132b25046cbd8253cf5566ba8eb2d110d1315c20"
+  },
+  "baseline": "186 PowerBalance 4000lm/23W; finishes80/70/20; MF0.80",
+  "variants": [
+    {
+      "id": "output90",
+      "change": "All186 fixtures at90% scene output; no change to manufacturer photometry or MF",
+      "scope": "112 task illuminance/UGR and288 supplemental surfaces",
+      "power_note": "Nameplate connected power retained; no validated dimming wattage curve available"
+    },
+    {
+      "id": "reflectance",
+      "change": "Ceiling/wall/floor70/50/20,100%output; columns40% retained",
+      "scope": "112 task illuminance/UGR and288 supplemental surfaces"
+    }
+  ],
+  "acceptance": [
+    "Fresh native calculation; save and reopen; compare exported result rows",
+    "Validate intended changed parameters and unchanged geometry/product graph",
+    "Keep main report9pages includingCAD, at most10pages; combined PDF<10MB",
+    "Modular comparison appendix with selected original native output",
+    "Review all five rubric categories; no fabricated data; no platform submission"
+  ],
+  "report_plan": "Replace analytical-only sensitivity discussion with a concise actual comparison table and engineering interpretation; keep detailed method, assumptions and native evidence in appendix."
+}

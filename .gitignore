@@ -39,3 +39,8 @@ tmp/
 05_Calculations/Report_Draft_v01/pair-*.png
 05_Calculations/Report_Draft_v02/page-*.png
 05_Calculations/Report_Draft_v02/pair-*.png
+
+# Comparison native projects and full raw outputs stay local.
+05_Calculations/models/office-comparison-*.evo
+05_Calculations/models/office-comparison-*.pdf
+05_Calculations/models/office-pre-comparison-session-*.evo

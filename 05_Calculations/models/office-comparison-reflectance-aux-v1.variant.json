@@ -1,0 +1,80 @@
+{
+  "status": "Prepared only; fresh native calculation and saved/reopened verification required",
+  "variant": "reflectance",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-brightness-native-v4.evo",
+  "source_sha256": "102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742",
+  "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-aux-v1.evo",
+  "output_sha256": "4a1553acee93af17ed6dedfb0dda030f408fd814d6b7c2fd2457acdc7e36f72a",
+  "changes": [
+    {
+      "type": "MaterialParams",
+      "id": 8085,
+      "before": {
+        "ObjectId": "7",
+        "IsUserDefault": "False",
+        "InternalName": "'Design white finish reflectance 0%2E8'",
+        "DisplayName": "'Design white finish reflectance 0%2E8'",
+        "ReadOnly": "True",
+        "Type": ".Plastic.",
+        "ColorLuminance": "0.800000012",
+        "Roughness": "1.",
+        "Shininess": "1.",
+        "Transparency": "0.",
+        "IoR": "1.",
+        "ColorBase": "(0.800000012, 0.800000012, 0.800000012)",
+        "TextureLayers": "()"
+      },
+      "after": {
+        "ObjectId": "7",
+        "IsUserDefault": "False",
+        "InternalName": "'Sensitivity finish reflectance 0.7'",
+        "DisplayName": "'Sensitivity finish reflectance 0.7'",
+        "ReadOnly": "True",
+        "Type": ".Plastic.",
+        "ColorLuminance": "0.7",
+        "Roughness": "1.",
+        "Shininess": "1.",
+        "Transparency": "0.",
+        "IoR": "1.",
+        "ColorBase": "(0.7, 0.7, 0.7)",
+        "TextureLayers": "()"
+      }
+    },
+    {
+      "type": "MaterialParams",
+      "id": 8090,
+      "before": {
+        "ObjectId": "10",
+        "IsUserDefault": "False",
+        "InternalName": "'Design white finish reflectance 0%2E7'",
+        "DisplayName": "'Design white finish reflectance 0%2E7'",
+        "ReadOnly": "True",
+        "Type": ".Plastic.",
+        "ColorLuminance": "0.699999988",
+        "Roughness": "1.",
+        "Shininess": "1.",
+        "Transparency": "0.",
+        "IoR": "1.",
+        "ColorBase": "(0.699999988, 0.699999988, 0.699999988)",
+        "TextureLayers": "()"
+      },
+      "after": {
+        "ObjectId": "10",
+        "IsUserDefault": "False",
+        "InternalName": "'Sensitivity finish reflectance 0.5'",
+        "DisplayName": "'Sensitivity finish reflectance 0.5'",
+        "ReadOnly": "True",
+        "Type": ".Plastic.",
+        "ColorLuminance": "0.5",
+        "Roughness": "1.",
+        "Shininess": "1.",
+        "Transparency": "0.",
+        "IoR": "1.",
+        "ColorBase": "(0.5, 0.5, 0.5)",
+        "TextureLayers": "()"
+      }
+    }
+  ],
+  "all_other_records_unchanged": true,
+  "cached_scene_and_results_removed": true
+}
