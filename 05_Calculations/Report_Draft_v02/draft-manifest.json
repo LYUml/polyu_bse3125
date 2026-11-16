@@ -1,0 +1,81 @@
+{
+  "status": "modular Times New Roman draft for user evaluation; current final submission remains unchanged",
+  "pages": 14,
+  "main_including_CAD": 9,
+  "selected_native_appendix_pages": 5,
+  "bytes": 1884284,
+  "sha256": "7aaea74514fa9ef288de480a5b5df9b98a660f1d5b07ab763e48e266775f3fbe",
+  "all_pages_preserve_component_text_size_72_150dpi_pixels": true,
+  "component_page_preservation": [
+    {
+      "combined_page": 1,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 1
+    },
+    {
+      "combined_page": 2,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 2
+    },
+    {
+      "combined_page": 3,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 3
+    },
+    {
+      "combined_page": 4,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 4
+    },
+    {
+      "combined_page": 5,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 5
+    },
+    {
+      "combined_page": 6,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 6
+    },
+    {
+      "combined_page": 7,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 7
+    },
+    {
+      "combined_page": 8,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Report_Draft_v02\\main-draft.pdf",
+      "source_page": 8
+    },
+    {
+      "combined_page": 9,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-plot-v5\\BSE3125-L01-lighting-plan.pdf",
+      "source_page": 1
+    },
+    {
+      "combined_page": 10,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 254
+    },
+    {
+      "combined_page": 11,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 316
+    },
+    {
+      "combined_page": 12,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 529
+    },
+    {
+      "combined_page": 13,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 592
+    },
+    {
+      "combined_page": 14,
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-brightness-probe-reopened-v4.pdf",
+      "source_page": 378
+    }
+  ]
+}
