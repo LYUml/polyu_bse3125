@@ -1,0 +1,4 @@
+(setvar "FILEDIA" 0)
+(command "_.SAVEAS" "_2018" "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/cad-native-v2/layout.dwg")
+(princ "LAYOUT_NATIVE_COMPLETE")
+(princ)

@@ -1,0 +1,26 @@
+{
+  "status": "native A2 1:100 PDF plotted; visual review pending",
+  "source_dwg": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-native-v2\\layout.dwg",
+  "source_dwg_sha256": "9cde59bb3803a8643af976c57cf863a506a62d6de54a2509ac1a2a2e3d59b20f",
+  "pdf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-plot-v2\\BSE3125-L01-lighting-plan.pdf",
+  "pdf_sha256": "b079cc34824f62910468d957fc245477d90a701fd596a6ec57fd04b33ce0fccb",
+  "bytes": 162431,
+  "paper": "A2",
+  "scale_denominator": 100,
+  "fixture_count": 186,
+  "all_fixture_labels_verified": true,
+  "fixture_label_scope": "verified_scale_outline",
+  "physical_scale": {
+    "pdf_curve_index": 422,
+    "pdf_object_type": "curve",
+    "maximum_coordinate_error_pt": 0.036850393700774475,
+    "verified": true,
+    "denominator": 100,
+    "pdf_points_per_model_metre": 28.34645669291339,
+    "coordinate_tolerance_pt": 0.25,
+    "outline_sha256": "fb69b263942518293552ac46c2eef8ca37936cb7c0845fc0aa03fc3c7c2fe346",
+    "warning": "Verifies this PDF vector outline at original page size, not downstream print scaling or all drawing dimensions."
+  },
+  "original_dwg_unchanged": true,
+  "visual_review_verified": false
+}

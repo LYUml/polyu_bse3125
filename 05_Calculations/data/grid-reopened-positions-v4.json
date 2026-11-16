@@ -1,0 +1,4297 @@
+{
+  "status": "all 186 native report positions match source-linked ceiling tiles",
+  "pdf_sha256": "be1461f7f032d75e609d5968cfd4342e6da4e3fba3178b0dabf4cb06f5121c45",
+  "plan_sha256": "a141f488b1055afd98aae9ee7ade9111f39ac0d8cbf4bfc3d41b8b6ab2383789",
+  "fixture_count": 186,
+  "product_order_code": "910505103630",
+  "reported_power_W_each": 19.8,
+  "reported_flux_lm_each": 3400,
+  "translation_report_to_design_m": [
+    0.18,
+    0.18,
+    0
+  ],
+  "translation_evidence": "Measured room starts at design/storey (0.18,0.18); native room-scoped report coordinates subtract this room origin. Native reference mounting height is unchanged.",
+  "maximum_coordinate_error_m": 2.9802338383906587e-10,
+  "matches": [
+    {
+      "id": "L133",
+      "native_object_guid": "b9e08e46-351e-48b1-8506-b83f8593f325",
+      "source_tile_handle": "8B72",
+      "planned_position_m": [
+        31.68,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        31.5,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.68,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 1,
+      "report_page": 257
+    },
+    {
+      "id": "L134",
+      "native_object_guid": "982e4a21-a896-412f-a758-f25623cc0fab",
+      "source_tile_handle": "8B9F",
+      "planned_position_m": [
+        33.480000000000004,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 2,
+      "report_page": 257
+    },
+    {
+      "id": "L183",
+      "native_object_guid": "18179da6-f8e8-40f4-9c46-24e3d333b0de",
+      "source_tile_handle": "8BDB",
+      "planned_position_m": [
+        35.879999999999995,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 3,
+      "report_page": 257
+    },
+    {
+      "id": "L184",
+      "native_object_guid": "a2776055-80a1-4f2c-a3ae-20e90a25a3fd",
+      "source_tile_handle": "8C26",
+      "planned_position_m": [
+        38.879999999999995,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 4,
+      "report_page": 257
+    },
+    {
+      "id": "L185",
+      "native_object_guid": "b231cfaa-ded2-4fbb-b7ce-fefd2287641a",
+      "source_tile_handle": "8C62",
+      "planned_position_m": [
+        41.28,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 5,
+      "report_page": 257
+    },
+    {
+      "id": "L186",
+      "native_object_guid": "134efea1-450d-47c1-a822-3af3a82d8b82",
+      "source_tile_handle": "8C8F",
+      "planned_position_m": [
+        43.08,
+        28.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        42.9,
+        28.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.08,
+        28.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 6,
+      "report_page": 257
+    },
+    {
+      "id": "L131",
+      "native_object_guid": "a66f2807-39ed-4d08-b6d3-075bde6db357",
+      "source_tile_handle": "8B6E",
+      "planned_position_m": [
+        31.68,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        31.5,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.68,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 7,
+      "report_page": 257
+    },
+    {
+      "id": "L132",
+      "native_object_guid": "c90da3af-463d-42cb-b20f-7ec34ae84c0c",
+      "source_tile_handle": "8B9B",
+      "planned_position_m": [
+        33.480000000000004,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 8,
+      "report_page": 257
+    },
+    {
+      "id": "L179",
+      "native_object_guid": "d0917fea-b0ee-4c9d-bb2b-64b4e4abdf94",
+      "source_tile_handle": "8BD7",
+      "planned_position_m": [
+        35.879999999999995,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 9,
+      "report_page": 257
+    },
+    {
+      "id": "L180",
+      "native_object_guid": "3df42199-5925-439e-b26c-630f09507fc8",
+      "source_tile_handle": "8C22",
+      "planned_position_m": [
+        38.879999999999995,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 10,
+      "report_page": 257
+    },
+    {
+      "id": "L181",
+      "native_object_guid": "3c9e80d0-f127-4ab2-b60b-3488db633b3e",
+      "source_tile_handle": "8C5E",
+      "planned_position_m": [
+        41.28,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 11,
+      "report_page": 257
+    },
+    {
+      "id": "L182",
+      "native_object_guid": "d7b5d942-1cb4-4d9f-9ff3-a489606d4d42",
+      "source_tile_handle": "8C9A",
+      "planned_position_m": [
+        43.68,
+        26.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        26.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        26.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 12,
+      "report_page": 257
+    },
+    {
+      "id": "L129",
+      "native_object_guid": "e0f943bf-1f3f-42eb-9045-3aa2de262177",
+      "source_tile_handle": "8B6A",
+      "planned_position_m": [
+        31.68,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        31.5,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.68,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 13,
+      "report_page": 257
+    },
+    {
+      "id": "L130",
+      "native_object_guid": "924404dc-1a38-40e7-bcc7-b842a85db085",
+      "source_tile_handle": "8B97",
+      "planned_position_m": [
+        33.480000000000004,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 14,
+      "report_page": 258
+    },
+    {
+      "id": "L175",
+      "native_object_guid": "9e9dda0d-45e9-47b8-97f7-1fe9aa36edd0",
+      "source_tile_handle": "8BD3",
+      "planned_position_m": [
+        35.879999999999995,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 15,
+      "report_page": 258
+    },
+    {
+      "id": "L176",
+      "native_object_guid": "ccf86810-4283-49c3-8c61-c9e0a701018b",
+      "source_tile_handle": "8C1E",
+      "planned_position_m": [
+        38.879999999999995,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 16,
+      "report_page": 258
+    },
+    {
+      "id": "L177",
+      "native_object_guid": "84b7de3d-810f-43f5-a01f-557724679705",
+      "source_tile_handle": "8C5A",
+      "planned_position_m": [
+        41.28,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 17,
+      "report_page": 258
+    },
+    {
+      "id": "L178",
+      "native_object_guid": "29880fc3-707f-4573-be7e-3ce042caaca9",
+      "source_tile_handle": "8C96",
+      "planned_position_m": [
+        43.68,
+        23.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        23.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        23.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 18,
+      "report_page": 258
+    },
+    {
+      "id": "L127",
+      "native_object_guid": "8780d7bf-1abd-4b60-aa0c-d916ab90dd5c",
+      "source_tile_handle": "8B66",
+      "planned_position_m": [
+        31.68,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        31.5,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.68,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 19,
+      "report_page": 258
+    },
+    {
+      "id": "L128",
+      "native_object_guid": "6b29b18a-2a70-4197-bab9-f3b3ccd99de5",
+      "source_tile_handle": "8B93",
+      "planned_position_m": [
+        33.480000000000004,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 20,
+      "report_page": 258
+    },
+    {
+      "id": "L171",
+      "native_object_guid": "e8191a3d-ab71-4a07-86d2-6454058e9d12",
+      "source_tile_handle": "8BCF",
+      "planned_position_m": [
+        35.879999999999995,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 21,
+      "report_page": 258
+    },
+    {
+      "id": "L172",
+      "native_object_guid": "2041ba3b-d6fc-46c6-96d2-0f56efbb59b7",
+      "source_tile_handle": "8C1A",
+      "planned_position_m": [
+        38.879999999999995,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 22,
+      "report_page": 258
+    },
+    {
+      "id": "L173",
+      "native_object_guid": "3d5514c8-8a80-478f-9446-fcae12a68a91",
+      "source_tile_handle": "8C56",
+      "planned_position_m": [
+        41.28,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 23,
+      "report_page": 258
+    },
+    {
+      "id": "L174",
+      "native_object_guid": "508f9e30-e192-40aa-ac08-d0c84492af57",
+      "source_tile_handle": "8C92",
+      "planned_position_m": [
+        43.68,
+        21.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        21.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        21.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 24,
+      "report_page": 258
+    },
+    {
+      "id": "L113",
+      "native_object_guid": "13bad02a-c8ff-47bc-b3e3-69232f60107c",
+      "source_tile_handle": "7F91",
+      "planned_position_m": [
+        1.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 25,
+      "report_page": 258
+    },
+    {
+      "id": "L114",
+      "native_object_guid": "1a3476ef-6f59-4150-9d49-56a548ede60e",
+      "source_tile_handle": "801D",
+      "planned_position_m": [
+        4.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 26,
+      "report_page": 258
+    },
+    {
+      "id": "L115",
+      "native_object_guid": "c214df45-49fa-4e1b-a960-17f329e20696",
+      "source_tile_handle": "80A9",
+      "planned_position_m": [
+        6.48,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 27,
+      "report_page": 258
+    },
+    {
+      "id": "L116",
+      "native_object_guid": "2b5c1d4e-4889-4c92-b621-8f6be1b431b5",
+      "source_tile_handle": "8135",
+      "planned_position_m": [
+        8.879999999999999,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 28,
+      "report_page": 258
+    },
+    {
+      "id": "L117",
+      "native_object_guid": "96d3886e-ae48-4415-8824-19f0d103ec66",
+      "source_tile_handle": "81C1",
+      "planned_position_m": [
+        11.280000000000001,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 29,
+      "report_page": 258
+    },
+    {
+      "id": "L118",
+      "native_object_guid": "c1621ba1-064d-408a-9922-4b38a6dd5427",
+      "source_tile_handle": "824D",
+      "planned_position_m": [
+        13.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 30,
+      "report_page": 258
+    },
+    {
+      "id": "L119",
+      "native_object_guid": "d5e414cf-8142-4857-98a7-6e795b3566fd",
+      "source_tile_handle": "82D9",
+      "planned_position_m": [
+        16.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 31,
+      "report_page": 258
+    },
+    {
+      "id": "L121",
+      "native_object_guid": "02036d2e-dd22-45c5-8e31-8566f2f73cb5",
+      "source_tile_handle": "8414",
+      "planned_position_m": [
+        21.48,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 32,
+      "report_page": 258
+    },
+    {
+      "id": "L122",
+      "native_object_guid": "9b6bd5c3-742a-410d-9152-0dcf309331f2",
+      "source_tile_handle": "84A0",
+      "planned_position_m": [
+        23.88,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 33,
+      "report_page": 258
+    },
+    {
+      "id": "L123",
+      "native_object_guid": "c5ba22d3-e118-46b5-a045-ecd4b5462f20",
+      "source_tile_handle": "852C",
+      "planned_position_m": [
+        26.28,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 34,
+      "report_page": 258
+    },
+    {
+      "id": "L124",
+      "native_object_guid": "86515489-2582-4cde-a356-1920519f78f8",
+      "source_tile_handle": "85B8",
+      "planned_position_m": [
+        28.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 35,
+      "report_page": 258
+    },
+    {
+      "id": "L125",
+      "native_object_guid": "c3a355a4-9789-40d9-a6ee-5faac0278366",
+      "source_tile_handle": "8644",
+      "planned_position_m": [
+        31.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 36,
+      "report_page": 258
+    },
+    {
+      "id": "L126",
+      "native_object_guid": "e0aaf3f3-50c4-4327-8e49-c19fb587c63c",
+      "source_tile_handle": "86D0",
+      "planned_position_m": [
+        33.480000000000004,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 37,
+      "report_page": 258
+    },
+    {
+      "id": "L167",
+      "native_object_guid": "f709d2bb-df4f-42e0-8eec-ea052169a8f7",
+      "source_tile_handle": "875C",
+      "planned_position_m": [
+        35.879999999999995,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 38,
+      "report_page": 259
+    },
+    {
+      "id": "L168",
+      "native_object_guid": "2b9dbcff-e6f5-452d-800c-7553d1379ce7",
+      "source_tile_handle": "880B",
+      "planned_position_m": [
+        38.879999999999995,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 39,
+      "report_page": 259
+    },
+    {
+      "id": "L169",
+      "native_object_guid": "f3b4b10f-4d53-4b2b-893b-569468498bd7",
+      "source_tile_handle": "8897",
+      "planned_position_m": [
+        41.28,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 40,
+      "report_page": 259
+    },
+    {
+      "id": "L170",
+      "native_object_guid": "cf8dba09-246e-4676-a8d6-372d7b0c99a3",
+      "source_tile_handle": "8923",
+      "planned_position_m": [
+        43.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        19.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        19.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 41,
+      "report_page": 259
+    },
+    {
+      "id": "L120",
+      "native_object_guid": "329140c0-80be-481b-9d8e-73e4f6ada52d",
+      "source_tile_handle": "8366",
+      "planned_position_m": [
+        18.48,
+        19.169999999999998,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        18.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        19.169999999999998,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 42,
+      "report_page": 259
+    },
+    {
+      "id": "L099",
+      "native_object_guid": "1bae6267-12d6-45be-8b0c-9271039ac2e4",
+      "source_tile_handle": "7F95",
+      "planned_position_m": [
+        1.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 43,
+      "report_page": 259
+    },
+    {
+      "id": "L100",
+      "native_object_guid": "1f5358ae-6bcd-4989-bfde-99ace07a4074",
+      "source_tile_handle": "8021",
+      "planned_position_m": [
+        4.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 44,
+      "report_page": 259
+    },
+    {
+      "id": "L101",
+      "native_object_guid": "1d89f52c-d879-403f-8592-be34be1d1832",
+      "source_tile_handle": "80AD",
+      "planned_position_m": [
+        6.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 45,
+      "report_page": 259
+    },
+    {
+      "id": "L102",
+      "native_object_guid": "8056f25b-ffdd-48a1-bdf9-abb91b28a930",
+      "source_tile_handle": "8139",
+      "planned_position_m": [
+        8.879999999999999,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 46,
+      "report_page": 259
+    },
+    {
+      "id": "L103",
+      "native_object_guid": "50e9a5e7-3a83-43d1-91d2-fd66431b960e",
+      "source_tile_handle": "81C5",
+      "planned_position_m": [
+        11.280000000000001,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 47,
+      "report_page": 259
+    },
+    {
+      "id": "L104",
+      "native_object_guid": "2675c33d-aa5a-49f1-ab01-b18f4fcb1a4f",
+      "source_tile_handle": "8251",
+      "planned_position_m": [
+        13.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 48,
+      "report_page": 259
+    },
+    {
+      "id": "L105",
+      "native_object_guid": "6d940cfd-efbd-4ee1-ae14-8ff53d3b2a42",
+      "source_tile_handle": "82DD",
+      "planned_position_m": [
+        16.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 49,
+      "report_page": 259
+    },
+    {
+      "id": "L106",
+      "native_object_guid": "9a04fddb-41dd-4cf7-beae-e4069f9b5c75",
+      "source_tile_handle": "8369",
+      "planned_position_m": [
+        18.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 50,
+      "report_page": 259
+    },
+    {
+      "id": "L107",
+      "native_object_guid": "5395fe2a-e60d-4667-ad42-74a08783a010",
+      "source_tile_handle": "8418",
+      "planned_position_m": [
+        21.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 51,
+      "report_page": 259
+    },
+    {
+      "id": "L108",
+      "native_object_guid": "d01f5fe5-3d60-419e-96cc-616f992c4edc",
+      "source_tile_handle": "84A4",
+      "planned_position_m": [
+        23.88,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 52,
+      "report_page": 259
+    },
+    {
+      "id": "L109",
+      "native_object_guid": "2ce15905-dfab-4aa3-bb2b-3a38f3563b29",
+      "source_tile_handle": "8530",
+      "planned_position_m": [
+        26.28,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 53,
+      "report_page": 259
+    },
+    {
+      "id": "L110",
+      "native_object_guid": "fd757bdd-135f-435b-857c-bda995a2bd47",
+      "source_tile_handle": "85BC",
+      "planned_position_m": [
+        28.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 54,
+      "report_page": 259
+    },
+    {
+      "id": "L111",
+      "native_object_guid": "b84d6439-d00a-4716-9267-5b9fe92aad6c",
+      "source_tile_handle": "8648",
+      "planned_position_m": [
+        31.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 55,
+      "report_page": 259
+    },
+    {
+      "id": "L112",
+      "native_object_guid": "31515e5a-d49c-43ca-99a1-fda0efa808e7",
+      "source_tile_handle": "86D4",
+      "planned_position_m": [
+        33.480000000000004,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 56,
+      "report_page": 259
+    },
+    {
+      "id": "L163",
+      "native_object_guid": "4af2994a-67c6-43ec-ac20-428a5ee46a23",
+      "source_tile_handle": "8760",
+      "planned_position_m": [
+        35.879999999999995,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 57,
+      "report_page": 259
+    },
+    {
+      "id": "L164",
+      "native_object_guid": "58f06984-fdad-40cb-abdb-eb16cfa5261c",
+      "source_tile_handle": "880F",
+      "planned_position_m": [
+        38.879999999999995,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 58,
+      "report_page": 259
+    },
+    {
+      "id": "L165",
+      "native_object_guid": "108c6bfc-3e95-4967-8c20-c7bf771af86b",
+      "source_tile_handle": "889B",
+      "planned_position_m": [
+        41.28,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 59,
+      "report_page": 259
+    },
+    {
+      "id": "L166",
+      "native_object_guid": "1bfaed7e-b60b-4827-95ed-0a351f131a1e",
+      "source_tile_handle": "8927",
+      "planned_position_m": [
+        43.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        17.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        17.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 60,
+      "report_page": 259
+    },
+    {
+      "id": "L085",
+      "native_object_guid": "0ec15db2-9ac6-4a75-857f-7f285b37fb75",
+      "source_tile_handle": "7FBC",
+      "planned_position_m": [
+        2.2800000000000002,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        2.1,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        2.2800000000000002,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 61,
+      "report_page": 259
+    },
+    {
+      "id": "L086",
+      "native_object_guid": "e8a51199-c551-4d5b-bc63-89456dba8a21",
+      "source_tile_handle": "8025",
+      "planned_position_m": [
+        4.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 62,
+      "report_page": 260
+    },
+    {
+      "id": "L087",
+      "native_object_guid": "e6a349ea-41e6-4f5d-8515-4da2fce3af9d",
+      "source_tile_handle": "80B1",
+      "planned_position_m": [
+        6.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 63,
+      "report_page": 260
+    },
+    {
+      "id": "L088",
+      "native_object_guid": "377099e5-2102-4156-bd28-61667da76b18",
+      "source_tile_handle": "813D",
+      "planned_position_m": [
+        8.879999999999999,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 64,
+      "report_page": 260
+    },
+    {
+      "id": "L089",
+      "native_object_guid": "93af85dc-aa25-47b3-a23e-07bbdfd9265e",
+      "source_tile_handle": "81C9",
+      "planned_position_m": [
+        11.280000000000001,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 65,
+      "report_page": 260
+    },
+    {
+      "id": "L090",
+      "native_object_guid": "9a6590e7-e5c8-4bd7-8758-b2f3dfea09de",
+      "source_tile_handle": "8255",
+      "planned_position_m": [
+        13.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 66,
+      "report_page": 260
+    },
+    {
+      "id": "L091",
+      "native_object_guid": "bd9a24f7-baf0-4fb6-9bb0-7cd1ac078179",
+      "source_tile_handle": "82E1",
+      "planned_position_m": [
+        16.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 67,
+      "report_page": 260
+    },
+    {
+      "id": "L092",
+      "native_object_guid": "f1068efc-77e7-4296-91cc-df94c27074fc",
+      "source_tile_handle": "836D",
+      "planned_position_m": [
+        18.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 68,
+      "report_page": 260
+    },
+    {
+      "id": "L093",
+      "native_object_guid": "ba8e8889-7bf3-42d5-a8f2-96fa2a29ec09",
+      "source_tile_handle": "841C",
+      "planned_position_m": [
+        21.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 69,
+      "report_page": 260
+    },
+    {
+      "id": "L094",
+      "native_object_guid": "f70b481b-10ad-4988-9023-ff7ec0abc966",
+      "source_tile_handle": "84A8",
+      "planned_position_m": [
+        23.88,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 70,
+      "report_page": 260
+    },
+    {
+      "id": "L095",
+      "native_object_guid": "b1858d76-a61c-4174-915f-b6384fba9112",
+      "source_tile_handle": "8534",
+      "planned_position_m": [
+        26.28,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 71,
+      "report_page": 260
+    },
+    {
+      "id": "L096",
+      "native_object_guid": "4d0f1ab6-b6fc-48c3-99bc-7cdce697e6cc",
+      "source_tile_handle": "85C0",
+      "planned_position_m": [
+        28.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 72,
+      "report_page": 260
+    },
+    {
+      "id": "L097",
+      "native_object_guid": "3cebcc0c-7bb6-4e1c-b643-00d9d17f5b1a",
+      "source_tile_handle": "866F",
+      "planned_position_m": [
+        31.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        31.5,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.68,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 73,
+      "report_page": 260
+    },
+    {
+      "id": "L098",
+      "native_object_guid": "87ea133f-8adc-4cc9-8e53-1c4e5193e5a5",
+      "source_tile_handle": "86D8",
+      "planned_position_m": [
+        33.480000000000004,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 74,
+      "report_page": 260
+    },
+    {
+      "id": "L159",
+      "native_object_guid": "cceb7e77-c461-4e8e-a25e-3b45fbe57e30",
+      "source_tile_handle": "8764",
+      "planned_position_m": [
+        35.879999999999995,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 75,
+      "report_page": 260
+    },
+    {
+      "id": "L160",
+      "native_object_guid": "0e4d6adf-e370-4ea7-8f15-0de170ef7fb3",
+      "source_tile_handle": "8813",
+      "planned_position_m": [
+        38.879999999999995,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 76,
+      "report_page": 260
+    },
+    {
+      "id": "L161",
+      "native_object_guid": "c6061a8e-2a12-43ce-a714-178c1cbbbc40",
+      "source_tile_handle": "889F",
+      "planned_position_m": [
+        41.28,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 77,
+      "report_page": 260
+    },
+    {
+      "id": "L162",
+      "native_object_guid": "01331a64-409f-4109-801e-c3cd96ed4bc0",
+      "source_tile_handle": "8908",
+      "planned_position_m": [
+        43.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        42.9,
+        14.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.08,
+        14.969999999999999,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 78,
+      "report_page": 260
+    },
+    {
+      "id": "L071",
+      "native_object_guid": "624df0e3-9833-4f97-acdc-72a189682674",
+      "source_tile_handle": "7F9D",
+      "planned_position_m": [
+        1.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 79,
+      "report_page": 260
+    },
+    {
+      "id": "L072",
+      "native_object_guid": "7d5c4741-d834-4157-b8f7-43f55b27e9ae",
+      "source_tile_handle": "8029",
+      "planned_position_m": [
+        4.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 80,
+      "report_page": 260
+    },
+    {
+      "id": "L073",
+      "native_object_guid": "c32d71b9-e222-4428-9c19-5d02defc59ef",
+      "source_tile_handle": "80B5",
+      "planned_position_m": [
+        6.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 81,
+      "report_page": 260
+    },
+    {
+      "id": "L074",
+      "native_object_guid": "a9a5b2b3-eec8-43fc-8cf6-765e392bff96",
+      "source_tile_handle": "8141",
+      "planned_position_m": [
+        8.879999999999999,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 82,
+      "report_page": 260
+    },
+    {
+      "id": "L075",
+      "native_object_guid": "7d6d12ab-0793-4990-83e3-ab4109a830c3",
+      "source_tile_handle": "81CD",
+      "planned_position_m": [
+        11.280000000000001,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 83,
+      "report_page": 260
+    },
+    {
+      "id": "L076",
+      "native_object_guid": "242f0163-69ac-4fe4-9b58-e72aef7d4b0d",
+      "source_tile_handle": "8259",
+      "planned_position_m": [
+        13.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 84,
+      "report_page": 260
+    },
+    {
+      "id": "L077",
+      "native_object_guid": "8259a741-10c4-4b7d-a82c-bf416ec37446",
+      "source_tile_handle": "82E5",
+      "planned_position_m": [
+        16.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 85,
+      "report_page": 260
+    },
+    {
+      "id": "L078",
+      "native_object_guid": "e1542af7-409b-4c15-afdb-d79ffa0f464d",
+      "source_tile_handle": "8371",
+      "planned_position_m": [
+        18.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 86,
+      "report_page": 261
+    },
+    {
+      "id": "L079",
+      "native_object_guid": "56c67dbe-cc13-490e-bc25-a6e64ca6ad0e",
+      "source_tile_handle": "8420",
+      "planned_position_m": [
+        21.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 87,
+      "report_page": 261
+    },
+    {
+      "id": "L080",
+      "native_object_guid": "0061c7f5-b8de-4a45-a0f2-5290626b21b3",
+      "source_tile_handle": "84AC",
+      "planned_position_m": [
+        23.88,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 88,
+      "report_page": 261
+    },
+    {
+      "id": "L081",
+      "native_object_guid": "fc88f0ed-9702-4384-8203-ef2362b2e941",
+      "source_tile_handle": "8538",
+      "planned_position_m": [
+        26.28,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 89,
+      "report_page": 261
+    },
+    {
+      "id": "L082",
+      "native_object_guid": "3bac160c-953b-4c68-aa8f-362cba4cbfed",
+      "source_tile_handle": "85C4",
+      "planned_position_m": [
+        28.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 90,
+      "report_page": 261
+    },
+    {
+      "id": "L083",
+      "native_object_guid": "07675f0b-1cf5-409d-a407-c8244f5693e3",
+      "source_tile_handle": "8650",
+      "planned_position_m": [
+        31.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 91,
+      "report_page": 261
+    },
+    {
+      "id": "L084",
+      "native_object_guid": "035b590b-1645-40d6-b586-6fedf6c760b1",
+      "source_tile_handle": "86DC",
+      "planned_position_m": [
+        33.480000000000004,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 92,
+      "report_page": 261
+    },
+    {
+      "id": "L155",
+      "native_object_guid": "beca664c-3e30-413f-ba2b-73b1ced4eca1",
+      "source_tile_handle": "8768",
+      "planned_position_m": [
+        35.879999999999995,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 93,
+      "report_page": 261
+    },
+    {
+      "id": "L156",
+      "native_object_guid": "9160936e-833b-4a44-8e29-8bd6fc229298",
+      "source_tile_handle": "8817",
+      "planned_position_m": [
+        38.879999999999995,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 94,
+      "report_page": 261
+    },
+    {
+      "id": "L157",
+      "native_object_guid": "2880b8e1-f55e-4a3c-b05f-20d6c8b61740",
+      "source_tile_handle": "88A3",
+      "planned_position_m": [
+        41.28,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 95,
+      "report_page": 261
+    },
+    {
+      "id": "L158",
+      "native_object_guid": "febbe53f-d565-44eb-bf45-05805fffd0bb",
+      "source_tile_handle": "892F",
+      "planned_position_m": [
+        43.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        12.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        12.57,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 96,
+      "report_page": 261
+    },
+    {
+      "id": "L057",
+      "native_object_guid": "570580d4-25de-42e2-b8ae-02f7333150a6",
+      "source_tile_handle": "7FA1",
+      "planned_position_m": [
+        1.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 97,
+      "report_page": 261
+    },
+    {
+      "id": "L058",
+      "native_object_guid": "54419e06-f251-4696-9bd3-63df9f076e4a",
+      "source_tile_handle": "802D",
+      "planned_position_m": [
+        4.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 98,
+      "report_page": 261
+    },
+    {
+      "id": "L059",
+      "native_object_guid": "6e98daa1-01fb-477f-ad5a-740d2c436f13",
+      "source_tile_handle": "80B9",
+      "planned_position_m": [
+        6.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 99,
+      "report_page": 261
+    },
+    {
+      "id": "L060",
+      "native_object_guid": "7edb5b7c-bc61-4403-8be6-5b33011a1c8c",
+      "source_tile_handle": "8145",
+      "planned_position_m": [
+        8.879999999999999,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 100,
+      "report_page": 261
+    },
+    {
+      "id": "L061",
+      "native_object_guid": "a725b341-50af-422d-9d0c-72acdbc64cfe",
+      "source_tile_handle": "81D1",
+      "planned_position_m": [
+        11.280000000000001,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 101,
+      "report_page": 261
+    },
+    {
+      "id": "L062",
+      "native_object_guid": "6c2ae786-1dbf-4c3d-b9c6-adce09a9e5cc",
+      "source_tile_handle": "825D",
+      "planned_position_m": [
+        13.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 102,
+      "report_page": 261
+    },
+    {
+      "id": "L063",
+      "native_object_guid": "590ca90d-4a6a-438f-8fef-c6d3842984e6",
+      "source_tile_handle": "82E9",
+      "planned_position_m": [
+        16.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 103,
+      "report_page": 261
+    },
+    {
+      "id": "L064",
+      "native_object_guid": "fa330991-5b52-4fef-aedb-6f71e1333ce3",
+      "source_tile_handle": "8375",
+      "planned_position_m": [
+        18.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 104,
+      "report_page": 261
+    },
+    {
+      "id": "L065",
+      "native_object_guid": "1a80eb63-bdac-40c2-bd0c-8fc3f64be781",
+      "source_tile_handle": "8424",
+      "planned_position_m": [
+        21.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 105,
+      "report_page": 261
+    },
+    {
+      "id": "L066",
+      "native_object_guid": "afd09cf4-d6fb-4c58-97f3-f38dd7aa51f0",
+      "source_tile_handle": "84B0",
+      "planned_position_m": [
+        23.88,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 106,
+      "report_page": 261
+    },
+    {
+      "id": "L067",
+      "native_object_guid": "383af287-c160-46d8-9bd8-7e2c2db9e796",
+      "source_tile_handle": "853C",
+      "planned_position_m": [
+        26.28,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 107,
+      "report_page": 261
+    },
+    {
+      "id": "L068",
+      "native_object_guid": "7a4cf365-2c28-4d48-9019-1b5f81627b7b",
+      "source_tile_handle": "85C8",
+      "planned_position_m": [
+        28.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 108,
+      "report_page": 261
+    },
+    {
+      "id": "L069",
+      "native_object_guid": "27f773e1-a2f6-4779-a38c-390a6c180bad",
+      "source_tile_handle": "8654",
+      "planned_position_m": [
+        31.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 109,
+      "report_page": 261
+    },
+    {
+      "id": "L070",
+      "native_object_guid": "a9759498-1563-4d51-83a6-49e9c6545d50",
+      "source_tile_handle": "86E0",
+      "planned_position_m": [
+        33.480000000000004,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 110,
+      "report_page": 262
+    },
+    {
+      "id": "L151",
+      "native_object_guid": "b68aff6e-e114-44ba-94d4-5b22d452c82d",
+      "source_tile_handle": "876C",
+      "planned_position_m": [
+        35.879999999999995,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 111,
+      "report_page": 262
+    },
+    {
+      "id": "L152",
+      "native_object_guid": "229a8587-f29d-4586-8f2d-f892cee69ab7",
+      "source_tile_handle": "881B",
+      "planned_position_m": [
+        38.879999999999995,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 112,
+      "report_page": 262
+    },
+    {
+      "id": "L153",
+      "native_object_guid": "feebcd6f-1b20-4986-bd6b-7743c6586ca7",
+      "source_tile_handle": "88A7",
+      "planned_position_m": [
+        41.28,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 113,
+      "report_page": 262
+    },
+    {
+      "id": "L154",
+      "native_object_guid": "3182a6ad-9d76-4299-b5df-1682e5911370",
+      "source_tile_handle": "8933",
+      "planned_position_m": [
+        43.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        9.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        10.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 114,
+      "report_page": 262
+    },
+    {
+      "id": "L043",
+      "native_object_guid": "1b38ba27-4d0c-43ad-9ef0-32ad775ef62f",
+      "source_tile_handle": "7FA4",
+      "planned_position_m": [
+        1.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 115,
+      "report_page": 262
+    },
+    {
+      "id": "L044",
+      "native_object_guid": "56398693-cf1d-4829-ab42-861738995318",
+      "source_tile_handle": "8030",
+      "planned_position_m": [
+        4.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 116,
+      "report_page": 262
+    },
+    {
+      "id": "L045",
+      "native_object_guid": "c29c0517-594c-48e4-8a32-db65cf847a41",
+      "source_tile_handle": "80BC",
+      "planned_position_m": [
+        6.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837556861e-10,
+      "report_number": 117,
+      "report_page": 262
+    },
+    {
+      "id": "L046",
+      "native_object_guid": "9fb583d4-b78b-4d93-86d1-66c18dc51007",
+      "source_tile_handle": "8148",
+      "planned_position_m": [
+        8.879999999999999,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 118,
+      "report_page": 262
+    },
+    {
+      "id": "L047",
+      "native_object_guid": "4df7affa-ed81-4284-83a7-e3edf17a06c1",
+      "source_tile_handle": "81D4",
+      "planned_position_m": [
+        11.280000000000001,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837596566e-10,
+      "report_number": 119,
+      "report_page": 262
+    },
+    {
+      "id": "L048",
+      "native_object_guid": "bb7c8666-b881-499b-b874-67a8f4338b8a",
+      "source_tile_handle": "8260",
+      "planned_position_m": [
+        13.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 120,
+      "report_page": 262
+    },
+    {
+      "id": "L049",
+      "native_object_guid": "a5640dc6-90d9-4518-be67-5a45fd6b88c5",
+      "source_tile_handle": "82EC",
+      "planned_position_m": [
+        16.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338377553845e-10,
+      "report_number": 121,
+      "report_page": 262
+    },
+    {
+      "id": "L050",
+      "native_object_guid": "6e8f7a6e-b7a1-41cd-aa2a-437b438271dc",
+      "source_tile_handle": "8378",
+      "planned_position_m": [
+        18.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 122,
+      "report_page": 262
+    },
+    {
+      "id": "L051",
+      "native_object_guid": "07c0d812-8ebb-49ff-9108-38860899f9ca",
+      "source_tile_handle": "8427",
+      "planned_position_m": [
+        21.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 123,
+      "report_page": 262
+    },
+    {
+      "id": "L052",
+      "native_object_guid": "bc48e28b-054c-4c15-87f6-8e5037b33309",
+      "source_tile_handle": "84B3",
+      "planned_position_m": [
+        23.88,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 124,
+      "report_page": 262
+    },
+    {
+      "id": "L053",
+      "native_object_guid": "86818418-2ffc-4c3b-96d5-009ea53d2a13",
+      "source_tile_handle": "853F",
+      "planned_position_m": [
+        26.28,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 125,
+      "report_page": 262
+    },
+    {
+      "id": "L054",
+      "native_object_guid": "22c1b071-92cb-4b91-97e3-520da59f685d",
+      "source_tile_handle": "85CB",
+      "planned_position_m": [
+        28.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 126,
+      "report_page": 262
+    },
+    {
+      "id": "L055",
+      "native_object_guid": "a6fe550f-617e-4a6a-ad64-8b4b89b14996",
+      "source_tile_handle": "8657",
+      "planned_position_m": [
+        31.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 127,
+      "report_page": 262
+    },
+    {
+      "id": "L056",
+      "native_object_guid": "128ac112-0edb-4578-a19d-b708cdcac9bb",
+      "source_tile_handle": "86E3",
+      "planned_position_m": [
+        33.480000000000004,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338383906587e-10,
+      "report_number": 128,
+      "report_page": 262
+    },
+    {
+      "id": "L147",
+      "native_object_guid": "99d744e1-afac-4922-a616-4962ac9e9688",
+      "source_tile_handle": "876F",
+      "planned_position_m": [
+        35.879999999999995,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338383906587e-10,
+      "report_number": 129,
+      "report_page": 262
+    },
+    {
+      "id": "L148",
+      "native_object_guid": "5df2449d-33a0-4508-a95f-9dc57dd38d1e",
+      "source_tile_handle": "881E",
+      "planned_position_m": [
+        38.879999999999995,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338383906587e-10,
+      "report_number": 130,
+      "report_page": 262
+    },
+    {
+      "id": "L149",
+      "native_object_guid": "f68e354c-db35-430d-bafb-4e272e83b7d6",
+      "source_tile_handle": "88AA",
+      "planned_position_m": [
+        41.28,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 131,
+      "report_page": 262
+    },
+    {
+      "id": "L150",
+      "native_object_guid": "ff06db36-0373-46e2-a9c4-3361c1d90011",
+      "source_tile_handle": "8936",
+      "planned_position_m": [
+        43.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        8.19,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        8.37,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 132,
+      "report_page": 262
+    },
+    {
+      "id": "L029",
+      "native_object_guid": "9f178264-7fcd-454e-982c-a6aae13178df",
+      "source_tile_handle": "7FA8",
+      "planned_position_m": [
+        1.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 133,
+      "report_page": 262
+    },
+    {
+      "id": "L030",
+      "native_object_guid": "f0de8779-2f99-4471-b42d-81c544e4e00d",
+      "source_tile_handle": "8034",
+      "planned_position_m": [
+        4.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 134,
+      "report_page": 263
+    },
+    {
+      "id": "L031",
+      "native_object_guid": "d0863410-c02d-4490-8a82-73a7e2f293fd",
+      "source_tile_handle": "80C0",
+      "planned_position_m": [
+        6.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 135,
+      "report_page": 263
+    },
+    {
+      "id": "L032",
+      "native_object_guid": "902652ab-bff6-4d57-a575-282bd571cff7",
+      "source_tile_handle": "814C",
+      "planned_position_m": [
+        8.879999999999999,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 136,
+      "report_page": 263
+    },
+    {
+      "id": "L033",
+      "native_object_guid": "b9552420-6b24-4810-8877-9e3886af92f6",
+      "source_tile_handle": "81D8",
+      "planned_position_m": [
+        11.280000000000001,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 137,
+      "report_page": 263
+    },
+    {
+      "id": "L034",
+      "native_object_guid": "f2580815-f910-457c-b162-e917c45b1c47",
+      "source_tile_handle": "8264",
+      "planned_position_m": [
+        13.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 138,
+      "report_page": 263
+    },
+    {
+      "id": "L035",
+      "native_object_guid": "e9e292f2-1826-4ceb-ace5-4abee651f1b9",
+      "source_tile_handle": "82F0",
+      "planned_position_m": [
+        16.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 139,
+      "report_page": 263
+    },
+    {
+      "id": "L036",
+      "native_object_guid": "47ebae27-3039-4bd5-83dd-df4c9a1da922",
+      "source_tile_handle": "837C",
+      "planned_position_m": [
+        18.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 140,
+      "report_page": 263
+    },
+    {
+      "id": "L037",
+      "native_object_guid": "e2c30ee1-0487-4c72-a5f0-aaeac2f5e0e4",
+      "source_tile_handle": "842B",
+      "planned_position_m": [
+        21.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 141,
+      "report_page": 263
+    },
+    {
+      "id": "L038",
+      "native_object_guid": "002ac4ff-0e29-47cc-9979-a16cc61ef181",
+      "source_tile_handle": "84B7",
+      "planned_position_m": [
+        23.88,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 142,
+      "report_page": 263
+    },
+    {
+      "id": "L039",
+      "native_object_guid": "ad402d51-c571-438c-a872-1884bd50ada4",
+      "source_tile_handle": "8543",
+      "planned_position_m": [
+        26.28,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 143,
+      "report_page": 263
+    },
+    {
+      "id": "L040",
+      "native_object_guid": "8a4bbfad-1127-47ef-a915-3c0ced5c4923",
+      "source_tile_handle": "85CF",
+      "planned_position_m": [
+        28.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 144,
+      "report_page": 263
+    },
+    {
+      "id": "L041",
+      "native_object_guid": "32ec903d-b7ed-42ac-8a6a-557088fdf998",
+      "source_tile_handle": "865B",
+      "planned_position_m": [
+        31.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 145,
+      "report_page": 263
+    },
+    {
+      "id": "L042",
+      "native_object_guid": "f0a33a4b-329a-44a7-a6d9-6f429f354f16",
+      "source_tile_handle": "86E7",
+      "planned_position_m": [
+        33.480000000000004,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 146,
+      "report_page": 263
+    },
+    {
+      "id": "L143",
+      "native_object_guid": "f94d5592-2118-4738-8362-369f3f1b1939",
+      "source_tile_handle": "8773",
+      "planned_position_m": [
+        35.879999999999995,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 147,
+      "report_page": 263
+    },
+    {
+      "id": "L144",
+      "native_object_guid": "6489a034-690b-4d5b-92f5-1bf6412cd385",
+      "source_tile_handle": "8822",
+      "planned_position_m": [
+        38.879999999999995,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 148,
+      "report_page": 263
+    },
+    {
+      "id": "L145",
+      "native_object_guid": "65c96e38-54c5-49f4-b04b-22348302da5d",
+      "source_tile_handle": "88AE",
+      "planned_position_m": [
+        41.28,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 149,
+      "report_page": 263
+    },
+    {
+      "id": "L146",
+      "native_object_guid": "054ff3e2-c458-4199-9823-85f4a5273408",
+      "source_tile_handle": "893A",
+      "planned_position_m": [
+        43.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        5.79,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        5.97,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 150,
+      "report_page": 263
+    },
+    {
+      "id": "L015",
+      "native_object_guid": "f47cbfa0-1550-4e56-a1ea-131c3c1af3d9",
+      "source_tile_handle": "7FAC",
+      "planned_position_m": [
+        1.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        1.5,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        1.68,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 151,
+      "report_page": 263
+    },
+    {
+      "id": "L016",
+      "native_object_guid": "a70418c5-6eb2-411f-89e2-04b4d2868b4e",
+      "source_tile_handle": "8038",
+      "planned_position_m": [
+        4.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 152,
+      "report_page": 263
+    },
+    {
+      "id": "L017",
+      "native_object_guid": "de4912af-431d-4819-9de9-3f9a80a54127",
+      "source_tile_handle": "80C4",
+      "planned_position_m": [
+        6.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 153,
+      "report_page": 263
+    },
+    {
+      "id": "L018",
+      "native_object_guid": "fb448190-39bd-46f9-8789-d32fe2fddcd1",
+      "source_tile_handle": "8150",
+      "planned_position_m": [
+        8.879999999999999,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 154,
+      "report_page": 263
+    },
+    {
+      "id": "L019",
+      "native_object_guid": "569fe8ad-6017-4449-9e93-3b4ad24d013e",
+      "source_tile_handle": "81DC",
+      "planned_position_m": [
+        11.280000000000001,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 155,
+      "report_page": 263
+    },
+    {
+      "id": "L020",
+      "native_object_guid": "9ef6e0e1-b9ff-40bf-a5f2-b170b75361a8",
+      "source_tile_handle": "8268",
+      "planned_position_m": [
+        13.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 156,
+      "report_page": 263
+    },
+    {
+      "id": "L021",
+      "native_object_guid": "2f191ac5-ee6d-4253-aae3-f8f1ba284e93",
+      "source_tile_handle": "82F4",
+      "planned_position_m": [
+        16.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        15.9,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.080000000000002,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233837702445e-10,
+      "report_number": 157,
+      "report_page": 263
+    },
+    {
+      "id": "L022",
+      "native_object_guid": "82c6d02f-6974-48b7-a9ed-3d12c1eed3fe",
+      "source_tile_handle": "8380",
+      "planned_position_m": [
+        18.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 158,
+      "report_page": 264
+    },
+    {
+      "id": "L023",
+      "native_object_guid": "7f1d4d61-24af-41b1-a033-5cbcb0236196",
+      "source_tile_handle": "842F",
+      "planned_position_m": [
+        21.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 159,
+      "report_page": 264
+    },
+    {
+      "id": "L024",
+      "native_object_guid": "ed881160-89d6-42a1-992a-c268891d9f1d",
+      "source_tile_handle": "84BB",
+      "planned_position_m": [
+        23.88,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 160,
+      "report_page": 264
+    },
+    {
+      "id": "L025",
+      "native_object_guid": "cc70b131-e407-48ad-a251-40d25a56de35",
+      "source_tile_handle": "8547",
+      "planned_position_m": [
+        26.28,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 161,
+      "report_page": 264
+    },
+    {
+      "id": "L026",
+      "native_object_guid": "7cfba723-862c-4bb1-beb7-4ea4dc30b3cf",
+      "source_tile_handle": "85D3",
+      "planned_position_m": [
+        28.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 162,
+      "report_page": 264
+    },
+    {
+      "id": "L027",
+      "native_object_guid": "4fd4bd6e-b685-4232-8496-1dd05074d5b8",
+      "source_tile_handle": "865F",
+      "planned_position_m": [
+        31.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 163,
+      "report_page": 264
+    },
+    {
+      "id": "L028",
+      "native_object_guid": "d04520fd-61cf-45b3-b074-dbbdc06b37f1",
+      "source_tile_handle": "86EB",
+      "planned_position_m": [
+        33.480000000000004,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 164,
+      "report_page": 264
+    },
+    {
+      "id": "L139",
+      "native_object_guid": "18f04876-2ccd-4818-8d10-fb6fa68b24f4",
+      "source_tile_handle": "8777",
+      "planned_position_m": [
+        35.879999999999995,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 165,
+      "report_page": 264
+    },
+    {
+      "id": "L140",
+      "native_object_guid": "45c4af93-f77f-41cc-9efa-a36dfa54cfb7",
+      "source_tile_handle": "8826",
+      "planned_position_m": [
+        38.879999999999995,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 166,
+      "report_page": 264
+    },
+    {
+      "id": "L141",
+      "native_object_guid": "6d332533-c7f7-4c5e-ac24-8af8207daa2b",
+      "source_tile_handle": "88B2",
+      "planned_position_m": [
+        41.28,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 167,
+      "report_page": 264
+    },
+    {
+      "id": "L142",
+      "native_object_guid": "ea649224-5a68-409c-a52d-faee9460ec13",
+      "source_tile_handle": "893E",
+      "planned_position_m": [
+        43.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        43.5,
+        3.39,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.68,
+        3.5700000000000003,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 168,
+      "report_page": 264
+    },
+    {
+      "id": "L013",
+      "native_object_guid": "6495c5b5-f590-4d54-acdb-e0bc06a8d53e",
+      "source_tile_handle": "8662",
+      "planned_position_m": [
+        31.08,
+        1.77,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        30.9,
+        1.59,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        31.08,
+        1.77,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 169,
+      "report_page": 264
+    },
+    {
+      "id": "L001",
+      "native_object_guid": "0bb1dafa-2345-4239-aa60-58086b5a54df",
+      "source_tile_handle": "7FD3",
+      "planned_position_m": [
+        2.2800000000000002,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        2.1,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        2.2800000000000002,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 170,
+      "report_page": 264
+    },
+    {
+      "id": "L002",
+      "native_object_guid": "2629ef07-e1d5-46b6-b3b9-4cc21e4a9d2f",
+      "source_tile_handle": "803C",
+      "planned_position_m": [
+        4.08,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        3.9,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        4.08,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 171,
+      "report_page": 264
+    },
+    {
+      "id": "L003",
+      "native_object_guid": "d32fe4f3-201e-48cd-b678-71074bcab6c4",
+      "source_tile_handle": "80C8",
+      "planned_position_m": [
+        6.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        6.3,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        6.4799999999999995,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375039216e-10,
+      "report_number": 172,
+      "report_page": 264
+    },
+    {
+      "id": "L004",
+      "native_object_guid": "6e5ebb97-4f2c-4d91-a267-8a9435e14f1e",
+      "source_tile_handle": "8154",
+      "planned_position_m": [
+        8.879999999999999,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        8.7,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        8.879999999999999,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 173,
+      "report_page": 264
+    },
+    {
+      "id": "L005",
+      "native_object_guid": "e72469a3-5a0e-4da3-8e66-406d2d886952",
+      "source_tile_handle": "81E0",
+      "planned_position_m": [
+        11.280000000000001,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        11.1,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        11.28,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338375436263e-10,
+      "report_number": 174,
+      "report_page": 264
+    },
+    {
+      "id": "L006",
+      "native_object_guid": "d5590bb3-7bdb-4a41-8b8b-49e3e33156a2",
+      "source_tile_handle": "826C",
+      "planned_position_m": [
+        13.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        13.5,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        13.68,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 175,
+      "report_page": 264
+    },
+    {
+      "id": "L007",
+      "native_object_guid": "2eb4f9a2-dda7-4e5d-a701-31b51e0c227b",
+      "source_tile_handle": "831B",
+      "planned_position_m": [
+        16.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        16.5,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        16.68,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 176,
+      "report_page": 264
+    },
+    {
+      "id": "L008",
+      "native_object_guid": "8e6f94b5-538a-48f0-af57-b5a104b44fcb",
+      "source_tile_handle": "8384",
+      "planned_position_m": [
+        18.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        18.3,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        18.48,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 177,
+      "report_page": 264
+    },
+    {
+      "id": "L009",
+      "native_object_guid": "a65b787a-3839-4361-a826-126f059c3614",
+      "source_tile_handle": "8433",
+      "planned_position_m": [
+        21.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        21.3,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        21.48,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 178,
+      "report_page": 264
+    },
+    {
+      "id": "L010",
+      "native_object_guid": "6ded2a5c-eb05-4c37-867f-70cb043a9160",
+      "source_tile_handle": "84BF",
+      "planned_position_m": [
+        23.88,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        23.7,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        23.88,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 179,
+      "report_page": 264
+    },
+    {
+      "id": "L011",
+      "native_object_guid": "4dea83e0-9580-49f6-89e9-afec8c80ff76",
+      "source_tile_handle": "854B",
+      "planned_position_m": [
+        26.28,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        26.1,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        26.28,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 180,
+      "report_page": 264
+    },
+    {
+      "id": "L012",
+      "native_object_guid": "c386e67c-41a9-4d69-8ab4-27e7555c9e02",
+      "source_tile_handle": "85D7",
+      "planned_position_m": [
+        28.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        28.5,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        28.68,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 181,
+      "report_page": 264
+    },
+    {
+      "id": "L014",
+      "native_object_guid": "13a05f3e-a0df-4323-a823-d4b40925d007",
+      "source_tile_handle": "86EF",
+      "planned_position_m": [
+        33.480000000000004,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        33.3,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        33.48,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 182,
+      "report_page": 265
+    },
+    {
+      "id": "L135",
+      "native_object_guid": "25373651-eaf2-4808-b03a-9dc318cb64d7",
+      "source_tile_handle": "877B",
+      "planned_position_m": [
+        35.879999999999995,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        35.7,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        35.88,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 183,
+      "report_page": 265
+    },
+    {
+      "id": "L136",
+      "native_object_guid": "bd5edc9e-39ec-441d-afb4-c59b0d166800",
+      "source_tile_handle": "882A",
+      "planned_position_m": [
+        38.879999999999995,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        38.7,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        38.88,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.980233838337719e-10,
+      "report_number": 184,
+      "report_page": 265
+    },
+    {
+      "id": "L137",
+      "native_object_guid": "3e28d2f1-8474-49e4-b2a4-20cf38c83984",
+      "source_tile_handle": "88B6",
+      "planned_position_m": [
+        41.28,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        41.1,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        41.28,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 185,
+      "report_page": 265
+    },
+    {
+      "id": "L138",
+      "native_object_guid": "309253a2-6b11-4ba6-ad29-92faccd3d381",
+      "source_tile_handle": "891F",
+      "planned_position_m": [
+        43.08,
+        1.17,
+        2.8680000002980233
+      ],
+      "reported_room_position_m": [
+        42.9,
+        0.99,
+        2.868
+      ],
+      "transformed_report_position_m": [
+        43.08,
+        1.17,
+        2.868
+      ],
+      "coordinate_error_m": 2.9802338374906867e-10,
+      "report_number": 186,
+      "report_page": 265
+    }
+  ],
+  "scope": "Actual exported coordinates matched one-to-one; save/reopen persistence and photometry asset checks remain separate."
+}

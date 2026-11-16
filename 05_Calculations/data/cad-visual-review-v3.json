@@ -1,0 +1,15 @@
+{
+  "status": "whole-sheet and enlarged detail visually reviewed",
+  "pdf_sha256": "a5377e175c62c708a4c9062418ff34a71cf03609f47c38ad1cfde9af857cc25c",
+  "checks": {
+    "complete_frame_and_titleblock": true,
+    "schedule_and_legend_readable": true,
+    "fixture_ids_readable": true,
+    "ceiling_grid_alignment_visible": true,
+    "furniture_background_lighter_than_luminaires": true,
+    "source_architecture_preserved": true
+  },
+  "native_fixture_count": 186,
+  "original_assignment_inputs_sha256_unchanged": true,
+  "scope": "CAD visual review only; combined report acceptance is separate"
+}

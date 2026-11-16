@@ -1,0 +1,7 @@
+(setvar "FILEDIA" 0)
+(setvar "CMDDIA" 0)
+(setvar "BACKGROUNDPLOT" 0)
+(if (/= (getvar "INSUNITS") 6) (error "Expected metre CAD drawing"))
+(command "_.-PLOT" "_Y" "Model" "DWG To PDF.pc3" "ISO A2 (594.00 x 420.00 MM)" "_M" "_L" "_N" "_E" "1000=100" "_C" "_Y" "monochrome.ctb" "_Y" "_A" "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/cad-plot-v2/BSE3125-L01-lighting-plan.pdf" "_N" "_Y")
+(princ "ASSIGNMENT_PLOT_COMPLETE")
+(princ)

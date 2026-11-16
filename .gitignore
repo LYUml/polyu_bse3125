@@ -21,3 +21,5 @@ tmp/
 05_Calculations/models/*grid-native*.evo
 05_Calculations/models/*grid-probe*.pdf
 06_Tools/.runtime/
+**/ErrorReports/
+*.log

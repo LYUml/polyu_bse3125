@@ -1,0 +1,229 @@
+{
+  "started_utc": "2026-11-16T03:29:34.559384+00:00",
+  "finished_utc": "2026-11-16T03:29:46.692839+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "layout-verify-native",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/BSE3125-L01-lighting-plan-v1.dxf",
+    "--output-directory",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/cad-native-v1"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"schema\": \"dialux-agent/native-layout/v1\",\n  \"source\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\Final_v01\\\\BSE3125-L01-lighting-plan-v1.dxf\",\n  \"source_sha256\": \"4e61e63492f726a9ba85d4df694f3f0dd44a7bb0271287af268eeea2009287e0\",\n  \"original_unchanged\": true,\n  \"dwg\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\Final_v01\\\\cad-native-v1\\\\layout.dwg\",\n  \"dwg_sha256\": \"60f812b0a19c4a64b42fac9d4e9ad3b0689eef14c74045874b437173441b2977\",\n  \"fixture_count\": 186,\n  \"fixture_records_verified\": true,\n  \"dimension_count\": 2,\n  \"dimension_records_verified\": true,\n  \"schedule_entity_count\": 12,\n  \"schedule_records_verified\": true,\n  \"sheet_entity_count\": 9,\n  \"sheet_records_verified\": true,\n  \"native_reopen_verified\": true,\n  \"block_shapes_verified\": true,\n  \"verified_block_names\": [\n    \"BSE3125_PANEL_TYPE_A\"\n  ],\n  \"source_block_records\": {\n    \"BSE3125_PANEL_TYPE_A\": {\n      \"base_point\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"shapes\": [\n        [\n          \"LINE\",\n          [\n            -0.2985,\n            -0.2985,\n            0.0\n          ],\n          [\n            0.2985,\n            0.2985,\n            0.0\n          ],\n          [\n            0.0,\n            0.0,\n            1.0\n          ],\n          0.0\n        ],\n        [\n          \"LWPOLYLINE\",\n          true,\n          0.0,\n          0.0,\n          [\n            0.0,\n            0.0,\n            1.0\n          ],\n          0.0,\n          [\n            [\n              -0.2985,\n              -0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.2985,\n              -0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.2985,\n              0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              -0.2985,\n              0.2985,\n              0.0,\n              0.0,\n              0.0\n            ]\n          ]\n        ]\n      ],\n      \"attributes\": [\n        [\n          \"FIXTURE_ID\",\n          \"\",\n          [\n            0.0,\n            -0.6,\n            0.0\n          ],\n          0.23,\n          0.0,\n          0,\n          0\n        ]\n      ]\n    }\n  },\n  \"reopened_block_records\": {\n    \"BSE3125_PANEL_TYPE_A\": {\n      \"base_point\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"shapes\": [\n        [\n          \"LINE\",\n          [\n            -0.2985,\n            -0.2985,\n            0.0\n          ],\n          [\n            0.2985,\n            0.2985,\n            0.0\n          ],\n          [\n            0.0,\n            0.0,\n            1.0\n          ],\n          0.0\n        ],\n        [\n          \"LWPOLYLINE\",\n          true,\n          0.0,\n          0.0,\n          [\n            0.0,\n            0.0,\n            1.0\n          ],\n          0.0,\n          [\n            [\n              -0.2985,\n              -0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.2985,\n              -0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.2985,\n              0.2985,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              -0.2985,\n              0.2985,\n              0.0,\n              0.0,\n              0.0\n            ]\n          ]\n        ]\n      ],\n      \"attributes\": [\n        [\n          \"FIXTURE_ID\",\n          \"\",\n          [\n            0.0,\n            -0.6,\n            0.0\n          ],\n          0.23,\n          0.0,\n          0,\n          0\n        ]\n      ]\n    }\n  },\n  \"print_verified\": false,\n  \"reopen_evidence\": {\n    \"schema\": \"dialux-agent/native-cad-survey/v1\",\n    \"source\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\Final_v01\\\\cad-native-v1\\\\layout.dwg\",\n    \"source_sha256\": \"60f812b0a19c4a64b42fac9d4e9ad3b0689eef14c74045874b437173441b2977\",\n    \"original_unchanged\": true,\n    \"dxf\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\Final_v01\\\\cad-native-v1\\\\reopened\\\\source-copy.dxf\",\n    \"dxf_sha256\": \"5f7d656b2dea80a0a611310a43d1c2c9f8b7d7c9503f9281f1d71309b3578a35\",\n    \"native_variables\": {\n      \"ACADVER\": \"26.0\",\n      \"INSUNITS\": \"6\",\n      \"LUNITS\": \"2\",\n      \"MEASUREMENT\": \"1\",\n      \"EXTMIN\": \"(-2.0 -5.2 0.0)\",\n      \"EXTMAX\": \"(53.4 8421.27 0.0)\"\n    },\n    \"geometry_verified\": false\n  }\n}\n",
+  "stderr": "",
+  "result": {
+    "schema": "dialux-agent/native-layout/v1",
+    "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\BSE3125-L01-lighting-plan-v1.dxf",
+    "source_sha256": "4e61e63492f726a9ba85d4df694f3f0dd44a7bb0271287af268eeea2009287e0",
+    "original_unchanged": true,
+    "dwg": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-native-v1\\layout.dwg",
+    "dwg_sha256": "60f812b0a19c4a64b42fac9d4e9ad3b0689eef14c74045874b437173441b2977",
+    "fixture_count": 186,
+    "fixture_records_verified": true,
+    "dimension_count": 2,
+    "dimension_records_verified": true,
+    "schedule_entity_count": 12,
+    "schedule_records_verified": true,
+    "sheet_entity_count": 9,
+    "sheet_records_verified": true,
+    "native_reopen_verified": true,
+    "block_shapes_verified": true,
+    "verified_block_names": [
+      "BSE3125_PANEL_TYPE_A"
+    ],
+    "source_block_records": {
+      "BSE3125_PANEL_TYPE_A": {
+        "base_point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shapes": [
+          [
+            "LINE",
+            [
+              -0.2985,
+              -0.2985,
+              0.0
+            ],
+            [
+              0.2985,
+              0.2985,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            0.0
+          ],
+          [
+            "LWPOLYLINE",
+            true,
+            0.0,
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            0.0,
+            [
+              [
+                -0.2985,
+                -0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.2985,
+                -0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.2985,
+                0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                -0.2985,
+                0.2985,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ]
+        ],
+        "attributes": [
+          [
+            "FIXTURE_ID",
+            "",
+            [
+              0.0,
+              -0.6,
+              0.0
+            ],
+            0.23,
+            0.0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "reopened_block_records": {
+      "BSE3125_PANEL_TYPE_A": {
+        "base_point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shapes": [
+          [
+            "LINE",
+            [
+              -0.2985,
+              -0.2985,
+              0.0
+            ],
+            [
+              0.2985,
+              0.2985,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            0.0
+          ],
+          [
+            "LWPOLYLINE",
+            true,
+            0.0,
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            0.0,
+            [
+              [
+                -0.2985,
+                -0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.2985,
+                -0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.2985,
+                0.2985,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                -0.2985,
+                0.2985,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ]
+        ],
+        "attributes": [
+          [
+            "FIXTURE_ID",
+            "",
+            [
+              0.0,
+              -0.6,
+              0.0
+            ],
+            0.23,
+            0.0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "print_verified": false,
+    "reopen_evidence": {
+      "schema": "dialux-agent/native-cad-survey/v1",
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-native-v1\\layout.dwg",
+      "source_sha256": "60f812b0a19c4a64b42fac9d4e9ad3b0689eef14c74045874b437173441b2977",
+      "original_unchanged": true,
+      "dxf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-native-v1\\reopened\\source-copy.dxf",
+      "dxf_sha256": "5f7d656b2dea80a0a611310a43d1c2c9f8b7d7c9503f9281f1d71309b3578a35",
+      "native_variables": {
+        "ACADVER": "26.0",
+        "INSUNITS": "6",
+        "LUNITS": "2",
+        "MEASUREMENT": "1",
+        "EXTMIN": "(-2.0 -5.2 0.0)",
+        "EXTMAX": "(53.4 8421.27 0.0)"
+      },
+      "geometry_verified": false
+    }
+  }
+}

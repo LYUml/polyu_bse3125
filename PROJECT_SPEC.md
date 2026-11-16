@@ -50,7 +50,15 @@ Mini_Design_Submission.html: due 22 November 2026 23:59, one group representativ
 - Control design proposal: 32 independent manual/automatic zones linked to the refined shared fixture dataset; maximum zone area 46.68 m2. Proposed vacancy off is 10 minutes and timed overrides expire within 120 minutes. Conservative input budget is 186 x 20 W + 50 W external control allowance = 3770 W (3.689 W/m2 using the smaller annotated 1022 m2). These are design provisions requiring commissioning, not installed-system evidence.
 - Remaining gates include refined grid results, native save/reopen persistence, final height/geometry/asset checks, independent CAD drawing/native plot, standards discussion, <=10-page main report, selected actual-output appendix and <=10 MB combined PDF with visual QA. 00_Submit remains empty.
 
-## Reused implementation basis
+## Refined grid and CAD milestone, 2026-11-16
+
+- Moving L120 one 600 mm tile south raises Desk-084 from 497 to 557 lx. All 112 proposed tasks now pass: minimum average 504 lx, minimum Uo 0.80, maximum directional UGR 17.5. The smallest average margin is 4 lx (Desk-021), which must be discussed rather than hidden.
+- Refined native model was saved, closed and reopened. All task result rows and all 186 report positions persisted. The saved native bytes remained unchanged after reopening/export. Every proposed task's 1.6 x 0.8 m geometry, 0.8 m plane and 1.2 m/15-degree UGR parameters were checked. All fixtures retain MF 0.8 and the same manufacturer prototype; its 63-record photometry/geometry graph matches the imported native baseline. See refined-native-persistence-v1.json.
+- Independent CAD v3 uses the same source-tile fixture data. Native AutoCAD save/reopen preserves 186 fixture blocks/IDs, two dimensions, schedule and sheet entities. Native A2 1:100 output has all fixture labels and a physical outline error below 0.037 pt. Whole-sheet and detail visual review confirms readable labels, lighter furniture/grid, complete frame, schedule and legend. See Final_v01 README and cad visual review record.
+- Original selected DIALux appendix pages were resource-pruned to 2,617,951 bytes while retaining text, physical dimensions and exact 72/150-dpi rendering. Complete raw native outputs remain local with recorded hashes. Final main report and assignment-wide acceptance remain outstanding.
+- International-guideline review must also resolve the additional surrounding-area, cylindrical, wall and ceiling criteria identified in design-criteria.json. The verified desk metrics alone do not prove these quantities. Do not silently omit them or claim comprehensive EN 12464-1:2021 conformity.
+
+## Reused implementation details
 
 Use sibling dialux-agent-toolkit (CLI and MCP share backend), its MIT-licensed MCP_Dialux STF serializer/reader, installed ezdxf/Shapely/PDFium and native AutoCAD Core Console workflow. See 02_References/reuse-register.md. Do not copy synthetic simulation results into this assignment.
 

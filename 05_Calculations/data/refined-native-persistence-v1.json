@@ -1,0 +1,1477 @@
+{
+  "status": "refined native task/fixture design persistence verified; full assignment acceptance remains separate",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-grid-native-v4.evo",
+  "native_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "native_bytes_unchanged_after_reopen_export": true,
+  "all_112_task_results_preserved": true,
+  "all_186_report_positions_preserved": true,
+  "all_112_task_geometry_and_ugr_parameters_verified": true,
+  "all_186_fixture_maintenance_factors": 0.8,
+  "all_186_fixtures_use_powerbalance_prototype": true,
+  "prototype_graph_record_count": 63,
+  "prototype_graph_sha256": "10cfcb9490218b9b9779845331a91341e19f80f7f2a650cfe22460ba93333bc3",
+  "photometry_graph_unchanged_from_native_imported_baseline": true,
+  "manufacturer_uld_sha256": "7edfde22d7661e96efded51a013081f40793b53eb94a9bbdab549198f410319c",
+  "reopened_report_sha256": "be1461f7f032d75e609d5968cfd4342e6da4e3fba3178b0dabf4cb06f5121c45",
+  "native_summary_page": 254,
+  "native_summary_text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nSummary\nGround area 1042.10 m\u00b2 Clearance height 2.800 m\nReflection factors Ceiling: 80.0 %, Mounting height 2.868 m\nWalls: 70.0 %,\nFloor: 20.0 % Height Working plane 0.800 m\nMaintenance factor 0.80 (fixed) Wall zone Working plane 0.000 m\n254",
+  "task_geometry": {
+    "Desk-001": {
+      "parent_origin_m": [
+        2.78,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-002": {
+      "parent_origin_m": [
+        4.38,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-003": {
+      "parent_origin_m": [
+        2.78,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-004": {
+      "parent_origin_m": [
+        4.38,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-005": {
+      "parent_origin_m": [
+        9.98,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-006": {
+      "parent_origin_m": [
+        11.58,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-007": {
+      "parent_origin_m": [
+        9.98,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-008": {
+      "parent_origin_m": [
+        11.58,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-009": {
+      "parent_origin_m": [
+        17.18,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-010": {
+      "parent_origin_m": [
+        18.78,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-011": {
+      "parent_origin_m": [
+        17.18,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-012": {
+      "parent_origin_m": [
+        18.78,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-013": {
+      "parent_origin_m": [
+        24.38,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-014": {
+      "parent_origin_m": [
+        25.98,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-015": {
+      "parent_origin_m": [
+        24.38,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-016": {
+      "parent_origin_m": [
+        25.98,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-017": {
+      "parent_origin_m": [
+        31.58,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-018": {
+      "parent_origin_m": [
+        33.18,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-019": {
+      "parent_origin_m": [
+        31.58,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-020": {
+      "parent_origin_m": [
+        33.18,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-021": {
+      "parent_origin_m": [
+        38.78,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-022": {
+      "parent_origin_m": [
+        40.38,
+        2.58,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-023": {
+      "parent_origin_m": [
+        38.78,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-024": {
+      "parent_origin_m": [
+        40.38,
+        3.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-025": {
+      "parent_origin_m": [
+        2.78,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-026": {
+      "parent_origin_m": [
+        4.38,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-027": {
+      "parent_origin_m": [
+        2.78,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-028": {
+      "parent_origin_m": [
+        4.38,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-029": {
+      "parent_origin_m": [
+        9.98,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-030": {
+      "parent_origin_m": [
+        11.58,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-031": {
+      "parent_origin_m": [
+        9.98,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-032": {
+      "parent_origin_m": [
+        11.58,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-033": {
+      "parent_origin_m": [
+        17.18,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-034": {
+      "parent_origin_m": [
+        18.78,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-035": {
+      "parent_origin_m": [
+        17.18,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-036": {
+      "parent_origin_m": [
+        18.78,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-037": {
+      "parent_origin_m": [
+        24.38,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-038": {
+      "parent_origin_m": [
+        25.98,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-039": {
+      "parent_origin_m": [
+        24.38,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-040": {
+      "parent_origin_m": [
+        25.98,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-041": {
+      "parent_origin_m": [
+        31.58,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-042": {
+      "parent_origin_m": [
+        33.18,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-043": {
+      "parent_origin_m": [
+        31.58,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-044": {
+      "parent_origin_m": [
+        33.18,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-045": {
+      "parent_origin_m": [
+        38.78,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-046": {
+      "parent_origin_m": [
+        40.38,
+        7.38,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-047": {
+      "parent_origin_m": [
+        38.78,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-048": {
+      "parent_origin_m": [
+        40.38,
+        8.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-049": {
+      "parent_origin_m": [
+        2.78,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-050": {
+      "parent_origin_m": [
+        4.38,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-051": {
+      "parent_origin_m": [
+        2.78,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-052": {
+      "parent_origin_m": [
+        4.38,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-053": {
+      "parent_origin_m": [
+        9.98,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-054": {
+      "parent_origin_m": [
+        11.58,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-055": {
+      "parent_origin_m": [
+        9.98,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-056": {
+      "parent_origin_m": [
+        11.58,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-057": {
+      "parent_origin_m": [
+        17.18,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-058": {
+      "parent_origin_m": [
+        18.78,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-059": {
+      "parent_origin_m": [
+        17.18,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-060": {
+      "parent_origin_m": [
+        18.78,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-061": {
+      "parent_origin_m": [
+        24.38,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-062": {
+      "parent_origin_m": [
+        25.98,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-063": {
+      "parent_origin_m": [
+        24.38,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-064": {
+      "parent_origin_m": [
+        25.98,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-065": {
+      "parent_origin_m": [
+        31.58,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-066": {
+      "parent_origin_m": [
+        33.18,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-067": {
+      "parent_origin_m": [
+        31.58,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-068": {
+      "parent_origin_m": [
+        33.18,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-069": {
+      "parent_origin_m": [
+        38.78,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-070": {
+      "parent_origin_m": [
+        40.38,
+        12.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-071": {
+      "parent_origin_m": [
+        38.78,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-072": {
+      "parent_origin_m": [
+        40.38,
+        12.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-073": {
+      "parent_origin_m": [
+        2.78,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-074": {
+      "parent_origin_m": [
+        4.38,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-075": {
+      "parent_origin_m": [
+        2.78,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-076": {
+      "parent_origin_m": [
+        4.38,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-077": {
+      "parent_origin_m": [
+        9.98,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-078": {
+      "parent_origin_m": [
+        11.58,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-079": {
+      "parent_origin_m": [
+        9.98,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-080": {
+      "parent_origin_m": [
+        11.58,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-081": {
+      "parent_origin_m": [
+        17.18,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-082": {
+      "parent_origin_m": [
+        18.78,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-083": {
+      "parent_origin_m": [
+        17.18,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-084": {
+      "parent_origin_m": [
+        18.78,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-085": {
+      "parent_origin_m": [
+        24.38,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-086": {
+      "parent_origin_m": [
+        25.98,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-087": {
+      "parent_origin_m": [
+        24.38,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-088": {
+      "parent_origin_m": [
+        25.98,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-089": {
+      "parent_origin_m": [
+        31.58,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-090": {
+      "parent_origin_m": [
+        33.18,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-091": {
+      "parent_origin_m": [
+        31.58,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-092": {
+      "parent_origin_m": [
+        33.18,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-093": {
+      "parent_origin_m": [
+        38.78,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-094": {
+      "parent_origin_m": [
+        40.38,
+        18.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-095": {
+      "parent_origin_m": [
+        38.78,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-096": {
+      "parent_origin_m": [
+        40.38,
+        18.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-097": {
+      "parent_origin_m": [
+        33.78,
+        22.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-098": {
+      "parent_origin_m": [
+        35.38,
+        22.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-099": {
+      "parent_origin_m": [
+        33.78,
+        23.78,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-100": {
+      "parent_origin_m": [
+        35.38,
+        23.78,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-101": {
+      "parent_origin_m": [
+        39.78,
+        22.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-102": {
+      "parent_origin_m": [
+        41.38,
+        22.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-103": {
+      "parent_origin_m": [
+        39.78,
+        23.78,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-104": {
+      "parent_origin_m": [
+        41.38,
+        23.78,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-105": {
+      "parent_origin_m": [
+        33.78,
+        27.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-106": {
+      "parent_origin_m": [
+        35.38,
+        27.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-107": {
+      "parent_origin_m": [
+        33.78,
+        27.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-108": {
+      "parent_origin_m": [
+        35.38,
+        27.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-109": {
+      "parent_origin_m": [
+        39.78,
+        27.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-110": {
+      "parent_origin_m": [
+        41.38,
+        27.18,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-111": {
+      "parent_origin_m": [
+        39.78,
+        27.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    },
+    "Desk-112": {
+      "parent_origin_m": [
+        41.38,
+        27.98,
+        0.8
+      ],
+      "size_m": [
+        1.6,
+        0.8
+      ],
+      "ugr_eye_height_m": 1.2,
+      "ugr_step_degrees": 15
+    }
+  },
+  "scope": "Verifies these native datasets and actual reported course task metrics. Does not itself verify all international clauses, installed controls, CAD visual quality or report packaging."
+}

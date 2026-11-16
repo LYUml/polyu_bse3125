@@ -1,5 +1,7 @@
+* -text
 *.pdf binary
 *.evo binary
 *.dwg binary
+*.dxf binary
 *.uld binary
 *.ldt binary

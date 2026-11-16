@@ -1,0 +1,7 @@
+(setvar "FILEDIA" 0)
+(setq f (open "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/cad-native-v2/reopened/native-vars.txt" "w"))
+(foreach n '("ACADVER" "INSUNITS" "LUNITS" "MEASUREMENT" "EXTMIN" "EXTMAX") (write-line (strcat n "=" (vl-princ-to-string (getvar n))) f))
+(close f)
+(command "_.DXFOUT" "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/Final_v01/cad-native-v2/reopened/source-copy.dxf" "16")
+(princ "DIALUX_SURVEY_COMPLETE")
+(princ)
