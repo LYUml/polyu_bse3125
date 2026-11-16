@@ -1,0 +1,13 @@
+{
+  "status": "experimental fixture geometry; native report and persistence verification pending",
+  "source_sha256": "fda9d729adcd87d7fd39040112558b3769099f4cd5a1f0a6ee249f24614c5ce8",
+  "plan_sha256": "288ab7aadf28961ad6c73cf98d1cd80251f4163bd07d769a24b31102c5a30d1c",
+  "output_sha256": "0baa1db7983cf4192a51eaf018a168f7012e329a69a6c1731d2e9a836169fca2",
+  "modified_fixture_count": 186,
+  "omitted_cache_entries": [
+    "Project/ScenegraphScene"
+  ],
+  "source_unchanged": true,
+  "photometry_unchanged": true,
+  "synthetic_results": false
+}

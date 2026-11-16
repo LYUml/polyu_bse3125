@@ -1,0 +1,250 @@
+{
+  "started_utc": "2026-11-16T02:58:43.065000+00:00",
+  "finished_utc": "2026-11-16T02:58:54.114876+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-project-tree",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-powerbalance-development-v1.evo",
+    "--expand-id",
+    "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaires"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"operation\": \"project_tree\",\n  \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-powerbalance-development-v1.evo\",\n  \"items\": [\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit\",\n      \"labels\": [\n        \"DIALux Agent Toolkit\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        31673121\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        38305795\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Light scenes\",\n      \"labels\": [\n        \"Light scenes\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        1625942\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Ground elements\",\n      \"labels\": [\n        \"Ground elements\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        64610908\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office\",\n      \"labels\": [\n        \"Building Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        52587092\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        17244286\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office\",\n      \"labels\": [\n        \"Storey Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        61326874\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        47981671\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Storey element\",\n      \"labels\": [\n        \"Storey element\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        68775\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Calculation objects\",\n      \"labels\": [\n        \"Calculation objects\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        48584729\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaires\",\n      \"labels\": [\n        \"Luminaires\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        64415741\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaires_142 x Philips RC461B 34S/840 SEIA W60L60 VPC U4 WH SC UE\",\n      \"labels\": [\n        \"142 x Philips RC461B 34S/840 SEIA W60L60 VPC U4 WH SC UE\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        59548964\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Furniture and objects\",\n      \"labels\": [\n        \"Furniture and objects\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        47162771\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Floors and ceilings\",\n      \"labels\": [\n        \"Floors and ceilings\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        63078939\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Rooms and spaces\",\n      \"labels\": [\n        \"Rooms and spaces\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        554708\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Rooms and spaces_Open plan office\",\n      \"labels\": [\n        \"Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        15566080\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    }\n  ],\n  \"search_text\": \"\",\n  \"complete_inventory\": false,\n  \"uses_codex_computer_use\": false,\n  \"warning\": \"Only realized UIA nodes are listed; collapsed, filtered or virtualized nodes may be absent. IDs can change after renaming or count edits.\"\n}\n",
+  "stderr": "",
+  "result": {
+    "operation": "project_tree",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-development-v1.evo",
+    "items": [
+      {
+        "tree_item_id": "DIALux Agent Toolkit",
+        "labels": [
+          "DIALux Agent Toolkit"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          31673121
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          38305795
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Light scenes",
+        "labels": [
+          "Light scenes"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          1625942
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Ground elements",
+        "labels": [
+          "Ground elements"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          64610908
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office",
+        "labels": [
+          "Building Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          52587092
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          17244286
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office",
+        "labels": [
+          "Storey Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          61326874
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          47981671
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Storey element",
+        "labels": [
+          "Storey element"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          68775
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Calculation objects",
+        "labels": [
+          "Calculation objects"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          48584729
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaires",
+        "labels": [
+          "Luminaires"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          64415741
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaires_142 x Philips RC461B 34S/840 SEIA W60L60 VPC U4 WH SC UE",
+        "labels": [
+          "142 x Philips RC461B 34S/840 SEIA W60L60 VPC U4 WH SC UE"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          59548964
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Furniture and objects",
+        "labels": [
+          "Furniture and objects"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          47162771
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Floors and ceilings",
+        "labels": [
+          "Floors and ceilings"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          63078939
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Rooms and spaces",
+        "labels": [
+          "Rooms and spaces"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          554708
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Rooms and spaces_Open plan office",
+        "labels": [
+          "Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          15566080
+        ],
+        "expandable": true,
+        "expanded": false
+      }
+    ],
+    "search_text": "",
+    "complete_inventory": false,
+    "uses_codex_computer_use": false,
+    "warning": "Only realized UIA nodes are listed; collapsed, filtered or virtualized nodes may be absent. IDs can change after renaming or count edits."
+  }
+}

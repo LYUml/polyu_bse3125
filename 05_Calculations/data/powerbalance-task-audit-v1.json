@@ -1,0 +1,68 @@
+{
+  "status": "archive structure plus actual report evidence; native save/reopen check separate",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-development-v1.evo",
+  "native_sha256": "c1afdde0132f171901aba528418b10a569e97d244f6b3f76ab73ed3ead086600",
+  "schema_checked_object_count": 3121,
+  "unique_guid_count": 866,
+  "dangling_references": [],
+  "surfaces": [
+    {
+      "name": "Desk-01",
+      "native_step_id": 198,
+      "parent_frame_origin_m": [
+        2.58,
+        2.58,
+        0.8
+      ],
+      "outer_loops_raw": "(((0.80000000000000004, 0.40000000000000002), (-0.80000000000000004, 0.40000000000000002), (-0.80000000000000004, -0.40000000000000002), (0.80000000000000004, -0.40000000000000002)))",
+      "inner_loops_raw": "()",
+      "ugr_eye_height_m": 1.2000000000000002,
+      "ugr_step_radians": 0.2617993877991494,
+      "ugr_range_radians": [
+        0.0,
+        6.283185307179586
+      ]
+    },
+    {
+      "name": "Desk-02-probe",
+      "native_step_id": 199,
+      "parent_frame_origin_m": [
+        5.58,
+        2.58,
+        0.8
+      ],
+      "outer_loops_raw": "(((0.80000000000000004, 0.40000000000000002), (-0.80000000000000004, 0.40000000000000002), (-0.80000000000000004, -0.40000000000000002), (0.80000000000000004, -0.40000000000000002)))",
+      "inner_loops_raw": "()",
+      "ugr_eye_height_m": 1.2000000000000002,
+      "ugr_step_radians": 0.2617993877991494,
+      "ugr_range_radians": [
+        0.0,
+        6.283185307179586
+      ]
+    }
+  ],
+  "report_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-development-v1.pdf",
+  "report_sha256": "f5916a69483b96e31d4f79fb7fae715e26b2b56e32915d4b0d317b964fffdd00",
+  "scoped_report_pages": [
+    {
+      "page": 30,
+      "text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nCalculation objects\nWorking planes\nProperties \u0112 Emin Emax Uo (g1) g2 Index\n(Target) (Target)\nWorking plane (Open plan office) 418 lx 0.58 lx 526 lx 0.001 0.001 WP1\nPerpendicular illuminance (adaptive) (\u2265 500 lx) (\u2265 0.60)\nHeight: 0.800 m, Wall zone: 0.000 m\nCalculation surfaces\nProperties \u0112 Emin Emax Uo (g1) g2 Index\nDesk-01 420 lx 369 lx 480 lx 0.88 0.77 CG1\nPerpendicular illuminance\nHeight: 0.800 m\nDesk-02-probe 439 lx 376 lx 495 lx 0.86 0.76 CG2\nPerpendicular illuminance\nHeight: 0.800 m\n30"
+    },
+    {
+      "page": 31,
+      "text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nCalculation objects\nDesk-01 (RUG)\nStrongest glare at 120\u00b0\nmax 17.4\nTarget \u2264 19.0\nViewing sector 0\u00b0 - 360\u00b0\nStep width 15\u00b0\nHeight 1.200 m\nIndex CG1\n31"
+    },
+    {
+      "page": 32,
+      "text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nCalculation objects\nDesk-01 (RUG)\n32"
+    },
+    {
+      "page": 33,
+      "text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nCalculation objects\nDesk-02-probe (RUG)\nStrongest glare at 120\u00b0\nmax 17.5\nTarget \u2264 19.0\nViewing sector 0\u00b0 - 360\u00b0\nStep width 15\u00b0\nHeight 1.200 m\nIndex CG2\n33"
+    },
+    {
+      "page": 34,
+      "text": "DIALux Agent Toolkit\nBuilding Open plan office \u00b7 Storey Open plan office \u00b7 Open plan office (Light scene 1)\nCalculation objects\nDesk-02-probe (RUG)\nUtilisation profile: DIALux presetting (34.2 Standard (office))\n34"
+    }
+  ]
+}

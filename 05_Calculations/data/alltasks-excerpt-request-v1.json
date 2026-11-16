@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-alltasks-probe-v1.pdf",
+      "sha256": "10ce8da0fc4c45a3eafc98a8af738a78aa08acac90a08a621352f16a499c4a70",
+      "pages": [
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        316,
+        317,
+        430,
+        431
+      ],
+      "role": "main"
+    }
+  ],
+  "output_directory": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\alltasks-evidence-excerpt-v1",
+  "max_main_pages": 20,
+  "max_bytes": 10000000
+}

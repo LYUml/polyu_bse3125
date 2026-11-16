@@ -15,3 +15,9 @@ tmp/
 02_References/local/
 05_Calculations/sessions/
 05_Calculations/models/DIALux Agent Toolkit_Report.pdf
+# Large complete calculation caches remain available locally; track compact evidence.
+05_Calculations/models/*alltasks-native*.evo
+05_Calculations/models/*alltasks-probe*.pdf
+05_Calculations/models/*grid-native*.evo
+05_Calculations/models/*grid-probe*.pdf
+06_Tools/.runtime/

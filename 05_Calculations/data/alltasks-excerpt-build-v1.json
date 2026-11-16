@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-16T03:12:18.198849+00:00",
+  "finished_utc": "2026-11-16T03:12:18.865397+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "pdf-bundle-build",
+    "--request",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/data/alltasks-excerpt-request-v1.json"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"Combined PDF byte limit exceeded\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "Combined PDF byte limit exceeded"
+  }
+}

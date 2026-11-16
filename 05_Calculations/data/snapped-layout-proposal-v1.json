@@ -1,0 +1,5226 @@
+{
+  "status": "proposed snapped geometry; native installation and calculation pending",
+  "source_native_sha256": "95ecb9f8e14c7287934094f921076b34fd80df93acc2983b55af2172c9a585dc",
+  "source_native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-array18-calculated-v3.evo",
+  "source_dxf_sha256": "d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2",
+  "coordinate_frame": "design/storey coordinates in metres, drawing origin subtracted",
+  "ceiling_elevation_m": 2.8,
+  "native_reference_height_m": 2.8680000002980233,
+  "height_note": "Native mounting reference is above the ceiling plane because recessed product geometry extends into the plenum. Verify emitting surface against native section before final acceptance.",
+  "fixture_count": 186,
+  "rated_input_W_each": 20,
+  "native_photometry_input_W_each": 19.8,
+  "conservative_connected_input_W": 3720,
+  "conservative_lpd_using_1022_m2_W_m2": 3.639921722113503,
+  "fixture_footprint_clearance_m": 0.3,
+  "fixtures": [
+    {
+      "id": "L001",
+      "native_object_guid": "0bb1dafa-2345-4239-aa60-58086b5a54df",
+      "native_object_id": 137,
+      "source_tile_handle": "7FD3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        2.2800000000000002,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.8728515466476591,
+      "local_coord_step_id": 426,
+      "local_origin_m": [
+        -20.22,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L002",
+      "native_object_guid": "2629ef07-e1d5-46b6-b3b9-4cc21e4a9d2f",
+      "native_object_id": 143,
+      "source_tile_handle": "803C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2338157875020581,
+      "local_coord_step_id": 433,
+      "local_origin_m": [
+        -18.42,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L003",
+      "native_object_guid": "d32fe4f3-201e-48cd-b678-71074bcab6c4",
+      "native_object_id": 147,
+      "source_tile_handle": "80C8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.17963803184517285,
+      "local_coord_step_id": 440,
+      "local_origin_m": [
+        -16.02,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L004",
+      "native_object_guid": "6e5ebb97-4f2c-4d91-a267-8a9435e14f1e",
+      "native_object_id": 151,
+      "source_tile_handle": "8154",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1505650108265765,
+      "local_coord_step_id": 447,
+      "local_origin_m": [
+        -13.620000000000001,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L005",
+      "native_object_guid": "e72469a3-5a0e-4da3-8e66-406d2d886952",
+      "native_object_id": 155,
+      "source_tile_handle": "81E0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.16084098509150796,
+      "local_coord_step_id": 454,
+      "local_origin_m": [
+        -11.219999999999999,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L006",
+      "native_object_guid": "d5590bb3-7bdb-4a41-8b8b-49e3e33156a2",
+      "native_object_id": 159,
+      "source_tile_handle": "826C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.20462116822363885,
+      "local_coord_step_id": 461,
+      "local_origin_m": [
+        -8.82,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L007",
+      "native_object_guid": "2eb4f9a2-dda7-4e5d-a701-31b51e0c227b",
+      "native_object_id": 163,
+      "source_tile_handle": "831B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.40825215551814176,
+      "local_coord_step_id": 468,
+      "local_origin_m": [
+        -5.82,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L008",
+      "native_object_guid": "8e6f94b5-538a-48f0-af57-b5a104b44fcb",
+      "native_object_id": 167,
+      "source_tile_handle": "8384",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3350668925531219,
+      "local_coord_step_id": 475,
+      "local_origin_m": [
+        -4.02,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L009",
+      "native_object_guid": "a65b787a-3839-4361-a826-126f059c3614",
+      "native_object_id": 171,
+      "source_tile_handle": "8433",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2658379628367779,
+      "local_coord_step_id": 482,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L010",
+      "native_object_guid": "6ded2a5c-eb05-4c37-867f-70cb043a9160",
+      "native_object_id": 175,
+      "source_tile_handle": "84BF",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.20462116822364007,
+      "local_coord_step_id": 489,
+      "local_origin_m": [
+        1.379999999999999,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L011",
+      "native_object_guid": "4dea83e0-9580-49f6-89e9-afec8c80ff76",
+      "native_object_id": 179,
+      "source_tile_handle": "854B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.16084098509150993,
+      "local_coord_step_id": 496,
+      "local_origin_m": [
+        3.780000000000001,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L012",
+      "native_object_guid": "c386e67c-41a9-4d69-8ab4-27e7555c9e02",
+      "native_object_id": 183,
+      "source_tile_handle": "85D7",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.15056501082657628,
+      "local_coord_step_id": 503,
+      "local_origin_m": [
+        6.18,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L013",
+      "native_object_guid": "6495c5b5-f590-4d54-acdb-e0bc06a8d53e",
+      "native_object_id": 187,
+      "source_tile_handle": "8662",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        1.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.4617281661413822,
+      "local_coord_step_id": 510,
+      "local_origin_m": [
+        8.579999999999998,
+        -13.22,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L014",
+      "native_object_guid": "13a05f3e-a0df-4323-a823-d4b40925d007",
+      "native_object_id": 191,
+      "source_tile_handle": "86EF",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23381578750205673,
+      "local_coord_step_id": 517,
+      "local_origin_m": [
+        10.980000000000004,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L015",
+      "native_object_guid": "f47cbfa0-1550-4e56-a1ea-131c3c1af3d9",
+      "native_object_id": 195,
+      "source_tile_handle": "7FAC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.26147057942592,
+      "local_coord_step_id": 524,
+      "local_origin_m": [
+        -20.82,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L016",
+      "native_object_guid": "a70418c5-6eb2-411f-89e2-04b4d2868b4e",
+      "native_object_id": 199,
+      "source_tile_handle": "8038",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.18211771991029857,
+      "local_coord_step_id": 531,
+      "local_origin_m": [
+        -18.42,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L017",
+      "native_object_guid": "de4912af-431d-4819-9de9-3f9a80a54127",
+      "native_object_id": 203,
+      "source_tile_handle": "80C4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.10376349987026123,
+      "local_coord_step_id": 538,
+      "local_origin_m": [
+        -16.02,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L018",
+      "native_object_guid": "fb448190-39bd-46f9-8789-d32fe2fddcd1",
+      "native_object_id": 207,
+      "source_tile_handle": "8150",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.03415938970949968,
+      "local_coord_step_id": 545,
+      "local_origin_m": [
+        -13.620000000000001,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L019",
+      "native_object_guid": "569fe8ad-6017-4449-9e93-3b4ad24d013e",
+      "native_object_id": 211,
+      "source_tile_handle": "81DC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.06608225106127251,
+      "local_coord_step_id": 552,
+      "local_origin_m": [
+        -11.219999999999999,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L020",
+      "native_object_guid": "9ef6e0e1-b9ff-40bf-a5f2-b170b75361a8",
+      "native_object_id": 215,
+      "source_tile_handle": "8268",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14271252189392872,
+      "local_coord_step_id": 559,
+      "local_origin_m": [
+        -8.82,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L021",
+      "native_object_guid": "2f191ac5-ee6d-4253-aae3-f8f1ba284e93",
+      "native_object_id": 219,
+      "source_tile_handle": "82F4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2217360230213506,
+      "local_coord_step_id": 566,
+      "local_origin_m": [
+        -6.420000000000002,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L022",
+      "native_object_guid": "82c6d02f-6974-48b7-a9ed-3d12c1eed3fe",
+      "native_object_id": 223,
+      "source_tile_handle": "8380",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.30127539545293724,
+      "local_coord_step_id": 573,
+      "local_origin_m": [
+        -4.02,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L023",
+      "native_object_guid": "7f1d4d61-24af-41b1-a033-5cbcb0236196",
+      "native_object_id": 227,
+      "source_tile_handle": "842F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22173602302135412,
+      "local_coord_step_id": 580,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L024",
+      "native_object_guid": "ed881160-89d6-42a1-992a-c268891d9f1d",
+      "native_object_id": 231,
+      "source_tile_handle": "84BB",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14271252189393044,
+      "local_coord_step_id": 587,
+      "local_origin_m": [
+        1.379999999999999,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L025",
+      "native_object_guid": "cc70b131-e407-48ad-a251-40d25a56de35",
+      "native_object_id": 235,
+      "source_tile_handle": "8547",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.06608225106127735,
+      "local_coord_step_id": 594,
+      "local_origin_m": [
+        3.780000000000001,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L026",
+      "native_object_guid": "7cfba723-862c-4bb1-beb7-4ea4dc30b3cf",
+      "native_object_id": 239,
+      "source_tile_handle": "85D3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.03415938970949864,
+      "local_coord_step_id": 601,
+      "local_origin_m": [
+        6.18,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L027",
+      "native_object_guid": "4fd4bd6e-b685-4232-8496-1dd05074d5b8",
+      "native_object_id": 243,
+      "source_tile_handle": "865F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1037634998702578,
+      "local_coord_step_id": 608,
+      "local_origin_m": [
+        8.579999999999998,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L028",
+      "native_object_guid": "d04520fd-61cf-45b3-b074-dbbdc06b37f1",
+      "native_object_id": 247,
+      "source_tile_handle": "86EB",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1821177199102968,
+      "local_coord_step_id": 615,
+      "local_origin_m": [
+        10.980000000000004,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L029",
+      "native_object_guid": "9f178264-7fcd-454e-982c-a6aae13178df",
+      "native_object_id": 251,
+      "source_tile_handle": "7FA8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2764183434428997,
+      "local_coord_step_id": 622,
+      "local_origin_m": [
+        -20.82,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L030",
+      "native_object_guid": "f0de8779-2f99-4471-b42d-81c544e4e00d",
+      "native_object_id": 255,
+      "source_tile_handle": "8034",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2029953216005642,
+      "local_coord_step_id": 629,
+      "local_origin_m": [
+        -18.42,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L031",
+      "native_object_guid": "d0863410-c02d-4490-8a82-73a7e2f293fd",
+      "native_object_id": 259,
+      "source_tile_handle": "80C0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.13713898275733355,
+      "local_coord_step_id": 636,
+      "local_origin_m": [
+        -16.02,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L032",
+      "native_object_guid": "902652ab-bff6-4d57-a575-282bd571cff7",
+      "native_object_id": 263,
+      "source_tile_handle": "814C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.09595363772007813,
+      "local_coord_step_id": 643,
+      "local_origin_m": [
+        -13.620000000000001,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L033",
+      "native_object_guid": "b9552420-6b24-4810-8877-9e3886af92f6",
+      "native_object_id": 267,
+      "source_tile_handle": "81D8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.11138716529167793,
+      "local_coord_step_id": 650,
+      "local_origin_m": [
+        -11.219999999999999,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L034",
+      "native_object_guid": "f2580815-f910-457c-b162-e917c45b1c47",
+      "native_object_id": 271,
+      "source_tile_handle": "8264",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.16854406127691243,
+      "local_coord_step_id": 657,
+      "local_origin_m": [
+        -8.82,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L035",
+      "native_object_guid": "e9e292f2-1826-4ceb-ace5-4abee651f1b9",
+      "native_object_id": 275,
+      "source_tile_handle": "82F0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23918005893409142,
+      "local_coord_step_id": 664,
+      "local_origin_m": [
+        -6.420000000000002,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L036",
+      "native_object_guid": "47ebae27-3039-4bd5-83dd-df4c9a1da922",
+      "native_object_id": 279,
+      "source_tile_handle": "837C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.31433596770289307,
+      "local_coord_step_id": 671,
+      "local_origin_m": [
+        -4.02,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L037",
+      "native_object_guid": "e2c30ee1-0487-4c72-a5f0-aaeac2f5e0e4",
+      "native_object_id": 283,
+      "source_tile_handle": "842B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2391800589340947,
+      "local_coord_step_id": 678,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L038",
+      "native_object_guid": "002ac4ff-0e29-47cc-9979-a16cc61ef181",
+      "native_object_id": 287,
+      "source_tile_handle": "84B7",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1685440612769139,
+      "local_coord_step_id": 685,
+      "local_origin_m": [
+        1.379999999999999,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L039",
+      "native_object_guid": "ad402d51-c571-438c-a872-1884bd50ada4",
+      "native_object_id": 291,
+      "source_tile_handle": "8543",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1113871652916808,
+      "local_coord_step_id": 692,
+      "local_origin_m": [
+        3.780000000000001,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L040",
+      "native_object_guid": "8a4bbfad-1127-47ef-a915-3c0ced5c4923",
+      "native_object_id": 295,
+      "source_tile_handle": "85CF",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.09595363772007777,
+      "local_coord_step_id": 699,
+      "local_origin_m": [
+        6.18,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L041",
+      "native_object_guid": "32ec903d-b7ed-42ac-8a6a-557088fdf998",
+      "native_object_id": 299,
+      "source_tile_handle": "865B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.13713898275733097,
+      "local_coord_step_id": 706,
+      "local_origin_m": [
+        8.579999999999998,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L042",
+      "native_object_guid": "f0a33a4b-329a-44a7-a6d9-6f429f354f16",
+      "native_object_id": 303,
+      "source_tile_handle": "86E7",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2029953216005626,
+      "local_coord_step_id": 713,
+      "local_origin_m": [
+        10.980000000000004,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L043",
+      "native_object_guid": "1b38ba27-4d0c-43ad-9ef0-32ad775ef62f",
+      "native_object_id": 307,
+      "source_tile_handle": "7FA4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.33762483993980663,
+      "local_coord_step_id": 720,
+      "local_origin_m": [
+        -20.82,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L044",
+      "native_object_guid": "56398693-cf1d-4829-ab42-861738995318",
+      "native_object_id": 311,
+      "source_tile_handle": "8030",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.28069651323872846,
+      "local_coord_step_id": 727,
+      "local_origin_m": [
+        -18.42,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L045",
+      "native_object_guid": "c29c0517-594c-48e4-8a32-db65cf847a41",
+      "native_object_id": 315,
+      "source_tile_handle": "80BC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23746690831435738,
+      "local_coord_step_id": 734,
+      "local_origin_m": [
+        -16.02,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L046",
+      "native_object_guid": "9fb583d4-b78b-4d93-86d1-66c18dc51007",
+      "native_object_id": 319,
+      "source_tile_handle": "8148",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.21631119375653954,
+      "local_coord_step_id": 741,
+      "local_origin_m": [
+        -13.620000000000001,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L047",
+      "native_object_guid": "4df7affa-ed81-4284-83a7-e3edf17a06c1",
+      "native_object_id": 323,
+      "source_tile_handle": "81D4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22358562687341682,
+      "local_coord_step_id": 748,
+      "local_origin_m": [
+        -11.219999999999999,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L048",
+      "native_object_guid": "bb7c8666-b881-499b-b874-67a8f4338b8a",
+      "native_object_id": 327,
+      "source_tile_handle": "8260",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.25688622490195695,
+      "local_coord_step_id": 755,
+      "local_origin_m": [
+        -8.82,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L049",
+      "native_object_guid": "a5640dc6-90d9-4518-be67-5a45fd6b88c5",
+      "native_object_id": 331,
+      "source_tile_handle": "82EC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.30788071154974717,
+      "local_coord_step_id": 762,
+      "local_origin_m": [
+        -6.420000000000002,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L050",
+      "native_object_guid": "6e8f7a6e-b7a1-41cd-aa2a-437b438271dc",
+      "native_object_id": 335,
+      "source_tile_handle": "8378",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3693108887433153,
+      "local_coord_step_id": 769,
+      "local_origin_m": [
+        -4.02,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L051",
+      "native_object_guid": "07c0d812-8ebb-49ff-9108-38860899f9ca",
+      "native_object_id": 339,
+      "source_tile_handle": "8427",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3078807115497497,
+      "local_coord_step_id": 776,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L052",
+      "native_object_guid": "bc48e28b-054c-4c15-87f6-8e5037b33309",
+      "native_object_id": 343,
+      "source_tile_handle": "84B3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2568862249019579,
+      "local_coord_step_id": 783,
+      "local_origin_m": [
+        1.379999999999999,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L053",
+      "native_object_guid": "86818418-2ffc-4c3b-96d5-009ea53d2a13",
+      "native_object_id": 347,
+      "source_tile_handle": "853F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22358562687341824,
+      "local_coord_step_id": 790,
+      "local_origin_m": [
+        3.780000000000001,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L054",
+      "native_object_guid": "22c1b071-92cb-4b91-97e3-520da59f685d",
+      "native_object_id": 351,
+      "source_tile_handle": "85CB",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.21631119375653937,
+      "local_coord_step_id": 797,
+      "local_origin_m": [
+        6.18,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L055",
+      "native_object_guid": "a6fe550f-617e-4a6a-ad64-8b4b89b14996",
+      "native_object_id": 355,
+      "source_tile_handle": "8657",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23746690831435588,
+      "local_coord_step_id": 804,
+      "local_origin_m": [
+        8.579999999999998,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L056",
+      "native_object_guid": "128ac112-0edb-4578-a19d-b708cdcac9bb",
+      "native_object_id": 359,
+      "source_tile_handle": "86E3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.28069651323872735,
+      "local_coord_step_id": 811,
+      "local_origin_m": [
+        10.980000000000004,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L057",
+      "native_object_guid": "570580d4-25de-42e2-b8ae-02f7333150a6",
+      "native_object_id": 363,
+      "source_tile_handle": "7FA1",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.36987763849092353,
+      "local_coord_step_id": 818,
+      "local_origin_m": [
+        -20.82,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L058",
+      "native_object_guid": "54419e06-f251-4696-9bd3-63df9f076e4a",
+      "native_object_id": 367,
+      "source_tile_handle": "802D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3187623996892072,
+      "local_coord_step_id": 825,
+      "local_origin_m": [
+        -18.42,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L059",
+      "native_object_guid": "6e98daa1-01fb-477f-ad5a-740d2c436f13",
+      "native_object_id": 371,
+      "source_tile_handle": "80B9",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2814417656560974,
+      "local_coord_step_id": 832,
+      "local_origin_m": [
+        -16.02,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L060",
+      "native_object_guid": "7edb5b7c-bc61-4403-8be6-5b33011a1c8c",
+      "native_object_id": 375,
+      "source_tile_handle": "8145",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2638360617042739,
+      "local_coord_step_id": 839,
+      "local_origin_m": [
+        -13.620000000000001,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L061",
+      "native_object_guid": "a725b341-50af-422d-9d0c-72acdbc64cfe",
+      "native_object_id": 379,
+      "source_tile_handle": "81D1",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2698322950568019,
+      "local_coord_step_id": 846,
+      "local_origin_m": [
+        -11.219999999999999,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L062",
+      "native_object_guid": "6c2ae786-1dbf-4c3d-b9c6-adce09a9e5cc",
+      "native_object_id": 383,
+      "source_tile_handle": "825D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.29800917344206207,
+      "local_coord_step_id": 853,
+      "local_origin_m": [
+        -8.82,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L063",
+      "native_object_guid": "590ca90d-4a6a-438f-8fef-c6d3842984e6",
+      "native_object_id": 387,
+      "source_tile_handle": "82E9",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.34294236754245,
+      "local_coord_step_id": 860,
+      "local_origin_m": [
+        -6.420000000000002,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L064",
+      "native_object_guid": "fa330991-5b52-4fef-aedb-6f71e1333ce3",
+      "native_object_id": 391,
+      "source_tile_handle": "8375",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3990106107055546,
+      "local_coord_step_id": 867,
+      "local_origin_m": [
+        -4.02,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L065",
+      "native_object_guid": "1a80eb63-bdac-40c2-bd0c-8fc3f64be781",
+      "native_object_id": 395,
+      "source_tile_handle": "8424",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3429423675424523,
+      "local_coord_step_id": 874,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L066",
+      "native_object_guid": "afd09cf4-d6fb-4c58-97f3-f38dd7aa51f0",
+      "native_object_id": 399,
+      "source_tile_handle": "84B0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2980091734420629,
+      "local_coord_step_id": 881,
+      "local_origin_m": [
+        1.379999999999999,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L067",
+      "native_object_guid": "383af287-c160-46d8-9bd8-7e2c2db9e796",
+      "native_object_id": 403,
+      "source_tile_handle": "853C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2698322950568031,
+      "local_coord_step_id": 888,
+      "local_origin_m": [
+        3.780000000000001,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L068",
+      "native_object_guid": "7a4cf365-2c28-4d48-9019-1b5f81627b7b",
+      "native_object_id": 407,
+      "source_tile_handle": "85C8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.26383606170427376,
+      "local_coord_step_id": 895,
+      "local_origin_m": [
+        6.18,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L069",
+      "native_object_guid": "27f773e1-a2f6-4779-a38c-390a6c180bad",
+      "native_object_id": 411,
+      "source_tile_handle": "8654",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.28144176565609613,
+      "local_coord_step_id": 902,
+      "local_origin_m": [
+        8.579999999999998,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L070",
+      "native_object_guid": "a9759498-1563-4d51-83a6-49e9c6545d50",
+      "native_object_id": 415,
+      "source_tile_handle": "86E0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3187623996892062,
+      "local_coord_step_id": 909,
+      "local_origin_m": [
+        10.980000000000004,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L071",
+      "native_object_guid": "624df0e3-9833-4f97-acdc-72a189682674",
+      "native_object_id": 419,
+      "source_tile_handle": "7F9D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2960289446906762,
+      "local_coord_step_id": 916,
+      "local_origin_m": [
+        -20.82,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L072",
+      "native_object_guid": "7d5c4741-d834-4157-b8f7-43f55b27e9ae",
+      "native_object_id": 423,
+      "source_tile_handle": "8029",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.228982829257294,
+      "local_coord_step_id": 923,
+      "local_origin_m": [
+        -18.42,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L073",
+      "native_object_guid": "c32d71b9-e222-4428-9c19-5d02defc59ef",
+      "native_object_id": 427,
+      "source_tile_handle": "80B5",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.17330071002357375,
+      "local_coord_step_id": 930,
+      "local_origin_m": [
+        -16.02,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L074",
+      "native_object_guid": "a9a5b2b3-eec8-43fc-8cf6-765e392bff96",
+      "native_object_id": 431,
+      "source_tile_handle": "8141",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.859999999999998,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14294452103761993,
+      "local_coord_step_id": 937,
+      "local_origin_m": [
+        -13.620000000000001,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L075",
+      "native_object_guid": "7d6d12ab-0793-4990-83e3-ab4109a830c3",
+      "native_object_id": 435,
+      "source_tile_handle": "81CD",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.339999999999998,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.15373072592905476,
+      "local_coord_step_id": 944,
+      "local_origin_m": [
+        -11.219999999999999,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L076",
+      "native_object_guid": "242f0163-69ac-4fe4-9b58-e72aef7d4b0d",
+      "native_object_id": 439,
+      "source_tile_handle": "8259",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.819999999999999,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1990807275822403,
+      "local_coord_step_id": 951,
+      "local_origin_m": [
+        -8.82,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L077",
+      "native_object_guid": "8259a741-10c4-4b7d-a82c-bf416ec37446",
+      "native_object_id": 443,
+      "source_tile_handle": "82E5",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2615972784542569,
+      "local_coord_step_id": 958,
+      "local_origin_m": [
+        -6.420000000000002,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L078",
+      "native_object_guid": "e1542af7-409b-4c15-afdb-d79ffa0f464d",
+      "native_object_id": 447,
+      "source_tile_handle": "8371",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.33171242981635884,
+      "local_coord_step_id": 965,
+      "local_origin_m": [
+        -4.02,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L079",
+      "native_object_guid": "56c67dbe-cc13-490e-bc25-a6e64ca6ad0e",
+      "native_object_id": 451,
+      "source_tile_handle": "8420",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2615972784542599,
+      "local_coord_step_id": 972,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L080",
+      "native_object_guid": "0061c7f5-b8de-4a45-a0f2-5290626b21b3",
+      "native_object_id": 455,
+      "source_tile_handle": "84AC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.19908072758224155,
+      "local_coord_step_id": 979,
+      "local_origin_m": [
+        1.379999999999999,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L081",
+      "native_object_guid": "fc88f0ed-9702-4384-8203-ef2362b2e941",
+      "native_object_id": 459,
+      "source_tile_handle": "8538",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.15373072592905684,
+      "local_coord_step_id": 986,
+      "local_origin_m": [
+        3.780000000000001,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L082",
+      "native_object_guid": "3bac160c-953b-4c68-aa8f-362cba4cbfed",
+      "native_object_id": 463,
+      "source_tile_handle": "85C4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14294452103761968,
+      "local_coord_step_id": 993,
+      "local_origin_m": [
+        6.18,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L083",
+      "native_object_guid": "07675f0b-1cf5-409d-a407-c8244f5693e3",
+      "native_object_id": 467,
+      "source_tile_handle": "8650",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1733007100235717,
+      "local_coord_step_id": 1000,
+      "local_origin_m": [
+        8.579999999999998,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L084",
+      "native_object_guid": "035b590b-1645-40d6-b586-6fedf6c760b1",
+      "native_object_id": 471,
+      "source_tile_handle": "86DC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2289828292572926,
+      "local_coord_step_id": 1007,
+      "local_origin_m": [
+        10.980000000000004,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L085",
+      "native_object_guid": "0ec15db2-9ac6-4a75-857f-7f285b37fb75",
+      "native_object_id": 475,
+      "source_tile_handle": "7FBC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        2.2800000000000002,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.8602325267042648,
+      "local_coord_step_id": 1014,
+      "local_origin_m": [
+        -20.22,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L086",
+      "native_object_guid": "e8a51199-c551-4d5b-bc63-89456dba8a21",
+      "native_object_id": 479,
+      "source_tile_handle": "8025",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.18110770276274996,
+      "local_coord_step_id": 1021,
+      "local_origin_m": [
+        -18.42,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L087",
+      "native_object_guid": "e6a349ea-41e6-4f5d-8515-4da2fce3af9d",
+      "native_object_id": 483,
+      "source_tile_handle": "80B1",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.10198039027185736,
+      "local_coord_step_id": 1028,
+      "local_origin_m": [
+        -16.02,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L088",
+      "native_object_guid": "377099e5-2102-4156-bd28-61667da76b18",
+      "native_object_id": 487,
+      "source_tile_handle": "813D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.86,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.028284271247462554,
+      "local_coord_step_id": 1035,
+      "local_origin_m": [
+        -13.620000000000001,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L089",
+      "native_object_guid": "93af85dc-aa25-47b3-a23e-07bbdfd9265e",
+      "native_object_id": 491,
+      "source_tile_handle": "81C9",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.34,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.0632455532033668,
+      "local_coord_step_id": 1042,
+      "local_origin_m": [
+        -11.219999999999999,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L090",
+      "native_object_guid": "9a6590e7-e5c8-4bd7-8758-b2f3dfea09de",
+      "native_object_id": 495,
+      "source_tile_handle": "8255",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.82,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14142135623731025,
+      "local_coord_step_id": 1049,
+      "local_origin_m": [
+        -8.82,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L091",
+      "native_object_guid": "bd9a24f7-baf0-4fb6-9bb0-7cd1ac078179",
+      "native_object_id": 499,
+      "source_tile_handle": "82E1",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22090722034374422,
+      "local_coord_step_id": 1056,
+      "local_origin_m": [
+        -6.420000000000002,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L092",
+      "native_object_guid": "f1068efc-77e7-4296-91cc-df94c27074fc",
+      "native_object_id": 503,
+      "source_tile_handle": "836D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3006659275674554,
+      "local_coord_step_id": 1063,
+      "local_origin_m": [
+        -4.02,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L093",
+      "native_object_guid": "ba8e8889-7bf3-42d5-a8f2-96fa2a29ec09",
+      "native_object_id": 507,
+      "source_tile_handle": "841C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22090722034374774,
+      "local_coord_step_id": 1070,
+      "local_origin_m": [
+        -1.0199999999999996,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L094",
+      "native_object_guid": "f70b481b-10ad-4988-9023-ff7ec0abc966",
+      "native_object_id": 511,
+      "source_tile_handle": "84A8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14142135623731025,
+      "local_coord_step_id": 1077,
+      "local_origin_m": [
+        1.379999999999999,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L095",
+      "native_object_guid": "b1858d76-a61c-4174-915f-b6384fba9112",
+      "native_object_id": 515,
+      "source_tile_handle": "8534",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.06324555320337016,
+      "local_coord_step_id": 1084,
+      "local_origin_m": [
+        3.780000000000001,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L096",
+      "native_object_guid": "4d0f1ab6-b6fc-48c3-99bc-7cdce697e6cc",
+      "native_object_id": 519,
+      "source_tile_handle": "85C0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.028284271247462554,
+      "local_coord_step_id": 1091,
+      "local_origin_m": [
+        6.18,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L097",
+      "native_object_guid": "3cebcc0c-7bb6-4e1c-b643-00d9d17f5b1a",
+      "native_object_id": 523,
+      "source_tile_handle": "866F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.68,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5003998401278758,
+      "local_coord_step_id": 1098,
+      "local_origin_m": [
+        9.18,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L098",
+      "native_object_guid": "87ea133f-8adc-4cc9-8e53-1c4e5193e5a5",
+      "native_object_id": 527,
+      "source_tile_handle": "86D8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1811077027627482,
+      "local_coord_step_id": 1105,
+      "local_origin_m": [
+        10.980000000000004,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L099",
+      "native_object_guid": "1bae6267-12d6-45be-8b0c-9271039ac2e4",
+      "native_object_id": 531,
+      "source_tile_handle": "7F95",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2791237345185806,
+      "local_coord_step_id": 1112,
+      "local_origin_m": [
+        -20.82,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L100",
+      "native_object_guid": "1f5358ae-6bcd-4989-bfde-99ace07a4074",
+      "native_object_id": 535,
+      "source_tile_handle": "8021",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2066641216360466,
+      "local_coord_step_id": 1119,
+      "local_origin_m": [
+        -18.42,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L101",
+      "native_object_guid": "1d89f52c-d879-403f-8592-be34be1d1832",
+      "native_object_id": 539,
+      "source_tile_handle": "80AD",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1425133648876428,
+      "local_coord_step_id": 1126,
+      "local_origin_m": [
+        -16.02,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L102",
+      "native_object_guid": "8056f25b-ffdd-48a1-bdf9-abb91b28a930",
+      "native_object_id": 543,
+      "source_tile_handle": "8139",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.86,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1034894157467232,
+      "local_coord_step_id": 1133,
+      "local_origin_m": [
+        -13.620000000000001,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L103",
+      "native_object_guid": "50e9a5e7-3a83-43d1-91d2-fd66431b960e",
+      "native_object_id": 547,
+      "source_tile_handle": "81C5",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.34,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.11794091390013045,
+      "local_coord_step_id": 1140,
+      "local_origin_m": [
+        -11.219999999999999,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L104",
+      "native_object_guid": "2675c33d-aa5a-49f1-ab01-b18f4fcb1a4f",
+      "native_object_id": 551,
+      "source_tile_handle": "8251",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.82,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1729452490576087,
+      "local_coord_step_id": 1147,
+      "local_origin_m": [
+        -8.82,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L105",
+      "native_object_guid": "6d940cfd-efbd-4ee1-ae14-8ff53d3b2a42",
+      "native_object_id": 555,
+      "source_tile_handle": "82DD",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.24230158722467676,
+      "local_coord_step_id": 1154,
+      "local_origin_m": [
+        -6.420000000000002,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L106",
+      "native_object_guid": "9a04fddb-41dd-4cf7-beae-e4069f9b5c75",
+      "native_object_id": 559,
+      "source_tile_handle": "8369",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3167176331870337,
+      "local_coord_step_id": 1161,
+      "local_origin_m": [
+        -4.02,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L107",
+      "native_object_guid": "5395fe2a-e60d-4667-ad42-74a08783a010",
+      "native_object_id": 563,
+      "source_tile_handle": "8418",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.24230158722467998,
+      "local_coord_step_id": 1168,
+      "local_origin_m": [
+        -1.0199999999999996,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L108",
+      "native_object_guid": "d01f5fe5-3d60-419e-96cc-616f992c4edc",
+      "native_object_id": 567,
+      "source_tile_handle": "84A4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1729452490576087,
+      "local_coord_step_id": 1175,
+      "local_origin_m": [
+        1.379999999999999,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L109",
+      "native_object_guid": "2ce15905-dfab-4aa3-bb2b-3a38f3563b29",
+      "native_object_id": 571,
+      "source_tile_handle": "8530",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.11794091390013225,
+      "local_coord_step_id": 1182,
+      "local_origin_m": [
+        3.780000000000001,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L110",
+      "native_object_guid": "fd757bdd-135f-435b-857c-bda995a2bd47",
+      "native_object_id": 575,
+      "source_tile_handle": "85BC",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1034894157467232,
+      "local_coord_step_id": 1189,
+      "local_origin_m": [
+        6.18,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L111",
+      "native_object_guid": "b84d6439-d00a-4716-9267-5b9fe92aad6c",
+      "native_object_id": 579,
+      "source_tile_handle": "8648",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.14251336488764033,
+      "local_coord_step_id": 1196,
+      "local_origin_m": [
+        8.579999999999998,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L112",
+      "native_object_guid": "31515e5a-d49c-43ca-99a1-fda0efa808e7",
+      "native_object_id": 583,
+      "source_tile_handle": "86D4",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.20666412163604508,
+      "local_coord_step_id": 1203,
+      "local_origin_m": [
+        10.980000000000004,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L113",
+      "native_object_guid": "13bad02a-c8ff-47bc-b3e3-69232f60107c",
+      "native_object_id": 587,
+      "source_tile_handle": "7F91",
+      "product_order_code": "910505103630",
+      "position_m": [
+        1.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        1.4199999999999982,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3425832944109611,
+      "local_coord_step_id": 1210,
+      "local_origin_m": [
+        -20.82,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L114",
+      "native_object_guid": "1a3476ef-6f59-4150-9d49-56a548ede60e",
+      "native_object_id": 591,
+      "source_tile_handle": "801D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        4.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        3.8999999999999986,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2866414373559183,
+      "local_coord_step_id": 1217,
+      "local_origin_m": [
+        -18.42,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L115",
+      "native_object_guid": "c214df45-49fa-4e1b-a960-17f329e20696",
+      "native_object_id": 595,
+      "source_tile_handle": "80A9",
+      "product_order_code": "910505103630",
+      "position_m": [
+        6.48,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        6.379999999999999,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.244465362801086,
+      "local_coord_step_id": 1224,
+      "local_origin_m": [
+        -16.02,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L116",
+      "native_object_guid": "2b5c1d4e-4889-4c92-b621-8f6be1b431b5",
+      "native_object_id": 599,
+      "source_tile_handle": "8135",
+      "product_order_code": "910505103630",
+      "position_m": [
+        8.879999999999999,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        8.86,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22397168037380594,
+      "local_coord_step_id": 1231,
+      "local_origin_m": [
+        -13.620000000000001,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L117",
+      "native_object_guid": "96d3886e-ae48-4415-8824-19f0d103ec66",
+      "native_object_id": 603,
+      "source_tile_handle": "81C1",
+      "product_order_code": "910505103630",
+      "position_m": [
+        11.280000000000001,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        11.34,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2310050077584167,
+      "local_coord_step_id": 1238,
+      "local_origin_m": [
+        -11.219999999999999,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L118",
+      "native_object_guid": "c1621ba1-064d-408a-9922-4b38a6dd5427",
+      "native_object_id": 607,
+      "source_tile_handle": "824D",
+      "product_order_code": "910505103630",
+      "position_m": [
+        13.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        13.82,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2633691584249501,
+      "local_coord_step_id": 1245,
+      "local_origin_m": [
+        -8.82,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L119",
+      "native_object_guid": "d5e414cf-8142-4857-98a7-6e795b3566fd",
+      "native_object_id": 611,
+      "source_tile_handle": "82D9",
+      "product_order_code": "910505103630",
+      "position_m": [
+        16.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        16.299999999999997,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.31331025136351,
+      "local_coord_step_id": 1252,
+      "local_origin_m": [
+        -6.420000000000002,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L120",
+      "native_object_guid": "329140c0-80be-481b-9d8e-73e4f6ada52d",
+      "native_object_id": 615,
+      "source_tile_handle": "8365",
+      "product_order_code": "910505103630",
+      "position_m": [
+        18.48,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        18.779999999999998,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.373849319391469,
+      "local_coord_step_id": 1259,
+      "local_origin_m": [
+        -4.02,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L121",
+      "native_object_guid": "02036d2e-dd22-45c5-8e31-8566f2f73cb5",
+      "native_object_id": 619,
+      "source_tile_handle": "8414",
+      "product_order_code": "910505103630",
+      "position_m": [
+        21.48,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        21.259999999999998,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3133102513635125,
+      "local_coord_step_id": 1266,
+      "local_origin_m": [
+        -1.0199999999999996,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L122",
+      "native_object_guid": "9b6bd5c3-742a-410d-9152-0dcf309331f2",
+      "native_object_id": 623,
+      "source_tile_handle": "84A0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        23.88,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        23.74,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2633691584249501,
+      "local_coord_step_id": 1273,
+      "local_origin_m": [
+        1.379999999999999,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L123",
+      "native_object_guid": "c5ba22d3-e118-46b5-a045-ecd4b5462f20",
+      "native_object_id": 627,
+      "source_tile_handle": "852C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        26.28,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        26.22,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23100500775841762,
+      "local_coord_step_id": 1280,
+      "local_origin_m": [
+        3.780000000000001,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L124",
+      "native_object_guid": "86515489-2582-4cde-a356-1920519f78f8",
+      "native_object_id": 631,
+      "source_tile_handle": "85B8",
+      "product_order_code": "910505103630",
+      "position_m": [
+        28.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        28.7,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.22397168037380594,
+      "local_coord_step_id": 1287,
+      "local_origin_m": [
+        6.18,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L125",
+      "native_object_guid": "c3a355a4-9789-40d9-a6ee-5faac0278366",
+      "native_object_id": 635,
+      "source_tile_handle": "8644",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.08,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.24446536280108452,
+      "local_coord_step_id": 1294,
+      "local_origin_m": [
+        8.579999999999998,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L126",
+      "native_object_guid": "e0aaf3f3-50c4-4327-8e49-c19fb587c63c",
+      "native_object_id": 639,
+      "source_tile_handle": "86D0",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2866414373559172,
+      "local_coord_step_id": 1301,
+      "local_origin_m": [
+        10.980000000000004,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L127",
+      "native_object_guid": "8780d7bf-1abd-4b60-aa0c-d916ab90dd5c",
+      "native_object_id": 651,
+      "source_tile_handle": "8B66",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.68,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5614457246922009,
+      "local_coord_step_id": 1308,
+      "local_origin_m": [
+        9.18,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L128",
+      "native_object_guid": "6b29b18a-2a70-4197-bab9-f3b3ccd99de5",
+      "native_object_id": 655,
+      "source_tile_handle": "8B93",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3124440778365738,
+      "local_coord_step_id": 1315,
+      "local_origin_m": [
+        10.980000000000004,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L129",
+      "native_object_guid": "e0f943bf-1f3f-42eb-9045-3aa2de262177",
+      "native_object_id": 667,
+      "source_tile_handle": "8B6A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.68,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5176048617424422,
+      "local_coord_step_id": 1322,
+      "local_origin_m": [
+        9.18,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L130",
+      "native_object_guid": "924404dc-1a38-40e7-bcc7-b842a85db085",
+      "native_object_id": 671,
+      "source_tile_handle": "8B97",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2243095916348855,
+      "local_coord_step_id": 1329,
+      "local_origin_m": [
+        10.980000000000004,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L131",
+      "native_object_guid": "a66f2807-39ed-4d08-b6d3-075bde6db357",
+      "native_object_id": 683,
+      "source_tile_handle": "8B6E",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.68,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5001514563509181,
+      "local_coord_step_id": 1336,
+      "local_origin_m": [
+        9.18,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L132",
+      "native_object_guid": "c90da3af-463d-42cb-b20f-7ec34ae84c0c",
+      "native_object_id": 687,
+      "source_tile_handle": "8B9B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.18042028513983863,
+      "local_coord_step_id": 1343,
+      "local_origin_m": [
+        10.980000000000004,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L133",
+      "native_object_guid": "b9e08e46-351e-48b1-8506-b83f8593f325",
+      "native_object_id": 699,
+      "source_tile_handle": "8B72",
+      "product_order_code": "910505103630",
+      "position_m": [
+        31.68,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        31.179999999999996,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5117923025473795,
+      "local_coord_step_id": 1350,
+      "local_origin_m": [
+        9.18,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L134",
+      "native_object_guid": "982e4a21-a896-412f-a758-f25623cc0fab",
+      "native_object_id": 703,
+      "source_tile_handle": "8B9F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        33.480000000000004,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        33.660000000000004,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.21055013879535875,
+      "local_coord_step_id": 1357,
+      "local_origin_m": [
+        10.980000000000004,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L135",
+      "native_object_guid": "25373651-eaf2-4808-b03a-9dc318cb64d7",
+      "native_object_id": 916,
+      "source_tile_handle": "877B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.29978295896399115,
+      "local_coord_step_id": 1379,
+      "local_origin_m": [
+        13.379999999999995,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L136",
+      "native_object_guid": "bd5edc9e-39ec-441d-afb4-c59b0d166800",
+      "native_object_id": 920,
+      "source_tile_handle": "882A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.29978295896399115,
+      "local_coord_step_id": 1385,
+      "local_origin_m": [
+        16.379999999999995,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L137",
+      "native_object_guid": "3e28d2f1-8474-49e4-b2a4-20cf38c83984",
+      "native_object_id": 924,
+      "source_tile_handle": "88B6",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23381578750205673,
+      "local_coord_step_id": 1391,
+      "local_origin_m": [
+        18.78,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L138",
+      "native_object_guid": "309253a2-6b11-4ba6-ad29-92faccd3d381",
+      "native_object_id": 928,
+      "source_tile_handle": "891F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.08,
+        1.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        1.319230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5217948087947981,
+      "local_coord_step_id": 1397,
+      "local_origin_m": [
+        20.58,
+        -13.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L139",
+      "native_object_guid": "18f04876-2ccd-4818-8d10-fb6fa68b24f4",
+      "native_object_id": 932,
+      "source_tile_handle": "8777",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2614705794259163,
+      "local_coord_step_id": 1403,
+      "local_origin_m": [
+        13.379999999999995,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L140",
+      "native_object_guid": "45c4af93-f77f-41cc-9efa-a36dfa54cfb7",
+      "native_object_id": 936,
+      "source_tile_handle": "8826",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2614705794259163,
+      "local_coord_step_id": 1409,
+      "local_origin_m": [
+        16.379999999999995,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L141",
+      "native_object_guid": "6d332533-c7f7-4c5e-ac24-8af8207daa2b",
+      "native_object_id": 940,
+      "source_tile_handle": "88B2",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1821177199102968,
+      "local_coord_step_id": 1415,
+      "local_origin_m": [
+        18.78,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L142",
+      "native_object_guid": "ea649224-5a68-409c-a52d-faee9460ec13",
+      "native_object_id": 944,
+      "source_tile_handle": "893E",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        3.5700000000000003,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        3.5976923076923075,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.10376349987026807,
+      "local_coord_step_id": 1421,
+      "local_origin_m": [
+        21.18,
+        -11.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L143",
+      "native_object_guid": "f94d5592-2118-4738-8362-369f3f1b1939",
+      "native_object_id": 948,
+      "source_tile_handle": "8773",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2764183434428962,
+      "local_coord_step_id": 1427,
+      "local_origin_m": [
+        13.379999999999995,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L144",
+      "native_object_guid": "6489a034-690b-4d5b-92f5-1bf6412cd385",
+      "native_object_id": 952,
+      "source_tile_handle": "8822",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2764183434428962,
+      "local_coord_step_id": 1433,
+      "local_origin_m": [
+        16.379999999999995,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L145",
+      "native_object_guid": "65c96e38-54c5-49f4-b04b-22348302da5d",
+      "native_object_id": 956,
+      "source_tile_handle": "88AE",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2029953216005626,
+      "local_coord_step_id": 1439,
+      "local_origin_m": [
+        18.78,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L146",
+      "native_object_guid": "054ff3e2-c458-4199-9823-85f4a5273408",
+      "native_object_id": 960,
+      "source_tile_handle": "893A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        5.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        5.876153846153846,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.13713898275733874,
+      "local_coord_step_id": 1445,
+      "local_origin_m": [
+        21.18,
+        -9.02,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L147",
+      "native_object_guid": "99d744e1-afac-4922-a616-4962ac9e9688",
+      "native_object_id": 964,
+      "source_tile_handle": "876F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.33762483993980374,
+      "local_coord_step_id": 1451,
+      "local_origin_m": [
+        13.379999999999995,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L148",
+      "native_object_guid": "5df2449d-33a0-4508-a95f-9dc57dd38d1e",
+      "native_object_id": 968,
+      "source_tile_handle": "881E",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.33762483993980374,
+      "local_coord_step_id": 1457,
+      "local_origin_m": [
+        16.379999999999995,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L149",
+      "native_object_guid": "f68e354c-db35-430d-bafb-4e272e83b7d6",
+      "native_object_id": 972,
+      "source_tile_handle": "88AA",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.28069651323872735,
+      "local_coord_step_id": 1463,
+      "local_origin_m": [
+        18.78,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L150",
+      "native_object_guid": "ff06db36-0373-46e2-a9c4-3361c1d90011",
+      "native_object_id": 976,
+      "source_tile_handle": "8936",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        8.370000000000001,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        8.154615384615385,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.23746690831436038,
+      "local_coord_step_id": 1469,
+      "local_origin_m": [
+        21.18,
+        -6.619999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L151",
+      "native_object_guid": "b68aff6e-e114-44ba-94d4-5b22d452c82d",
+      "native_object_id": 980,
+      "source_tile_handle": "876C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.36987763849092087,
+      "local_coord_step_id": 1475,
+      "local_origin_m": [
+        13.379999999999995,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L152",
+      "native_object_guid": "229a8587-f29d-4586-8f2d-f892cee69ab7",
+      "native_object_id": 984,
+      "source_tile_handle": "881B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.36987763849092087,
+      "local_coord_step_id": 1481,
+      "local_origin_m": [
+        16.379999999999995,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L153",
+      "native_object_guid": "feebcd6f-1b20-4986-bd6b-7743c6586ca7",
+      "native_object_id": 988,
+      "source_tile_handle": "88A7",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3187623996892062,
+      "local_coord_step_id": 1487,
+      "local_origin_m": [
+        18.78,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L154",
+      "native_object_guid": "3182a6ad-9d76-4299-b5df-1682e5911370",
+      "native_object_id": 992,
+      "source_tile_handle": "8933",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        10.17,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        10.433076923076923,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.28144176565609996,
+      "local_coord_step_id": 1493,
+      "local_origin_m": [
+        21.18,
+        -4.82,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L155",
+      "native_object_guid": "beca664c-3e30-413f-ba2b-73b1ced4eca1",
+      "native_object_id": 996,
+      "source_tile_handle": "8768",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2960289446906729,
+      "local_coord_step_id": 1499,
+      "local_origin_m": [
+        13.379999999999995,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L156",
+      "native_object_guid": "9160936e-833b-4a44-8e29-8bd6fc229298",
+      "native_object_id": 1000,
+      "source_tile_handle": "8817",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2960289446906729,
+      "local_coord_step_id": 1505,
+      "local_origin_m": [
+        16.379999999999995,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L157",
+      "native_object_guid": "2880b8e1-f55e-4a3c-b05f-20d6c8b61740",
+      "native_object_id": 1004,
+      "source_tile_handle": "88A3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2289828292572926,
+      "local_coord_step_id": 1511,
+      "local_origin_m": [
+        18.78,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L158",
+      "native_object_guid": "febbe53f-d565-44eb-bf45-05805fffd0bb",
+      "native_object_id": 1008,
+      "source_tile_handle": "892F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        12.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        12.711538461538462,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.17330071002357786,
+      "local_coord_step_id": 1517,
+      "local_origin_m": [
+        21.18,
+        -2.42,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L159",
+      "native_object_guid": "cceb7e77-c461-4e8e-a25e-3b45fbe57e30",
+      "native_object_id": 1012,
+      "source_tile_handle": "8764",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2607680962081041,
+      "local_coord_step_id": 1523,
+      "local_origin_m": [
+        13.379999999999995,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L160",
+      "native_object_guid": "0e4d6adf-e370-4ea7-8f15-0de170ef7fb3",
+      "native_object_id": 1016,
+      "source_tile_handle": "8813",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2607680962081041,
+      "local_coord_step_id": 1529,
+      "local_origin_m": [
+        16.379999999999995,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L161",
+      "native_object_guid": "c6061a8e-2a12-43ce-a714-178c1cbbbc40",
+      "native_object_id": 1020,
+      "source_tile_handle": "889F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1811077027627482,
+      "local_coord_step_id": 1535,
+      "local_origin_m": [
+        18.78,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L162",
+      "native_object_guid": "01331a64-409f-4109-801e-c3cd96ed4bc0",
+      "native_object_id": 1024,
+      "source_tile_handle": "8908",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.08,
+        14.969999999999999,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        14.99,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5003998401278651,
+      "local_coord_step_id": 1541,
+      "local_origin_m": [
+        20.58,
+        -0.02000000000000135,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L163",
+      "native_object_guid": "4af2994a-67c6-43ec-ac20-428a5ee46a23",
+      "native_object_id": 1028,
+      "source_tile_handle": "8760",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2791237345185771,
+      "local_coord_step_id": 1547,
+      "local_origin_m": [
+        13.379999999999995,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L164",
+      "native_object_guid": "58f06984-fdad-40cb-abdb-eb16cfa5261c",
+      "native_object_id": 1032,
+      "source_tile_handle": "880F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2791237345185771,
+      "local_coord_step_id": 1553,
+      "local_origin_m": [
+        16.379999999999995,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L165",
+      "native_object_guid": "108c6bfc-3e95-4967-8c20-c7bf771af86b",
+      "native_object_id": 1036,
+      "source_tile_handle": "889B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.20666412163604508,
+      "local_coord_step_id": 1559,
+      "local_origin_m": [
+        18.78,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L166",
+      "native_object_guid": "1bfaed7e-b60b-4827-95ed-0a351f131a1e",
+      "native_object_id": 1040,
+      "source_tile_handle": "8927",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        17.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        17.268461538461537,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.1425133648876478,
+      "local_coord_step_id": 1565,
+      "local_origin_m": [
+        21.18,
+        2.380000000000001,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L167",
+      "native_object_guid": "f709d2bb-df4f-42e0-8eec-ea052169a8f7",
+      "native_object_id": 1044,
+      "source_tile_handle": "875C",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3425832944109582,
+      "local_coord_step_id": 1571,
+      "local_origin_m": [
+        13.379999999999995,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L168",
+      "native_object_guid": "2b9dbcff-e6f5-452d-800c-7553d1379ce7",
+      "native_object_id": 1048,
+      "source_tile_handle": "880B",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3425832944109582,
+      "local_coord_step_id": 1577,
+      "local_origin_m": [
+        16.379999999999995,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L169",
+      "native_object_guid": "f3b4b10f-4d53-4b2b-893b-569468498bd7",
+      "native_object_id": 1052,
+      "source_tile_handle": "8897",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2866414373559172,
+      "local_coord_step_id": 1583,
+      "local_origin_m": [
+        18.78,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L170",
+      "native_object_guid": "cf8dba09-246e-4676-a8d6-372d7b0c99a3",
+      "native_object_id": 1056,
+      "source_tile_handle": "8923",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        19.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        19.54692307692308,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.24446536280108888,
+      "local_coord_step_id": 1589,
+      "local_origin_m": [
+        21.18,
+        4.779999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L171",
+      "native_object_guid": "e8191a3d-ab71-4a07-86d2-6454058e9d12",
+      "native_object_id": 1060,
+      "source_tile_handle": "8BCF",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3644465691636376,
+      "local_coord_step_id": 1595,
+      "local_origin_m": [
+        13.379999999999995,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L172",
+      "native_object_guid": "2041ba3b-d6fc-46c6-96d2-0f56efbb59b7",
+      "native_object_id": 1064,
+      "source_tile_handle": "8C1A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3644465691636376,
+      "local_coord_step_id": 1601,
+      "local_origin_m": [
+        16.379999999999995,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L173",
+      "native_object_guid": "3d5514c8-8a80-478f-9446-fcae12a68a91",
+      "native_object_id": 1068,
+      "source_tile_handle": "8C56",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.3124440778365738,
+      "local_coord_step_id": 1607,
+      "local_origin_m": [
+        18.78,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L174",
+      "native_object_guid": "508f9e30-e192-40aa-ac08-d0c84492af57",
+      "native_object_id": 1072,
+      "source_tile_handle": "8C92",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        21.57,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        21.825384615384614,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.27426502105654815,
+      "local_coord_step_id": 1613,
+      "local_origin_m": [
+        21.18,
+        6.58,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L175",
+      "native_object_guid": "9e9dda0d-45e9-47b8-97f7-1fe9aa36edd0",
+      "native_object_id": 1076,
+      "source_tile_handle": "8BD3",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.29242912457449954,
+      "local_coord_step_id": 1619,
+      "local_origin_m": [
+        13.379999999999995,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L176",
+      "native_object_guid": "ccf86810-4283-49c3-8c61-c9e0a701018b",
+      "native_object_id": 1080,
+      "source_tile_handle": "8C1E",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.29242912457449954,
+      "local_coord_step_id": 1625,
+      "local_origin_m": [
+        16.379999999999995,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L177",
+      "native_object_guid": "84b7de3d-810f-43f5-a01f-557724679705",
+      "native_object_id": 1084,
+      "source_tile_handle": "8C5A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2243095916348855,
+      "local_coord_step_id": 1631,
+      "local_origin_m": [
+        18.78,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L178",
+      "native_object_guid": "29880fc3-707f-4573-be7e-3ce042caaca9",
+      "native_object_id": 1088,
+      "source_tile_handle": "8C96",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        23.97,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        24.103846153846156,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.16707720640294088,
+      "local_coord_step_id": 1637,
+      "local_origin_m": [
+        21.18,
+        8.979999999999999,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L179",
+      "native_object_guid": "d0917fea-b0ee-4c9d-bb2b-64b4e4abdf94",
+      "native_object_id": 1092,
+      "source_tile_handle": "8BD7",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2602911433182845,
+      "local_coord_step_id": 1643,
+      "local_origin_m": [
+        13.379999999999995,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L180",
+      "native_object_guid": "3df42199-5925-439e-b26c-630f09507fc8",
+      "native_object_id": 1096,
+      "source_tile_handle": "8C22",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2602911433182845,
+      "local_coord_step_id": 1649,
+      "local_origin_m": [
+        16.379999999999995,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L181",
+      "native_object_guid": "3c9e80d0-f127-4ab2-b60b-3488db633b3e",
+      "native_object_id": 1100,
+      "source_tile_handle": "8C5E",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.18042028513983863,
+      "local_coord_step_id": 1655,
+      "local_origin_m": [
+        18.78,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L182",
+      "native_object_guid": "d7b5d942-1cb4-4d9f-9ff3-a489606d4d42",
+      "native_object_id": 1104,
+      "source_tile_handle": "8C9A",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.68,
+        26.37,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        26.38230769230769,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.10075454972328783,
+      "local_coord_step_id": 1661,
+      "local_origin_m": [
+        21.18,
+        11.38,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L183",
+      "native_object_guid": "18179da6-f8e8-40f4-9c46-24e3d333b0de",
+      "native_object_id": 1108,
+      "source_tile_handle": "8BDB",
+      "product_order_code": "910505103630",
+      "position_m": [
+        35.879999999999995,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        36.13999999999999,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2820130510220119,
+      "local_coord_step_id": 1667,
+      "local_origin_m": [
+        13.379999999999995,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L184",
+      "native_object_guid": "a2776055-80a1-4f2c-a3ae-20e90a25a3fd",
+      "native_object_id": 1112,
+      "source_tile_handle": "8C26",
+      "product_order_code": "910505103630",
+      "position_m": [
+        38.879999999999995,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        38.62,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.2820130510220119,
+      "local_coord_step_id": 1673,
+      "local_origin_m": [
+        16.379999999999995,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L185",
+      "native_object_guid": "b231cfaa-ded2-4fbb-b7ce-fefd2287641a",
+      "native_object_id": 1116,
+      "source_tile_handle": "8C62",
+      "product_order_code": "910505103630",
+      "position_m": [
+        41.28,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        41.1,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.21055013879535875,
+      "local_coord_step_id": 1679,
+      "local_origin_m": [
+        18.78,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "L186",
+      "native_object_guid": "134efea1-450d-47c1-a822-3af3a82d8b82",
+      "native_object_id": 1120,
+      "source_tile_handle": "8C8F",
+      "product_order_code": "910505103630",
+      "position_m": [
+        43.08,
+        28.77,
+        2.8680000002980233
+      ],
+      "original_position_m": [
+        43.57999999999999,
+        28.660769230769233,
+        2.8680000002980233
+      ],
+      "displacement_m": 0.5117923025473692,
+      "local_coord_step_id": 1685,
+      "local_origin_m": [
+        20.58,
+        13.78,
+        0.0
+      ],
+      "envelope_m": [
+        0.6,
+        0.6
+      ]
+    }
+  ]
+}

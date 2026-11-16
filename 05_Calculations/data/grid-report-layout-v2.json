@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-16T03:17:28.663227+00:00",
+  "finished_utc": "2026-11-16T03:17:30.624320+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "report-layout-read",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-powerbalance-grid-probe-v2.pdf",
+    "--first-page",
+    "257",
+    "--last-page",
+    "265",
+    "--expected-count",
+    "186",
+    "--expected-header",
+    "Building Open plan office · Storey Open plan office · Open plan office"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"Missing or ambiguous product evidence\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "Missing or ambiguous product evidence"
+  }
+}

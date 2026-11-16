@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-11-16T02:57:16.243977+00:00",
+  "finished_utc": "2026-11-16T02:57:42.521285+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-powerbalance-development-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-powerbalance-development-v1.pdf"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"operation\": \"export_pdf\", \"status\": \"exported\", \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-powerbalance-development-v1.pdf\", \"project\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-powerbalance-development-v1.evo\", \"bytes\": 3025071, \"pages\": 44, \"sha256\": \"f5916a69483b96e31d4f79fb7fae715e26b2b56e32915d4b0d317b964fffdd00\", \"uses_codex_computer_use\": false, \"fresh_calculation_verified\": false, \"evidence\": \"Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation.\"}\n",
+  "stderr": "",
+  "result": {
+    "operation": "export_pdf",
+    "status": "exported",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-development-v1.pdf",
+    "project": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-development-v1.evo",
+    "bytes": 3025071,
+    "pages": 44,
+    "sha256": "f5916a69483b96e31d4f79fb7fae715e26b2b56e32915d4b0d317b964fffdd00",
+    "uses_codex_computer_use": false,
+    "fresh_calculation_verified": false,
+    "evidence": "Native PDF export of all currently selected documentation pages; new file stabilized and parsed. Stored results are not proof of a fresh calculation."
+  }
+}

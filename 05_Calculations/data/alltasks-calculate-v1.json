@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-16T03:04:11.349677+00:00",
+  "finished_utc": "2026-11-16T03:05:05.365442+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "calculate",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-powerbalance-alltasks-probe-v1.evo",
+    "--recalculate"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: Calculation completion not observed within 45 seconds; outcome unverified\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: Calculation completion not observed within 45 seconds; outcome unverified"
+  }
+}

@@ -1,0 +1,2 @@
+# Isolated optional PDF resource pruning runtime; install with --target .runtime
+pikepdf==10.5.0

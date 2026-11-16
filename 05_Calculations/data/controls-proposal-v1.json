@@ -1,0 +1,1729 @@
+{
+  "status": "proposed control zoning and commissioning requirements; not installed controls or an electrical circuit design",
+  "layout_sha256": "a141f488b1055afd98aae9ee7ade9111f39ac0d8cbf4bfc3d41b8b6ab2383789",
+  "manual_control_points": 32,
+  "base_BEC_table_5_5_points": 32,
+  "LPD_reduction_claimed": false,
+  "zone_count": 32,
+  "maximum_zone_area_m2": 46.67287541399992,
+  "net_zoned_area_m2": 1032.573048231,
+  "automatic_operation": {
+    "each_zone_independent": true,
+    "vacancy_off_delay_minutes": 10,
+    "power_after_vacancy_percent": 0,
+    "maximum_manual_override_minutes": 120,
+    "weekend_holidays": "Calendar-controlled shutdown with local timed override; recommission with occupier schedule.",
+    "daylight": "Enable daylight-responsive dimming separately in each zone with its luminaire sensors. No daylight contribution credited in electric-light simulations. Final facade/fenestration review remains required to confirm statutory daylight-zone boundaries.",
+    "commissioning": "Confirm sensor coverage at 2.8 m, occupancy timing, 0% vacancy power, override expiry, independent group switching and daylight response through functional tests."
+  },
+  "power_budget": {
+    "luminaire_count": 186,
+    "datasheet_rated_input_W_each": 20,
+    "native_photometry_W_each": 19.8,
+    "external_control_allowance_W": 50,
+    "design_connected_budget_W": 3770,
+    "LPD_using_conservative_1022_m2_W_m2": 3.6888454011741683,
+    "BEC_office_limit_W_m2": 7.2,
+    "scope": "Conservative design allowance; actual external controller consumption and complete installation loads to be confirmed from final product schedule."
+  },
+  "zones": [
+    {
+      "id": "Z01",
+      "seed_m": [
+        3.58,
+        2.98
+      ],
+      "activity": "B01 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 34.81810047299996,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.779999999999999,
+              5.38
+            ],
+            [
+              7.18,
+              4.18
+            ],
+            [
+              7.18,
+              0.18
+            ],
+            [
+              0.18,
+              0.18
+            ],
+            [
+              0.18,
+              5.38
+            ],
+            [
+              6.779999999999999,
+              5.38
+            ]
+          ],
+          [
+            [
+              0.18000009999999994,
+              0.18000009999999989
+            ],
+            [
+              1.1249999,
+              0.18000009999999989
+            ],
+            [
+              1.1249999,
+              1.5999999000000003
+            ],
+            [
+              0.18000009999999994,
+              1.5999999000000003
+            ],
+            [
+              0.18000009999999994,
+              0.18000009999999989
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L001",
+        "L002",
+        "L003",
+        "L015",
+        "L016",
+        "L017"
+      ]
+    },
+    {
+      "id": "Z02",
+      "seed_m": [
+        10.78,
+        2.98
+      ],
+      "activity": "B02 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 28.799999999999994,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              4.18
+            ],
+            [
+              14.379999999999999,
+              4.18
+            ],
+            [
+              14.379999999999999,
+              0.18
+            ],
+            [
+              7.18,
+              0.18
+            ],
+            [
+              7.18,
+              4.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L004",
+        "L005",
+        "L006",
+        "L018",
+        "L019",
+        "L020"
+      ]
+    },
+    {
+      "id": "Z03",
+      "seed_m": [
+        17.98,
+        2.98
+      ],
+      "activity": "B03 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 36.13687541399995,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              4.18
+            ],
+            [
+              14.78,
+              5.38
+            ],
+            [
+              21.58,
+              5.38
+            ],
+            [
+              21.58,
+              0.18
+            ],
+            [
+              14.379999999999999,
+              0.18
+            ],
+            [
+              14.379999999999999,
+              4.18
+            ]
+          ],
+          [
+            [
+              14.4375001,
+              0.18000009999999994
+            ],
+            [
+              15.5624999,
+              0.18000009999999994
+            ],
+            [
+              15.5624999,
+              1.1249999
+            ],
+            [
+              14.4375001,
+              1.1249999
+            ],
+            [
+              14.4375001,
+              0.18000009999999994
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L007",
+        "L008",
+        "L009",
+        "L021",
+        "L022",
+        "L023"
+      ]
+    },
+    {
+      "id": "Z04",
+      "seed_m": [
+        25.18,
+        2.98
+      ],
+      "activity": "B04 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 37.44000000000002,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.58,
+              5.38
+            ],
+            [
+              28.78,
+              5.38
+            ],
+            [
+              28.78,
+              0.18
+            ],
+            [
+              21.58,
+              0.18
+            ],
+            [
+              21.58,
+              5.38
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L010",
+        "L011",
+        "L012",
+        "L024",
+        "L025",
+        "L026"
+      ]
+    },
+    {
+      "id": "Z05",
+      "seed_m": [
+        32.38,
+        2.98
+      ],
+      "activity": "B05 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 36.37687541399998,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.78,
+              5.38
+            ],
+            [
+              35.980000000000004,
+              5.38
+            ],
+            [
+              35.980000000000004,
+              0.18
+            ],
+            [
+              28.78,
+              0.18
+            ],
+            [
+              28.78,
+              5.38
+            ]
+          ],
+          [
+            [
+              29.738333100000002,
+              0.18000009999999994
+            ],
+            [
+              30.8633329,
+              0.18000009999999994
+            ],
+            [
+              30.8633329,
+              1.1249999
+            ],
+            [
+              29.738333100000002,
+              1.1249999
+            ],
+            [
+              29.738333100000002,
+              0.18000009999999994
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L013",
+        "L014",
+        "L027",
+        "L028",
+        "L135",
+        "L139"
+      ]
+    },
+    {
+      "id": "Z06",
+      "seed_m": [
+        39.58,
+        2.98
+      ],
+      "activity": "B06 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 44.62610047299994,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.980000000000004,
+              5.38
+            ],
+            [
+              44.82,
+              5.38
+            ],
+            [
+              44.82,
+              0.18
+            ],
+            [
+              35.980000000000004,
+              0.18
+            ],
+            [
+              35.980000000000004,
+              5.38
+            ]
+          ],
+          [
+            [
+              43.875000099999994,
+              0.18000009999999989
+            ],
+            [
+              44.8199999,
+              0.18000009999999989
+            ],
+            [
+              44.8199999,
+              1.5999999000000003
+            ],
+            [
+              43.875000099999994,
+              1.5999999000000003
+            ],
+            [
+              43.875000099999994,
+              0.18000009999999989
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L136",
+        "L137",
+        "L138",
+        "L140",
+        "L141",
+        "L142"
+      ]
+    },
+    {
+      "id": "Z07",
+      "seed_m": [
+        3.58,
+        7.78
+      ],
+      "activity": "B07 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 33.36,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              10.18
+            ],
+            [
+              7.18,
+              6.58
+            ],
+            [
+              6.779999999999999,
+              5.38
+            ],
+            [
+              0.18,
+              5.38
+            ],
+            [
+              0.18,
+              10.18
+            ],
+            [
+              7.18,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L029",
+        "L030",
+        "L031",
+        "L043",
+        "L044",
+        "L045",
+        "L057",
+        "L058",
+        "L059"
+      ]
+    },
+    {
+      "id": "Z08",
+      "seed_m": [
+        10.78,
+        7.78
+      ],
+      "activity": "B08 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 25.919999999999995,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              10.18
+            ],
+            [
+              14.379999999999999,
+              10.18
+            ],
+            [
+              14.379999999999999,
+              6.58
+            ],
+            [
+              7.18,
+              6.58
+            ],
+            [
+              7.18,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L046",
+        "L047",
+        "L048",
+        "L060",
+        "L061",
+        "L062"
+      ]
+    },
+    {
+      "id": "Z09",
+      "seed_m": [
+        17.98,
+        7.78
+      ],
+      "activity": "B09 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 34.31999999999999,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              6.58
+            ],
+            [
+              14.379999999999999,
+              10.18
+            ],
+            [
+              21.58,
+              10.18
+            ],
+            [
+              21.58,
+              5.38
+            ],
+            [
+              14.78,
+              5.38
+            ],
+            [
+              14.379999999999999,
+              6.58
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L035",
+        "L036",
+        "L037",
+        "L049",
+        "L050",
+        "L051",
+        "L063",
+        "L064",
+        "L065"
+      ]
+    },
+    {
+      "id": "Z10",
+      "seed_m": [
+        25.18,
+        7.78
+      ],
+      "activity": "B10 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 34.56000000000001,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.78,
+              10.18
+            ],
+            [
+              28.78,
+              5.38
+            ],
+            [
+              21.58,
+              5.38
+            ],
+            [
+              21.58,
+              10.18
+            ],
+            [
+              28.78,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L038",
+        "L039",
+        "L040",
+        "L052",
+        "L053",
+        "L054",
+        "L066",
+        "L067",
+        "L068"
+      ]
+    },
+    {
+      "id": "Z11",
+      "seed_m": [
+        32.38,
+        7.78
+      ],
+      "activity": "B11 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 34.56000000000001,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.980000000000004,
+              10.18
+            ],
+            [
+              35.980000000000004,
+              5.38
+            ],
+            [
+              28.78,
+              5.38
+            ],
+            [
+              28.78,
+              10.18
+            ],
+            [
+              35.980000000000004,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L041",
+        "L042",
+        "L055",
+        "L056",
+        "L069",
+        "L070",
+        "L143",
+        "L147",
+        "L151"
+      ]
+    },
+    {
+      "id": "Z12",
+      "seed_m": [
+        39.58,
+        7.78
+      ],
+      "activity": "B12 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 42.43199999999998,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.980000000000004,
+              5.38
+            ],
+            [
+              35.980000000000004,
+              10.18
+            ],
+            [
+              44.82,
+              10.18
+            ],
+            [
+              44.82,
+              5.38
+            ],
+            [
+              35.980000000000004,
+              5.38
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L144",
+        "L145",
+        "L146",
+        "L148",
+        "L149",
+        "L150",
+        "L152",
+        "L153",
+        "L154"
+      ]
+    },
+    {
+      "id": "Z13",
+      "seed_m": [
+        3.58,
+        12.58
+      ],
+      "activity": "B13 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 36.73687541399995,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              15.579999999999998
+            ],
+            [
+              7.18,
+              10.18
+            ],
+            [
+              0.18,
+              10.18
+            ],
+            [
+              0.18,
+              15.579999999999998
+            ],
+            [
+              7.18,
+              15.579999999999998
+            ]
+          ],
+          [
+            [
+              0.18000009999999994,
+              14.4375001
+            ],
+            [
+              1.1249999,
+              14.4375001
+            ],
+            [
+              1.1249999,
+              15.5624999
+            ],
+            [
+              0.18000009999999994,
+              15.5624999
+            ],
+            [
+              0.18000009999999994,
+              14.4375001
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L071",
+        "L072",
+        "L073",
+        "L085",
+        "L086",
+        "L087"
+      ]
+    },
+    {
+      "id": "Z14",
+      "seed_m": [
+        10.78,
+        12.58
+      ],
+      "activity": "B14 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 33.70274182022084,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              10.18
+            ],
+            [
+              7.18,
+              15.579999999999998
+            ],
+            [
+              11.336722222222223,
+              15.579999999999998
+            ],
+            [
+              14.379999999999999,
+              12.177577639751552
+            ],
+            [
+              14.379999999999999,
+              10.18
+            ],
+            [
+              7.18,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L074",
+        "L075",
+        "L076",
+        "L088",
+        "L089"
+      ]
+    },
+    {
+      "id": "Z15",
+      "seed_m": [
+        17.98,
+        12.58
+      ],
+      "activity": "B15 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 33.27070279244306,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              10.18
+            ],
+            [
+              14.379999999999999,
+              12.177577639751552
+            ],
+            [
+              17.423277777777777,
+              15.579999999999998
+            ],
+            [
+              20.958361111111113,
+              15.579999999999998
+            ],
+            [
+              21.58,
+              14.190000000000001
+            ],
+            [
+              21.58,
+              10.18
+            ],
+            [
+              14.379999999999999,
+              10.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L077",
+        "L078",
+        "L079",
+        "L092"
+      ]
+    },
+    {
+      "id": "Z16",
+      "seed_m": [
+        25.18,
+        12.58
+      ],
+      "activity": "B16 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 28.87200000000002,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.58,
+              14.190000000000001
+            ],
+            [
+              28.78,
+              14.190000000000001
+            ],
+            [
+              28.78,
+              10.18
+            ],
+            [
+              21.58,
+              10.18
+            ],
+            [
+              21.58,
+              14.190000000000001
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L080",
+        "L081",
+        "L082"
+      ]
+    },
+    {
+      "id": "Z17",
+      "seed_m": [
+        32.38,
+        12.58
+      ],
+      "activity": "B17 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 37.182336422222185,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.78,
+              14.190000000000001
+            ],
+            [
+              29.40163888888889,
+              15.579999999999998
+            ],
+            [
+              35.980000000000004,
+              15.579999999999998
+            ],
+            [
+              35.980000000000004,
+              10.18
+            ],
+            [
+              28.78,
+              10.18
+            ],
+            [
+              28.78,
+              14.190000000000001
+            ]
+          ],
+          [
+            [
+              29.738333100000002,
+              14.4375001
+            ],
+            [
+              30.8633329,
+              14.4375001
+            ],
+            [
+              30.8633329,
+              15.5624999
+            ],
+            [
+              29.738333100000002,
+              15.5624999
+            ],
+            [
+              29.738333100000002,
+              14.4375001
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L083",
+        "L084",
+        "L097",
+        "L098",
+        "L155",
+        "L159"
+      ]
+    },
+    {
+      "id": "Z18",
+      "seed_m": [
+        39.58,
+        12.58
+      ],
+      "activity": "B18 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 46.67287541399992,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.980000000000004,
+              10.18
+            ],
+            [
+              35.980000000000004,
+              15.579999999999998
+            ],
+            [
+              44.82,
+              15.579999999999998
+            ],
+            [
+              44.82,
+              10.18
+            ],
+            [
+              35.980000000000004,
+              10.18
+            ]
+          ],
+          [
+            [
+              43.875000099999994,
+              14.4375001
+            ],
+            [
+              44.8199999,
+              14.4375001
+            ],
+            [
+              44.8199999,
+              15.5624999
+            ],
+            [
+              43.875000099999994,
+              15.5624999
+            ],
+            [
+              43.875000099999994,
+              14.4375001
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L156",
+        "L157",
+        "L158",
+        "L160",
+        "L161",
+        "L162"
+      ]
+    },
+    {
+      "id": "Z19",
+      "seed_m": [
+        3.58,
+        18.58
+      ],
+      "activity": "B19 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 35.630000000000024,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.18,
+              15.579999999999998
+            ],
+            [
+              0.18,
+              15.579999999999998
+            ],
+            [
+              0.18,
+              20.67
+            ],
+            [
+              7.18,
+              20.67
+            ],
+            [
+              7.18,
+              15.579999999999998
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L099",
+        "L100",
+        "L101",
+        "L113",
+        "L114",
+        "L115"
+      ]
+    },
+    {
+      "id": "Z20",
+      "seed_m": [
+        10.78,
+        18.58
+      ],
+      "activity": "B20 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 30.6513196622702,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              19.520935251798562
+            ],
+            [
+              11.336722222222223,
+              15.579999999999998
+            ],
+            [
+              7.18,
+              15.579999999999998
+            ],
+            [
+              7.18,
+              20.67
+            ],
+            [
+              14.379999999999999,
+              20.67
+            ],
+            [
+              14.379999999999999,
+              19.520935251798562
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L102",
+        "L103",
+        "L116",
+        "L117",
+        "L118"
+      ]
+    },
+    {
+      "id": "Z21",
+      "seed_m": [
+        17.98,
+        18.58
+      ],
+      "activity": "B21 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 30.150900356714644,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              20.67
+            ],
+            [
+              21.58,
+              20.67
+            ],
+            [
+              21.58,
+              17.189999999999998
+            ],
+            [
+              20.958361111111113,
+              15.579999999999998
+            ],
+            [
+              17.423277777777777,
+              15.579999999999998
+            ],
+            [
+              14.379999999999999,
+              19.520935251798562
+            ],
+            [
+              14.379999999999999,
+              20.67
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L105",
+        "L106",
+        "L107",
+        "L119",
+        "L120",
+        "L121"
+      ]
+    },
+    {
+      "id": "Z22",
+      "seed_m": [
+        25.18,
+        18.58
+      ],
+      "activity": "B22 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 25.05600000000004,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.58,
+              20.67
+            ],
+            [
+              28.78,
+              20.67
+            ],
+            [
+              28.78,
+              17.189999999999998
+            ],
+            [
+              21.58,
+              17.189999999999998
+            ],
+            [
+              21.58,
+              20.67
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L108",
+        "L109",
+        "L110",
+        "L122",
+        "L123",
+        "L124"
+      ]
+    },
+    {
+      "id": "Z23",
+      "seed_m": [
+        32.38,
+        18.58
+      ],
+      "activity": "B23 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 36.42700596606486,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.78,
+              17.189999999999998
+            ],
+            [
+              28.78,
+              20.67
+            ],
+            [
+              30.863333,
+              20.67
+            ],
+            [
+              30.863333,
+              22.17930570833333
+            ],
+            [
+              34.68,
+              20.43
+            ],
+            [
+              35.980000000000004,
+              17.613333333333337
+            ],
+            [
+              35.980000000000004,
+              15.579999999999998
+            ],
+            [
+              29.40163888888889,
+              15.579999999999998
+            ],
+            [
+              28.78,
+              17.189999999999998
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L111",
+        "L112",
+        "L125",
+        "L126",
+        "L127",
+        "L163"
+      ]
+    },
+    {
+      "id": "Z24",
+      "seed_m": [
+        39.58,
+        18.58
+      ],
+      "activity": "B24 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 38.595258333333334,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.980000000000004,
+              17.613333333333337
+            ],
+            [
+              40.032,
+              20.99
+            ],
+            [
+              44.82,
+              19.992499999999996
+            ],
+            [
+              44.82,
+              15.579999999999998
+            ],
+            [
+              35.980000000000004,
+              15.579999999999998
+            ],
+            [
+              35.980000000000004,
+              17.613333333333337
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L164",
+        "L165",
+        "L166",
+        "L168",
+        "L169",
+        "L170"
+      ]
+    },
+    {
+      "id": "Z25",
+      "seed_m": [
+        34.58,
+        23.38
+      ],
+      "activity": "B25 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 25.324659665046248,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.58,
+              25.479999999999997
+            ],
+            [
+              37.58,
+              24.055
+            ],
+            [
+              34.68,
+              20.43
+            ],
+            [
+              30.863333,
+              22.17930570833333
+            ],
+            [
+              30.863333,
+              25.479999999999997
+            ],
+            [
+              37.58,
+              25.479999999999997
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L128",
+        "L129",
+        "L130",
+        "L175"
+      ]
+    },
+    {
+      "id": "Z26",
+      "seed_m": [
+        40.58,
+        23.38
+      ],
+      "activity": "B26 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 31.13792500000001,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.032,
+              20.99
+            ],
+            [
+              37.58,
+              24.055
+            ],
+            [
+              37.58,
+              25.479999999999997
+            ],
+            [
+              44.82,
+              25.479999999999997
+            ],
+            [
+              44.82,
+              19.992499999999996
+            ],
+            [
+              40.032,
+              20.99
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L173",
+        "L174",
+        "L176",
+        "L177",
+        "L178"
+      ]
+    },
+    {
+      "id": "Z27",
+      "seed_m": [
+        34.58,
+        27.58
+      ],
+      "activity": "B27 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 29.016001440000014,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.58,
+              25.479999999999997
+            ],
+            [
+              30.863333,
+              25.479999999999997
+            ],
+            [
+              30.863333,
+              29.8
+            ],
+            [
+              37.58,
+              29.8
+            ],
+            [
+              37.58,
+              25.479999999999997
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L131",
+        "L132",
+        "L133",
+        "L134",
+        "L179",
+        "L183"
+      ]
+    },
+    {
+      "id": "Z28",
+      "seed_m": [
+        40.58,
+        27.58
+      ],
+      "activity": "B28 paperwork bench",
+      "manual_interface": "One independent local manual on/off/dim control at the bench",
+      "area_m2": 29.953800468999987,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.58,
+              25.479999999999997
+            ],
+            [
+              37.58,
+              29.8
+            ],
+            [
+              44.82,
+              29.8
+            ],
+            [
+              44.82,
+              25.479999999999997
+            ],
+            [
+              37.58,
+              25.479999999999997
+            ]
+          ],
+          [
+            [
+              43.875000099999994,
+              28.4000001
+            ],
+            [
+              44.8199999,
+              28.4000001
+            ],
+            [
+              44.8199999,
+              29.799999900000003
+            ],
+            [
+              43.875000099999994,
+              29.799999900000003
+            ],
+            [
+              43.875000099999994,
+              28.4000001
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L180",
+        "L181",
+        "L182",
+        "L184",
+        "L185",
+        "L186"
+      ]
+    },
+    {
+      "id": "Z29",
+      "seed_m": [
+        14.38,
+        15.8
+      ],
+      "activity": "Circulation",
+      "manual_interface": "One independent local manual on/off/dim control, location to be coordinated with final access layout",
+      "area_m2": 22.347877035017948,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.336722222222223,
+              15.579999999999998
+            ],
+            [
+              14.379999999999999,
+              19.520935251798562
+            ],
+            [
+              17.423277777777777,
+              15.579999999999998
+            ],
+            [
+              14.379999999999999,
+              12.177577639751552
+            ],
+            [
+              11.336722222222223,
+              15.579999999999998
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L090",
+        "L091",
+        "L104"
+      ]
+    },
+    {
+      "id": "Z30",
+      "seed_m": [
+        25.18,
+        15.8
+      ],
+      "activity": "Circulation",
+      "manual_interface": "One independent local manual on/off/dim control, location to be coordinated with final access layout",
+      "area_m2": 23.464916666666642,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.958361111111113,
+              15.579999999999998
+            ],
+            [
+              21.58,
+              17.189999999999998
+            ],
+            [
+              28.78,
+              17.189999999999998
+            ],
+            [
+              29.40163888888889,
+              15.579999999999998
+            ],
+            [
+              28.78,
+              14.190000000000001
+            ],
+            [
+              21.58,
+              14.190000000000001
+            ],
+            [
+              20.958361111111113,
+              15.579999999999998
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L093",
+        "L094",
+        "L095",
+        "L096"
+      ]
+    },
+    {
+      "id": "Z31",
+      "seed_m": [
+        10.78,
+        5.38
+      ],
+      "activity": "Circulation",
+      "manual_interface": "One independent local manual on/off/dim control, location to be coordinated with final access layout",
+      "area_m2": 18.240000000000002,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.379999999999999,
+              4.18
+            ],
+            [
+              7.18,
+              4.18
+            ],
+            [
+              6.779999999999999,
+              5.38
+            ],
+            [
+              7.18,
+              6.58
+            ],
+            [
+              14.379999999999999,
+              6.58
+            ],
+            [
+              14.78,
+              5.38
+            ],
+            [
+              14.379999999999999,
+              4.18
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L032",
+        "L033",
+        "L034"
+      ]
+    },
+    {
+      "id": "Z32",
+      "seed_m": [
+        37.58,
+        20.98
+      ],
+      "activity": "Circulation",
+      "manual_interface": "One independent local manual on/off/dim control, location to be coordinated with final access layout",
+      "area_m2": 16.78989999999998,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.68,
+              20.43
+            ],
+            [
+              37.58,
+              24.055
+            ],
+            [
+              40.032,
+              20.99
+            ],
+            [
+              35.980000000000004,
+              17.613333333333337
+            ],
+            [
+              34.68,
+              20.43
+            ]
+          ]
+        ]
+      },
+      "fixture_ids": [
+        "L167",
+        "L171",
+        "L172"
+      ]
+    }
+  ]
+}

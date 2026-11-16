@@ -39,7 +39,18 @@ Mini_Design_Submission.html: due 22 November 2026 23:59, one group representativ
 - Subsequent cache rebuild succeeded: office-white-finish-native-v3.evo was calculated, saved, closed and reopened. Reopened PDF p18 confirms 80/70/20% reflection factors; pp30/31/33 give Desk-01 507 lx/Uo 0.82/UGR 19.7 and Desk-02 541 lx/Uo 0.80/UGR 19.6. Geometry, scoped report text and saved native bytes persist. Glare remains above 19. See white-finish-persistence-v1.json. This resolves propagation for this specific finish experiment, not final acceptance.
 - PowerBalance 910505103630 is a new lower-glare candidate: official ULD, LDT and leaflet cached with URLs/hashes. Native import/calculation and installation layout are still pending; catalogue UGR16 is not a room result.
 
-## Reuse implementation
+## Full task-area development milestone, 2026-11-16
+
+- Native replacement with manufacturer PowerBalance 910505103630 gives 3400 lm / 19.8 W per luminaire (datasheet rounded input 20 W). At 142 luminaires two diagnostic desks give 420/439 lx, UGR 17.4/17.5. Increasing the native 18 x 13 clipped arrangement yields 186 luminaires.
+- A proposed furniture arrangement defines 112 desks in 28 four-person benches. These are design assumptions, not supplied architectural furniture. Source-boundary/column checks reserve at least 0.9 m around benches and 1.8 m between them. All desk coordinates are shared in furniture-proposal-v1.json.
+- The unaligned 186-luminaire model was actually calculated for all 112 desks: minimum desk average 530 lx, minimum Uo 0.94, maximum directional UGR 17.0. Full native PDF and 192.9 MB calculated evo are retained locally; compact original-page evidence and hashes are tracked. See alltasks-results-v1.json. This is not final acceptance because this arrangement is not ceiling-grid aligned.
+- All 186 snapped fixture positions have subsequently matched the native report coordinate table one-to-one, tied to source tile handles. After snapping, Desk-084 gives 497 lx, so that variant fails the adopted average criterion despite maximum UGR 17.5 and minimum desk Uo 0.82. A one-tile local refinement of L120 is under actual recalculation; do not call it accepted before reviewing all tasks again.
+- Grid probe v1 was rejected by DIALux because a zero coordinate was serialized as an integer. Probe v2 uses real-valued STEP coordinates (`0.`) and opened/calculated successfully; failure evidence is retained. No toolkit guard or source was modified.
+- The native calculation/export worker observation windows are shorter than these full-task operations. Timeout records remain intact; actual GUI completion and stable parsed native reports provide subsequent evidence. Do not automatically repeat a calculation or export on an observation timeout.
+- Control design proposal: 32 independent manual/automatic zones linked to the refined shared fixture dataset; maximum zone area 46.68 m2. Proposed vacancy off is 10 minutes and timed overrides expire within 120 minutes. Conservative input budget is 186 x 20 W + 50 W external control allowance = 3770 W (3.689 W/m2 using the smaller annotated 1022 m2). These are design provisions requiring commissioning, not installed-system evidence.
+- Remaining gates include refined grid results, native save/reopen persistence, final height/geometry/asset checks, independent CAD drawing/native plot, standards discussion, <=10-page main report, selected actual-output appendix and <=10 MB combined PDF with visual QA. 00_Submit remains empty.
+
+## Reused implementation basis
 
 Use sibling dialux-agent-toolkit (CLI and MCP share backend), its MIT-licensed MCP_Dialux STF serializer/reader, installed ezdxf/Shapely/PDFium and native AutoCAD Core Console workflow. See 02_References/reuse-register.md. Do not copy synthetic simulation results into this assignment.
 

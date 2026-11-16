@@ -1,0 +1,194 @@
+{
+  "status": "selected native pages preserved at text, size, 72 and 150 dpi rendering",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-alltasks-probe-v1.pdf",
+  "source_sha256": "10ce8da0fc4c45a3eafc98a8af738a78aa08acac90a08a621352f16a499c4a70",
+  "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\alltasks-evidence-excerpt-v2.pdf",
+  "output_sha256": "dd08d98b2d3d75e420f530dd2e41232b703ad2e6872ad9e62ab92d671e6b221a",
+  "bytes": 844601,
+  "pikepdf_version": "10.5.0",
+  "pages": [
+    {
+      "output_page": 1,
+      "source_page": 268,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "d66bab0e79fc74f48ce56f725f914645444530bce520e38e3b3a923de88ce38c",
+      "render_sha256_by_dpi": {
+        "72": "0bd4d977f90c81c583074dd16b522b58591f15c019be3cfb57b514e017c11bf0",
+        "150": "f94a1995a57c40347cd10f2e1b55125dbe1eefeb20022ccb664569cc0474a121"
+      }
+    },
+    {
+      "output_page": 2,
+      "source_page": 269,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "02e98d1cc44dfd635eb6289bd1159dd37db464539fe0fb530c94ebd1f8c2fc81",
+      "render_sha256_by_dpi": {
+        "72": "06204fd750c75e85d9bbef85f20c62a8335cb558fabfb6da10f2b5ef5342894b",
+        "150": "6cfc789119a3aedd51a5ce946f4e19ea2e266f8005cde884bbac541fa2087065"
+      }
+    },
+    {
+      "output_page": 3,
+      "source_page": 270,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "077cfe1d5b31c46debaa3876bc956a5b4de34263a769152edce64f1f0c2e0e6a",
+      "render_sha256_by_dpi": {
+        "72": "e14d11dfaa2068f21c6fac63b55c6e7ff3c43a6f26321735a873687928306ff2",
+        "150": "faa34044e0276493c7ea539a2f40ed48a319076eb32113896777dcbad5ebe746"
+      }
+    },
+    {
+      "output_page": 4,
+      "source_page": 271,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "19dfc1eb6a512a7db6afc3771f8b0337b8435477e4180b2443fe22b16cc5ec28",
+      "render_sha256_by_dpi": {
+        "72": "7fb8cbdf675e8bf0e6b6f7eb15218db9dab859b99b84ff1746a8beb0b8eb579f",
+        "150": "4066438f80ce02993f07a9b60e8718a90584c235a5df080e4896bb3441b0ff4c"
+      }
+    },
+    {
+      "output_page": 5,
+      "source_page": 272,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "0c7fdad271ae12ae82ba9a18e0a36cc415464a26448e80d159064c94b84654c0",
+      "render_sha256_by_dpi": {
+        "72": "3a506fa71917200e5ed43e419ab4ff3914f7074b4e53efb7892a72ece44448a3",
+        "150": "044fb38daabc90d07544c740bb45267152e03589d381a704618cf997931a8252"
+      }
+    },
+    {
+      "output_page": 6,
+      "source_page": 273,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "79a10045d80704356782d8d08800902361c061b40f397a0a77629293d80662d5",
+      "render_sha256_by_dpi": {
+        "72": "b213e1397cbd1f87ddb7d79f88051ae8f2eb4426163e9cd1c22bf98609a5d93d",
+        "150": "28378bc181aee00920dc752146842a1b2ad65d7f5b01d4c1c3c572ae1689d4eb"
+      }
+    },
+    {
+      "output_page": 7,
+      "source_page": 274,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "fbd45d9de4da75da06a6fbedd0726b9ff4b9436c7c5b01644f68f59b88ea05f0",
+      "render_sha256_by_dpi": {
+        "72": "167c5db8d57fea320ed93d201d445fcdd87fa3e83d44a746009fe70eb098ffa5",
+        "150": "8f2a193ec7895125ea1e4b6cfca4fcb59e242b0efd043a7d7cbe7ef0e3e1eacf"
+      }
+    },
+    {
+      "output_page": 8,
+      "source_page": 275,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "d426f1c084a510f0ed72a0753e05e06dfb358468b3dec68fdb1ad18c749b526c",
+      "render_sha256_by_dpi": {
+        "72": "6887a670e4740040edf8ab38cf1001fa673651e0c4e2889b34db7a735d8ec1c8",
+        "150": "d8422e94958959904ea708a25e4766be7d6ed950f47ae26e48ab419cf6ce3584"
+      }
+    },
+    {
+      "output_page": 9,
+      "source_page": 276,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "b37c3fa062dd6be2f3b8d4f01cc36bb6bf83cac8a81c163e966588964ad4d366",
+      "render_sha256_by_dpi": {
+        "72": "0ddf616209a555bf4c1988b9c645d9e07e6eebe77501027c9be93374389ebe2a",
+        "150": "9f4da6c7dcdb24069de1377b3058f2e66452210374b13b175a7a0b5cc4c2be2e"
+      }
+    },
+    {
+      "output_page": 10,
+      "source_page": 277,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "6b7378e28198763018b629afdf8f331825aab67c84d3b191201ef880a2cc35a1",
+      "render_sha256_by_dpi": {
+        "72": "383e256b3954e69ebc9c1d8d60ca90651bf36cb1d74f6089f0843dbb75cadf55",
+        "150": "dd7f8973b5474e6ba6e59738936bb80de768f291aefd1a11df767cba8221528f"
+      }
+    },
+    {
+      "output_page": 11,
+      "source_page": 316,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "a1459681cabe312c78d6334155b87142b67a1adfc11962a7e06044e3aad2c63c",
+      "render_sha256_by_dpi": {
+        "72": "cb0f76e4940b47cc1d57b73407723a9efef03b00fd8fceee0b66543dfb05c3fb",
+        "150": "d292ac0a7b7a9f886f174ad52408708a42810cb2dd7023061752a6582cc4e7b1"
+      }
+    },
+    {
+      "output_page": 12,
+      "source_page": 317,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "a3004ef3419457f97e57ad2f5cddf7c388fa7a9cbcfefcf03d59e1ee1c50deeb",
+      "render_sha256_by_dpi": {
+        "72": "b2a653bbd097d925ca7f66ac3f35101f28f1917c676eaa0dd393253f80d0192c",
+        "150": "45e60c610bfd80be8e4f8a5385aee50127a339c4d0ea985e271c1e4a1543fe42"
+      }
+    },
+    {
+      "output_page": 13,
+      "source_page": 430,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "82b3f5b98279cdbb95c00874960fd6359d95722905e58c90d83d0e0261b07fef",
+      "render_sha256_by_dpi": {
+        "72": "ddc31193d1d51970d1a22c20c0c5ad8f3a26f30bd04edfae5cea8320f63233d9",
+        "150": "d67b44f44d92d96ef1939cbf636ec8a8c7fac261b34ee13a4fe811207401834f"
+      }
+    },
+    {
+      "output_page": 14,
+      "source_page": 431,
+      "size_pt": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_sha256": "829dd93c5b38ae8d2a247e61118447d2c7da19778e265e4329714dca9dc84aef",
+      "render_sha256_by_dpi": {
+        "72": "561fe9c23f0e37a52ee16f367302ebcb2ea15455901668a48df4f12941668087",
+        "150": "85219640c8567690487f08f61e8190e61dd8e3b3632afe20b345797ff113fdce"
+      }
+    }
+  ],
+  "scope": "Static selected-page content preservation only; no engineering acceptance or full-document interactive-feature claim"
+}

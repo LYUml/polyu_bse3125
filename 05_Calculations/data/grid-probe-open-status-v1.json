@@ -1,0 +1,150 @@
+{
+  "started_utc": "2026-11-16T03:10:40.915250+00:00",
+  "finished_utc": "2026-11-16T03:10:43.062241+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-status"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"backend\": \"pywinauto-uia\",\n  \"pid\": 11240,\n  \"executable\": \"C:\\\\Program Files\\\\DIAL GmbH\\\\DIALux\\\\DIALux_x64.exe\",\n  \"title\": \"DIALux evo 14.1  (64-bit)\",\n  \"controls\": {\n    \"Save\": {\n      \"count\": 1,\n      \"enabled\": false\n    },\n    \"CalculationButtonStart\": {\n      \"count\": 0,\n      \"enabled\": false\n    },\n    \"DiscardResultsButton\": {\n      \"count\": 0,\n      \"enabled\": false\n    }\n  },\n  \"dialogs\": [\n    {\n      \"title\": \"DIALux\",\n      \"automation_id\": \"InformationBox\",\n      \"class\": \"Window\",\n      \"children\": [\n        {\n          \"type\": \"Button\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"DIALux evo 14.1\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"DIALux evo 14.1\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Edit\",\n          \"text\": \"Error during loading of the file C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-powerbalance-grid-probe-v1.evo\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"OK\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"_OK\"\n        }\n      ]\n    },\n    {\n      \"title\": \"DIALux\",\n      \"automation_id\": \"InformationBox\",\n      \"class\": \"Window\",\n      \"children\": [\n        {\n          \"type\": \"Button\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"DIALux evo 14.1\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"DIALux evo 14.1\"\n        },\n        {\n          \"type\": \"Image\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Edit\",\n          \"text\": \"Untreated exception: Falscher Typ. Es handelt sich nicht um einen Dial.MathTypes.Vector3D\\r\\nSystem.IO.InvalidDataException\\r\\nFalscher Typ. Es handelt sich nicht um einen Dial.MathTypes.Vector3D\\r\\n   at Dial.Dialux.InteractionProjectHandling.Base.ProjectHandlingCommandService.LoadProject(FileInfo fileInfo, LoadProjectType loadProjectType)\\r\\n   at Dial.Dialux.Gui.MainWindowFileHandling.OpenFile(FileInfo fileInfo, LoadProjectType loadProjectType)\\r\\n   at Dial.Dialux.Gui.MainWindowFileHandling.OnCommandOpen(Object sender, ExecutedRoutedEventArgs e)\\r\\n   at System.Windows.Input.CommandBinding.OnExecuted(Object sender, ExecutedRoutedEventArgs e)\\r\\n   at System.Windows.Input.CommandManager.FindCommandBinding(CommandBindingCollection commandBindings, Object sender, RoutedEventArgs e, ICommand command, Boolean execute)\\r\\n   at System.Windows.Input.CommandManager.FindCommandBinding(Object sender, RoutedEventArgs e, ICommand command, Boolean execute)\\r\\n   at System.Windows.Input.CommandManager.OnExecuted(Object sender, ExecutedRoutedEventArgs e)\\r\\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\\r\\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\\r\\n   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)\\r\\n   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)\\r\\n   at System.Windows.Input.CommandManager.TransferEvent(IInputElement newSource, ExecutedRoutedEventArgs e)\\r\\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\\r\\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\\r\\n   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)\\r\\n   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)\\r\\n   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)\\r\\n   at System.Windows.Controls.MenuItem.InvokeClickAfterRender(Object arg)\\r\\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\\r\\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)\"\n        },\n        {\n          \"type\": \"ScrollBar\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Thumb\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"OK\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"_OK\"\n        },\n        {\n          \"type\": \"Button\",\n          \"text\": \"Exit\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"\"\n        },\n        {\n          \"type\": \"Text\",\n          \"text\": \"E_xit\"\n        }\n      ]\n    }\n  ],\n  \"uses_codex_computer_use\": false,\n  \"state\": \"blocked\"\n}\n",
+  "stderr": "",
+  "result": {
+    "backend": "pywinauto-uia",
+    "pid": 11240,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": false
+      },
+      "CalculationButtonStart": {
+        "count": 0,
+        "enabled": false
+      },
+      "DiscardResultsButton": {
+        "count": 0,
+        "enabled": false
+      }
+    },
+    "dialogs": [
+      {
+        "title": "DIALux",
+        "automation_id": "InformationBox",
+        "class": "Window",
+        "children": [
+          {
+            "type": "Button",
+            "text": ""
+          },
+          {
+            "type": "Image",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": "DIALux evo 14.1"
+          },
+          {
+            "type": "Text",
+            "text": "DIALux evo 14.1"
+          },
+          {
+            "type": "Image",
+            "text": ""
+          },
+          {
+            "type": "Edit",
+            "text": "Error during loading of the file C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-grid-probe-v1.evo"
+          },
+          {
+            "type": "Button",
+            "text": "OK"
+          },
+          {
+            "type": "Text",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": "_OK"
+          }
+        ]
+      },
+      {
+        "title": "DIALux",
+        "automation_id": "InformationBox",
+        "class": "Window",
+        "children": [
+          {
+            "type": "Button",
+            "text": ""
+          },
+          {
+            "type": "Image",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": "DIALux evo 14.1"
+          },
+          {
+            "type": "Text",
+            "text": "DIALux evo 14.1"
+          },
+          {
+            "type": "Image",
+            "text": ""
+          },
+          {
+            "type": "Edit",
+            "text": "Untreated exception: Falscher Typ. Es handelt sich nicht um einen Dial.MathTypes.Vector3D\r\nSystem.IO.InvalidDataException\r\nFalscher Typ. Es handelt sich nicht um einen Dial.MathTypes.Vector3D\r\n   at Dial.Dialux.InteractionProjectHandling.Base.ProjectHandlingCommandService.LoadProject(FileInfo fileInfo, LoadProjectType loadProjectType)\r\n   at Dial.Dialux.Gui.MainWindowFileHandling.OpenFile(FileInfo fileInfo, LoadProjectType loadProjectType)\r\n   at Dial.Dialux.Gui.MainWindowFileHandling.OnCommandOpen(Object sender, ExecutedRoutedEventArgs e)\r\n   at System.Windows.Input.CommandBinding.OnExecuted(Object sender, ExecutedRoutedEventArgs e)\r\n   at System.Windows.Input.CommandManager.FindCommandBinding(CommandBindingCollection commandBindings, Object sender, RoutedEventArgs e, ICommand command, Boolean execute)\r\n   at System.Windows.Input.CommandManager.FindCommandBinding(Object sender, RoutedEventArgs e, ICommand command, Boolean execute)\r\n   at System.Windows.Input.CommandManager.OnExecuted(Object sender, ExecutedRoutedEventArgs e)\r\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\r\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\r\n   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)\r\n   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)\r\n   at System.Windows.Input.CommandManager.TransferEvent(IInputElement newSource, ExecutedRoutedEventArgs e)\r\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\r\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\r\n   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)\r\n   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)\r\n   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)\r\n   at System.Windows.Controls.MenuItem.InvokeClickAfterRender(Object arg)\r\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\r\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)"
+          },
+          {
+            "type": "ScrollBar",
+            "text": ""
+          },
+          {
+            "type": "Button",
+            "text": ""
+          },
+          {
+            "type": "Button",
+            "text": ""
+          },
+          {
+            "type": "Thumb",
+            "text": ""
+          },
+          {
+            "type": "Button",
+            "text": "OK"
+          },
+          {
+            "type": "Text",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": "_OK"
+          },
+          {
+            "type": "Button",
+            "text": "Exit"
+          },
+          {
+            "type": "Text",
+            "text": ""
+          },
+          {
+            "type": "Text",
+            "text": "E_xit"
+          }
+        ]
+      }
+    ],
+    "uses_codex_computer_use": false,
+    "state": "blocked"
+  }
+}
