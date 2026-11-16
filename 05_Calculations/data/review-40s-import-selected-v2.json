@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-11-16T08:46:08.739835+00:00",
+  "finished_utc": "2026-11-16T08:46:35.329686+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "import-luminaire",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-probe-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/02_References/Manufacturer/910505103638.uld",
+    "--product-id",
+    "910505103638"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"operation\": \"import_luminaire\", \"status\": \"active_luminaire_observed\", \"source\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\02_References\\\\Manufacturer\\\\910505103638.uld\", \"sha256\": \"ef4350f49fb80580ef6b3c6cbcafcedb15ef794fbc0d2aad67f8a218db21bcc5\", \"product_id\": \"910505103638\", \"photometry_display\": {\"TotalLuminaireFlux_1\": \"4000\", \"Load_1\": \"23.0\", \"LightOutputRatio_1\": \"100.0\", \"LightEfficiency_1\": \"173.9\"}, \"placed_in_room\": false, \"native_project_saved\": false, \"uses_codex_computer_use\": false, \"evidence\": \"File dialog submitted; expected product and photometry visible. Existing catalog entries may be reused by DIALux.\"}\n",
+  "stderr": "",
+  "result": {
+    "operation": "import_luminaire",
+    "status": "active_luminaire_observed",
+    "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\02_References\\Manufacturer\\910505103638.uld",
+    "sha256": "ef4350f49fb80580ef6b3c6cbcafcedb15ef794fbc0d2aad67f8a218db21bcc5",
+    "product_id": "910505103638",
+    "photometry_display": {
+      "TotalLuminaireFlux_1": "4000",
+      "Load_1": "23.0",
+      "LightOutputRatio_1": "100.0",
+      "LightEfficiency_1": "173.9"
+    },
+    "placed_in_room": false,
+    "native_project_saved": false,
+    "uses_codex_computer_use": false,
+    "evidence": "File dialog submitted; expected product and photometry visible. Existing catalog entries may be reused by DIALux."
+  }
+}

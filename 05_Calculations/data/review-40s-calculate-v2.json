@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-16T08:52:09.967335+00:00",
+  "finished_utc": "2026-11-16T08:53:07.337490+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "calculate",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-import-v2.evo",
+    "--recalculate"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: Calculation completion not observed within 45 seconds; outcome unverified\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: Calculation completion not observed within 45 seconds; outcome unverified"
+  }
+}

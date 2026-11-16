@@ -1,0 +1,10 @@
+{
+  "status": "new review copy, native product import and recalculation pending",
+  "source_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "output_sha256": "2eace1d03fab4d10f59abbd4732a37dd4c145a79e5204445800d191c4c0654fc",
+  "changes": [
+    "Project display name",
+    "Cached scene/results omitted"
+  ],
+  "physical_design_and_existing_photometry_unchanged": true
+}

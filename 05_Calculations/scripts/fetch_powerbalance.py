@@ -1,8 +1,9 @@
 """Cache official alternative photometry with source URLs and byte hashes."""
 from pathlib import Path
-import urllib.request,hashlib,json,datetime
+import urllib.request,hashlib,json,datetime,sys
 root=Path(__file__).resolve().parents[2]
-code='910505103630'
+code=sys.argv[1] if len(sys.argv)>1 else '910505103630'
+assert code.isdigit() and len(code)==12
 urls={ext:f'https://api.microservices.signify.com/api/configurator/v2/getPhotometricAssets/{ext}?id={code}&locale=en_AA' for ext in ['uld','ldt']}
 urls['pdf']=f'https://www.signify.com/api/assets/v1/file/Signify/content/{code}_EU.en_AA.PROF.FP/Localized_commercial_leaflet_{code}_en_AA.pdf'
 records=[]

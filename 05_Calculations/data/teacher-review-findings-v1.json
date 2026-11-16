@@ -1,0 +1,14 @@
+{
+  "status": "strict second review in progress; previous handover is the nominal baseline, not the revised acceptance",
+  "baseline_pdf_sha256": "b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384",
+  "findings": [
+    {"id":"R01","severity":"major design weakness","finding":"Minimum nominal desk average 504 lx leaves only 0.8% margin, while manufacturer luminous flux tolerance is +/-10%.","required_action":"Select and natively calculate a more robust design; compare low-output sensitivity explicitly. Do not relabel nominal results as tolerance-tested results."},
+    {"id":"R02","severity":"technical expression","finding":"Wireless vacancy switch-off is described as zero power. Driver/sensor standby consumption is not evidenced as zero.","required_action":"Specify zero light output with standby retained; require measured automatic power reduction >=50%. Correct control dataset and CAD notes as needed."},
+    {"id":"R03","severity":"rubric coverage","finding":"The summary table omits the manual/automatic control criteria discussed elsewhere.","required_action":"Include clause-linked control point count, zone area, vacancy delay, override and daylight provisions in the comparison table."},
+    {"id":"R04","severity":"traceability","finding":"References to native pages 268-277 look invalid in a 191-page combined PDF; figure citation [3] is software guidance rather than the actual source of project results.","required_action":"Provide combined-page references and explicitly label original native page numbers; cite project simulation appendix for figures."},
+    {"id":"R05","severity":"rubric depth","finding":"Method section spends space on file verification but gives limited explanation of illuminance grid, uniformity, interreflection and UGR behaviour.","required_action":"Rewrite around actual DIALux functions and calculations, including a native model view and worked interpretation."},
+    {"id":"R06","severity":"presentation","finding":"Task colours lack a quantitative colour bar; iteration comparisons are prose-only; product photometry is not interpreted visually.","required_action":"Add a labelled numerical scale, concise iteration comparison and actual manufacturer photometric figure with project-specific interpretation."}
+  ],
+  "candidate": {"manufacturer":"Signify / Philips","order_code":"910505103638","nominal_flux_lm":4000,"rated_input_W":23,"module_mm":[600,600],"ULD_sha256":"ef4350f49fb80580ef6b3c6cbcafcedb15ef794fbc0d2aad67f8a218db21bcc5","status":"manufacturer assets downloaded; native replacement/calculation pending"},
+  "invariants": ["Original assignment PDF and DWG remain unchanged","Use actual native calculation and saved/reopened evidence","Keep CAD, fixture positions and schedule bound to shared data","One final PDF, main including CAD <=10 pages, total <=10 MB","No course submission"]
+}

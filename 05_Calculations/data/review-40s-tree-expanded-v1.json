@@ -1,0 +1,250 @@
+{
+  "started_utc": "2026-11-16T08:43:46.720074+00:00",
+  "finished_utc": "2026-11-16T08:43:57.402672+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-project-tree",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-probe-v1.evo",
+    "--expand-id",
+    "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Luminaires"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"operation\": \"project_tree\",\n  \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-review-40s-probe-v1.evo\",\n  \"items\": [\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office\",\n      \"labels\": [\n        \"BSE3125 - Open-plan Office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        31350339\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        13717599\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Light scenes\",\n      \"labels\": [\n        \"Light scenes\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        56349532\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Ground elements\",\n      \"labels\": [\n        \"Ground elements\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        37383748\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office\",\n      \"labels\": [\n        \"Building Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        909414\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        8184733\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office\",\n      \"labels\": [\n        \"Storey Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        6553737\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Coordinate system\",\n      \"labels\": [\n        \"Coordinate system\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        58983635\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Storey element\",\n      \"labels\": [\n        \"Storey element\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        61090668\n      ],\n      \"expandable\": false,\n      \"expanded\": null\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Calculation objects\",\n      \"labels\": [\n        \"Calculation objects\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        12945101\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Luminaires\",\n      \"labels\": [\n        \"Luminaires\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        49397047\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Luminaires_PB18x13 initial coverage\",\n      \"labels\": [\n        \"PB18x13 initial coverage\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        35259055\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Furniture and objects\",\n      \"labels\": [\n        \"Furniture and objects\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        41920243\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Floors and ceilings\",\n      \"labels\": [\n        \"Floors and ceilings\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        41737875\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Rooms and spaces\",\n      \"labels\": [\n        \"Rooms and spaces\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        40096559\n      ],\n      \"expandable\": true,\n      \"expanded\": true\n    },\n    {\n      \"tree_item_id\": \"BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Rooms and spaces_Open plan office\",\n      \"labels\": [\n        \"Open plan office\"\n      ],\n      \"visible\": true,\n      \"runtime_id\": [\n        7,\n        11240,\n        25324711\n      ],\n      \"expandable\": true,\n      \"expanded\": false\n    }\n  ],\n  \"search_text\": \"\",\n  \"complete_inventory\": false,\n  \"uses_codex_computer_use\": false,\n  \"warning\": \"Only realized UIA nodes are listed; collapsed, filtered or virtualized nodes may be absent. IDs can change after renaming or count edits.\"\n}\n",
+  "stderr": "",
+  "result": {
+    "operation": "project_tree",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-probe-v1.evo",
+    "items": [
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office",
+        "labels": [
+          "BSE3125 - Open-plan Office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          31350339
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          13717599
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Light scenes",
+        "labels": [
+          "Light scenes"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          56349532
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Ground elements",
+        "labels": [
+          "Ground elements"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          37383748
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office",
+        "labels": [
+          "Building Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          909414
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          8184733
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office",
+        "labels": [
+          "Storey Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          6553737
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Coordinate system",
+        "labels": [
+          "Coordinate system"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          58983635
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Storey element",
+        "labels": [
+          "Storey element"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          61090668
+        ],
+        "expandable": false,
+        "expanded": null
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Calculation objects",
+        "labels": [
+          "Calculation objects"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          12945101
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Luminaires",
+        "labels": [
+          "Luminaires"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          49397047
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Luminaires_PB18x13 initial coverage",
+        "labels": [
+          "PB18x13 initial coverage"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          35259055
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Furniture and objects",
+        "labels": [
+          "Furniture and objects"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          41920243
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Floors and ceilings",
+        "labels": [
+          "Floors and ceilings"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          41737875
+        ],
+        "expandable": true,
+        "expanded": false
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Rooms and spaces",
+        "labels": [
+          "Rooms and spaces"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          40096559
+        ],
+        "expandable": true,
+        "expanded": true
+      },
+      {
+        "tree_item_id": "BSE3125 - Open-plan Office_Building Open plan office_Storey Open plan office_Rooms and spaces_Open plan office",
+        "labels": [
+          "Open plan office"
+        ],
+        "visible": true,
+        "runtime_id": [
+          7,
+          11240,
+          25324711
+        ],
+        "expandable": true,
+        "expanded": false
+      }
+    ],
+    "search_text": "",
+    "complete_inventory": false,
+    "uses_codex_computer_use": false,
+    "warning": "Only realized UIA nodes are listed; collapsed, filtered or virtualized nodes may be absent. IDs can change after renaming or count edits."
+  }
+}

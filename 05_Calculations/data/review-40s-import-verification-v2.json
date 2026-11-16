@@ -1,0 +1,14 @@
+{
+  "status": "native replacement verified before calculation; result acceptance pending",
+  "original_native_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "imported_native_sha256": "adeec98e10016ae4d5bb78858b98f9ec9c6be7f08aadc4c8b8290a9a4ae64d09",
+  "all_186_guids_object_ids_and_local_coordinate_systems_preserved": true,
+  "all_186_maintenance_factors": 0.8,
+  "all_186_use_new_manufacturer_prototype": true,
+  "manufacturer_order_code": "910505103638",
+  "prototype_guid": "76180ce0-f1c1-4543-860d-c8d94c1cf11b",
+  "prototype_graph_record_count": 63,
+  "prototype_graph_sha256": "1c87b904c9f4836597015530a4feff25e601f66d6379a68b48ce57d81eb80efc",
+  "native_ULD_import_evidence": "review-40s-import-v1.json",
+  "manufacturer_ULD_sha256": "ef4350f49fb80580ef6b3c6cbcafcedb15ef794fbc0d2aad67f8a218db21bcc5"
+}
