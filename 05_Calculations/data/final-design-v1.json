@@ -1,0 +1,58 @@
+{
+  "status": "accepted design bindings; referenced datasets are authoritative for their stated roles",
+  "coordinate_frame": "source WCS metres minus [64.34593225182503,15.92558365525945]",
+  "bindings": {
+    "fixtures": {
+      "path": "05_Calculations/data/snapped-layout-proposal-v2.json",
+      "sha256": "a141f488b1055afd98aae9ee7ade9111f39ac0d8cbf4bfc3d41b8b6ab2383789"
+    },
+    "furniture": {
+      "path": "05_Calculations/data/furniture-proposal-v1.json",
+      "sha256": "aacde883883a370c96d7014de93542d55b31a70a3cc179da68f43165a1ae05d2"
+    },
+    "controls": {
+      "path": "05_Calculations/data/controls-proposal-v1.json",
+      "sha256": "79f4d2df3a5c99e94b6ffa0acae8f82c0ed80a2602d1bfcd902c31f25c720e8a"
+    },
+    "core_results": {
+      "path": "05_Calculations/data/grid-reopened-tasks-v4.json",
+      "sha256": "6dcb87475dfd1217f5884044491ec9abb7c1a741ef0bcea77e80ae6cfcb41473"
+    },
+    "supplemental_results": {
+      "path": "05_Calculations/data/brightness-reopened-results-v9.json",
+      "sha256": "6a6c8f55e1f2d509d2ce1a6d5fb69f9891d309ef7fff09b417672c69fdfa0b9f"
+    }
+  },
+  "final_native_parameters": {
+    "ceiling_height_m": 2.8,
+    "task_plane_m": 0.8,
+    "seated_eye_height_m": 1.2,
+    "ceiling_wall_floor_reflectance_pct": [
+      80,
+      70,
+      20
+    ],
+    "column_reflectance_pct": 40,
+    "maintenance_factor": 0.8,
+    "maintenance_factor_design_factors": [
+      0.9,
+      1.0,
+      0.95,
+      0.94
+    ],
+    "fixture_count": 186,
+    "luminaire_order_code": "910505103630",
+    "native_luminaire_output_lm": 3400,
+    "native_input_W_each": 19.8,
+    "conservative_budget_W_each": 20,
+    "external_control_allowance_W": 50
+  },
+  "initial_geometry_reference": "room-v1.json: geometry and columns retained; its initial 70/50/20 finish values are superseded by final native 80/70/20 finishes.",
+  "geometry_evidence": [
+    "office-boundary-verification-v1.json",
+    "native-column-verification-v1.json",
+    "brightness-saved-geometry-v9c.json"
+  ],
+  "acceptance": "05_Calculations/Final_v02/assignment-acceptance-v1.json",
+  "report_source_sha256": "5d6656868a9e534ecf79c6de0f5889aa650e43c8855986d5cca7c27a1548a7f3"
+}

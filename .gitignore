@@ -25,3 +25,5 @@ tmp/
 *.log
 05_Calculations/models/*brightness*probe*.pdf
 05_Calculations/models/*brightness*native*.evo
+05_Calculations/Final_v02/*draft*.pdf
+05_Calculations/Final_v02/*review*.pdf

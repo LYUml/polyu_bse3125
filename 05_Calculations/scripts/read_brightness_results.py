@@ -30,5 +30,8 @@ for group,label,avg,u0 in [(desk_cyl,'desk cylindrical',150,.1),(ring_cyl,'surro
  if not group:continue
  bound=min(r['minimum_lx'] for r in group)/max(r['average_lx'] for r in group)
  checks.append({'group':label,'surface_count':len(group),'average_target_lx':avg,'u0_target':u0,'minimum_surface_average_lx':min(r['average_lx'] for r in group),'minimum_surface_u0':min(r['u0'] for r in group),'conservative_combined_u0_lower_bound':bound,'pass':all(r['average_lx']>=avg and r['u0']>=u0 for r in group) and bound>=u0,'failing_surfaces':[r for r in group if r['average_lx']<avg or r['u0']<u0]})
-record={'status':'actual room-scoped auxiliary native PDF results; geometry/persistence separate','pdf':str(pdf.resolve()),'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'page_count':total,'checks':checks,'all_present_groups_pass':all(c['pass'] for c in checks),'all_six_groups_present':len(checks)==6,'table_pages':sorted(pages),'surfaces':results}
+seated=desk_cyl+ring_cyl
+seated_bound=min(r['minimum_lx'] for r in seated)/max(r['average_lx'] for r in seated)
+combined={'surface_count':len(seated),'height_m':1.2,'average_target_lx':150,'u0_target':.1,'minimum_surface_average_lx':min(r['average_lx'] for r in seated),'conservative_combined_u0_lower_bound':seated_bound,'pass':all(r['average_lx']>=150 for r in seated) and seated_bound>=.1}
+record={'status':'actual room-scoped auxiliary native PDF results; geometry/persistence separate','pdf':str(pdf.resolve()),'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'page_count':total,'checks':checks,'combined_seated_cylindrical':combined,'all_present_groups_pass':all(c['pass'] for c in checks) and combined['pass'],'all_six_groups_present':len(checks)==6,'table_pages':sorted(pages),'surfaces':results}
 out.write_text(json.dumps(record,indent=2),encoding='utf-8');print(json.dumps({k:v for k,v in record.items() if k not in ['surfaces','table_pages']},indent=2))

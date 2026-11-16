@@ -1,0 +1,8 @@
+{
+  "status": "unopened intermediate geometry, not adopted or used as performance evidence",
+  "model": "office-brightness-openings-probe-v7.evo",
+  "reason": "The first adapter assumed clockwise opening points. Readback of the actual native-created sample established counterclockwise orientation instead. The adapter was corrected to derive orientation from the native sample before creating v8.",
+  "adopted_geometry": "office-brightness-openings-probe-v8.evo",
+  "accepted_saved_project": "office-brightness-openings-native-v9.evo",
+  "acceptance": "brightness-openings-persistence-v9.json"
+}

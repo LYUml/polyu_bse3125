@@ -1,6 +1,16 @@
 # BSE3125 lighting design
 
-Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. This is work in progress, not an accepted submission.
+Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. The final deliverable was accepted for handover on 2026-11-16; no course-platform submission has been made. Historical pending/rejected states below describe their own development checkpoints, not the final handover status.
+
+## Final handover, 2026-11-16
+
+- `00_Submit/BSE3125_Lighting_Design_Report.pdf`: 8 main pages including the independent A2 CAD layout, 191 total pages including actual native appendices, 5,859,608 bytes; SHA-256 b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384.
+- Requirement-by-requirement audit: `05_Calculations/Final_v02/assignment-acceptance-v1.json`. Editable English narrative is report-content-v1.json; build_main_report.py and assemble_submission.py reproduce the report/assembly from the retained sources.
+- Native auxiliary cutouts are represented by 255 independently verified CalculationSurfaceOpening objects, observed from a native-created example. All 36 physical regions preserve their intended geometry and coordinate systems. The failed triangle experiment is not used.
+- Supplementary saved/reopened results: seated cylindrical minimum mean 190 lx; surrounding mean >=506 lx; background 525 lx; exposed wall means >=183 lx; ceiling 116 lx/Uo 0.89. Conservative combined uniformity bounds also pass. All 288 table rows persist after reopening.
+- Supplemental native file SHA-256 6548a5bb46c2c02f70fedb5dc0808efa433e6715fc063c017691856e3bba8293; core native file f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a. The 186 positions, maintenance factors, manufacturer photometry and physical room/column records match.
+- All source inputs retain their original hashes. All 191 assembled pages preserve source text, physical page dimensions and exact rendered pixels at 72/150 dpi. Main report, native plots, criteria table, CAD and appendix guide were visually reviewed.
+- Documented academic assumptions and qualifications remain intentional: actual facade/occupancy/maintenance must be confirmed; controls require commissioning; DSE luminance is bounded sampled screening, not full angular certification. No unconditional whole-standard/statutory certificate is claimed.
 
 ## Deliverables and acceptance
 

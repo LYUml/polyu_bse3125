@@ -1,0 +1,231 @@
+{
+  "status": "saved native geometry verified; reopened result comparison separate",
+  "native_sha256": "6548a5bb46c2c02f70fedb5dc0808efa433e6715fc063c017691856e3bba8293",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-brightness-openings-native-v9.evo",
+  "effective_region_count": 36,
+  "native_opening_count": 255,
+  "maximum_symmetric_difference_area_m2": 0.0,
+  "all_186_fixture_guids_and_local_coordinate_systems_equal_core": true,
+  "photometry_graph_record_count": 63,
+  "photometry_graph_sha256": "10cfcb9490218b9b9779845331a91341e19f80f7f2a650cfe22460ba93333bc3",
+  "photometry_graph_matches_core": true,
+  "all_112_cylindrical_task_heights_m": 1.2,
+  "regions": [
+    {
+      "name": "Surround-B01",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B02",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B03",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B04",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B05",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B06",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B07",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B08",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B09",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B10",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B11",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B12",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B13",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B14",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B15",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B16",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B17",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B18",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B19",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B20",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B21",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B22",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B23",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B24",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B25",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B26",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B27",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Surround-B28",
+      "native_opening_count": 1,
+      "effective_area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Background-floor",
+      "native_opening_count": 36,
+      "effective_area_m2": 726.8130482310007,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Ceiling",
+      "native_opening_count": 187,
+      "effective_area_m2": 898.0418223765025,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-01",
+      "native_opening_count": 2,
+      "effective_area_m2": 79.36824117599998,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-02",
+      "native_opening_count": 1,
+      "effective_area_m2": 50.315160784,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-03",
+      "native_opening_count": 0,
+      "effective_area_m2": 24.67770751599998,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-04",
+      "native_opening_count": 0,
+      "effective_area_m2": 16.248399999999997,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-05",
+      "native_opening_count": 0,
+      "effective_area_m2": 58.49293268,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "name": "Exposed-Wall-06",
+      "native_opening_count": 1,
+      "effective_area_m2": 34.343120588,
+      "symmetric_difference_area_m2": 0.0
+    }
+  ]
+}

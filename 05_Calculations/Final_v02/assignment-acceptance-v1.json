@@ -1,0 +1,115 @@
+{
+  "status": "assignment deliverable accepted for handover under documented academic assumptions",
+  "review_pdf_sha256": "b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384",
+  "main_pages": 8,
+  "total_pages": 191,
+  "bytes": 5859608,
+  "requirements": [
+    {
+      "requirement": "Original brief/DWG preservation",
+      "status": "verified",
+      "evidence": "Verified exact input hashes."
+    },
+    {
+      "requirement": "DIALux functions and procedure, 20%",
+      "status": "verified",
+      "evidence": "Main p2: native calculation figure, modelling, manufacturer data, calculation objects, maintenance and persistence."
+    },
+    {
+      "requirement": "Luminaire/system justification, 20%",
+      "status": "verified",
+      "evidence": "Main pp3,6: product selection, grid coordination, mounting reference, 32-zone control and power budget."
+    },
+    {
+      "requirement": "Criteria summary, 15%",
+      "status": "verified",
+      "evidence": "Main p5; exact EN edition/clauses and BEC 2024 review in reference register. All adopted native numerical criteria pass."
+    },
+    {
+      "requirement": "Performance discussion, 25%",
+      "status": "verified",
+      "evidence": "Main pp4,6,7: failed iterations, distinct critical desks, 4 lx margin, maintenance, controls and stated limits."
+    },
+    {
+      "requirement": "Independent lighting plan, 20%",
+      "status": "verified",
+      "evidence": "Main p8: native-reopened independent A2 1:100 CAD plot, 186 tile-linked fixtures, legend, schedule and dimensions."
+    },
+    {
+      "requirement": "Shared design and manufacturer photometry",
+      "status": "verified",
+      "evidence": "186 fixture coordinates/GUIDs, all maintenance factors and 63-record photometry graph match verified core model. CAD shares the same dataset."
+    },
+    {
+      "requirement": "Measured geometry versus assumptions",
+      "status": "verified",
+      "evidence": "Office-facing wall survey and eight-column native checks; measured gross/net versus annotation discrepancy retained. Furniture, finishes and controls explicitly assumed."
+    },
+    {
+      "requirement": "All tasks and supplemental metrics",
+      "status": "verified",
+      "evidence": "112 desks; actual directional UGR; 140 seated cylindrical surfaces; surrounding/background and exposed walls/ceiling. 255 native openings independently reconstructed."
+    },
+    {
+      "requirement": "Save/reopen evidence",
+      "status": "verified",
+      "evidence": "Core and supplemental native projects saved, closed and reopened; results retained and saved bytes unchanged."
+    },
+    {
+      "requirement": "One PDF and size/page limits",
+      "status": "verified",
+      "evidence": "8 main pages including CAD; 191 total pages including appendix; 5,859,608 bytes, below 10,000,000."
+    },
+    {
+      "requirement": "Authentic simulation appendix",
+      "status": "verified",
+      "evidence": "182 original native pages; text, page dimensions and exact 72/150-dpi rendered pixels preserved during extraction and assembly."
+    },
+    {
+      "requirement": "Visual inspection",
+      "status": "verified",
+      "evidence": "All main pages reviewed as rendered contact sheets; detailed review of native plot, criterion table, references, independent CAD and appendix guide; representative native tables/plots reviewed."
+    },
+    {
+      "requirement": "Editable sources and native files",
+      "status": "verified",
+      "evidence": "Report JSON/Python and figure in Final_v02; native evo files in models; editable DXF/native DWG under Final_v01, listed in handover manifest."
+    },
+    {
+      "requirement": "Repository reuse",
+      "status": "verified",
+      "evidence": "Pinned toolkit CLI/backend, MIT upstream STF implementation, Shapely, ezdxf, PDFium and pikepdf documented in reuse register. Failed geometry experiments rejected, not used as performance evidence."
+    },
+    {
+      "requirement": "No course submission",
+      "status": "verified",
+      "evidence": "Local deliverable preparation and authorized GitHub synchronization only; no Blackboard/Canvas submission."
+    }
+  ],
+  "qualified_scope": [
+    "DSE luminance is a bounded sampled screening, not complete 65-90-degree certification.",
+    "Controls are specified design/commissioning provisions, not installed/tested-system evidence.",
+    "No unconditional whole-standard or statutory certification is claimed; actual glazing, occupancy and maintenance assumptions are documented."
+  ],
+  "visual_review_artifacts": "05_Calculations/sessions/final-review-v2",
+  "core_native": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-powerbalance-grid-native-v4.evo",
+    "sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a"
+  },
+  "supplemental_native": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-brightness-openings-native-v9.evo",
+    "sha256": "6548a5bb46c2c02f70fedb5dc0808efa433e6715fc063c017691856e3bba8293"
+  },
+  "editable_CAD": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v01\\cad-native-v3\\layout.dwg",
+    "sha256": "649533a5aed39a6d4a3236a65453b61dc63be980df5d76e9e7f181de1e666dd8"
+  },
+  "editable_report": [
+    "05_Calculations/Final_v02/report-content-v1.json",
+    "05_Calculations/scripts/build_main_report.py",
+    "05_Calculations/scripts/assemble_submission.py"
+  ],
+  "shared_fixture_dataset": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\data\\snapped-layout-proposal-v2.json",
+  "final_pdf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\00_Submit\\BSE3125_Lighting_Design_Report.pdf",
+  "final_pdf_sha256": "b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384"
+}

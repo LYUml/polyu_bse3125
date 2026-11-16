@@ -1,0 +1,291 @@
+{
+  "status": "all eight source-linked columns verified in saved core native model",
+  "native_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "column_count": 8,
+  "maximum_boundary_deviation_m": 0.0005272783136062738,
+  "coordinate_tolerance_m": 0.00051,
+  "euclidean_tolerance_m": 0.0007212489168102786,
+  "scope": "Column geometry and coordinate hierarchy; surface reflectance and calculation-region exclusions are separate checks.",
+  "columns": [
+    {
+      "name": "Column-3A66",
+      "native_instance_step_id": 45,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        44.347,
+        0.89,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          43.874500000000005,
+          0.18000000000000005
+        ],
+        [
+          44.8195,
+          0.18000000000000005
+        ],
+        [
+          44.8195,
+          1.6
+        ],
+        [
+          43.874500000000005,
+          1.6
+        ],
+        [
+          43.874500000000005,
+          0.18000000000000005
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005001000099873454,
+      "maximum_coordinate_deviation_m": 0.0005000999999893452
+    },
+    {
+      "name": "Column-4085",
+      "native_instance_step_id": 46,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        0.652,
+        0.89,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          0.17950000000000005,
+          0.18000000000000005
+        ],
+        [
+          1.1245,
+          0.18000000000000005
+        ],
+        [
+          1.1245,
+          1.6
+        ],
+        [
+          0.17950000000000005,
+          1.6
+        ],
+        [
+          0.17950000000000005,
+          0.18000000000000005
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005001000099978926,
+      "maximum_coordinate_deviation_m": 0.0005000999999998923
+    },
+    {
+      "name": "Column-4086",
+      "native_instance_step_id": 47,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        44.347,
+        29.1,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          43.874500000000005,
+          28.400000000000002
+        ],
+        [
+          44.8195,
+          28.400000000000002
+        ],
+        [
+          44.8195,
+          29.8
+        ],
+        [
+          43.874500000000005,
+          29.8
+        ],
+        [
+          43.874500000000005,
+          28.400000000000002
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.000500100009987345,
+      "maximum_coordinate_deviation_m": 0.0005000999999893452
+    },
+    {
+      "name": "Column-4087",
+      "native_instance_step_id": 48,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        44.347,
+        15.0,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          43.874500000000005,
+          14.4375
+        ],
+        [
+          44.8195,
+          14.4375
+        ],
+        [
+          44.8195,
+          15.5625
+        ],
+        [
+          43.874500000000005,
+          15.5625
+        ],
+        [
+          43.874500000000005,
+          14.4375
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005001000099873453,
+      "maximum_coordinate_deviation_m": 0.0005000999999893452
+    },
+    {
+      "name": "Column-408A",
+      "native_instance_step_id": 49,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        0.652,
+        15.0,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          0.17950000000000005,
+          14.4375
+        ],
+        [
+          1.1245,
+          14.4375
+        ],
+        [
+          1.1245,
+          15.5625
+        ],
+        [
+          0.17950000000000005,
+          15.5625
+        ],
+        [
+          0.17950000000000005,
+          14.4375
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005001000099978924,
+      "maximum_coordinate_deviation_m": 0.0005000999999998923
+    },
+    {
+      "name": "Column-408F",
+      "native_instance_step_id": 50,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        30.301,
+        0.652,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          29.7385,
+          0.17950000000000005
+        ],
+        [
+          30.8635,
+          0.17950000000000005
+        ],
+        [
+          30.8635,
+          1.1245
+        ],
+        [
+          29.7385,
+          1.1245
+        ],
+        [
+          29.7385,
+          0.17950000000000005
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005272783136062738,
+      "maximum_coordinate_deviation_m": 0.0005000999999998923
+    },
+    {
+      "name": "Column-4091",
+      "native_instance_step_id": 51,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        15.0,
+        0.652,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          14.4375,
+          0.17950000000000005
+        ],
+        [
+          15.5625,
+          0.17950000000000005
+        ],
+        [
+          15.5625,
+          1.1245
+        ],
+        [
+          14.4375,
+          1.1245
+        ],
+        [
+          14.4375,
+          0.17950000000000005
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.0005001000099978924,
+      "maximum_coordinate_deviation_m": 0.0005000999999998923
+    },
+    {
+      "name": "Column-4093",
+      "native_instance_step_id": 52,
+      "native_parent_type": "Storey",
+      "native_origin_m": [
+        30.301,
+        15.0,
+        0.0
+      ],
+      "footprint_m": [
+        [
+          29.7385,
+          14.4375
+        ],
+        [
+          30.8635,
+          14.4375
+        ],
+        [
+          30.8635,
+          15.5625
+        ],
+        [
+          29.7385,
+          15.5625
+        ],
+        [
+          29.7385,
+          14.4375
+        ]
+      ],
+      "height_m": 2.8,
+      "maximum_boundary_deviation_m": 0.00016710002992095357,
+      "maximum_coordinate_deviation_m": 0.00016709999999875436
+    }
+  ]
+}

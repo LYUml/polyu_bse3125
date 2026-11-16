@@ -1,0 +1,12 @@
+{
+  "status": "accepted final PDF reproduced from current editable narrative and scripts",
+  "final_sha256": "b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384",
+  "reproduced_sha256": "9d8ce08306afa3ba7063c8368e83b7c09db68b7ac94ff39a852817658dfb6d63",
+  "all_191_pages_identical_text_dimensions_and_72_150dpi_pixels": true,
+  "byte_difference_scope": "PDF creation metadata and document identifiers may differ; rendered content and text verified identical.",
+  "source_hashes": {
+    "05_Calculations\\Final_v02\\report-content-v1.json": "5d6656868a9e534ecf79c6de0f5889aa650e43c8855986d5cca7c27a1548a7f3",
+    "05_Calculations\\scripts\\build_main_report.py": "93db2b80ca005efe7c3bb99d958ca2ee4c1640f33b183c770ed08d658e83f445",
+    "05_Calculations\\scripts\\assemble_submission.py": "b56ee6aab4bef79865c714fbe73897cdcd6de9efdc8429669f3cfebf08004a6b"
+  }
+}

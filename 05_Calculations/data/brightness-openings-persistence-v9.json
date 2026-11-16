@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "scope": "Auxiliary saved/reopened native results and separately reconstructed exposed regions; overall report/CAD/code acceptance remains separate",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-brightness-openings-native-v9.evo",
+  "native_sha256": "6548a5bb46c2c02f70fedb5dc0808efa433e6715fc063c017691856e3bba8293",
+  "native_bytes": 14904303,
+  "saved_native_bytes_unchanged_after_reopen_export": true,
+  "all_288_auxiliary_result_rows_identical": true,
+  "actual_auxiliary_result_row_count": 288,
+  "all_present_result_rows_identical": true,
+  "all_six_groups_present_and_pass": true,
+  "combined_seated_cylindrical_pass": true,
+  "saved_geometry_verification": "brightness-saved-geometry-v9b.json",
+  "unchanged_186_fixture_positions_and_manufacturer_photometry": true,
+  "native_summary_pages": [
+    46
+  ],
+  "reopened_pdf_sha256": "b8c8cd7dd868f7bfe41d04e65e3c5c38321aa623c2e0467eb2a998ae88ffd738",
+  "reopened_pdf_pages": 392
+}

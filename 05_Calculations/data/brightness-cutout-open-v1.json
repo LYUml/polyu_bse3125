@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T04:33:03.247704+00:00",
+  "finished_utc": "2026-11-16T04:33:08.645006+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "open",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-brightness-exposed-probe-v5.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-brightness-exposed-probe-v4.evo"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: Current project is modified; save it or explicitly set save_current\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: Current project is modified; save it or explicitly set save_current"
+  }
+}
