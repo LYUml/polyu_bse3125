@@ -42,13 +42,13 @@ def footer(c,doc):
 story.extend([P('Lighting Design for an Open-plan Office',ParagraphStyle('title',parent=heading,fontSize=19,leading=23,alignment=TA_CENTER)),Spacer(1,6)])
 group=load(root/'05_Calculations/local/group-details.json')
 story.append(P(group['group'],ParagraphStyle('group',parent=small,fontName='Bold',alignment=TA_CENTER)))
-member_rows=[]
-for i in range(0,len(group['members']),2):
- member_rows.append([P(m['name']+'  '+m['student_id'],small) for m in group['members'][i:i+2]])
- if len(member_rows[-1])==1:member_rows[-1].append('')
-member_table=Table(member_rows,colWidths=[W/2,W/2],hAlign='LEFT')
-member_table.setStyle(TableStyle([('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),1),('LEFTPADDING',(0,0),(-1,-1),0)]))
-story.extend([member_table,Spacer(1,8)])
+members=sorted(group['members'],key=lambda m:m['name'].casefold())
+member_style=ParagraphStyle('members',parent=small,alignment=TA_CENTER,spaceAfter=1)
+for row in [members[:3],members[3:]]:
+ labels=[m['name']+' '+m['student_id'] for m in row]
+ assert sum(pdfmetrics.stringWidth(s,'Body',10) for s in labels)+18*(len(labels)-1)<=W
+ story.append(Paragraph(('&#160;'*7).join(html.escape(s) for s in labels),member_style))
+story.append(Spacer(1,8))
 story.append(P('1. Introduction and design basis',heading));sub('1.1 Design objective');para(0,0)
 sub('1.2 Office geometry and proposed use');para(0,1);para(0,2)
 sub('1.3 Room conditions');story.append(P('Table 1 gives the main assumptions used in DIALux. The relatively light ceiling and walls contribute reflected light to the desks. Daylight is excluded because the window dimensions are not given. Section 7 considers changes to these conditions.'))

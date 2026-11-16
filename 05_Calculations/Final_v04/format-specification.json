@@ -9,7 +9,7 @@
   "figure_captions": "10pt Times New Roman Italic below figure",
   "table_titles": "10pt Times New Roman Bold above table",
   "narrative_pages": 8,
-  "status": "comparison revision; engineering results require acceptance",
+  "status": "accepted; two-row alphabetical member layout visually verified",
   "guidance": [
     "https://students.unimelb.edu.au/academic-skills/reading-writing-and-referencing/reports/technical-report-writing",
     "https://www.sussex.ac.uk/webteam/gateway/file.php?name=technical-writing&site=23"

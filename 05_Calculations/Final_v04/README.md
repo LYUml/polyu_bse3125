@@ -1,18 +1,18 @@
 # Final comparison report
 
-Accepted on 2026-11-16 under the report's declared academic assumptions. Local final: `../../00_Submit/BSE3125_Lighting_Design_Report.pdf` (9 main pages including CAD, 11 appendix pages, 20 total; 3,838,811 bytes). SHA-256: 32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2. `assignment-acceptance-v4.json`, `assembly-manifest.json` and `visual-review.json` record the checks. Personalized PDFs and private group details remain local.
+Accepted on 2026-11-16 under the report's declared academic assumptions. Local final: `../../00_Submit/BSE3125_Lighting_Design_Report.pdf` (9 main pages including CAD, 11 appendix pages, 20 total; 3,838,818 bytes). SHA-256: 03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366. `assignment-acceptance-v4.json`, `assembly-manifest.json` and `visual-review.json` record the checks. Personalized PDFs and private group details remain local.
 
 ## Editable sources and reproduction
 
 Run from the assignment root with the sibling toolkit's `.venv/Scripts/python.exe`. `content.json` holds the revised narrative; `../local/group-details.json` supplies private cover information. `format-specification.json` documents Times New Roman 12 pt body, 15 pt leading and modular heading/table conventions. The main report is eight A4 pages plus the unchanged A2 CAD sheet.
 
-1. `05_Calculations/scripts/build_comparison_report.py NEW_MAIN_PDF` creates the eight narrative pages (accepted local source: `main-report-v2.pdf`).
+1. `05_Calculations/scripts/build_comparison_report.py NEW_MAIN_PDF` creates the eight narrative pages (accepted local source: `main-report-v3.pdf`).
 2. `summarize_comparisons.py` verifies the three reopened result sets and creates `comparison-summary.json`. It refuses to overwrite existing evidence.
 3. `build_comparison_appendix.py NEW_APPENDIX_PDF` creates the one-page modular comparison. Assembly uses the accepted `comparison-appendix.pdf`.
-4. `assemble_comparison_report.py MAIN_PDF NEW_COMBINED_PDF` preserves the CAD and ten selected original DIALux pages, checks exact text/dimensions/pixels at 72 and 150 dpi, and renders every assembled page. Accepted local combined source: `final-report-v2.pdf`.
+4. `assemble_comparison_report.py MAIN_PDF NEW_COMBINED_PDF` preserves the CAD and ten selected original DIALux pages, checks exact text/dimensions/pixels at 72 and 150 dpi, and renders every assembled page. Accepted local combined source: `final-report-v3.pdf`.
 5. Visual review precedes `accept_comparison_report.py`. That one-time promotion script validates the specific prior PDF hash, archives it, checks source/design/native/result/group/font/page constraints, then replaces the local final. Do not rerun promotion against a different current version.
 
-The first assembly attempt stopped on relative-path manifest handling after writing an intermediate PDF. `BSE3125_Lighting_Design_Report.pdf` in this working directory is not the accepted assembled artifact; use `final-report-v2.pdf` or the sole deliverable in `00_Submit`.
+The first assembly attempt stopped on relative-path manifest handling after writing an intermediate PDF. `BSE3125_Lighting_Design_Report.pdf` in this working directory is not the accepted assembled artifact; use `final-report-v3.pdf` or the sole deliverable in `00_Submit`.
 
 ## Native projects retained locally
 

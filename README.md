@@ -1,6 +1,6 @@
 # BSE3125 - Optics and Lighting
 
-Final comparison revision, 2026-11-16. The local deliverable is `00_Submit/BSE3125_Lighting_Design_Report.pdf`: **9 main pages including the A2 CAD layout, 20 total pages, 3,838,811 bytes**. The five group members are included locally. Personalized PDFs and group metadata are excluded from Git. No course-platform submission has been made.
+Final comparison revision, 2026-11-16. The local deliverable is `00_Submit/BSE3125_Lighting_Design_Report.pdf`: **9 main pages including the A2 CAD layout, 20 total pages, 3,838,818 bytes**. The five group members are included locally. Personalized PDFs and group metadata are excluded from Git. No course-platform submission has been made.
 
 The retained design uses 186 Philips PowerBalance 40S luminaires (910505103638, 4000 lm/23 W). The minimum desk mean is 593 lx, minimum desk Uo 0.80 and maximum tested directional UGR 18.1. Conservative connected input including controls is 4328 W / 1022 m2 = 4.235 W/m2. The original assignment PDF and DWG remain unchanged.
 

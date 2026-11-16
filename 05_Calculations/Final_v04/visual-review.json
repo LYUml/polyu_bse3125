@@ -1,6 +1,6 @@
 {
   "accepted": true,
-  "pdf_sha256": "32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2",
+  "pdf_sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
   "review_date": "2026-11-16",
   "pages_reviewed": [
     1,
@@ -34,5 +34,12 @@
     "Native appendix values agree with the comparison tables; conservative uniformity bounds are explicitly distinguished from native rounded Uo"
   ],
   "main_pages_including_CAD": 9,
-  "total_pages": 20
+  "total_pages": 20,
+  "name_layout_revision": {
+    "alphabetical": true,
+    "rows": 2,
+    "font_pt": 10,
+    "first_page_visually_reviewed": true,
+    "pages_2_to_20_pixel_identical_to_previous_final": true
+  }
 }

@@ -60,6 +60,6 @@
   "revised_acceptance": "05_Calculations/Final_v04/assignment-acceptance-v4.json",
   "revised_native_persistence": "05_Calculations/data/review-native-persistence-v4.json",
   "historical_engineering_acceptance": "05_Calculations/Final_v03/assignment-acceptance-v3.json",
-  "final_pdf_sha256": "32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2",
+  "final_pdf_sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
   "comparison_summary": "05_Calculations/Final_v04/comparison-summary.json"
 }

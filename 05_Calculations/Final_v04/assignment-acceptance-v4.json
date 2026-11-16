@@ -1,8 +1,8 @@
 {
   "status": "Accepted academic deliverable under declared assumptions",
   "final_pdf": "00_Submit\\BSE3125_Lighting_Design_Report.pdf",
-  "sha256": "32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2",
-  "bytes": 3838811,
+  "sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
+  "bytes": 3838818,
   "main_pages_including_CAD": 9,
   "appendix_pages": 11,
   "total_pages": 20,
@@ -78,5 +78,12 @@
     "Furniture, facade and commissioning assumptions retained; not statutory or installed-system certification"
   ],
   "archive": "05_Calculations\\Archive\\2026-11-16_Pre_Comparisons\\BSE3125_Lighting_Design_Report.pdf",
-  "course_platform_submission": false
+  "course_platform_submission": false,
+  "name_layout_revision": {
+    "alphabetical": true,
+    "rows": 2,
+    "font_pt": 10,
+    "first_page_visually_reviewed": true,
+    "pages_2_to_20_pixel_identical_to_previous_final": true
+  }
 }

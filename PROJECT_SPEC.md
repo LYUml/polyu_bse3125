@@ -4,7 +4,7 @@ Assignment production authorized 2026-11-15; repository synchronization authoriz
 
 ## Current comparison revision, 2026-11-16
 
-Final PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 11 appendix pages = 20 total; 3,838,811 bytes; SHA-256 32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2. Current acceptance: Final_v04/assignment-acceptance-v4.json; shared binding: data/final-design-v4.json. Editable source: Final_v04/content.json. The 14-page version below is archived in Archive/2026-11-16_Pre_Comparisons.
+Final PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 11 appendix pages = 20 total; 3,838,818 bytes; SHA-256 03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366. Current acceptance: Final_v04/assignment-acceptance-v4.json; shared binding: data/final-design-v4.json. Editable source: Final_v04/content.json. The 14-page version below is archived in Archive/2026-11-16_Pre_Comparisons.
 
 Native 90% output: minimum desk mean 534 lx, Uo 0.80, maximum UGR 17.7. Native lower reflectance (70/50/20%, full output): 566 lx, Uo 0.79, UGR 18.6. All auxiliary criteria pass. Each case has saved/reopened core and auxiliary verification (112 and 288 rows respectively). Full output remains the design condition; dimming is a commissioning option. No combined-case or measured electrical-saving claim. Original inputs, shared fixture positions, manufacturer photometry and final CAD are unchanged. Group metadata and personalized PDFs remain local and untracked. No platform submission.
 
