@@ -1,0 +1,89 @@
+{
+  "status": "Accepted academic deliverable under declared assumptions",
+  "final_pdf": "00_Submit\\BSE3125_Lighting_Design_Report.pdf",
+  "sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
+  "bytes": 3838818,
+  "main_pages_including_CAD": 9,
+  "appendix_pages": 11,
+  "total_pages": 20,
+  "group_member_count_verified": 5,
+  "personal_metadata_in_local_files_only": true,
+  "font_names_used_in_main": [
+    "AAAAAA+TimesNewRomanPS-BoldMT",
+    "AAAAAA+TimesNewRomanPS-ItalicMT",
+    "AAAAAA+TimesNewRomanPSMT"
+  ],
+  "original_inputs_unchanged": true,
+  "baseline_design_and_CAD_unchanged": true,
+  "all_four_native_comparison_projects_saved_reopened_verified": true,
+  "native_persistence": [
+    {
+      "status": "verified",
+      "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-core-verified-v2.evo",
+      "native_sha256": "5a579b3e09877a923db8814466fa48e2ae603d4a681d110e2237f23501919072",
+      "fresh_result_file": "05_Calculations\\data\\comparison-output90-core-fresh-results-v1.json",
+      "reopened_result_file": "05_Calculations\\data\\comparison-output90-core-reopened-results-v1.json",
+      "fresh_pdf_sha256": "dde3ad96a302c65526aef9be7eaf794e058162df79e801bff95f583f9391d403",
+      "reopened_pdf_sha256": "efcf4efebbad048c867ef7eee1754a8296426505d23aca2e53ce2bd64e159356",
+      "exact_preserved_rows": 112,
+      "saved_bytes_unchanged_after_reopen_export": true
+    },
+    {
+      "status": "verified",
+      "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-core-verified-v2.evo",
+      "native_sha256": "e3d417191c1885c863f0483cd861cc270b91873aa89b264f0601d5906c0cba4c",
+      "fresh_result_file": "05_Calculations\\data\\comparison-reflectance-core-fresh-results-v1.json",
+      "reopened_result_file": "05_Calculations\\data\\comparison-reflectance-core-reopened-results-v1.json",
+      "fresh_pdf_sha256": "6073a797906256c0559c19fb04cfedf97d51dc744f743adbc34fbe7b69315928",
+      "reopened_pdf_sha256": "96ca63be6ee843c11831efd9f76a4d949b3dea25b04423e860a2498cc5539436",
+      "exact_preserved_rows": 112,
+      "saved_bytes_unchanged_after_reopen_export": true
+    },
+    {
+      "status": "verified",
+      "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-aux-verified-v3.evo",
+      "native_sha256": "2ec3dc5e4c8a903ee685933ba5071e21fa743ac7788ee66585022ab4726cbe6d",
+      "fresh_result_file": "05_Calculations\\data\\comparison-output90-aux-fresh-results-v2.json",
+      "reopened_result_file": "05_Calculations\\data\\comparison-output90-aux-reopened-results-v2.json",
+      "fresh_pdf_sha256": "71ab19b046a169dee3823352c049b90d7c0768fd891e9d4d2aae35f7dcacabe3",
+      "reopened_pdf_sha256": "40f806b53c1d2e3e39e68aa99657aa8596e9b97b7fb2b78fb67883cfff2d6d55",
+      "exact_preserved_rows": 288,
+      "saved_bytes_unchanged_after_reopen_export": true
+    },
+    {
+      "status": "verified",
+      "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-aux-verified-v2.evo",
+      "native_sha256": "0588176136f8ece117206fe82a94009809c3850af290afcf6075aacd882a0073",
+      "fresh_result_file": "05_Calculations\\data\\comparison-reflectance-aux-fresh-results-v1.json",
+      "reopened_result_file": "05_Calculations\\data\\comparison-reflectance-aux-reopened-results-v1.json",
+      "fresh_pdf_sha256": "5cb44a1a161a7d941e2fb2b7e86d3c966e28db420f1ba0e76836185469390712",
+      "reopened_pdf_sha256": "11c28da76ae56be7c8a2aa90e731c5dd9f1a6ebf9da05ae7502d5e749f137401",
+      "exact_preserved_rows": 288,
+      "saved_bytes_unchanged_after_reopen_export": true
+    }
+  ],
+  "report_source_sha256": "d8e8a575f67578efe45e27c9b6264d5fcdb3d3a81b115380e8fd4c8db76bc0c1",
+  "assembly_manifest": "05_Calculations/Final_v04/assembly-manifest.json",
+  "visual_review": "05_Calculations/Final_v04/visual-review.json",
+  "rubric_coverage": {
+    "DIALux_functions_20": "Section2 and model/isolux figures; controlled calculation comparisons",
+    "luminaire_system_selection_20": "Sections3,6,7; output selection and control explanation",
+    "criteria_summary_15": "Tables1,2,3,C1; explicit assumptions",
+    "performance_discussion_25": "Sections4,5,7 and AppendixC; actual independent sensitivity results",
+    "lighting_layout_20": "Unchanged independent A2 CAD, ceiling grid,legend,schedule and186matchingfixtures"
+  },
+  "limitations": [
+    "Two independent scenarios, not combined lower-output and lower-reflectance test",
+    "No measured dimming power curve or annual savings claimed",
+    "Furniture, facade and commissioning assumptions retained; not statutory or installed-system certification"
+  ],
+  "archive": "05_Calculations\\Archive\\2026-11-16_Pre_Comparisons\\BSE3125_Lighting_Design_Report.pdf",
+  "course_platform_submission": false,
+  "name_layout_revision": {
+    "alphabetical": true,
+    "rows": 2,
+    "font_pt": 10,
+    "first_page_visually_reviewed": true,
+    "pages_2_to_20_pixel_identical_to_previous_final": true
+  }
+}

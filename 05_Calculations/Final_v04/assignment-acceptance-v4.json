@@ -1,8 +1,8 @@
 {
   "status": "Accepted academic deliverable under declared assumptions",
   "final_pdf": "00_Submit\\BSE3125_Lighting_Design_Report.pdf",
-  "sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
-  "bytes": 3838818,
+  "sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
+  "bytes": 3839238,
   "main_pages_including_CAD": 9,
   "appendix_pages": 11,
   "total_pages": 20,
@@ -62,7 +62,7 @@
       "saved_bytes_unchanged_after_reopen_export": true
     }
   ],
-  "report_source_sha256": "d8e8a575f67578efe45e27c9b6264d5fcdb3d3a81b115380e8fd4c8db76bc0c1",
+  "report_source_sha256": "3a699cb78a5b5eea06ecd5432d9e1f5ccc2a3d33a50fdddf4a231a13958907fe",
   "assembly_manifest": "05_Calculations/Final_v04/assembly-manifest.json",
   "visual_review": "05_Calculations/Final_v04/visual-review.json",
   "rubric_coverage": {
@@ -85,5 +85,16 @@
     "font_pt": 10,
     "first_page_visually_reviewed": true,
     "pages_2_to_20_pixel_identical_to_previous_final": true
+  },
+  "title_reference_revision": {
+    "title": "Open-plan Office Lighting Design",
+    "subtitle": "BSE3125: Optics and Lighting",
+    "reference_style": "IEEE numbered",
+    "reference_count": 6,
+    "PolyU_reference_removed": true,
+    "citation_numbers_verified_in_first_use_order": true,
+    "all_eight_main_pages_visually_reviewed": true,
+    "CAD_and_appendices_pixel_identical_to_previous_final": true,
+    "reference_review": "05_Calculations/Final_v04/reference-review.json"
   }
 }

@@ -56,10 +56,10 @@
     "review-native-persistence-v4.json"
   ],
   "acceptance": "05_Calculations/Final_v04/assignment-acceptance-v4.json",
-  "report_source_sha256": "d8e8a575f67578efe45e27c9b6264d5fcdb3d3a81b115380e8fd4c8db76bc0c1",
+  "report_source_sha256": "3a699cb78a5b5eea06ecd5432d9e1f5ccc2a3d33a50fdddf4a231a13958907fe",
   "revised_acceptance": "05_Calculations/Final_v04/assignment-acceptance-v4.json",
   "revised_native_persistence": "05_Calculations/data/review-native-persistence-v4.json",
   "historical_engineering_acceptance": "05_Calculations/Final_v03/assignment-acceptance-v3.json",
-  "final_pdf_sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
+  "final_pdf_sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
   "comparison_summary": "05_Calculations/Final_v04/comparison-summary.json"
 }

@@ -11,6 +11,7 @@ from reportlab.platypus import KeepTogether
 folder=root/'05_Calculations/Final_v04';folder.mkdir(exist_ok=True)
 content=load(folder/'content.json')
 for alias,file in [('Body','times.ttf'),('Bold','timesbd.ttf'),('Italic','timesi.ttf')]:pdfmetrics.registerFont(TTFont(alias,'C:/Windows/Fonts/'+file))
+pdfmetrics.registerFontFamily('Body',normal='Body',bold='Bold',italic='Italic',boldItalic='Bold')
 navy=colors.black;grey=colors.HexColor('#444444');teal=colors.black;light=colors.HexColor('#F1F1F1');W=A4[0]-144
 body=ParagraphStyle('classicbody',fontName='Body',fontSize=12,leading=15,spaceAfter=8,alignment=TA_JUSTIFY,textColor=colors.black)
 small=ParagraphStyle('classicsmall',parent=body,fontSize=10,leading=12,spaceAfter=5,alignment=0)
@@ -39,7 +40,7 @@ def classic_table(title,rows,widths):
  story.extend([P(title,ParagraphStyle('tablecaption',parent=small,fontName='Bold',keepWithNext=True,spaceAfter=6)),t,Spacer(1,8)])
 def footer(c,doc):
  c.setFont('Body',9);c.setFillColor(colors.black);c.drawCentredString(A4[0]/2,34,str(doc.page))
-story.extend([P('Lighting Design for an Open-plan Office',ParagraphStyle('title',parent=heading,fontSize=19,leading=23,alignment=TA_CENTER)),Spacer(1,6)])
+story.extend([P(content['title'],ParagraphStyle('title',parent=heading,fontSize=22,leading=26,alignment=TA_CENTER,spaceAfter=5)),P(content['subtitle'],ParagraphStyle('subtitle',parent=small,fontSize=12,leading=15,alignment=TA_CENTER,spaceAfter=8))])
 group=load(root/'05_Calculations/local/group-details.json')
 story.append(P(group['group'],ParagraphStyle('group',parent=small,fontName='Bold',alignment=TA_CENTER)))
 members=sorted(group['members'],key=lambda m:m['name'].casefold())
@@ -62,14 +63,14 @@ sub('3.2 Ceiling coordination and light distribution');para(2,1)
 d=map_figure('basis');d.scale(.58,.58);d.height*=.58
 combined=Table([[d,image('manufacturer-polar.png',110)]],colWidths=[W*.73,W*.27],hAlign='LEFT')
 combined.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0)]))
-story.extend([combined,P('Figure 2. Proposed lighting layout (left) and manufacturer light distribution (right) [4].',caption)])
+story.extend([combined,P('Figure 2. Proposed lighting layout (left) and manufacturer light distribution (right) [2].',caption)])
 sub('3.3 Output selection and installation');para(2,2);para(2,3)
 page('4. Simulation results and interpretation');sub('4.1 Distribution of task illumination');para(3,0)
 figure('tasks','Figure 3. Maintained desk-average illuminance, with the controlling desks identified.',.90)
 sub('4.2 Desks with the lowest lighting levels and highest glare');para(3,1)
 story.extend([image('native-desk021-isolux.png',265),P('Figure 4. Illuminance at Desk-021: average 593 lx, minimum 525 lx, uniformity 0.89.',caption)])
 page('5. Comparison with lighting requirements');story.append(P('Table 2 compares the DIALux results with EN 12464-1:2021 and the lighting power limit in BEC 2024. The office activity and room assumptions are described in Section 1.'))
-classic_table('Table 2. Design criteria and assessed performance.',[['Quantity / source','Adopted criterion','Result'],['Desk mean [2], Table 34','>=500 lx','Minimum 593 lx'],['Task uniformity [2], Table 34','Uo >=0.60','Minimum 0.80'],['Directional glare [2], Table 34','UGR <=19','Maximum 18.1'],['Colour rendering [2,4]','Ra >=80','Ra >80, manufacturer'],['Seated cylindrical [2], 5.6.2','150 lx; Uo >=0.10','Minimum mean 224 lx; Uo bound >=0.59'],['Immediate surroundings [2], 5.3.4','300 lx; Uo >=0.40','Minimum mean 595 lx; bound >=0.64'],['Background floor [2], 5.3.5','100 lx; Uo >=0.10','Mean 617 lx; Uo 0.69'],['Exposed walls [2], Table 34','150 lx; Uo >=0.10','Minimum mean 216 lx; bound >=0.24'],['Exposed ceiling [2], Table 34','100 lx; Uo >=0.10','Mean 137 lx; Uo 0.89'],['Office LPD [5], Table 5.4','<=7.2 W/m2','4.235 W/m2']],[W*.36,W*.27,W*.37])
+classic_table('Table 2. Design criteria and assessed performance.',[['Quantity / source','Adopted criterion','Result'],['Desk mean [1, Table 34]','>=500 lx','Minimum 593 lx'],['Task uniformity [1, Table 34]','Uo >=0.60','Minimum 0.80'],['Directional glare [1, Table 34]','UGR <=19','Maximum 18.1'],['Colour rendering [1], [2]','Ra >=80','Ra >80, manufacturer'],['Seated cylindrical [1, Sec. 5.6.2]','150 lx; Uo >=0.10','Minimum mean 224 lx; Uo bound >=0.59'],['Immediate surroundings [1, Sec. 5.3.4]','300 lx; Uo >=0.40','Minimum mean 595 lx; bound >=0.64'],['Background floor [1, Sec. 5.3.5]','100 lx; Uo >=0.10','Mean 617 lx; Uo 0.69'],['Exposed walls [1, Table 34]','150 lx; Uo >=0.10','Minimum mean 216 lx; bound >=0.24'],['Exposed ceiling [1, Table 34]','100 lx; Uo >=0.10','Mean 137 lx; Uo 0.89'],['Office LPD [6, Table 5.4]','<=7.2 W/m2','4.235 W/m2']],[W*.36,W*.27,W*.37])
 sub('5.1 Illuminance and uniformity');story.append(P('The desks meet the average illuminance and uniformity targets. The surrounding and background areas also meet their lower illuminance requirements, so the change in lighting level outside the desks is considered as well. Walls and ceiling are checked because their brightness affects the appearance of the room. For groups of calculation surfaces, the uniformity bound in Table 2 is the lowest point illuminance divided by the highest surface average, rounded down. This gives a conservative value for the group.'))
 sub('5.2 Glare and colour rendering');story.append(P('The maximum calculated UGR is below 19 for the seated positions and viewing directions tested. Colour rendering is taken from the manufacturer data. These results apply to the office tasks and arrangement described here; a different activity, such as unusually fine or low-contrast work, could require a higher lighting level.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
@@ -90,10 +91,26 @@ for text in content['comparison']['interpretation']:story.append(P(text))
 sub('7.3 Maintenance and conclusion')
 for text in content['comparison']['conclusion']:story.append(P(text))
 page('References')
-refs=load(root/'05_Calculations/Final_v03/report-content-v3.json')['references']
+refs=content['references']
+reference_style=ParagraphStyle('reference',parent=body,fontSize=11,leading=14,alignment=0,spaceAfter=0,splitLongWords=False)
 for ref in refs:
- story.append(P(f"[{ref['id']}] {ref['title']}. "+ref.get('scope',''),small))
- if 'url' in ref:story.append(Paragraph('<link href="'+html.escape(ref['url'],quote=True)+'">'+html.escape(ref['url'])+'</link>',ParagraphStyle('url',parent=small,fontSize=9,leading=11,wordWrap='CJK')))
+ text=ref['html']
+ if ref['id']!=1:
+  url=html.escape(ref['url'],quote=True)
+  import re
+  raw=ref['url'];parts=[]
+  while pdfmetrics.stringWidth(raw,'Body',11)>W-25:
+   breaks=[i for i in range(1,len(raw)) if raw[i-1]=='/' or raw[i] in '-_?&=']
+   valid=[i for i in breaks if pdfmetrics.stringWidth(raw[:i],'Body',11)<=W-25]
+   assert valid,'URL has no safe line break'
+   stop=max(valid);parts.append(raw[:stop]);raw=raw[stop:]
+  parts.append(raw)
+  display='<br/>'.join(html.escape(part) for part in parts)
+  text+='<br/><link href="'+url+'">'+display+'</link>'
+ entry=Table([[P('['+str(ref['id'])+']',reference_style),Paragraph(text,reference_style)]],colWidths=[25,W-25],hAlign='LEFT')
+ entry.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0)]))
+ story.extend([entry,Spacer(1,13)])
+
 doc=SimpleDocTemplate(str(out),pagesize=A4,leftMargin=72,rightMargin=72,topMargin=62,bottomMargin=62,title='BSE3125 - Lighting Design Report',author='BSE3125 design group')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 p=pdfium.PdfDocument(out);assert len(p)==8,f'Unexpected narrative pagination: {len(p)}';p.close()

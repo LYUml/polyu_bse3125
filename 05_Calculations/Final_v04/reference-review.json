@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "style": "IEEE numbered references",
+  "format_guide": "https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf",
+  "guide_sections": [
+    "I.A",
+    "II.L",
+    "II.P",
+    "III"
+  ],
+  "course_reference_removed": true,
+  "added_sources": [
+    "DIALux calculation-object parameters",
+    "DIALux maintenance factors"
+  ],
+  "source_urls": [
+    "https://doi.org/10.3403/30385601",
+    "https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103638_EU/product",
+    "https://evo.support-en.dial.de/support/solutions/articles/9000075351-parameters-of-a-calculation-object",
+    "https://evo.support-en.dial.de/support/solutions/articles/9000122341-maintenance-factors",
+    "https://evo.support-en.dial.de/support/solutions/articles/9000073310-ugr-method-unified-glare-rating",
+    "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf"
+  ],
+  "checks": [
+    "Each numbered entry is one identifiable source",
+    "Standards edition, corporate authors, publication details and online access dates provided",
+    "Numbers follow first appearance; all entries cited in report",
+    "Local modelling choices remain assumptions, not attributed as requirements to software guidance"
+  ]
+}

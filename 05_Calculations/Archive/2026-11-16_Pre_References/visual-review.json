@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "pdf_sha256": "03c33583a0bfc768a2cacca6a1bd84758f7cabcb1604485efabd3404308b5366",
+  "review_date": "2026-11-16",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "method": "All eight narrative pages reviewed as rendered before assembly; final pages 1 and 7 checked again. Final CAD and all eleven appendix pages reviewed as rendered. Assembly verifies exact component text, size and pixels at 72/150 dpi.",
+  "findings": [
+    "Times New Roman body 12 pt; consistent section hierarchy and captions",
+    "Group details fit first page without an additional cover",
+    "Tables, figures and references readable; no clipping or overlap observed",
+    "Comparison discussion remains within the original eight narrative pages",
+    "CAD dimensions, legend and schedule retained",
+    "Native appendix values agree with the comparison tables; conservative uniformity bounds are explicitly distinguished from native rounded Uo"
+  ],
+  "main_pages_including_CAD": 9,
+  "total_pages": 20,
+  "name_layout_revision": {
+    "alphabetical": true,
+    "rows": 2,
+    "font_pt": 10,
+    "first_page_visually_reviewed": true,
+    "pages_2_to_20_pixel_identical_to_previous_final": true
+  }
+}
