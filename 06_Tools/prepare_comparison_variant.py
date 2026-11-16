@@ -7,6 +7,8 @@ source, target = map(Path, sys.argv[1:3])
 variant = sys.argv[3]
 assert variant in ('output90', 'reflectance') and not target.exists()
 d = read(source)
+active_prototype = next(o for o in d['objects'].values() if o['type']=='LuminairePrototype' and o['fields']['ObjectGuid']=="'76180ce0-f1c1-4543-860d-c8d94c1cf11b'")
+dim_keys = {int(n) for o in d['objects'].values() if o['type']=='LuminaireGroupRepresentationData' for n in re.findall(r'#(\d+)',o['fields']['DimValues'])}
 changes = []
 with zipfile.ZipFile(source) as zi:
     text = zi.read('Project/ProjectData/ProjectData.dat').decode('utf-8-sig')
@@ -15,6 +17,8 @@ with zipfile.ZipFile(source) as zi:
         if variant == 'output90' and obj['type'] == 'LuminaireGroupRepresentationData':
             assert re.fullmatch(r'\(\(#\d+, 1\.\)\)', f['DimValues'])
             f['DimValues'] = f['DimValues'].replace(', 1.)', ', 0.9)')
+        elif variant == 'output90' and obj['step_id'] in dim_keys and obj['type']=='DimValueKey' and f['LuminairePrototypeId'] != active_prototype['fields']['ObjectId']:
+            f['LuminairePrototypeId'] = active_prototype['fields']['ObjectId']
         elif variant == 'reflectance' and obj['type'] == 'MaterialParams' and 'Design white finish reflectance' in f['InternalName']:
             old = float(f['ColorLuminance'])
             assert abs(old-.8)<1e-6 or abs(old-.7)<1e-6
@@ -28,7 +32,7 @@ with zipfile.ZipFile(source) as zi:
         assert text.count(obj['raw']) == 1
         text = text.replace(obj['raw'], row)
         changes.append({'type':obj['type'], 'id':obj['step_id'], 'before':obj['fields'], 'after':f})
-    assert len(changes) == (1 if variant == 'output90' else 2)
+    assert len(changes) in ([1,2] if variant == 'output90' else [2])
     with zipfile.ZipFile(target, 'x') as zo:
         for item in zi.infolist():
             if item.filename == 'Project/ScenegraphScene' or item.filename.startswith('Project/Results/'):

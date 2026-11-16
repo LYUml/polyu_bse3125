@@ -1,0 +1,40 @@
+{
+  "status": "Prepared only; fresh native calculation and saved/reopened verification required",
+  "variant": "output90",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-brightness-native-v4.evo",
+  "source_sha256": "102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742",
+  "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-aux-v2.evo",
+  "output_sha256": "5c96baca60889073d95875bf7f8bdcb6cbd56e460f6c21f6e18ff3ef220ffd1d",
+  "changes": [
+    {
+      "type": "LuminaireGroupRepresentationData",
+      "id": 4900,
+      "before": {
+        "RepresentedObject": "#192",
+        "DimValues": "((#6345, 1.))",
+        "LuminaireGroupScope": ".Inside."
+      },
+      "after": {
+        "RepresentedObject": "#192",
+        "DimValues": "((#6345, 0.9))",
+        "LuminaireGroupScope": ".Inside."
+      }
+    },
+    {
+      "type": "DimValueKey",
+      "id": 6345,
+      "before": {
+        "LuminairePrototypeId": "753",
+        "ControllerId": "16",
+        "ChannelPurpose": "'BlackBody_4000K'"
+      },
+      "after": {
+        "LuminairePrototypeId": "2274",
+        "ControllerId": "16",
+        "ChannelPurpose": "'BlackBody_4000K'"
+      }
+    }
+  ],
+  "all_other_records_unchanged": true,
+  "cached_scene_and_results_removed": true
+}

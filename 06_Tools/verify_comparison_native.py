@@ -27,6 +27,9 @@ prototype=next(n for n,o in ao.items() if o['type']=='LuminairePrototype' and o[
 assert graph(ao,prototype)==graph(bo,prototype)
 dim=[o for o in bo.values() if o['type']=='LuminaireGroupRepresentationData'];assert len(dim)==1
 dimval=float(re.search(r', ([\d.]+)\)',dim[0]['fields']['DimValues'])[1]);assert abs(dimval-(.9 if variant=='output90' else 1))<1e-7
+if variant=='output90':
+    dim_key=bo[int(re.search(r'#(\d+)',dim[0]['fields']['DimValues'])[1])]
+    assert dim_key['fields']['LuminairePrototypeId']==bo[prototype]['fields']['ObjectId'], 'Dim setting does not target the installed product'
 materials=[]
 for n,o in ao.items():
     if o['type']!='MaterialParams':continue

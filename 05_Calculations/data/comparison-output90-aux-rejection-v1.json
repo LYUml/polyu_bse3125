@@ -1,0 +1,6 @@
+{
+  "status": "rejected as90%output evidence",
+  "reason": "Auxiliary DimValueKey referenced old product ObjectId753 rather than installed2274; the scene90%setting was not applied to installed lights. All288 auxiliary rows remained identical to full-output baseline.",
+  "rejected_pdf": "office-comparison-output90-aux-fresh-v1.pdf",
+  "correction": "Newv2input binds DimValueKey to installed2274; no photometry, geometry, MF or baseline native files changed; requires fresh calculation."
+}
