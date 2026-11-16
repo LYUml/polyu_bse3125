@@ -1,0 +1,28 @@
+{
+  "document": "BS EN 12464-1:2021, implementing EN 12464-1:2021 (August 2021)",
+  "review_copy_url": "https://www.iec-equipment.com/Uploads/download/663ad600752b0.pdf",
+  "provenance": "Primary standard text on a third-party mirror. Edition, clause structure and initial content cross-checked against the official SIST edition preview. Review copy cached locally and not redistributed through Git.",
+  "official_edition_preview": "https://cdn.standards.iteh.ai/samples/61880/2af593c08198411988c1571e5046f45e/SIST-EN-12464-1-2021.pdf",
+  "reviewed_locations": {
+    "office_activity": "Table 34, row 34.2, printed p61 / PDF p63",
+    "context_modifiers": "5.3.3, printed pp13-14 / PDF pp15-16; informative office example C.1, PDF p100",
+    "surroundings": "5.3.4 Table 3, PDF p16; 5.3.6, PDF p17",
+    "background": "5.3.5-5.3.6, PDF p17",
+    "surface_brightness": "5.2.2-5.2.3, official preview PDF p15; Table 34 row 34.2",
+    "cylindrical": "5.6.2, printed p22 / PDF p24",
+    "DSE": "5.9.1-5.9.2 and Table 7, PDF pp27-28",
+    "maintenance": "6.3, PDF p30",
+    "irregular_glare_scope": "5.5.3.2 and informative Annex A.2.2-A.2.3"
+  },
+  "adopted_numeric_basis": {
+    "task": {"average_maintained_lx":500,"minimum_u0":0.6,"maximum_ugr":19,"minimum_ra":80},
+    "immediate_surrounding": {"band_width_m":0.5,"average_maintained_lx":300,"minimum_u0":0.4},
+    "background": {"plane":"floor","band_width_m":3,"average_maintained_lx":100,"minimum_u0":0.1},
+    "cylindrical": {"seated_height_m":1.2,"average_maintained_lx":150,"minimum_u0":0.1,"scope":"task plus surrounding areas"},
+    "walls": {"average_maintained_lx":150,"minimum_u0":0.1},
+    "ceiling": {"average_maintained_lx":100,"minimum_u0":0.1},
+    "DSE_screen_assumption": {"polarity":"positive, ordinary office information","maximum_tilt_deg":15,"high_state_luminance_cd_m2":"<=200 conservative design category","maximum_luminaire_average_luminance_cd_m2":1500}
+  },
+  "application": "Ordinary daytime paperwork/data-processing office with fixed proposed desk locations. No special critical/small/low-contrast or unusually prolonged tasks or impaired-vision users specified. Use the course's 500 lx baseline; reassess modifiers if occupancy or daylight provision changes. Electric-only simulation without daylight credit does not establish that the actual space is windowless.",
+  "status": "Exact clauses reviewed; physical calculation results and commissioning provisions must be checked separately. No unconditional whole-standard or statutory certification claim."
+}

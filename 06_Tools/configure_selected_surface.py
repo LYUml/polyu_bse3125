@@ -26,7 +26,7 @@ try:
    if len(a)!=1:raise ValueError('Missing/ambiguous field '+k)
    return a[0]
   assert edit('ObjectName').get_value()==request['expected_name'],'Unexpected selected surface'
-  allowed={'Positioning_X','Positioning_Y','Positioning_Z','Size_X','Size_Y','HeightOffset_Ugr','StepSize_Ugr','AngleRangeBegin_Ugr','AngleRangeEnd_Ugr'}
+  allowed={'Positioning_X','Positioning_Y','Positioning_Z','Size_X','Size_Y','HeightOffset_Ugr','StepSize_Ugr','AngleRangeBegin_Ugr','AngleRangeEnd_Ugr','HeightOffset_CylIllum'}
   assert set(request['values'])<=allowed
   assert all(type(v) in (int,float) and math.isfinite(v) for v in request['values'].values())
   assert not snapshot(app,main,process)['controls']['DiscardResultsButton']['enabled'],'Clear results explicitly before configuration'

@@ -1,0 +1,15 @@
+{
+  "status": "rejected auxiliary experiment; not assignment performance evidence",
+  "model": "office-brightness-exposed-probe-v5.evo",
+  "native_pdf": "office-brightness-exposed-probe-v5.pdf",
+  "observed_page_count": 390,
+  "geometric_precheck": "Thirty regions decomposed into 1592 triangles with zero union symmetric-difference area, but this does not prove native evaluation coverage.",
+  "native_report_findings": [
+    "The room calculation-object tables contain no Background-floor or Exposed-Ceiling rows.",
+    "Surround-B01 changed from 518 lx or higher in the previous minimum group to 493 lx in this report; native representation coverage must be investigated before comparing these results.",
+    "The strict result reader stopped on missing mandatory surfaces rather than accepting a partial report."
+  ],
+  "conclusion": "Multiple explicit outer-loop triangles in one native object are not a validated replacement for cutouts. Do not use these auxiliary results in the final criteria table.",
+  "next_required_check": "Inspect native-created calculation-surface cutout data or use independently bounded single-polygon objects with complete native coverage and aggregation verification.",
+  "core_design_unchanged": "office-powerbalance-grid-native-v4.evo retains independently verified desk illuminance and directional UGR results; this auxiliary failure does not establish brightness compliance."
+}

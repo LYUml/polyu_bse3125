@@ -1,0 +1,117 @@
+{
+  "status": "source office-side wall faces and saved native inner contour verified; columns audited separately",
+  "source_dxf_sha256": "d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2",
+  "native_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "source_faces": [
+    {
+      "source_handle": "3E42",
+      "endpoints_design_m": [
+        [
+          0.1799999999999926,
+          20.669999999999867
+        ],
+        [
+          12.087115430063832,
+          20.66999999999986
+        ]
+      ]
+    },
+    {
+      "source_handle": "3E43",
+      "endpoints_design_m": [
+        [
+          14.107115430063871,
+          20.669999999999852
+        ],
+        [
+          30.863333333333287,
+          20.669999999999888
+        ]
+      ]
+    },
+    {
+      "source_handle": "3D31",
+      "endpoints_design_m": [
+        [
+          30.863333333333287,
+          29.799999999999997
+        ],
+        [
+          30.863333333333287,
+          22.849999999999895
+        ]
+      ]
+    },
+    {
+      "source_handle": "3E3E",
+      "endpoints_design_m": [
+        [
+          0.1799999999999926,
+          20.84999999999986
+        ],
+        [
+          12.127115430063853,
+          20.849999999999852
+        ]
+      ]
+    },
+    {
+      "source_handle": "3E3F",
+      "endpoints_design_m": [
+        [
+          14.107115430063857,
+          20.849999999999866
+        ],
+        [
+          30.863333333333287,
+          20.849999999999852
+        ]
+      ]
+    },
+    {
+      "source_handle": "3E23",
+      "endpoints_design_m": [
+        [
+          30.713333333333324,
+          29.79999999999992
+        ],
+        [
+          30.713333333333324,
+          23.34999999999993
+        ]
+      ]
+    }
+  ],
+  "native_contour_m": [
+    [
+      0.18,
+      0.18
+    ],
+    [
+      44.82,
+      0.18
+    ],
+    [
+      44.82,
+      29.8
+    ],
+    [
+      30.863,
+      29.8
+    ],
+    [
+      30.863,
+      20.67
+    ],
+    [
+      0.18,
+      20.67
+    ]
+  ],
+  "maximum_boundary_deviation_m": 0.00033300000000124896,
+  "measured_gross_area_m2": 1042.0979697100001,
+  "native_gross_area_m2": 1042.1010100000003,
+  "annotated_area_m2": 1022,
+  "annotation_is_not_boundary_measurement": true,
+  "interpretation": "Office lies south of the core north wall and east of the core east wall. Use y=20.67 and x=30.863333 office-facing surfaces; opposite core faces are y=20.85 and x=30.713333. Bridge door openings at the office boundary; core excluded."
+}

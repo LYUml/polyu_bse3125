@@ -1,0 +1,41 @@
+{
+  "status": "cylindrical parameter enabled on native Desk-001; offset not yet configured",
+  "before": 1,
+  "after": 1,
+  "offset_fields": [
+    {
+      "id": "HeightOffset_PerpendicularIllum",
+      "value": "0.000"
+    },
+    {
+      "id": "HeightOffset_Ugr",
+      "value": "0.400"
+    },
+    {
+      "id": "HeightOffset_CylIllum",
+      "value": "0.000"
+    }
+  ],
+  "state": {
+    "backend": "pywinauto-uia",
+    "pid": 11240,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-brightness-development-v1.evo* - DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": true
+      },
+      "CalculationButtonStart": {
+        "count": 1,
+        "enabled": true
+      },
+      "DiscardResultsButton": {
+        "count": 1,
+        "enabled": false
+      }
+    },
+    "dialogs": [],
+    "uses_codex_computer_use": false
+  }
+}

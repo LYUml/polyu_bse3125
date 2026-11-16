@@ -1,0 +1,20 @@
+{
+  "status": "bounded analytic check of sampled manufacturer high-angle average luminance",
+  "source_sha256": "cdf6f0b56a354ebcb88d0c0672c65ffcea955a181155faa8793ffb074407bc55",
+  "source_format": "EULUMDAT quadrant symmetry, flat 510 x 510 mm emitting aperture, cd/klm intensities",
+  "format_reference": "https://www.agi32.com/Downloads/TechnicalDocs/Thinking%20Photometrically%20II.pdf Appendix B; manufacturer-authored file",
+  "equation": "L=I_normalized*(3400/1000)/(0.510*0.510*cos(gamma))",
+  "angular_sampling": "C=0..90 by 2 degrees, gamma=65..89 by 1 degree; quadrant symmetry extends remaining azimuths. No between-sample maxima claim.",
+  "horizontal_90deg_intensity_max_cd_klm": 0.18,
+  "horizontal_endpoint_limitation": "Declared flat aperture has zero projected area at 90 degrees while measured file intensities are slightly nonzero. No finite luminance or complete 65..90-degree conformity claim is inferred for this endpoint.",
+  "worst_sample": {
+    "C_deg": 44.0,
+    "gamma_deg": 65.0,
+    "intensity_cd_klm": 36.67,
+    "luminance_cd_m2": 1134.2302229307468
+  },
+  "DSE_design_basis": "EN 12464-1:2021 5.9.2 Table 7 Case A, positive-polarity ordinary office screens. Adopt 1500 cd/m2 for medium-luminance screens; screens vertical or tilted <=15 degrees. Matte worktops and screen orientation still required to reduce reflections.",
+  "adopted_limit_cd_m2": 1500,
+  "sampled_data_pass": true,
+  "scope": "Independent sampled photometric check, not measured luminaire luminance or a substitute for room UGR calculation. Native UGR remains separately verified."
+}

@@ -58,6 +58,15 @@ Mini_Design_Submission.html: due 22 November 2026 23:59, one group representativ
 - Original selected DIALux appendix pages were resource-pruned to 2,617,951 bytes while retaining text, physical dimensions and exact 72/150-dpi rendering. Complete raw native outputs remain local with recorded hashes. Final main report and assignment-wide acceptance remain outstanding.
 - International-guideline review must also resolve the additional surrounding-area, cylindrical, wall and ceiling criteria identified in design-criteria.json. The verified desk metrics alone do not prove these quantities. Do not silently omit them or claim comprehensive EN 12464-1:2021 conformity.
 
+## Auxiliary brightness and geometry review, 2026-11-16
+
+- The exact international office row and surrounding/background/cylindrical/wall/ceiling clauses were reviewed; see `02_References/international-clause-review.json`. Full copyrighted review copies remain local and untracked.
+- Source office-facing core wall lines were checked against the saved native inner contour. Maximum boundary difference is 0.333 mm from source-coordinate rounding; measured gross area is 1042.097970 m2 and native gross area is 1042.101010 m2. The drawing's 1022 m2 annotation is not substituted for measured geometry. See office-boundary-verification-v1.json.
+- Auxiliary v4 native results show all 112 seated cylindrical task averages >=190 lx, immediate surrounding averages >=518 lx, background floor 529 lx, and exposed wall averages >=181 lx. These remain provisional until actual evaluation-region coverage and saved/reopened persistence are verified. Exposed ceiling mean 115 lx has a near-zero minimum and fails the adopted uniformity criterion.
+- The v5 equivalent-triangle experiment is rejected: native report omits background and ceiling calculation rows. Its geometric union precheck is insufficient for native coverage. The strict report reader failed on missing surfaces. See brightness-tessellated-rejection-v5.json; do not accept this partial output.
+- Native wall default 0.5 m borders are being replaced with 0.42 m borders for 2.8 m-high walls, following EN 12464-1:2021 5.4's smaller-of-15%-or-0.5-m rule. Newly generated v6 geometry is uncalculated and is not accepted evidence.
+- A bounded manufacturer LDT screening calculation gives sampled maximum 1134.23 cd/m2 for gamma 65–89 degrees, below the adopted 1500 cd/m2 DSE category. The 90-degree endpoint has zero projected flat aperture area and does not support a finite value; no complete 65–90-degree conformity or between-sample maximum claim is made. See dse-luminance-check-v1.json.
+
 ## Reused implementation details
 
 Use sibling dialux-agent-toolkit (CLI and MCP share backend), its MIT-licensed MCP_Dialux STF serializer/reader, installed ezdxf/Shapely/PDFium and native AutoCAD Core Console workflow. See 02_References/reuse-register.md. Do not copy synthetic simulation results into this assignment.

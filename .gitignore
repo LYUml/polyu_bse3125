@@ -23,3 +23,5 @@ tmp/
 06_Tools/.runtime/
 **/ErrorReports/
 *.log
+05_Calculations/models/*brightness*probe*.pdf
+05_Calculations/models/*brightness*native*.evo

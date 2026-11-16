@@ -1,0 +1,5 @@
+{
+  "source_sha256": "f0819433f90081f1802c75065ff7ea92756ec0baccfbd313d4a28f7552b3d33a",
+  "output_sha256": "e0ff0b063f73b6567a52feb41d91c6d5a3243419432065c29953a7a120f93a2d",
+  "operation": "Remove cached results in new geometry copy; fresh calculation required"
+}

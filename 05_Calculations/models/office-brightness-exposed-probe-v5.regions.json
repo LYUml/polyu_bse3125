@@ -1,0 +1,220 @@
+{
+  "status": "equivalent explicit exposed polygons; native calculation/geometry verification pending",
+  "source_sha256": "d45e9adf91282abee20341781de91ce38122633e671b3f665f10566d0becb95f",
+  "output_sha256": "3cdefde7a06d32e5c40a70cd57bcbfed8e4369946365f29dc1df8d7cbc0b1781",
+  "shapely_version": "2.2.0",
+  "fixture_and_photometry_records_unchanged": true,
+  "cached_scene_and_results_omitted": true,
+  "changed_regions": [
+    {
+      "step_id": 5854,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5871,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5888,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5905,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5922,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5939,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5956,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5973,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 5990,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6007,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6024,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6041,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6058,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6075,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6092,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6109,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6126,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6143,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6160,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6177,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6194,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6211,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6228,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6245,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6262,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6279,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6296,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6313,
+      "original_hole_count": 1,
+      "triangle_count": 8,
+      "area_m2": 5.800000000000001,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6330,
+      "original_hole_count": 36,
+      "triangle_count": 220,
+      "area_m2": 726.8130482310007,
+      "symmetric_difference_area_m2": 0.0
+    },
+    {
+      "step_id": 6347,
+      "original_hole_count": 187,
+      "triangle_count": 1148,
+      "area_m2": 898.0418223765028,
+      "symmetric_difference_area_m2": 0.0
+    }
+  ]
+}
