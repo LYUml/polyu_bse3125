@@ -1,0 +1,24 @@
+{
+  "status": "white-finish option, native verification/calculation pending",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-surface-clone-native-v2.evo",
+  "source_sha256": "eb2fa8e484cb7cfad880b7625334bbf660ae9564a5efe2843a1c096f453c59e4",
+  "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-white-finish-v1.evo",
+  "output_sha256": "346a038c88b522f82cf6a12ca48c532b3d6c837150b83e4a10d9220ea9d603d4",
+  "changes": [
+    {
+      "material_step_id": 2845,
+      "old_reflectance": 0.699999988,
+      "new_reflectance": 0.8,
+      "use": "ceiling"
+    },
+    {
+      "material_step_id": 2850,
+      "old_reflectance": 0.5,
+      "new_reflectance": 0.7,
+      "use": "walls"
+    }
+  ],
+  "assumption": "Matte white ceiling rho=0.80 and light walls rho=0.70 specified as design finishes, floor rho=0.20 and columns rho=0.40 retained. No fixture geometry/photometry changed.",
+  "cached_results_removed": true,
+  "source_unchanged": true
+}

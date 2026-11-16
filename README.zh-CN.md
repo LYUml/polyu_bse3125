@@ -1,13 +1,36 @@
-# BSE3125 照明设计作业
+# BSE3125 作业文件导航
 
-2026-11-16 已完成严格复审后的修订版。最终入口：[BSE3125_Lighting_Design_Report.pdf](00_Submit/BSE3125_Lighting_Design_Report.pdf)。正文连独立 A2 CAD 图共 9 页，含原生模拟附录共 192 页，5,978,804 字节。没有代为提交课程平台。
+最新交付以 `00_Submit` 为准。报告正文含 CAD 共 9 页，连附录共 20 页，3,714,013 字节。2026-11-16 已完成目录整理和重新生成核对。
 
-最终采用 186 盏 Philips PowerBalance 40S（910505103638，4000 lm / 23 W）。112 张桌面的最低平均照度 593 lx、最低均匀度 0.80、最大采样方向 UGR 18.1；补充柱面、周边、背景、墙面和天花指标也通过选定阈值。两份原生模型均保存重开核对，112 行核心桌面结果、288 行补充结果及全部灯具坐标保持一致。
+| 文件夹 | 内容 |
+|---|---|
+| `00_Submit` | 最终 PDF；`DIALux/Final` 两份最终方案工程；`DIALux/Comparisons` 四份对比工程 |
+| `01_Assignment_Brief` | 原始题目 PDF 和原始 DWG，保持不变 |
+| `02_References` | 标准、厂家资料及原始光度文件 |
+| `03_Engineering` | 当前 DIALux 工程、CAD、完整原生计算报告及文件索引 |
+| `04_Report` | 当前报告文字、图表源资料、私人组员信息及生成输出 |
+| `05_Calculations` | 共用设计数据、计算结果、验证证据及迁移索引 |
+| `06_Tools` | 当前报告生成程序、工程工具和依赖 |
+| `90_Archive` | 历史草稿、旧工程、试验、截图和旧说明；不作为最终交付入口 |
 
-逐项验收：[assignment-acceptance-v3.json](05_Calculations/Final_v03/assignment-acceptance-v3.json)。统一数据绑定：data/final-design-v2.json。正文可编辑源码：Final_v03/report-content-v3.json；排版/合并：scripts/build_review_report.py、scripts/assemble_review_submission.py。正式 CAD：Final_v03/cad-native-v5/layout.dwg。
+## 打开哪些文件
 
-原生项目在本机 models/office-review-40s-native-v4.evo、models/office-review-brightness-native-v4.evo。大体积完整计算文件保留本机，Git 保存哈希和原生摘页证据。原始题目与 DWG 未改动。Final_v01/Final_v02 为历史版本，当前交付以 Final_v03 为准。
+- 阅读报告：`00_Submit/BSE3125_Lighting_Design_Report.pdf`。
+- 查看主要 DIALux 方案：`00_Submit/DIALux/Final/Office_Workstations.evo`，包含桌面照度、均匀度和眩光计算。
+- 查看辅助照明评价：同目录 `Office_Visual_Environment.evo`，包含柱面、周边、背景、墙面和天花计算。
+- 查看正式 CAD：`03_Engineering/CAD/Lighting_Layout.dwg`；同名 PDF 为 A2、1:100 原生出图。
+- 修改报告文字：`04_Report/content.json`；生成程序：`06_Tools/report`。
 
-报告明确家具、表面、维护和立面假设，区分原生结果与解析容差分析，并说明待安装调试的控制功能及显示屏亮度筛查范围。这些学术设计结果不等于安装系统的法定认证。
+6 份提交目录中的 evo 文件均与已保存、重开验证的工程逐字节一致。它们合计约 622 MB；PDF 本身仍为 3.71 MB。组员信息、含学号的报告和大型 evo 文件只保留本机，不推送 Git。没有代为提交 Blackboard。
 
-仓库：https://github.com/LYUml/polyu_bse3125 。课程个人资料、分组名单和录音转写没有公开上传。
+## 重新生成
+
+在工作区根目录运行：
+
+```powershell
+& ../dialux-agent-toolkit/.venv/Scripts/python.exe -X utf8 06_Tools/rebuild_report.py 04_Report/Build_Check
+```
+
+输出目录必须是新的；不会覆盖最终交付 PDF。报告生成只依赖当前目录，不依赖 `90_Archive`。迁移后重建的 20 页已逐页核对文字、尺寸及 72/150 dpi 像素，与提交 PDF 一致。
+
+当前数据绑定：`05_Calculations/data/final-design.json`。目录验收：`05_Calculations/workspace-verification.json`。旧证据中的路径保持原样以保留历史，可通过 `06_Tools/resolve_evidence_path.py` 或迁移索引定位。

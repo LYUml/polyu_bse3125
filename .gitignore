@@ -6,60 +6,23 @@ tmp/
 *.bak
 *.dwl
 *.dwl2
+*.log
+**/ErrorReports/
+02_References/local/
+06_Tools/.runtime/
+# Private and large delivery/engineering files stay local.
+00_Submit/*.pdf
+00_Submit/DIALux/
+03_Engineering/DIALux/
+03_Engineering/Native_Reports/
+04_Report/Private/
+04_Report/Build*/
+# Historical tracked files are retained explicitly; all other archives stay local.
+90_Archive/
+# Existing local working evidence.
 05_Calculations/data/cad_entities.json
 05_Calculations/data/source_plan_preview.png
 05_Calculations/data/baseline-page-*.png
 05_Calculations/data/ui-inventory-*.json
 05_Calculations/data/native-rectangle-command.png
 05_Calculations/data/desk01-page-*.png
-02_References/local/
-05_Calculations/sessions/
-05_Calculations/models/DIALux Agent Toolkit_Report.pdf
-# Large complete calculation caches remain available locally; track compact evidence.
-05_Calculations/models/*alltasks-native*.evo
-05_Calculations/models/*alltasks-probe*.pdf
-05_Calculations/models/*grid-native*.evo
-05_Calculations/models/*grid-probe*.pdf
-06_Tools/.runtime/
-**/ErrorReports/
-*.log
-05_Calculations/models/*brightness*probe*.pdf
-05_Calculations/models/*brightness*native*.evo
-05_Calculations/Final_v02/*draft*.pdf
-05_Calculations/Final_v02/*review*.pdf
-05_Calculations/models/*review*probe*.pdf
-05_Calculations/models/*review*native*.evo
-05_Calculations/models/office-review-brightness-probe-v1.evo
-05_Calculations/Final_v03/*review*.pdf
-05_Calculations/Final_v03/main-page-*.png
-05_Calculations/Final_v03/review-pair-*.png
-05_Calculations/Final_v03/appendix-check-*.png
-05_Calculations/Final_v03/*preview.png
-05_Calculations/Report_Draft_v01/page-*.png
-05_Calculations/Report_Draft_v01/pair-*.png
-05_Calculations/Report_Draft_v02/page-*.png
-05_Calculations/Report_Draft_v02/pair-*.png
-
-# Comparison native projects and full raw outputs stay local.
-05_Calculations/models/office-comparison-*.evo
-05_Calculations/models/office-comparison-*.pdf
-05_Calculations/models/office-pre-comparison-session-*.evo
-
-# Personal group metadata and personalised final PDFs remain local.
-05_Calculations/local/
-05_Calculations/Final_v04/*.pdf
-05_Calculations/Final_v04/*.png
-00_Submit/BSE3125_Lighting_Design_Report.pdf
-
-# Intermediate CAD presentations and reproducible native console copies.
-05_Calculations/Final_v04/BSE3125-L01-lighting-plan-v6.*
-05_Calculations/Final_v04/cad-native-v6/
-05_Calculations/Final_v04/cad-plot-v6/
-05_Calculations/Final_v04/cad-native-v7/input.dxf
-05_Calculations/Final_v04/cad-native-v7/reopened/
-05_Calculations/Final_v04/cad-native-v7/*.log
-05_Calculations/Final_v04/cad-native-v7/*.scr
-05_Calculations/Final_v04/cad-plot-v7/plot-input.dwg
-05_Calculations/Final_v04/cad-plot-v7/*.log
-05_Calculations/Final_v04/cad-plot-v7/*.scr
-05_Calculations/Final_v04/cad-plot-v7/*.png

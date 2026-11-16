@@ -2,13 +2,18 @@
 from pathlib import Path
 import sys,json,hashlib,html
 root=Path(__file__).resolve().parents[2]
-helpers=(root/'05_Calculations/scripts/build_review_report.py').read_text().split('story=[]')[0]
-helpers=helpers.replace("'arial.ttf'","'times.ttf'").replace("'arialbd.ttf'","'timesbd.ttf'")
-helpers=helpers.replace('Native results; no interpolation','').replace('One coloured cell per desk','').replace('Furniture: proposed design','')
-exec(compile(helpers,'shared_report_helpers','exec'))
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import colors
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.pagesizes import A4
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,PageBreak,Table,TableStyle,Image
+import pypdfium2 as pdfium
+load=lambda p:json.loads(p.read_text(encoding='utf-8'))
+out=Path(sys.argv[1]);assert not out.exists()
 from reportlab.lib.enums import TA_JUSTIFY,TA_CENTER
 from reportlab.platypus import KeepTogether
-folder=root/'05_Calculations/Final_v04';folder.mkdir(exist_ok=True)
+folder=root/'04_Report';folder.mkdir(exist_ok=True)
 content=load(folder/'content.json')
 for alias,file in [('Body','times.ttf'),('Bold','timesbd.ttf'),('Italic','timesi.ttf')]:pdfmetrics.registerFont(TTFont(alias,'C:/Windows/Fonts/'+file))
 pdfmetrics.registerFontFamily('Body',normal='Body',bold='Bold',italic='Italic',boldItalic='Bold')
@@ -28,12 +33,9 @@ def page(title):
  story.append(P(title,heading))
 def image(name,width):
  from PIL import Image as PILImage
- p=root/'05_Calculations/Final_v03/figures'/name
+ p=root/'04_Report/Assets'/name
  with PILImage.open(p) as im:w,h=im.size
  return Image(str(p),width=width,height=width*h/w)
-def figure(mode,title,factor=.90):
- d=map_figure(mode);d.scale(factor,factor);d.height*=factor
- story.append(KeepTogether([d,P(title,caption)]))
 def classic_table(title,rows,widths):
  values=[[P(c,ParagraphStyle('cellhead',parent=small,fontName='Bold') if i==0 else small) for c in row] for i,row in enumerate(rows)]
  t=Table(values,colWidths=widths,hAlign='LEFT',repeatRows=1)
@@ -42,7 +44,7 @@ def classic_table(title,rows,widths):
 def footer(c,doc):
  c.setFont('Body',9);c.setFillColor(colors.black);c.drawCentredString(A4[0]/2,34,str(doc.page))
 story.extend([P(content['title'],ParagraphStyle('title',parent=heading,fontSize=22,leading=26,alignment=TA_CENTER,spaceAfter=5)),P(content['subtitle'],ParagraphStyle('subtitle',parent=small,fontSize=12,leading=15,alignment=TA_CENTER,spaceAfter=8))])
-group=load(root/'05_Calculations/local/group-details.json')
+group=load(root/'04_Report/Private/group-details.json')
 story.append(P(group['group'],ParagraphStyle('group',parent=small,fontName='Bold',alignment=TA_CENTER)))
 members=sorted(group['members'],key=lambda m:m['name'].casefold())
 member_style=ParagraphStyle('members',parent=small,alignment=TA_CENTER,spaceAfter=1)

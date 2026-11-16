@@ -1,0 +1,19 @@
+{
+  "status": "verified workspace handover after relocation",
+  "date": "2026-11-16",
+  "delivery_pdf": "00_Submit/BSE3125_Lighting_Design_Report.pdf",
+  "delivery_pdf_sha256": "62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50",
+  "rebuilt_pdf": "04_Report/Build/BSE3125_Lighting_Design_Report.pdf",
+  "rebuilt_pdf_sha256": "a2d72b090bc0e45b9face582f0226ab381176d15ae1d4b021ac8183e5f602e48",
+  "bytes": 3714013,
+  "total_pages": 20,
+  "main_pages_including_CAD": 9,
+  "all_20_pages_exact_text_dimensions_and_72_150dpi_pixels_preserved": true,
+  "all_six_native_submission_copies_byte_identical": true,
+  "original_assignment_inputs_unchanged": true,
+  "active_report_pipeline_has_no_archive_dependency": true,
+  "native_submission_total_bytes": 621770414,
+  "project_index": "03_Engineering/project-index.json",
+  "relocation_index": "05_Calculations/workspace-migration.json",
+  "Blackboard_submission": false
+}
