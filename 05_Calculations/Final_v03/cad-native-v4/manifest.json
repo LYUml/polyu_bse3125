@@ -1,0 +1,213 @@
+{
+  "schema": "dialux-agent/native-layout/v1",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\BSE3125-L01-lighting-plan-v4.dxf",
+  "source_sha256": "e54b4715b9aae7692df78989416ed156f0f6ff571a6dbaeec31480a27ee717ea",
+  "original_unchanged": true,
+  "dwg": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v4\\layout.dwg",
+  "dwg_sha256": "d6fc5775bfbf17e62f1492c98b85ddf0a748f368921d9d40b27061c74948da5a",
+  "fixture_count": 186,
+  "fixture_records_verified": true,
+  "dimension_count": 2,
+  "dimension_records_verified": true,
+  "schedule_entity_count": 12,
+  "schedule_records_verified": true,
+  "sheet_entity_count": 9,
+  "sheet_records_verified": true,
+  "native_reopen_verified": true,
+  "block_shapes_verified": true,
+  "verified_block_names": [
+    "BSE3125_PANEL_TYPE_A"
+  ],
+  "source_block_records": {
+    "BSE3125_PANEL_TYPE_A": {
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shapes": [
+        [
+          "LINE",
+          [
+            -0.2985,
+            -0.2985,
+            0.0
+          ],
+          [
+            0.2985,
+            0.2985,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          0.0
+        ],
+        [
+          "LWPOLYLINE",
+          true,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          0.0,
+          [
+            [
+              -0.2985,
+              -0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2985,
+              -0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2985,
+              0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.2985,
+              0.2985,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "attributes": [
+        [
+          "FIXTURE_ID",
+          "",
+          [
+            0.0,
+            -0.6,
+            0.0
+          ],
+          0.23,
+          0.0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "reopened_block_records": {
+    "BSE3125_PANEL_TYPE_A": {
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shapes": [
+        [
+          "LINE",
+          [
+            -0.2985,
+            -0.2985,
+            0.0
+          ],
+          [
+            0.2985,
+            0.2985,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          0.0
+        ],
+        [
+          "LWPOLYLINE",
+          true,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          0.0,
+          [
+            [
+              -0.2985,
+              -0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2985,
+              -0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2985,
+              0.2985,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.2985,
+              0.2985,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "attributes": [
+        [
+          "FIXTURE_ID",
+          "",
+          [
+            0.0,
+            -0.6,
+            0.0
+          ],
+          0.23,
+          0.0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "print_verified": false,
+  "reopen_evidence": {
+    "schema": "dialux-agent/native-cad-survey/v1",
+    "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v4\\layout.dwg",
+    "source_sha256": "d6fc5775bfbf17e62f1492c98b85ddf0a748f368921d9d40b27061c74948da5a",
+    "original_unchanged": true,
+    "dxf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v4\\reopened\\source-copy.dxf",
+    "dxf_sha256": "94b91f8f79249b45ca42b9482e2ad75a5abb39718f249e4eadeee8d790267aa4",
+    "native_variables": {
+      "ACADVER": "26.0",
+      "INSUNITS": "6",
+      "LUNITS": "2",
+      "MEASUREMENT": "1",
+      "EXTMIN": "(-2.0 -5.2 0.0)",
+      "EXTMAX": "(53.4 32.8 0.0)"
+    },
+    "geometry_verified": false
+  }
+}

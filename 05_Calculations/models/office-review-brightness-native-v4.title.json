@@ -1,0 +1,8 @@
+{
+  "status": "title-only new copy; native reopen/export required",
+  "source_sha256": "3b35acec9a8c033417d9f1e2356ba96822a4057b27229a068e94a13bd520d849",
+  "output_sha256": "102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742",
+  "changed_record_type": "ProjectInfoPropertySet",
+  "changed_field": "ProjectName",
+  "all_other_records_and_all_results_streams_unchanged": true
+}

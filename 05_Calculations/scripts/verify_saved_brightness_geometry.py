@@ -7,12 +7,12 @@ from shapely import wkt
 root=Path(__file__).resolve().parents[2];data=root/'05_Calculations/data'
 sys.path.insert(0,str(root/'06_Tools'))
 from read_native_archive import read,split_fields
-native=root/'05_Calculations/models/office-brightness-openings-native-v9.evo'
-d=read(native);o=d['objects'];core=read(root/'05_Calculations/models/office-powerbalance-grid-native-v4.evo')
+native=Path(sys.argv[2]) if len(sys.argv)>2 else root/'05_Calculations/models/office-brightness-openings-native-v9.evo'
+d=read(native);o=d['objects'];core=read(Path(sys.argv[3]) if len(sys.argv)>3 else root/'05_Calculations/models/office-powerbalance-grid-native-v4.evo')
 spec=json.loads((root/'05_Calculations/models/office-brightness-openings-probe-v8.openings.json').read_text())
 proposal=read(root/'05_Calculations/models/office-brightness-openings-probe-v8.evo')['objects']
 save=json.loads((data/'brightness-openings-save-v8.json').read_text())
-assert d['sha256']==save['result']['sha256']
+if len(sys.argv)<=2:assert d['sha256']==save['result']['sha256']
 def refs(v):return [int(n) for n in re.findall(r'#(\d+)',re.sub(r"'(?:[^']|'')*'",'',v))]
 def obj(v):return o[int(v[1:])]
 def name(s):return next(o[n]['fields']['ObjectName'][1:-1] for n in refs(s['fields']['PropertySets']) if o[n]['type']=='CommonInformationPropertySet')
@@ -63,14 +63,14 @@ def physical_records(objects):
  return sorted(json.dumps({'type':v['type'],'fields':{k:re.sub(r'#\d+','#REF',value) for k,value in v['fields'].items()}},sort_keys=True) for v in objects.values() if v['type'] in physical_types)
 assert physical_records(core['objects'])==physical_records(o)
 def photometry(objects):
- guid="'74b47d1c-9d32-40c3-9537-d2ba85948fe1'"
+ guid="'76180ce0-f1c1-4543-860d-c8d94c1cf11b'" if len(sys.argv)>3 else "'74b47d1c-9d32-40c3-9537-d2ba85948fe1'"
  prototype=next(v for v in objects.values() if v['type']=='LuminairePrototype' and v['fields']['ObjectGuid']==guid)
  seen=set();todo=[prototype['step_id']]
  while todo:
   n=todo.pop()
   if n in seen:continue
   seen.add(n);todo.extend(r for v in objects[n]['fields'].values() for r in refs(v) if r not in seen)
- normalized=sorted(json.dumps({'type':objects[n]['type'],'fields':{k:re.sub(r'#\d+','#REF',v) for k,v in objects[n]['fields'].items()}},sort_keys=True) for n in seen)
+ normalized=sorted(json.dumps({'type':objects[n]['type'],'fields':{k:re.sub(r'#\d+','#REF',v) for k,v in objects[n]['fields'].items() if k!='ObjectId'}},sort_keys=True) for n in seen)
  return len(seen),hashlib.sha256('\n'.join(normalized).encode()).hexdigest()
 assert photometry(core['objects'])==photometry(o)
 for i in range(1,113):

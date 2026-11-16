@@ -14,15 +14,18 @@ root=Path(__file__).resolve().parents[2];toolkit=root.parent/'dialux-agent-toolk
 sys.path.insert(0,str(toolkit))
 from src.cad_labels import place_fixture_labels
 from src.cad_dimensions import add_dimensions
-data=root/'05_Calculations/data';destination=root/'05_Calculations/Final_v01'
-destination.mkdir(exist_ok=True)
-target=destination/'BSE3125-L01-lighting-plan-v3.dxf';assert not target.exists()
+data=root/'05_Calculations/data'
+target=Path(sys.argv[4]) if len(sys.argv)>4 else root/'05_Calculations/Final_v01/BSE3125-L01-lighting-plan-v3.dxf'
+destination=target.parent;destination.mkdir(parents=True,exist_ok=True);assert not target.exists()
+revision=sys.argv[5] if len(sys.argv)>5 else 'P01'
 source=toolkit/'local/bse3125-native-v2/source-copy.dxf'
 assert hashlib.sha256(source.read_bytes()).hexdigest()=='d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2'
-plan_path=data/'snapped-layout-proposal-v2.json';p=json.loads(plan_path.read_text())
-verified=json.loads((data/'grid-report-position-verification-v3.json').read_text())
+plan_path=Path(sys.argv[1]) if len(sys.argv)>1 else data/'snapped-layout-proposal-v2.json';p=json.loads(plan_path.read_text())
+verified=json.loads((Path(sys.argv[2]) if len(sys.argv)>2 else data/'grid-report-position-verification-v3.json').read_text())
 assert verified['plan_sha256']==hashlib.sha256(plan_path.read_bytes()).hexdigest() and verified['fixture_count']==186
-results=json.loads((data/'grid-tasks-results-v3.json').read_text());assert results['all_tasks_pass_course_metrics']
+results=json.loads((Path(sys.argv[3]) if len(sys.argv)>3 else data/'grid-tasks-results-v3.json').read_text());assert results['all_tasks_pass_course_metrics']
+products={f['product_order_code'] for f in p['fixtures']};assert len(products)==1
+product=next(iter(products));flux=p.get('nominal_luminaire_flux_lm',3400);rated=p['rated_input_W_each'];native=p['native_photometry_input_W_each'];luminaire_load=186*rated;budget=luminaire_load+50
 r=json.loads((data/'room-v1.json').read_text());furniture=json.loads((data/'furniture-proposal-v1.json').read_text())
 doc=ezdxf.readfile(source);model=doc.modelspace();doc.units=6
 doc.styles.get('Standard').dxf.font='arial.ttf'
@@ -87,17 +90,17 @@ def lines(items,x,y,height=.23,gap=.47,layer='PLAN_NOTES'):
  for i,value in enumerate(items):text(value,x,y-i*gap,height,layer)
  return y-len(items)*gap
 x=46.;y=29.5
-y=lines(['LUMINAIRE SCHEDULE - TYPE A','Philips PowerBalance gen2','Order: 910505103630','RC461B 34S/840 SEIA W60L60','VPC U4 SC UE','Quantity: 186 recessed modules','Size: 597 x 597 mm; 600 module','4000 K; CRI >80; 3400 lm','Input: 20 W rated (19.8 W ULD)','Connected luminaire load: 3720 W','Controls allowance: 50 W','Design lighting budget: 3770 W'],x,y,layer='SCHEDULE')
+y=lines(['LUMINAIRE SCHEDULE - TYPE A','Philips PowerBalance gen2','Order: '+product,f'RC461B {int(flux/100)}S/840 SEIA W60L60','VPC U4 SC UE','Quantity: 186 recessed modules','Size: 597 x 597 mm; 600 module',f'4000 K; CRI >80; {flux:g} lm',f'Input: {rated:g} W rated ({native:g} W ULD)',f'Connected luminaire load: {luminaire_load:g} W','Controls allowance: 50 W',f'Design lighting budget: {budget:g} W'],x,y,layer='SCHEDULE')
 y-=.45
-y=lines(['LEGEND','Square + diagonal: Type A panel','L001-L186: unique luminaire IDs','Grey lines: source ceiling grid','Desk outlines: proposed furniture','B01-B28: four-person benches'],x,y)
+y=lines(['LEGEND','Square + diagonal: Type A panel','L001-L186: unique luminaire IDs','Grey lines: source ceiling grid','Desk outlines: proposed furniture','B01-B28: four-person benches','Desk IDs: 4n-3..4n at bench Bn;','SW, SE, NW, NE in that order.'],x,y)
 y-=.45
-y=lines(['DESIGN NOTES','1. Drawing dimensions are in mm.','2. Ceiling: 2800 mm above FFL.','   Recessed emitting face flush','   with ceiling; verify plenum fit.','3. Source tiles are 600 x 600 mm.','   Every panel uses a full tile.','4. Desks are assumed at 800 mm.','   Layout: 112 seats, 28 benches.','5. Controls: 32 independent zones.','   Vacancy off after 10 minutes;','   manual override <=120 minutes.','   Daylight dimming to be enabled.','6. Core lighting excluded from','   this open-plan office design.','7. Academic design. Coordinate','   dimensions and services on site.'],x,y)
+y=lines(['DESIGN NOTES','1. Drawing dimensions are in mm.','2. Ceiling: 2800 mm above FFL.','   Recessed emitting face flush.','   Body: 82 mm table; allow 86 mm','   supplier drawing envelope plus','   plenum/service clearance.','3. Source tiles are 600 x 600 mm.','   Every panel uses a full tile.','4. Desks are assumed at 800 mm.','   Layout: 112 seats, 28 benches.','5. Controls: 32 independent zones.','   Vacancy off after 10 minutes;','   driver/sensor standby retained.','   Manual override <=120 minutes.','   Daylight dimming to be enabled.','6. Core lighting excluded from','   this open-plan office design.','7. Academic design. Coordinate','   dimensions and services on site.'],x,y)
 assert y>1.,'Notes exceed right-hand column'
 # A2 landscape frame: 20 mm paper margins, 30 mm title block at 1:100.
 left,bottom,right,top=-2.,-5.2,53.4,32.8
 for a,b in [((left,bottom),(right,bottom)),((right,bottom),(right,top)),((right,top),(left,top)),((left,top),(left,bottom)),((left,-2.2),(right,-2.2)),((left,-3.7),(right,-3.7))]:model.add_line(a,b,dxfattribs={'layer':'SHEET'})
 text('BSE3125  |  OPEN-PLAN OFFICE LIGHTING LAYOUT',-1.5,-3.15,.36,'SHEET')
-text('Drawing: BSE3125-L01     Revision: P01     Academic design',-1.5,-4.65,.25,'SHEET')
+text(f'Drawing: BSE3125-L01     Revision: {revision}     Academic design',-1.5,-4.65,.25,'SHEET')
 text('A2 LANDSCAPE  |  1:100 AT 100% PRINT  |  DIMENSIONS: mm',25.,-4.65,.25,'SHEET')
 content=bbox.extents([e for e in model if e.dxf.layer!='SHEET'],fast=False)
 assert content.extmin.x>left and content.extmax.x<right and content.extmin.y>-2.2 and content.extmax.y<top

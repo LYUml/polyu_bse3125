@@ -1,0 +1,12 @@
+{
+  "status": "actual imported product graph grafted; native validation pending",
+  "base_sha256": "6548a5bb46c2c02f70fedb5dc0808efa433e6715fc063c017691856e3bba8293",
+  "imported_native_sha256": "adeec98e10016ae4d5bb78858b98f9ec9c6be7f08aadc4c8b8290a9a4ae64d09",
+  "output_sha256": "6d2949c16c35de1a782e826b56826482e0d198ce631f51395154dc4f9b4d57ae",
+  "copied_graph_record_count": 63,
+  "semantic_graph_sha256": "9115dcf6c115461f8cbdd3606df34c4f5fc677a6209f553245e0622b38646506",
+  "all_186_fixtures_relinked": true,
+  "fixture_and_calculation_region_geometry_unchanged": true,
+  "manufacturer_order_code": "910505103638",
+  "native_imported_prototype_guid": "76180ce0-f1c1-4543-860d-c8d94c1cf11b"
+}

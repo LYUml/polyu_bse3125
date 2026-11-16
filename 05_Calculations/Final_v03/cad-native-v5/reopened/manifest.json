@@ -1,0 +1,17 @@
+{
+  "schema": "dialux-agent/native-cad-survey/v1",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v5\\layout.dwg",
+  "source_sha256": "719501e0e81919cd5671f2056ff4be4009eeb5658354b85d3067ec2e2b207252",
+  "original_unchanged": true,
+  "dxf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v5\\reopened\\source-copy.dxf",
+  "dxf_sha256": "e0355614c53000fdfa9232e78b4f46565f5511f7adf0b47912c6ed9b7ccb16c1",
+  "native_variables": {
+    "ACADVER": "26.0",
+    "INSUNITS": "6",
+    "LUNITS": "2",
+    "MEASUREMENT": "1",
+    "EXTMIN": "(-2.0 -5.2 0.0)",
+    "EXTMAX": "(53.4 32.8 0.0)"
+  },
+  "geometry_verified": false
+}

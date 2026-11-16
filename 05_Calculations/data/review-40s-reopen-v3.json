@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-11-16T08:59:58.458566+00:00",
+  "finished_utc": "2026-11-16T09:00:12.240923+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "open",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-native-v3.evo"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"operation\": \"open\", \"status\": \"opened\", \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-review-40s-native-v3.evo\", \"title\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-review-40s-native-v3.evo* - DIALux evo 14.1  (64-bit)\", \"uses_codex_computer_use\": false}\n",
+  "stderr": "",
+  "result": {
+    "operation": "open",
+    "status": "opened",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-native-v3.evo",
+    "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-40s-native-v3.evo* - DIALux evo 14.1  (64-bit)",
+    "uses_codex_computer_use": false
+  }
+}

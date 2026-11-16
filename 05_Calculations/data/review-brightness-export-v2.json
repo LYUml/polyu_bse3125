@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T09:09:49.491082+00:00",
+  "finished_utc": "2026-11-16T09:11:04.354156+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-brightness-probe-v2.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-brightness-probe-v2.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: Expected one MenuSaveAs, found 0\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: Expected one MenuSaveAs, found 0"
+  }
+}

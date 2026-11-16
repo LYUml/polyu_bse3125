@@ -24,14 +24,16 @@ except subprocess.TimeoutExpired as exc:
  (directory/'console.log').write_text((exc.stdout or b'').decode('utf-16le',errors='replace'),encoding='utf-8');raise
 log=result.stdout.decode('utf-16le',errors='replace');(directory/'console.log').write_text(log,encoding='utf-8')
 assert result.returncode==0 and 'ASSIGNMENT_PLOT_COMPLETE' in log and '; error:' not in log.lower() and pdf.exists()
-plan=json.loads((root/'05_Calculations/data/snapped-layout-proposal-v2.json').read_text());room=json.loads((root/'05_Calculations/data/room-v1.json').read_text())
+plan_path=Path(sys.argv[3]) if len(sys.argv)>3 else root/'05_Calculations/data/snapped-layout-proposal-v2.json'
+plan=json.loads(plan_path.read_text());room=json.loads((root/'05_Calculations/data/room-v1.json').read_text())
 with pdfplumber.open(pdf) as doc:
  assert len(doc.pages)==1;page=doc.pages[0]
  assert abs(page.width-594*72/25.4)<2 and abs(page.height-420*72/25.4)<2
  scale=verify_pdf_outline_scale(page.curves+page.rects,room['contour'],100)
  ids,scope=plotted_fixture_ids(page,[f['id'] for f in plan['fixtures']],scale)
  text=page.extract_text() or ''
- for required in ['910505103630','186','3720','3770','1:100','BSE3125-L01']:assert required in text,required
+ products={f['product_order_code'] for f in plan['fixtures']};assert len(products)==1
+ for required in [next(iter(products)),'186',str(186*plan['rated_input_W_each']),str(186*plan['rated_input_W_each']+50),'1:100','BSE3125-L01']:assert required in text,required
 doc=pdfium.PdfDocument(pdf);doc[0].render(scale=150/72).to_pil().save(directory/'preview-150dpi.png');doc.close()
 assert hashlib.sha256(source.read_bytes()).hexdigest()==digest
 record={'status':'native A2 1:100 PDF plotted; visual review pending','source_dwg':str(source),'source_dwg_sha256':digest,'pdf':str(pdf),'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'bytes':pdf.stat().st_size,'paper':'A2','scale_denominator':100,'fixture_count':len(ids),'all_fixture_labels_verified':True,'fixture_label_scope':scope,'physical_scale':scale,'original_dwg_unchanged':True,'visual_review_verified':False}
