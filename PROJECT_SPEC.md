@@ -2,7 +2,11 @@
 
 Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. The final deliverable was accepted for handover on 2026-11-16; no course-platform submission has been made. Historical pending/rejected states below describe their own development checkpoints, not the final handover status.
 
-## Revised final handover after strict review, 2026-11-16
+## Current concise final handover, 2026-11-16
+
+User authorized replacement and archival. Current PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 5 native appendix pages = 14 total; 1,883,123 bytes; SHA-256 160c3bb9cf17e3c8691913287ba4a4a0b8d0aa2faf647ab32ba3fd2cbc2ce9b0. Verification: Report_Draft_v02/final-promotion.json. Binding: data/final-design-v3.json. Editable source: Report_Draft_v02/content.json; build_classic_draft.py and assemble_classic_draft.py. Engineering unchanged. Old PDF retained in 05_Calculations/Archive/2026-11-16_Pre_Concise. No platform submission.
+
+## Historical detailed handover after strict review, 2026-11-16
 
 - Current PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including A2 CAD, 192 total pages, 5,978,804 bytes; SHA-256 c13386ab9773183073f2679e661a21cedc4675a4698facefeca50f681fee6c3b.
 - Current acceptance: Final_v03/assignment-acceptance-v3.json; current shared binding: data/final-design-v2.json. Earlier handover below is historical and superseded.

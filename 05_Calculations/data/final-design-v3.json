@@ -1,0 +1,64 @@
+{
+  "status": "Current concise final binding",
+  "coordinate_frame": "source WCS metres minus [64.34593225182503,15.92558365525945]",
+  "bindings": {
+    "fixtures": {
+      "path": "05_Calculations/data/snapped-layout-proposal-v3.json",
+      "sha256": "16194ff3b7175c50525b3dd05d18e8e6ab8fa9dc93d8f4f23037cef8b9316f17"
+    },
+    "furniture": {
+      "path": "05_Calculations/data/furniture-proposal-v1.json",
+      "sha256": "aacde883883a370c96d7014de93542d55b31a70a3cc179da68f43165a1ae05d2"
+    },
+    "controls": {
+      "path": "05_Calculations/data/controls-proposal-v2.json",
+      "sha256": "2e85b5cec948a2a17d1179d0e1c289e01cc99299a3927ef51056bf6f38a198c3"
+    },
+    "core_results": {
+      "path": "05_Calculations/data/review-40s-reopened-tasks-v4.json",
+      "sha256": "d40cbe181978cc93d5ded3489f9f56f242a5fdd25aea2e12077369456338b659"
+    },
+    "supplemental_results": {
+      "path": "05_Calculations/data/review-brightness-reopened-results-v4.json",
+      "sha256": "08fbffbaaabc10430136a132cac75d3a2040e838eca66345f5eb34317ed70e0c"
+    }
+  },
+  "final_native_parameters": {
+    "ceiling_height_m": 2.8,
+    "task_plane_m": 0.8,
+    "seated_eye_height_m": 1.2,
+    "ceiling_wall_floor_reflectance_pct": [
+      80,
+      70,
+      20
+    ],
+    "column_reflectance_pct": 40,
+    "maintenance_factor": 0.8,
+    "maintenance_factor_design_factors": [
+      0.9,
+      1.0,
+      0.95,
+      0.94
+    ],
+    "fixture_count": 186,
+    "luminaire_order_code": "910505103638",
+    "native_luminaire_output_lm": 4000,
+    "native_input_W_each": 23,
+    "conservative_budget_W_each": 23,
+    "external_control_allowance_W": 50,
+    "rated_input_W_each": 23
+  },
+  "initial_geometry_reference": "room-v1.json: geometry and columns retained; its initial 70/50/20 finish values are superseded by final native 80/70/20 finishes.",
+  "geometry_evidence": [
+    "office-boundary-verification-v1.json",
+    "native-column-verification-v1.json",
+    "review-brightness-saved-geometry-v4.json",
+    "review-native-persistence-v4.json"
+  ],
+  "acceptance": "05_Calculations/Report_Draft_v02/final-promotion.json",
+  "report_source_sha256": "34f726c451527a5383073e5c833f41bcec2bfe730530ec4b2484269105acb287",
+  "revised_acceptance": "05_Calculations/Report_Draft_v02/final-promotion.json",
+  "revised_native_persistence": "05_Calculations/data/review-native-persistence-v4.json",
+  "historical_engineering_acceptance": "05_Calculations/Final_v03/assignment-acceptance-v3.json",
+  "final_pdf_sha256": "160c3bb9cf17e3c8691913287ba4a4a0b8d0aa2faf647ab32ba3fd2cbc2ce9b0"
+}

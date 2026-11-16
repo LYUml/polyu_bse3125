@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-16",
+  "scope": "Teacher-perspective recommendations; not implemented simulation results or predicted marks",
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Compare current 4000lm design with actual native lower-output scene, retaining all geometry and evaluating all112 desks and supplemental surfaces",
+      "rubric": "Performance interpretation25%; selection20%",
+      "caution": "534lx at90% is analytical only; do not assume power proportional to dimming or claim optimum"
+    },
+    {
+      "rank": 2,
+      "action": "Recalculate alternate70/50/20 finishes and a justified representative furniture/partition scenario",
+      "rubric": "DIALux procedure20%; assumptions/results15%; interpretation25%",
+      "caution": "Current80/70/20 is an allowed assumption, not a demonstrated error; do not invent actual partitions"
+    },
+    {
+      "rank": 3,
+      "action": "Select compatible control components and document sensor coverage, zone interaction, standby power and operating sequence",
+      "rubric": "System selection20%",
+      "caution": "32 zones do not automatically mean32 sensors; circuit drawings not required"
+    },
+    {
+      "rank": 4,
+      "action": "Present existing design iterations and critical-desk reasons compactly, with cross-references to native evidence",
+      "rubric": "Interpretation25%; procedure20%",
+      "caution": "Keep main report within10pages; no need to enlarge report"
+    },
+    {
+      "rank": 5,
+      "action": "Only add daylight study when glazing geometry and orientation are evidenced",
+      "rubric": "Optional system justification",
+      "caution": "Do not fabricate facade data or annual savings"
+    }
+  ],
+  "open_source_assessment": "Radiance and Honeybee can support supplemental lighting/daylight studies; do not replace assignment-required DIALux or add a duplicate model solely for appearance.",
+  "sources": [
+    {
+      "url": "https://www.dialux.com/en-GB/dialux-for-interior-lighting/module-4-calculation",
+      "supports": "Evaluate scenes and furniture inclusion in calculation"
+    },
+    {
+      "url": "https://www.dialux.com/en-GB/indoor-lighting",
+      "supports": "Furniture, lighting scenes and daylight facade modelling"
+    },
+    {
+      "url": "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf",
+      "supports": "Local lighting power and control requirements"
+    },
+    {
+      "url": "https://www.ladybug.tools/honeybee.html",
+      "supports": "Radiance daylight and IES electric lighting workflows"
+    },
+    {
+      "url": "https://www.radiance-online.org/",
+      "supports": "Lighting simulation tool"
+    }
+  ]
+}
