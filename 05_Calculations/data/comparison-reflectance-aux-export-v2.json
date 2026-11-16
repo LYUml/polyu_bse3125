@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T13:44:59.415766+00:00",
+  "finished_utc": "2026-11-16T13:46:11.424789+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-reflectance-aux-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-reflectance-aux-fresh-v1.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: PDF export destination 'C:\\\\\\\\Users\\\\\\\\lyuml-win\\\\\\\\Desktop\\\\\\\\polyu_bse3125\\\\\\\\05_Calculations\\\\\\\\models\\\\\\\\office-comparison-reflectance-aux-fresh-v1.pdf' was not verified; inspect pending dialogs before retry: []\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: PDF export destination 'C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-comparison-reflectance-aux-fresh-v1.pdf' was not verified; inspect pending dialogs before retry: []"
+  }
+}

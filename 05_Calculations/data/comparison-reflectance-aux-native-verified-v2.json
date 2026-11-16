@@ -1,0 +1,1109 @@
+{
+  "status": "Saved native input/result-stream checks passed; PDF reopen row comparison separate",
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-review-brightness-native-v4.evo",
+  "source_sha256": "102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742",
+  "saved_native": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-aux-verified-v2.evo",
+  "saved_native_sha256": "0588176136f8ece117206fe82a94009809c3850af290afcf6075aacd882a0073",
+  "variant": "reflectance",
+  "scene_output_fraction": 1.0,
+  "unchanged_physical_record_counts": {
+    "LuminaireElement": 186,
+    "LuminaireMaintenancePropertySet": 186,
+    "GlobalLuminaireMaintenanceInfo": 186,
+    "RelDefinesByPrototype": 7,
+    "CalculationGridSurface": 150,
+    "CalculationSurfaceOpening": 255,
+    "MultiPolygonSurface2D": 159,
+    "CoordSys3D": 1093,
+    "ExtrudedPolygonRepresentationDataPart": 5,
+    "En12464CalculationGridSurfaceRepresentationData": 150,
+    "CalculationSurfaceRepresentationDataPart": 156,
+    "UgrCalculationParameterRepresentationDataPart": 0
+  },
+  "all_coordinate_system_records_unchanged": true,
+  "manufacturer_prototype_graph_records": 63,
+  "manufacturer_graph_unchanged": true,
+  "materials": [
+    {
+      "name": "'DefaultFloorElementMaterial'",
+      "reflectance": 0.199999928
+    },
+    {
+      "name": "'DefaultMaterial'",
+      "reflectance": 0.69999969
+    },
+    {
+      "name": "'DefaultStoreyContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultWallMaterial'",
+      "reflectance": 0.499999791
+    },
+    {
+      "name": "'Sensitivity finish reflectance 0%2E7'",
+      "reflectance": 0.699999988
+    },
+    {
+      "name": "'STF \u03f1 = 0%2E2'",
+      "reflectance": 0.200000003
+    },
+    {
+      "name": "'Sensitivity finish reflectance 0%2E5'",
+      "reflectance": 0.5
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultContourMaterial'",
+      "reflectance": 0.620485187
+    },
+    {
+      "name": "'DefaultRoofMaterial'",
+      "reflectance": 0.299999893
+    },
+    {
+      "name": "'TextMaterial_0000FF'",
+      "reflectance": 0.0721855983
+    },
+    {
+      "name": "'DefaultOutdoorFloorMaterial'",
+      "reflectance": 0.0999999642
+    },
+    {
+      "name": "'STF \u03f1RGB = 040 150 150 150'",
+      "reflectance": 0.400000006
+    },
+    {
+      "name": "'Philips_-1157590600_0_Material'",
+      "reflectance": 0.501960814
+    },
+    {
+      "name": "'Philips_-1627360792_0_Material'",
+      "reflectance": 0.501960814
+    },
+    {
+      "name": "'Philips_1526773873_0_Material'",
+      "reflectance": 0.501960814
+    }
+  ],
+  "saved_result_stream_count": 27
+}

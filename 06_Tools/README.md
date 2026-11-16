@@ -1,5 +1,7 @@
 # Tools
 
+Current final report workflow is documented in `05_Calculations/Final_v04/README.md`. Use `build_comparison_report.py`, `build_comparison_appendix.py`, and `assemble_comparison_report.py`; current acceptance is `Final_v04/assignment-acceptance-v4.json`. The authoring paths below document historical versions.
+
 Backend: C:/Users/lyuml-win/Desktop/dialux-agent-toolkit, inspected commit ade128b7ae446c6ea253776a5ead866280d6bf4a.
 Python: that checkout's .venv/Scripts/python.exe. Run CLI from toolkit root with `-m src.dialux_agent`; use absolute assignment paths.
 Only one live DIALux desktop operation at a time. Inspect status and journals after timeout; never blindly repeat a mutation.
@@ -12,6 +14,6 @@ Final report authoring uses `05_Calculations/scripts/build_main_report.py AUXILI
 
 `apply_native_surface_openings.py` is the adopted assignment-specific native cutout adapter. `flatten_auxiliary_holes.py` is a rejected experiment; do not use its partial native output as evidence. Native geometry, result and persistence verification remain mandatory for any modified design.
 
-## Current revised handover (supersedes earlier authoring paths above)
+## Historical detailed handover (superseded by Final_v04)
 
 Run scripts/build_review_report.py NEW_MAIN_PDF from assignment root. It uses Final_v03/report-content-v3.json, shared plan v3 and reopened v4 native result datasets. Run scripts/assemble_review_submission.py NEW_COMBINED_PDF OPTIONAL_MAIN_PDF to combine 8 A4 pages, current A2 CAD, guide and 182 preserved native pages. scripts/verify_review_persistence.py checks current native archives/reopened rows; scripts/accept_review_assignment.py checks final constraints and copies the accepted PDF to 00_Submit. Use fresh build/output paths. Do not use historical nominal 3400 lm scripts for the current 4000 lm design.

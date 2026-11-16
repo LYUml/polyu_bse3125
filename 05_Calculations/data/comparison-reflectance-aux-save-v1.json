@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-16T13:42:38.587176+00:00",
+  "finished_utc": "2026-11-16T13:42:45.057141+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-save",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-reflectance-aux-v1.evo"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"operation\": \"save\",\n  \"status\": \"saved\",\n  \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-comparison-reflectance-aux-v1.evo\",\n  \"bytes\": 15194060,\n  \"sha256\": \"a9bbf8d4f92ceabd28f97f9f6eed7e75c178248a1590c643b2dbe66f82e02d20\",\n  \"evidence\": \"Expected project matched; native file updated and stabilized after UIA Invoke\",\n  \"uses_codex_computer_use\": false\n}\n",
+  "stderr": "",
+  "result": {
+    "operation": "save",
+    "status": "saved",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-aux-v1.evo",
+    "bytes": 15194060,
+    "sha256": "a9bbf8d4f92ceabd28f97f9f6eed7e75c178248a1590c643b2dbe66f82e02d20",
+    "evidence": "Expected project matched; native file updated and stabilized after UIA Invoke",
+    "uses_codex_computer_use": false
+  }
+}

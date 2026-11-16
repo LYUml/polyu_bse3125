@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-reflectance-aux-verified-v2.evo",
+  "native_sha256": "0588176136f8ece117206fe82a94009809c3850af290afcf6075aacd882a0073",
+  "fresh_result_file": "05_Calculations\\data\\comparison-reflectance-aux-fresh-results-v1.json",
+  "reopened_result_file": "05_Calculations\\data\\comparison-reflectance-aux-reopened-results-v1.json",
+  "fresh_pdf_sha256": "5cb44a1a161a7d941e2fb2b7e86d3c966e28db420f1ba0e76836185469390712",
+  "reopened_pdf_sha256": "11c28da76ae56be7c8a2aa90e731c5dd9f1a6ebf9da05ae7502d5e749f137401",
+  "exact_preserved_rows": 288,
+  "saved_bytes_unchanged_after_reopen_export": true
+}

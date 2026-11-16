@@ -1,0 +1,132 @@
+{
+  "status": "Assembled and component-preservation verified; final acceptance separate",
+  "pdf": "05_Calculations\\Final_v04\\final-report-v2.pdf",
+  "sha256": "32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2",
+  "bytes": 3838811,
+  "main_including_CAD": 9,
+  "total_pages": 20,
+  "appendix_pages": 11,
+  "all_pages_preserve_source_text_dimensions_and_72_150dpi_pixels": true,
+  "component_pages": [
+    {
+      "combined_page": 1,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 1,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 2,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 2,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 3,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 3,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 4,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 4,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 5,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 5,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 6,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 6,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 7,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 7,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 8,
+      "source": "05_Calculations\\Final_v04\\main-report-v2.pdf",
+      "source_page": 8,
+      "source_sha256": "a100312ef3147308cc9c92ca7e3bc6c3f4c9f29d93e7919386bac736f222ef64"
+    },
+    {
+      "combined_page": 9,
+      "source": "05_Calculations\\Final_v03\\cad-plot-v5\\BSE3125-L01-lighting-plan.pdf",
+      "source_page": 1,
+      "source_sha256": "14716ab93e661d495752f76aa6c8d2fb07477e46c3e3efc93939bcf5d5c7bf88"
+    },
+    {
+      "combined_page": 10,
+      "source": "05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 254,
+      "source_sha256": "32700f9cddd3782b8a9f57e874bb94b6f41b02b85827b2ee43fdc4fa2535d777"
+    },
+    {
+      "combined_page": 11,
+      "source": "05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 316,
+      "source_sha256": "32700f9cddd3782b8a9f57e874bb94b6f41b02b85827b2ee43fdc4fa2535d777"
+    },
+    {
+      "combined_page": 12,
+      "source": "05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 529,
+      "source_sha256": "32700f9cddd3782b8a9f57e874bb94b6f41b02b85827b2ee43fdc4fa2535d777"
+    },
+    {
+      "combined_page": 13,
+      "source": "05_Calculations\\models\\office-review-40s-probe-reopened-v4.pdf",
+      "source_page": 592,
+      "source_sha256": "32700f9cddd3782b8a9f57e874bb94b6f41b02b85827b2ee43fdc4fa2535d777"
+    },
+    {
+      "combined_page": 14,
+      "source": "05_Calculations\\models\\office-review-brightness-probe-reopened-v4.pdf",
+      "source_page": 378,
+      "source_sha256": "457e101650c980093c2f5e36080c7e27fc8251cf85ed2872cff47a24ede2cf47"
+    },
+    {
+      "combined_page": 15,
+      "source": "05_Calculations\\Final_v04\\comparison-appendix.pdf",
+      "source_page": 1,
+      "source_sha256": "661a2e56bad71bbe385412af1e8bac3290eb838feeb687aae0512ed7106fa0ad"
+    },
+    {
+      "combined_page": 16,
+      "source": "05_Calculations\\models\\office-comparison-output90-core-reopened-v1.pdf",
+      "source_page": 529,
+      "source_sha256": "efcf4efebbad048c867ef7eee1754a8296426505d23aca2e53ce2bd64e159356"
+    },
+    {
+      "combined_page": 17,
+      "source": "05_Calculations\\models\\office-comparison-reflectance-core-reopened-v1.pdf",
+      "source_page": 254,
+      "source_sha256": "96ca63be6ee843c11831efd9f76a4d949b3dea25b04423e860a2498cc5539436"
+    },
+    {
+      "combined_page": 18,
+      "source": "05_Calculations\\models\\office-comparison-reflectance-core-reopened-v1.pdf",
+      "source_page": 316,
+      "source_sha256": "96ca63be6ee843c11831efd9f76a4d949b3dea25b04423e860a2498cc5539436"
+    },
+    {
+      "combined_page": 19,
+      "source": "05_Calculations\\models\\office-comparison-output90-aux-reopened-v2.pdf",
+      "source_page": 379,
+      "source_sha256": "40f806b53c1d2e3e39e68aa99657aa8596e9b97b7fb2b78fb67883cfff2d6d55"
+    },
+    {
+      "combined_page": 20,
+      "source": "05_Calculations\\models\\office-comparison-reflectance-aux-reopened-v1.pdf",
+      "source_page": 379,
+      "source_sha256": "11c28da76ae56be7c8a2aa90e731c5dd9f1a6ebf9da05ae7502d5e749f137401"
+    }
+  ]
+}

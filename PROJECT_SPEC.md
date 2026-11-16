@@ -2,7 +2,13 @@
 
 Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. The final deliverable was accepted for handover on 2026-11-16; no course-platform submission has been made. Historical pending/rejected states below describe their own development checkpoints, not the final handover status.
 
-## Current concise final handover, 2026-11-16
+## Current comparison revision, 2026-11-16
+
+Final PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 11 appendix pages = 20 total; 3,838,811 bytes; SHA-256 32042bf9096553429fe1f86ecbe69b6db2810aec1b11bc11cd532882285a3af2. Current acceptance: Final_v04/assignment-acceptance-v4.json; shared binding: data/final-design-v4.json. Editable source: Final_v04/content.json. The 14-page version below is archived in Archive/2026-11-16_Pre_Comparisons.
+
+Native 90% output: minimum desk mean 534 lx, Uo 0.80, maximum UGR 17.7. Native lower reflectance (70/50/20%, full output): 566 lx, Uo 0.79, UGR 18.6. All auxiliary criteria pass. Each case has saved/reopened core and auxiliary verification (112 and 288 rows respectively). Full output remains the design condition; dimming is a commissioning option. No combined-case or measured electrical-saving claim. Original inputs, shared fixture positions, manufacturer photometry and final CAD are unchanged. Group metadata and personalized PDFs remain local and untracked. No platform submission.
+
+## Historical concise handover before comparisons, 2026-11-16
 
 User authorized replacement and archival. Current PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 5 native appendix pages = 14 total; 1,883,123 bytes; SHA-256 160c3bb9cf17e3c8691913287ba4a4a0b8d0aa2faf647ab32ba3fd2cbc2ce9b0. Verification: Report_Draft_v02/final-promotion.json. Binding: data/final-design-v3.json. Editable source: Report_Draft_v02/content.json; build_classic_draft.py and assemble_classic_draft.py. Engineering unchanged. Old PDF retained in 05_Calculations/Archive/2026-11-16_Pre_Concise. No platform submission.
 

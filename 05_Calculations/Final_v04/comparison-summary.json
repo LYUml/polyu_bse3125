@@ -1,0 +1,313 @@
+{
+  "status": "Native result summary; acceptance includes separate persistence checks",
+  "cases": [
+    {
+      "name": "Baseline",
+      "core_source": "review-40s-reopened-tasks-v4.json",
+      "aux_source": "review-brightness-reopened-results-v4.json",
+      "minimum_task_average_lx": 593.0,
+      "minimum_task_u0": 0.8,
+      "maximum_directional_ugr": 18.1,
+      "mean_of_desk_averages_lx": 659.4732142857143,
+      "critical_average_desks": [
+        "Desk-021"
+      ],
+      "critical_uniformity_desks": [
+        "Desk-084"
+      ],
+      "critical_glare_desks": [
+        {
+          "name": "Desk-018",
+          "direction_deg": 180.0
+        }
+      ],
+      "task_metrics_pass": true,
+      "auxiliary_checks": {
+        "desk cylindrical": {
+          "group": "desk cylindrical",
+          "surface_count": 112,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 224.0,
+          "minimum_surface_u0": 0.79,
+          "conservative_combined_u0_lower_bound": 0.6274509803921569,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "surrounding cylindrical": {
+          "group": "surrounding cylindrical",
+          "surface_count": 28,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 245.0,
+          "minimum_surface_u0": 0.69,
+          "conservative_combined_u0_lower_bound": 0.6398601398601399,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "immediate surrounding": {
+          "group": "immediate surrounding",
+          "surface_count": 28,
+          "average_target_lx": 300,
+          "u0_target": 0.4,
+          "minimum_surface_average_lx": 595.0,
+          "minimum_surface_u0": 0.75,
+          "conservative_combined_u0_lower_bound": 0.6483050847457628,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "background floor": {
+          "group": "background floor",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 617.0,
+          "minimum_surface_u0": 0.69,
+          "conservative_combined_u0_lower_bound": 0.6871961102106969,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed walls": {
+          "group": "exposed walls",
+          "surface_count": 6,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 216.0,
+          "minimum_surface_u0": 0.34,
+          "conservative_combined_u0_lower_bound": 0.2424581005586592,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed ceiling": {
+          "group": "exposed ceiling",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 137.0,
+          "minimum_surface_u0": 0.89,
+          "conservative_combined_u0_lower_bound": 0.8905109489051095,
+          "pass": true,
+          "failing_surfaces": []
+        }
+      },
+      "combined_seated_cylindrical": {
+        "surface_count": 140,
+        "height_m": 1.2,
+        "average_target_lx": 150,
+        "u0_target": 0.1,
+        "minimum_surface_average_lx": 224.0,
+        "conservative_combined_u0_lower_bound": 0.5980392156862745,
+        "pass": true
+      },
+      "all_selected_metrics_pass": true
+    },
+    {
+      "name": "90% output",
+      "core_source": "comparison-output90-core-reopened-results-v1.json",
+      "aux_source": "comparison-output90-aux-reopened-results-v2.json",
+      "minimum_task_average_lx": 534.0,
+      "minimum_task_u0": 0.8,
+      "maximum_directional_ugr": 17.7,
+      "mean_of_desk_averages_lx": 593.4821428571429,
+      "critical_average_desks": [
+        "Desk-021"
+      ],
+      "critical_uniformity_desks": [
+        "Desk-084"
+      ],
+      "critical_glare_desks": [
+        {
+          "name": "Desk-018",
+          "direction_deg": 180.0
+        }
+      ],
+      "task_metrics_pass": true,
+      "auxiliary_checks": {
+        "desk cylindrical": {
+          "group": "desk cylindrical",
+          "surface_count": 112,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 201.0,
+          "minimum_surface_u0": 0.79,
+          "conservative_combined_u0_lower_bound": 0.6290909090909091,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "surrounding cylindrical": {
+          "group": "surrounding cylindrical",
+          "surface_count": 28,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 220.0,
+          "minimum_surface_u0": 0.69,
+          "conservative_combined_u0_lower_bound": 0.6381322957198443,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "immediate surrounding": {
+          "group": "immediate surrounding",
+          "surface_count": 28,
+          "average_target_lx": 300,
+          "u0_target": 0.4,
+          "minimum_surface_average_lx": 535.0,
+          "minimum_surface_u0": 0.75,
+          "conservative_combined_u0_lower_bound": 0.6483516483516484,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "background floor": {
+          "group": "background floor",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 556.0,
+          "minimum_surface_u0": 0.69,
+          "conservative_combined_u0_lower_bound": 0.6870503597122302,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed walls": {
+          "group": "exposed walls",
+          "surface_count": 6,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 194.0,
+          "minimum_surface_u0": 0.34,
+          "conservative_combined_u0_lower_bound": 0.24254658385093167,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed ceiling": {
+          "group": "exposed ceiling",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 123.0,
+          "minimum_surface_u0": 0.89,
+          "conservative_combined_u0_lower_bound": 0.8861788617886179,
+          "pass": true,
+          "failing_surfaces": []
+        }
+      },
+      "combined_seated_cylindrical": {
+        "surface_count": 140,
+        "height_m": 1.2,
+        "average_target_lx": 150,
+        "u0_target": 0.1,
+        "minimum_surface_average_lx": 201.0,
+        "conservative_combined_u0_lower_bound": 0.5963636363636363,
+        "pass": true
+      },
+      "all_selected_metrics_pass": true
+    },
+    {
+      "name": "Lower reflectance",
+      "core_source": "comparison-reflectance-core-reopened-results-v1.json",
+      "aux_source": "comparison-reflectance-aux-reopened-results-v1.json",
+      "minimum_task_average_lx": 566.0,
+      "minimum_task_u0": 0.79,
+      "maximum_directional_ugr": 18.6,
+      "mean_of_desk_averages_lx": 636.3839285714286,
+      "critical_average_desks": [
+        "Desk-021"
+      ],
+      "critical_uniformity_desks": [
+        "Desk-084"
+      ],
+      "critical_glare_desks": [
+        {
+          "name": "Desk-018",
+          "direction_deg": 180.0
+        },
+        {
+          "name": "Desk-081",
+          "direction_deg": 0.0
+        }
+      ],
+      "task_metrics_pass": true,
+      "auxiliary_checks": {
+        "desk cylindrical": {
+          "group": "desk cylindrical",
+          "surface_count": 112,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 200.0,
+          "minimum_surface_u0": 0.78,
+          "conservative_combined_u0_lower_bound": 0.60431654676259,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "surrounding cylindrical": {
+          "group": "surrounding cylindrical",
+          "surface_count": 28,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 217.0,
+          "minimum_surface_u0": 0.65,
+          "conservative_combined_u0_lower_bound": 0.5811320754716981,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "immediate surrounding": {
+          "group": "immediate surrounding",
+          "surface_count": 28,
+          "average_target_lx": 300,
+          "u0_target": 0.4,
+          "minimum_surface_average_lx": 578.0,
+          "minimum_surface_u0": 0.73,
+          "conservative_combined_u0_lower_bound": 0.6217391304347826,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "background floor": {
+          "group": "background floor",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 590.0,
+          "minimum_surface_u0": 0.64,
+          "conservative_combined_u0_lower_bound": 0.6372881355932203,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed walls": {
+          "group": "exposed walls",
+          "surface_count": 6,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 196.0,
+          "minimum_surface_u0": 0.3,
+          "conservative_combined_u0_lower_bound": 0.22158054711246203,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed ceiling": {
+          "group": "exposed ceiling",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 123.0,
+          "minimum_surface_u0": 0.84,
+          "conservative_combined_u0_lower_bound": 0.8373983739837398,
+          "pass": true,
+          "failing_surfaces": []
+        }
+      },
+      "combined_seated_cylindrical": {
+        "surface_count": 140,
+        "height_m": 1.2,
+        "average_target_lx": 150,
+        "u0_target": 0.1,
+        "minimum_surface_average_lx": 200.0,
+        "conservative_combined_u0_lower_bound": 0.5539568345323741,
+        "pass": true
+      },
+      "all_selected_metrics_pass": true
+    }
+  ],
+  "common_connected_power_W": 4328,
+  "common_conservative_LPD_W_m2": 4.234833659491194,
+  "power_scope": "90% luminous output does not establish90%electric input; connected load unchanged",
+  "isolation": "Two separate single-factor scenarios, not a combined90%output+lower-reflectance test"
+}

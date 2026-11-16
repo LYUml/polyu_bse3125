@@ -1,0 +1,75 @@
+{
+  "title": "Lighting design for an open-plan office",
+  "pages": [
+    {
+      "title": "Design basis and office arrangement",
+      "paragraphs": [
+        "This project considers the lighting of an open-plan office used for reading, paperwork and computer work. A maintained average illuminance of 500 lx is required on each desk, with a uniformity of at least 0.60 and a maximum UGR of 19 [1,2]. The aim is to provide enough light for these activities without large differences across the working area or excessive glare from the fittings.",
+        "The office is L-shaped and extends around the central service core. The area enclosed by the traced internal wall boundaries is 1042.10 m2. Deducting the parts occupied by the eight columns gives 1032.57 m2. This differs from the 1022 m2 annotation on the drawing. The traced boundary is used to construct the model, while the smaller annotated area is used for the power density calculation, giving a slightly higher and more conservative value.",
+        "The supplied drawing does not show office furniture, so 28 four-person bench groups have been arranged within the space. This gives 112 desks, each 1.6 by 0.8 m. Their positions provide a basis for checking the lighting where people would be working. The calculation assumes this furniture arrangement and would need to be reviewed if the desks were moved significantly.",
+        "A ceiling height of 2.8 m and a desk height of 0.8 m are adopted. Ceiling, wall and floor reflectances are assumed to be 80%, 70% and 20%, respectively, with 40% for the columns. The relatively light ceiling and walls help distribute reflected light through the office. These finishes would need to be maintained in the completed space, since darker surfaces would change the calculated lighting performance. Daylight is not included because the glazing dimensions are unavailable."
+      ]
+    },
+    {
+      "title": "DIALux model and calculation procedure",
+      "paragraphs": [
+        "The architectural drawing was imported into DIALux evo, and the scale was checked against the 45 m overall building dimension. The office boundary and eight full-height columns were then modelled. Including the columns allows their obstruction of light to be taken into account, particularly at the nearby desks.",
+        "The selected fitting was imported using its manufacturer ULD file. This contains the light distribution needed to calculate the illumination at different distances and angles from the fitting. DIALux also accounts for light reflected from the room surfaces using the reflectances in Table 1. The fittings were placed on complete 600 mm ceiling tiles, with their emitting faces approximately level with the 2.8 m ceiling. Figure 1 shows the room model.",
+        "A calculation surface was placed on each desk at 0.8 m above the floor. Each surface measures 1.6 by 0.8 m and uses a 10 by 5 grid, giving a nominal spacing of 0.16 m. Uniformity is calculated by dividing the minimum illuminance by the average illuminance on that surface. Checking individual desks is useful because a satisfactory average for the whole room could still leave some workstations poorly lit.",
+        "A maintenance factor of 0.80 was applied to allow for the reduction in illumination during use. Glare was calculated at a seated eye height of 1.2 m, with viewing directions at 15-degree intervals [3]. The manufacturer lists a catalogue UGR value for the fitting, but the glare experienced in the office also depends on its position and surroundings. The calculated room values are therefore used for the comparison with the UGR limit.",
+        "Further calculations were made for the 0.5 m bands around the bench groups, the remaining background floor, cylindrical illuminance at seated head height, and the exposed walls and ceiling. These use the same fittings and positions as the desk calculation. The desks are calculation surfaces; solid furniture, monitor screens and high partitions are not included. Separate copies were used for the output and reflectance comparisons, with all other inputs held constant."
+      ]
+    },
+    {
+      "title": "Luminaire selection and layout",
+      "paragraphs": [
+        "The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, order code 910505103638. The design uses 186 fittings, each rated at 4000 lm and 23 W. A colour temperature of 4000 K and a colour rendering index above 80 are appropriate for the office activities considered here [4]. The low-glare optic was also an important consideration because occupants will be using computer screens as well as reading printed material.",
+        "The 597 by 597 mm fitting fits within a 600 mm ceiling tile. Following the ceiling grid gives a regular arrangement and avoids fittings crossing tile joints. The spacing is generally about 2.4 m, with adjustments near the columns and the edges of the L-shaped office. Light from adjacent fittings overlaps at desk height, helping to limit differences between workstations. Figure 2 shows the arrangement.",
+        "An earlier arrangement using the 3400 lm PowerBalance fitting gave a minimum desk average of 504 lx. Although this exceeded 500 lx, the margin was small. The 4000 lm version at the same positions increased the minimum to 593 lx, while the maximum calculated UGR remained below 19. Section 7 compares this design with a reduced-output scene and a separate change in room reflectance.",
+        "The ceiling void must accommodate the fitting, driver and maintenance access. The manufacturer gives a height of 82 mm in the specification table and 86 mm on the dimension drawing, so at least the larger dimension should be allowed, with additional service clearance. The lighting layout on page 9 includes the ceiling grid, fitting numbers, legend and luminaire schedule."
+      ]
+    },
+    {
+      "title": "Calculated performance and code comparison",
+      "paragraphs": [
+        "All 112 desks meet the selected illuminance, uniformity and glare criteria. The lowest desk average is 593 lx, the lowest uniformity is 0.80 and the highest calculated UGR is 18.1. These values occur at different desks. Figure 3 shows the variation in desk-average illuminance across the office, with the three desks giving the limiting results identified.",
+        "Desk-021 has the lowest average illuminance. Its average and minimum values are 593 lx and 525 lx, giving a uniformity of 525/593 = 0.89. Desk-084 has the lowest uniformity, at 0.80. The highest UGR occurs at Desk-018 when looking in the 180-degree direction. The isolux plot for Desk-021 is shown in Figure 4; the corresponding outputs for the other two desks are included in Appendix A."
+      ]
+    },
+    {
+      "title": "Lighting controls and energy use",
+      "paragraphs": [
+        "The office is divided into 32 lighting control zones: 28 serving the bench groups and four serving circulation areas. Each zone has local manual switching and dimming, so an occupied group can use its lighting without switching on the entire office. The largest zone is 46.67 m2. The number of manual control points follows BEC Table 5.5 for the adopted office area, without taking a reduction for low lighting power density [5]. Figure 5 shows the zones.",
+        "The lights in a zone are set to switch off after 10 minutes without detected occupancy. A time schedule switches lighting off outside working hours, with a local override of up to 120 minutes for staff working late. The sensors and drivers may continue to use standby power after the lights switch off. The actual power reduction, including this standby load, should therefore be checked during commissioning to meet the required reduction of at least 50%.",
+        "Daylight dimming should be provided where the window arrangement requires it under BEC clause 5.6.2. A sensor would reduce electric lighting as daylight increases, while keeping sufficient illumination at the desks. As window dimensions are not available, daylight has not been included in this calculation. No annual saving from daylight control has been estimated.",
+        "The total fitting power is 186 x 23 = 4278 W. A further 50 W is allowed for external control equipment, giving 4328 W. Using the smaller drawing area, the lighting power density is 4328/1022 = 4.235 W/m2, below the BEC limit of 7.2 W/m2. This limits the connected load, while occupancy control and scheduling reduce the time for which unused lighting operates. Actual energy use will depend on the working hours and occupancy pattern."
+      ]
+    },
+    {
+      "title": "Design comparison and conclusion",
+      "paragraphs": [
+        "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 3 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
+        "At 90% output, the lowest desk average falls to 534 lx, only 6.8% above the requirement. Uniformity remains 0.80 and the maximum UGR falls to 17.7. This supports using dimming during commissioning, but full output is retained as the design condition to provide more allowance for differences between the assumed and actual office.",
+        "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C.",
+        "The maintenance factor is based on 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80. The first factor follows the manufacturer L90 declaration; the others are assumptions. Annual cleaning and prompt replacement of failed fittings are proposed. Screen reflections should be checked after fit-out, since room UGR does not assess reflected images of fittings on displays.",
+        "The full-output arrangement is retained, with local dimming available after the finishes and workstation positions are confirmed. Lighting power density remains 4.235 W/m2; a 10% reduction in light output does not establish a 10% reduction in electrical power. Screens and controls should be checked during commissioning."
+      ]
+    }
+  ],
+  "comparison": {
+    "method": "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 3 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
+    "interpretation": [
+      "At 90% output, the lowest desk average falls to 534 lx, only 6.8% above the requirement. Uniformity remains 0.80 and the maximum UGR falls to 17.7. This supports using dimming during commissioning, but full output is retained as the design condition to provide more allowance for differences between the assumed and actual office.",
+      "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C."
+    ],
+    "conclusion": [
+      "The maintenance factor is based on 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80. The first factor follows the manufacturer L90 declaration; the others are assumptions. Annual cleaning and prompt replacement of failed fittings are proposed. Screen reflections should be checked after fit-out, since room UGR does not assess reflected images of fittings on displays.",
+      "The full-output arrangement is retained, with local dimming available after the finishes and workstation positions are confirmed. Lighting power density remains 4.235 W/m2; a 10% reduction in light output does not establish a 10% reduction in electrical power. Screens and controls should be checked during commissioning."
+    ],
+    "appendix": [
+      "Both cases meet the adopted auxiliary illuminance and uniformity criteria. At 90% output, the minimum seated cylindrical average falls from 224 lx to 201 lx and the ceiling average from 137 lx to 123 lx. With lower reflectances, these values are 200 lx and 123 lx. The corresponding workstation and glare results are given in Table 3.",
+      "The tests change one condition at a time. They do not establish the result of combining reduced output with darker finishes, or of adding partitions. The full-output design is retained, with dimming to be set after checking the actual office. Connected power remains 4328 W; electrical savings require driver power data and operating hours."
+    ],
+    "evidence_note": "The following five pages show Case B Desk-021 (original page 529); Case C room settings and Desk-018 glare (pages 254 and 316); Case B ceiling (page 379); and Case C ceiling (page 379). The original DIALux page numbers are retained. PDF bookmarks identify each case."
+  }
+}
