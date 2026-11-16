@@ -1,0 +1,12 @@
+{
+  "status": "verified: current editable sources reproduce all 192 final pages",
+  "final_sha256": "c13386ab9773183073f2679e661a21cedc4675a4698facefeca50f681fee6c3b",
+  "reproduced_sha256": "b704905ef5cf4e0e773c9b73441604681eafd568057d314311061c495c90f320",
+  "all_192_pages_identical_text_size_and_72_150dpi_pixels": true,
+  "byte_difference_scope": "PDF creation metadata/document identifiers only; text, size and rendered content independently identical.",
+  "source_hashes": {
+    "05_Calculations/Final_v03/report-content-v3.json": "59858e7d71db942ef03531ad6eb606422f54515c3a64ab33b1423ce04d5d9811",
+    "05_Calculations/scripts/build_review_report.py": "586b364fb4ef24aa682df10ef5e46c9ba1944f2158dba873f4f992bf32aaffb6",
+    "05_Calculations/scripts/assemble_review_submission.py": "1ad4b8b714d876b889707c13623680b96f8ff2b736f0e35e1d1806786762005f"
+  }
+}

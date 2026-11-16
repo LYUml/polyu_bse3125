@@ -1,0 +1,17 @@
+{
+  "status": "resolved and verified",
+  "baseline_findings": "teacher-review-findings-v1.json",
+  "final_pdf_sha256": "c13386ab9773183073f2679e661a21cedc4675a4698facefeca50f681fee6c3b",
+  "resolutions": {
+    "R01": "Actual 4000 lm native replacement/recalculation; minimum 593 lx, common -10% analytical sensitivity 533.7 lx.",
+    "R02": "0% light output distinguished from standby; >=50% standby-inclusive power reduction is a commissioning requirement.",
+    "R03": "Controls criteria table on p6 covers manual count, power reduction, zone area, override, vacancy and conditional daylight.",
+    "R04": "Explicit combined/native page distinction, appendix navigation and bookmarks; project figures cite actual appendix sources.",
+    "R05": "P2 explains geometry, photometry, interreflection, maintained illuminance, 0.16 m grid, Uo and directional UGR; native model view and p7 worked isolux.",
+    "R06": "Quantitative 500-750 lx colour bar, iteration table, manufacturer polar plot and project-specific optical interpretation.",
+    "R07": "Manufacturer 82 mm table/86 mm drawing discrepancy disclosed; larger envelope plus service clearance specified in report and CAD.",
+    "R08": "Actual ProjectInfoPropertySet title corrected in new copies; all result streams preserved; reopened native PDFs verified.",
+    "R09": "Unsupported assertion locating the automatic-plane minimum removed; fixed task and supplemental regional scopes explained."
+  },
+  "acceptance": "05_Calculations/Final_v03/assignment-acceptance-v3.json"
+}

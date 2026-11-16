@@ -20,7 +20,7 @@ samples=[]
 for ci in range(stored_planes):
  for gi,gamma in enumerate(angles_g):
   if not 65<=gamma<90:continue
-  # Native ULD reports 3400 lm vs 3399 lm in LDT; use the larger flux.
+  # Use the stated native nominal flux rather than the slightly lower LDT lamp-flux field.
   candela=intensity[ci*ng+gi]*nominal_flux/1000
   projected_area=length*width*math.cos(math.radians(gamma))
   samples.append({'C_deg':angles_c[ci],'gamma_deg':gamma,'intensity_cd_klm':intensity[ci*ng+gi],'luminance_cd_m2':candela/projected_area})

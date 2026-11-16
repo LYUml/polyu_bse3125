@@ -2,7 +2,18 @@
 
 Assignment production authorized 2026-11-15; repository synchronization authorized 2026-11-16. Original files remain unchanged in 01_Assignment_Brief. Follow BSE3124's current layout: 00_Submit is the sole final entry; 05_Calculations holds shared data, working models and Final_vXX editable sources/evidence; 06_Tools holds automation. The final deliverable was accepted for handover on 2026-11-16; no course-platform submission has been made. Historical pending/rejected states below describe their own development checkpoints, not the final handover status.
 
-## Final handover, 2026-11-16
+## Revised final handover after strict review, 2026-11-16
+
+- Current PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including A2 CAD, 192 total pages, 5,978,804 bytes; SHA-256 c13386ab9773183073f2679e661a21cedc4675a4698facefeca50f681fee6c3b.
+- Current acceptance: Final_v03/assignment-acceptance-v3.json; current shared binding: data/final-design-v2.json. Earlier handover below is historical and superseded.
+- Actual native upgrade to 910505103638, 4000 lm/23 W, same 186 ceiling-tile positions. Minimum desk mean 593 lx, minimum Uo 0.80, maximum UGR 18.1. Conservative 4328 W / 1022 m2 = 4.235 W/m2.
+- Reopened supplemental minima: seated cylindrical 224 lx; surrounds 595 lx; background 617 lx; exposed walls 216 lx; exposed ceiling 137 lx. Combined uniformity bounds pass. All 112 core desk and 288 auxiliary result rows persist.
+- Core native v4 SHA-256 1c2421837b10cd910d405670c88715167acc3b14798ab374517357a03e804e82; supplemental native v4 102608c64a64a4d9838fb652a09d7a8322cc346da69aec9c563d6f6b101a2742. Title-only copies preserve calculated result streams and have actual native reopen/export evidence.
+- Rewritten narrative explains grid/Uo/interreflection/UGR, quantitative iterations, manufacturer optics, standby-inclusive controls, tolerance sensitivity and 82/86 mm body discrepancy. Native CAD P03 is Final_v03/cad-native-v5/layout.dwg.
+- All 192 assembled pages preserve source text, dimensions and exact pixels at 72/150 dpi. Main pages, CAD, appendix guide and representative native tables/plots visually reviewed. No course-platform submission.
+
+## Historical earlier handover, 2026-11-16
+
 
 - `00_Submit/BSE3125_Lighting_Design_Report.pdf`: 8 main pages including the independent A2 CAD layout, 191 total pages including actual native appendices, 5,859,608 bytes; SHA-256 b5ab0097513f67dea744bb01376eae68206cacbaef84ceb1495a28838b08a384.
 - Requirement-by-requirement audit: `05_Calculations/Final_v02/assignment-acceptance-v1.json`. Editable English narrative is report-content-v1.json; build_main_report.py and assemble_submission.py reproduce the report/assembly from the retained sources.

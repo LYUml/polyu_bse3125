@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T09:33:53.558497+00:00",
+  "finished_utc": "2026-11-16T09:35:45.473962+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-native-v4.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-40s-probe-reopened-v4.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: PDF export destination 'C:\\\\\\\\Users\\\\\\\\lyuml-win\\\\\\\\Desktop\\\\\\\\polyu_bse3125\\\\\\\\05_Calculations\\\\\\\\models\\\\\\\\office-review-40s-probe-reopened-v4.pdf' was not verified; inspect pending dialogs before retry: []\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: PDF export destination 'C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-review-40s-probe-reopened-v4.pdf' was not verified; inspect pending dialogs before retry: []"
+  }
+}

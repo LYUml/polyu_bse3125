@@ -30,3 +30,8 @@ tmp/
 05_Calculations/models/*review*probe*.pdf
 05_Calculations/models/*review*native*.evo
 05_Calculations/models/office-review-brightness-probe-v1.evo
+05_Calculations/Final_v03/*review*.pdf
+05_Calculations/Final_v03/main-page-*.png
+05_Calculations/Final_v03/review-pair-*.png
+05_Calculations/Final_v03/appendix-check-*.png
+05_Calculations/Final_v03/*preview.png

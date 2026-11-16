@@ -1,5 +1,5 @@
 {
-  "status": "native A2 1:100 PDF plotted; visual review pending",
+  "status": "verified native A2 1:100 plot; full-sheet visual review completed",
   "source_dwg": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-native-v5\\layout.dwg",
   "source_dwg_sha256": "719501e0e81919cd5671f2056ff4be4009eeb5658354b85d3067ec2e2b207252",
   "pdf": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\cad-plot-v5\\BSE3125-L01-lighting-plan.pdf",
@@ -22,5 +22,6 @@
     "warning": "Verifies this PDF vector outline at original page size, not downstream print scaling or all drawing dimensions."
   },
   "original_dwg_unchanged": true,
-  "visual_review_verified": false
+  "visual_review_verified": true,
+  "visual_review_notes": "All fixture labels, schedule, notes, dimensions and title block readable; no clipping or overlapping notes."
 }

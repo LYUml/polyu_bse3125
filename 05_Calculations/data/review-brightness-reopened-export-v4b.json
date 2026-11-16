@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T09:30:08.897308+00:00",
+  "finished_utc": "2026-11-16T09:31:23.576457+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-brightness-native-v4.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-review-brightness-probe-reopened-v4.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: PDF export destination 'C:\\\\\\\\Users\\\\\\\\lyuml-win\\\\\\\\Desktop\\\\\\\\polyu_bse3125\\\\\\\\05_Calculations\\\\\\\\models\\\\\\\\office-review-brightness-probe-reopened-v4.pdf' was not verified; inspect pending dialogs before retry: [{\\\"title\\\": \\\"DIALux\\\", \\\"automation_id\\\": \\\"InformationBox\\\", \\\"class\\\": \\\"Window\\\", \\\"children\\\": [{\\\"type\\\": \\\"Button\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Image\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"DIALux evo 14.1\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"DIALux evo 14.1\\\"}, {\\\"type\\\": \\\"Image\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Edit\\\", \\\"text\\\": \\\"The project has not been saved for 5 minutes.\\\\r\\\\nSave now?\\\"}, {\\\"type\\\": \\\"Button\\\", \\\"text\\\": \\\"Yes\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"_Yes\\\"}, {\\\"type\\\": \\\"Button\\\", \\\"text\\\": \\\"No\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"_No\\\"}]}]\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: PDF export destination 'C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-review-brightness-probe-reopened-v4.pdf' was not verified; inspect pending dialogs before retry: [{\"title\": \"DIALux\", \"automation_id\": \"InformationBox\", \"class\": \"Window\", \"children\": [{\"type\": \"Button\", \"text\": \"\"}, {\"type\": \"Image\", \"text\": \"\"}, {\"type\": \"Text\", \"text\": \"DIALux evo 14.1\"}, {\"type\": \"Text\", \"text\": \"DIALux evo 14.1\"}, {\"type\": \"Image\", \"text\": \"\"}, {\"type\": \"Edit\", \"text\": \"The project has not been saved for 5 minutes.\\r\\nSave now?\"}, {\"type\": \"Button\", \"text\": \"Yes\"}, {\"type\": \"Text\", \"text\": \"\"}, {\"type\": \"Text\", \"text\": \"_Yes\"}, {\"type\": \"Button\", \"text\": \"No\"}, {\"type\": \"Text\", \"text\": \"\"}, {\"type\": \"Text\", \"text\": \"_No\"}]}]"
+  }
+}

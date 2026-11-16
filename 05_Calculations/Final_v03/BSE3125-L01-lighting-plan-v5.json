@@ -1,5 +1,5 @@
 {
-  "status": "editable independent CAD sheet; native DWG/plot QA pending",
+  "status": "Accepted independent CAD sheet; native DWG reopen, A2 1:100 plot, 186 IDs and full visual QA verified",
   "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\Final_v03\\BSE3125-L01-lighting-plan-v5.dxf",
   "sha256": "316eb1796b2bfcb7dd8960f7a544cd45c920d21baa9f7dabeb2669e9108cb701",
   "source_dxf_sha256": "d8cea3af6c404161b7962567412832ff8343c1149327e8eed0f9f5d2597bbfb2",
@@ -2257,5 +2257,6 @@
         28.4025
       ]
     }
-  }
+  },
+  "acceptance": "assignment-acceptance-v3.json"
 }
