@@ -19,6 +19,7 @@ heading=ParagraphStyle('classicH1',parent=body,fontName='Bold',fontSize=15,leadi
 h2=ParagraphStyle('classicH2',parent=body,fontName='Bold',fontSize=12,leading=15,spaceBefore=8,spaceAfter=6,keepWithNext=True,alignment=0)
 caption=ParagraphStyle('classiccaption',parent=small,fontName='Italic',alignment=TA_CENTER,spaceBefore=5,spaceAfter=10)
 P=lambda s,style=body:Paragraph(html.escape(str(s)).replace('m2','m<super>2</super>').replace('&gt;=','&#8805;').replace('&lt;=','&#8804;'),style)
+from report_figures import layout_polar,task_map,critical_desks,zone_map,calculation_heights
 story=[]
 def para(i,j):story.append(P(content['pages'][i]['paragraphs'][j].replace('lighting layout on page 7','lighting layout on page 9').replace('Figure 4 maps','Figure 3 maps').replace('Figure 2 shows the resulting room model','Figure 1 shows the resulting room model')))
 def sub(title):story.append(P(title,h2))
@@ -55,34 +56,44 @@ sub('1.2 Office geometry and proposed use');para(0,1);para(0,2)
 sub('1.3 Room conditions');story.append(P('Table 1 gives the main assumptions used in DIALux. The relatively light ceiling and walls contribute reflected light to the desks. Daylight is excluded because the window dimensions are not given. Section 7 considers changes to these conditions.'))
 classic_table('Table 1. Principal room and calculation assumptions.',[['Parameter','Adopted value'],['Ceiling / desk / seated eye height','2.8 / 0.8 / 1.2 m'],['Ceiling / wall / floor reflectance','80 / 70 / 20%'],['Column reflectance / maintenance factor','40% / 0.80'],['Furniture and daylight','Proposed desks; no high partitions or simulated daylight']],[W*.50,W*.50])
 page('2. DIALux modelling and simulation');sub('2.1 Geometry and manufacturer photometry');para(1,0);para(1,1)
-story.extend([image('native-room-view.png',165),P('Figure 1. DIALux model with recessed luminaires and full-height columns.',caption)])
+model_views=Table([[image('native-room-view.png',200),calculation_heights()]],colWidths=[W*.5,W*.5],hAlign='LEFT')
+model_views.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0)]))
+story.extend([model_views,P('Figure 1. Native room view (left) and adopted calculation heights (right).',caption)])
 sub('2.2 Task-area calculation');para(1,2)
 sub('2.3 Maintenance factor and glare');para(1,3);para(1,4)
 page('3. Luminaire selection and lighting layout');sub('3.1 Selected luminaire');para(2,0)
 sub('3.2 Ceiling coordination and light distribution');para(2,1)
-d=map_figure('basis');d.scale(.58,.58);d.height*=.58
-combined=Table([[d,image('manufacturer-polar.png',110)]],colWidths=[W*.73,W*.27],hAlign='LEFT')
-combined.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0)]))
-story.extend([combined,P('Figure 2. Proposed lighting layout (left) and manufacturer light distribution (right) [2].',caption)])
+story.extend([layout_polar(W),P('Figure 2. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2].',caption)])
 sub('3.3 Output selection and installation');para(2,2);para(2,3)
 page('4. Simulation results and interpretation');sub('4.1 Distribution of task illumination');para(3,0)
-figure('tasks','Figure 3. Maintained desk-average illuminance, with the controlling desks identified.',.90)
+story.extend([task_map(W),P('Figure 3. Desk-average illuminance; A, B and C identify the three controlling desks.',caption)])
 sub('4.2 Desks with the lowest lighting levels and highest glare');para(3,1)
-story.extend([image('native-desk021-isolux.png',265),P('Figure 4. Illuminance at Desk-021: average 593 lx, minimum 525 lx, uniformity 0.89.',caption)])
+story.extend([critical_desks(W),P('Figure 4. Different desks control mean illuminance, uniformity and glare.',caption)])
 page('5. Comparison with lighting requirements');story.append(P('Table 2 compares the DIALux results with EN 12464-1:2021 and the lighting power limit in BEC 2024. The office activity and room assumptions are described in Section 1.'))
-classic_table('Table 2. Design criteria and assessed performance.',[['Quantity / source','Adopted criterion','Result'],['Desk mean [1, Table 34]','>=500 lx','Minimum 593 lx'],['Task uniformity [1, Table 34]','Uo >=0.60','Minimum 0.80'],['Directional glare [1, Table 34]','UGR <=19','Maximum 18.1'],['Colour rendering [1], [2]','Ra >=80','Ra >80, manufacturer'],['Seated cylindrical [1, Sec. 5.6.2]','150 lx; Uo >=0.10','Minimum mean 224 lx; Uo bound >=0.59'],['Immediate surroundings [1, Sec. 5.3.4]','300 lx; Uo >=0.40','Minimum mean 595 lx; bound >=0.64'],['Background floor [1, Sec. 5.3.5]','100 lx; Uo >=0.10','Mean 617 lx; Uo 0.69'],['Exposed walls [1, Table 34]','150 lx; Uo >=0.10','Minimum mean 216 lx; bound >=0.24'],['Exposed ceiling [1, Table 34]','100 lx; Uo >=0.10','Mean 137 lx; Uo 0.89'],['Office LPD [6, Table 5.4]','<=7.2 W/m2','4.235 W/m2']],[W*.36,W*.27,W*.37])
+classic_table('Table 2. Adopted requirements and calculated performance.',[
+ ['Quantity','Requirement','Calculated result'],
+ ['Desk mean','>=500 lx','Lowest mean: 593 lx'],
+ ['Desk uniformity','Uo >=0.60','Lowest Uo: 0.80'],
+ ['Directional glare','UGR <=19','Highest UGR: 18.1'],
+ ['Colour rendering','Ra >=80','Ra >80 (manufacturer)'],
+ ['Seated cylindrical','>=150 lx; Uo >=0.10','224 lx; Uo >=0.59*'],
+ ['Immediate surround','>=300 lx; Uo >=0.40','595 lx; Uo >=0.64*'],
+ ['Background floor','>=100 lx; Uo >=0.10','617 lx; Uo =0.69'],
+ ['Exposed walls','>=150 lx; Uo >=0.10','216 lx; Uo >=0.24*'],
+ ['Exposed ceiling','>=100 lx; Uo >=0.10','137 lx; Uo =0.89'],
+ ['Lighting power density','<=7.2 W/m2','4.235 W/m2']], [W*.30,W*.34,W*.36])
+story.append(P('Sources: [1, Table 34 and Secs. 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Table 5.4] for power density. Illuminance results are the lowest surface means. *Conservative uniformity bound across a group of surfaces.',small))
 sub('5.1 Illuminance and uniformity');story.append(P('The desks meet the average illuminance and uniformity targets. The surrounding and background areas also meet their lower illuminance requirements, so the change in lighting level outside the desks is considered as well. Walls and ceiling are checked because their brightness affects the appearance of the room. For groups of calculation surfaces, the uniformity bound in Table 2 is the lowest point illuminance divided by the highest surface average, rounded down. This gives a conservative value for the group.'))
 sub('5.2 Glare and colour rendering');story.append(P('The maximum calculated UGR is below 19 for the seated positions and viewing directions tested. Colour rendering is taken from the manufacturer data. These results apply to the office tasks and arrangement described here; a different activity, such as unusually fine or low-contrast work, could require a higher lighting level.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
-figure('zones','Figure 5. Independent bench and circulation control zones.',.80)
+story.extend([zone_map(W),P('Figure 5. Proposed independent lighting control zones.',caption)])
 sub('6.2 Daylight response');para(4,2)
 sub('6.3 Connected power');para(4,3)
-story.append(P('The proposed 46.67 m2 maximum zone is below 250 m2; the 10-minute vacancy delay and 120-minute override meet the adopted 15-minute and two-hour limits respectively (BEC 5.6.1.3-5). The required standby-inclusive automatic power reduction is at least 50% (5.6.1.1).',small))
 page('7. Design comparison and conclusion')
 sub('7.1 Comparison of calculation conditions')
 story.append(P(content['comparison']['method']))
 comparison={'cases':[dict(name=name,**load(root/'05_Calculations/data'/file)) for name,file in [('Baseline','review-40s-reopened-tasks-v4.json'),('90% output','comparison-output90-core-reopened-results-v1.json'),('Lower reflectance','comparison-reflectance-core-reopened-results-v1.json')]]}
-rows=[['Case','Lowest desk mean','Lowest Uo','Highest UGR']]
+rows=[['Case','Lowest desk mean','Lowest Uo','Highest UGR'],['Requirement','>=500 lx','>=0.60','<=19']]
 for c in comparison['cases']:
  rows.append([c['name'],f"{c['minimum_task_average_lx']:.0f} lx",f"{c['minimum_task_u0']:.2f}",f"{c['maximum_directional_ugr']:.1f}"])
 classic_table('Table 3. Workstation results for the three calculation conditions.',rows,[W*.34,W*.25,W*.20,W*.21])

@@ -1,56 +1,9 @@
 {
   "accepted": true,
-  "pdf_sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
+  "pdf_sha256": "62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50",
   "review_date": "2026-11-16",
-  "pages_reviewed": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-  ],
-  "method": "All eight revised narrative pages visually reviewed; CAD and appendices match previous final exactly at 72 dpi, and assembly verifies all component pages at 72/150 dpi. Font, margins, references and group metadata checked.",
-  "findings": [
-    "Times New Roman body 12 pt; consistent section hierarchy and captions",
-    "Group details fit first page without an additional cover",
-    "Tables, figures and references readable; no clipping or overlap observed",
-    "Comparison discussion remains within the original eight narrative pages",
-    "CAD dimensions, legend and schedule retained",
-    "Native appendix values agree with the comparison tables; conservative uniformity bounds are explicitly distinguished from native rounded Uo"
-  ],
+  "review_record": "05_Calculations/Final_v04/figure-layout-review.json",
+  "method": "Changed pages reviewed as rendered; unchanged native appendices and pages 1/8 verified pixel-identical to reviewed prior final. Assembly checks all source pages at 72/150 dpi.",
   "main_pages_including_CAD": 9,
-  "total_pages": 20,
-  "name_layout_revision": {
-    "alphabetical": true,
-    "rows": 2,
-    "font_pt": 10,
-    "first_page_visually_reviewed": true,
-    "pages_2_to_20_pixel_identical_to_previous_final": true
-  },
-  "title_reference_revision": {
-    "title": "Open-plan Office Lighting Design",
-    "subtitle": "BSE3125: Optics and Lighting",
-    "reference_style": "IEEE numbered",
-    "reference_count": 6,
-    "PolyU_reference_removed": true,
-    "citation_numbers_verified_in_first_use_order": true,
-    "all_eight_main_pages_visually_reviewed": true,
-    "CAD_and_appendices_pixel_identical_to_previous_final": true,
-    "reference_review": "05_Calculations/Final_v04/reference-review.json"
-  }
+  "total_pages": 20
 }

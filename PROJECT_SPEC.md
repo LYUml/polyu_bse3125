@@ -4,9 +4,9 @@ Assignment production authorized 2026-11-15; repository synchronization authoriz
 
 ## Current comparison revision, 2026-11-16
 
-Final PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 11 appendix pages = 20 total; 3,839,238 bytes; SHA-256 b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec. Current acceptance: Final_v04/assignment-acceptance-v4.json; shared binding: data/final-design-v4.json. Editable source: Final_v04/content.json. The 14-page version below is archived in Archive/2026-11-16_Pre_Comparisons.
+Final PDF: 00_Submit/BSE3125_Lighting_Design_Report.pdf; 9 main pages including CAD + 11 appendix pages = 20 total; 3,714,013 bytes; SHA-256 62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50. Current acceptance: Final_v04/assignment-acceptance-v4.json; shared binding: data/final-design-v4.json. Editable source: Final_v04/content.json. The 14-page version below is archived in Archive/2026-11-16_Pre_Comparisons.
 
-Native 90% output: minimum desk mean 534 lx, Uo 0.80, maximum UGR 17.7. Native lower reflectance (70/50/20%, full output): 566 lx, Uo 0.79, UGR 18.6. All auxiliary criteria pass. Each case has saved/reopened core and auxiliary verification (112 and 288 rows respectively). Full output remains the design condition; dimming is a commissioning option. No combined-case or measured electrical-saving claim. Original inputs, shared fixture positions, manufacturer photometry and final CAD are unchanged. Group metadata and personalized PDFs remain local and untracked. No platform submission.
+Native 90% output: minimum desk mean 534 lx, Uo 0.80, maximum UGR 17.7. Native lower reflectance (70/50/20%, full output): 566 lx, Uo 0.79, UGR 18.6. All auxiliary criteria pass. Each case has saved/reopened core and auxiliary verification (112 and 288 rows respectively). Full output remains the design condition; dimming is a commissioning option. No combined-case or measured electrical-saving claim. Original inputs, shared fixture positions and manufacturer photometry are unchanged. CAD P04 now has a lighter underlay, tabulated schedule and actual spacing dimensions; current native file is Final_v04/cad-native-v7/layout.dwg. Group metadata and personalized PDFs remain local and untracked. No platform submission.
 
 ## Historical concise handover before comparisons, 2026-11-16
 

@@ -1,8 +1,8 @@
 {
   "status": "Assembled and component-preservation verified; final acceptance separate",
-  "pdf": "05_Calculations\\Final_v04\\final-report-v5.pdf",
-  "sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
-  "bytes": 3839238,
+  "pdf": "05_Calculations\\Final_v04\\final-report-v9.pdf",
+  "sha256": "62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50",
+  "bytes": 3714013,
   "main_including_CAD": 9,
   "total_pages": 20,
   "appendix_pages": 11,
@@ -10,57 +10,57 @@
   "component_pages": [
     {
       "combined_page": 1,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 1,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 2,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 2,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 3,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 3,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 4,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 4,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 5,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 5,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 6,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 6,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 7,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 7,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 8,
-      "source": "05_Calculations\\Final_v04\\main-report-v5.pdf",
+      "source": "05_Calculations\\Final_v04\\main-report-v8.pdf",
       "source_page": 8,
-      "source_sha256": "b1f828edc94e32002cf4ee45746fcc99c13db2a26d16692e7fd3a7538d810c02"
+      "source_sha256": "bc5a30bb45f8a88acace3e38a282524998d67d336225ebfa5f85923d4ad889d2"
     },
     {
       "combined_page": 9,
-      "source": "05_Calculations\\Final_v03\\cad-plot-v5\\BSE3125-L01-lighting-plan.pdf",
+      "source": "05_Calculations\\Final_v04\\cad-plot-v7\\BSE3125-L01-lighting-plan.pdf",
       "source_page": 1,
-      "source_sha256": "14716ab93e661d495752f76aa6c8d2fb07477e46c3e3efc93939bcf5d5c7bf88"
+      "source_sha256": "0064b113a6a0bd786e5df9f806683bfe08adcc34da241761a6db36fe25eb3ea1"
     },
     {
       "combined_page": 10,
@@ -94,9 +94,9 @@
     },
     {
       "combined_page": 15,
-      "source": "05_Calculations\\Final_v04\\comparison-appendix.pdf",
+      "source": "05_Calculations\\Final_v04\\comparison-appendix-v3.pdf",
       "source_page": 1,
-      "source_sha256": "661a2e56bad71bbe385412af1e8bac3290eb838feeb687aae0512ed7106fa0ad"
+      "source_sha256": "6af32613fd97de33458cbce9346a646f342c6268ea642b1c99bbda56f5d28964"
     },
     {
       "combined_page": 16,

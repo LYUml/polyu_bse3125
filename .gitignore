@@ -50,3 +50,16 @@ tmp/
 05_Calculations/Final_v04/*.pdf
 05_Calculations/Final_v04/*.png
 00_Submit/BSE3125_Lighting_Design_Report.pdf
+
+# Intermediate CAD presentations and reproducible native console copies.
+05_Calculations/Final_v04/BSE3125-L01-lighting-plan-v6.*
+05_Calculations/Final_v04/cad-native-v6/
+05_Calculations/Final_v04/cad-plot-v6/
+05_Calculations/Final_v04/cad-native-v7/input.dxf
+05_Calculations/Final_v04/cad-native-v7/reopened/
+05_Calculations/Final_v04/cad-native-v7/*.log
+05_Calculations/Final_v04/cad-native-v7/*.scr
+05_Calculations/Final_v04/cad-plot-v7/plot-input.dwg
+05_Calculations/Final_v04/cad-plot-v7/*.log
+05_Calculations/Final_v04/cad-plot-v7/*.scr
+05_Calculations/Final_v04/cad-plot-v7/*.png

@@ -9,10 +9,14 @@
   "figure_captions": "10pt Times New Roman Italic below figure",
   "table_titles": "10pt Times New Roman Bold above table",
   "narrative_pages": 8,
-  "status": "accepted; revised title, course subtitle and IEEE references verified",
+  "status": "accepted; revised figures, tables and CAD reviewed",
   "guidance": [
     "https://students.unimelb.edu.au/academic-skills/reading-writing-and-referencing/reports/technical-report-writing",
     "https://www.sussex.ac.uk/webteam/gateway/file.php?name=technical-writing&site=23"
+  ],
+  "figure_label_font_pt_range": [
+    8,
+    10
   ],
   "title_pt": 22,
   "subtitle_pt": 12,

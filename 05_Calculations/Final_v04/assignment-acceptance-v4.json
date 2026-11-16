@@ -1,8 +1,8 @@
 {
   "status": "Accepted academic deliverable under declared assumptions",
   "final_pdf": "00_Submit\\BSE3125_Lighting_Design_Report.pdf",
-  "sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
-  "bytes": 3839238,
+  "sha256": "62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50",
+  "bytes": 3714013,
   "main_pages_including_CAD": 9,
   "appendix_pages": 11,
   "total_pages": 20,
@@ -14,7 +14,7 @@
     "AAAAAA+TimesNewRomanPSMT"
   ],
   "original_inputs_unchanged": true,
-  "baseline_design_and_CAD_unchanged": true,
+  "baseline_design_and_CAD_unchanged": false,
   "all_four_native_comparison_projects_saved_reopened_verified": true,
   "native_persistence": [
     {
@@ -62,7 +62,7 @@
       "saved_bytes_unchanged_after_reopen_export": true
     }
   ],
-  "report_source_sha256": "3a699cb78a5b5eea06ecd5432d9e1f5ccc2a3d33a50fdddf4a231a13958907fe",
+  "report_source_sha256": "b8b072bad63c9a719235c0d915a39019552cc2529a8f4c305d3a9109cf0093e9",
   "assembly_manifest": "05_Calculations/Final_v04/assembly-manifest.json",
   "visual_review": "05_Calculations/Final_v04/visual-review.json",
   "rubric_coverage": {
@@ -70,7 +70,7 @@
     "luminaire_system_selection_20": "Sections3,6,7; output selection and control explanation",
     "criteria_summary_15": "Tables1,2,3,C1; explicit assumptions",
     "performance_discussion_25": "Sections4,5,7 and AppendixC; actual independent sensitivity results",
-    "lighting_layout_20": "Unchanged independent A2 CAD, ceiling grid,legend,schedule and186matchingfixtures"
+    "lighting_layout_20": "Revised independent A2 CAD P04, ceiling grid, tabulated schedule, legend, dimension chain and 186 unchanged matching fixtures"
   },
   "limitations": [
     "Two independent scenarios, not combined lower-output and lower-reflectance test",
@@ -84,7 +84,8 @@
     "rows": 2,
     "font_pt": 10,
     "first_page_visually_reviewed": true,
-    "pages_2_to_20_pixel_identical_to_previous_final": true
+    "pages_2_to_20_pixel_identical_to_previous_final": true,
+    "scope": "Historical revision; current presentation checks are in figure-layout-review.json"
   },
   "title_reference_revision": {
     "title": "Open-plan Office Lighting Design",
@@ -95,6 +96,11 @@
     "citation_numbers_verified_in_first_use_order": true,
     "all_eight_main_pages_visually_reviewed": true,
     "CAD_and_appendices_pixel_identical_to_previous_final": true,
-    "reference_review": "05_Calculations/Final_v04/reference-review.json"
-  }
+    "reference_review": "05_Calculations/Final_v04/reference-review.json",
+    "scope": "Historical revision; current presentation checks are in figure-layout-review.json"
+  },
+  "baseline_engineering_geometry_and_results_unchanged": true,
+  "CAD_presentation_revised": true,
+  "presentation_acceptance": "05_Calculations/Final_v04/figure-layout-review.json",
+  "current_CAD": "05_Calculations/Final_v04/cad-native-v7/layout.dwg"
 }

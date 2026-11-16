@@ -56,10 +56,16 @@
     "review-native-persistence-v4.json"
   ],
   "acceptance": "05_Calculations/Final_v04/assignment-acceptance-v4.json",
-  "report_source_sha256": "3a699cb78a5b5eea06ecd5432d9e1f5ccc2a3d33a50fdddf4a231a13958907fe",
+  "report_source_sha256": "b8b072bad63c9a719235c0d915a39019552cc2529a8f4c305d3a9109cf0093e9",
   "revised_acceptance": "05_Calculations/Final_v04/assignment-acceptance-v4.json",
   "revised_native_persistence": "05_Calculations/data/review-native-persistence-v4.json",
   "historical_engineering_acceptance": "05_Calculations/Final_v03/assignment-acceptance-v3.json",
-  "final_pdf_sha256": "b9c3c35d2f94aad171bca81934440754221552adc8b4f044c3225cb1b52425ec",
-  "comparison_summary": "05_Calculations/Final_v04/comparison-summary.json"
+  "final_pdf_sha256": "62036e4b3957cbde931a18bb23ed0d3a43d3e7c6604944774d3132315fa66a50",
+  "comparison_summary": "05_Calculations/Final_v04/comparison-summary.json",
+  "current_CAD": {
+    "native": "05_Calculations/Final_v04/cad-native-v7/layout.dwg",
+    "native_sha256": "2e4d2511d17ce96522b31a29e3ac7ba11e4e5c20121e520bda5dd98bc2538847",
+    "plot": "05_Calculations/Final_v04/cad-plot-v7/BSE3125-L01-lighting-plan.pdf",
+    "plot_sha256": "0064b113a6a0bd786e5df9f806683bfe08adcc34da241761a6db36fe25eb3ea1"
+  }
 }
