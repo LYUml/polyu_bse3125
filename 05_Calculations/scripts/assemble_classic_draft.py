@@ -13,7 +13,7 @@ with pikepdf.Pdf.new() as out:
    for n in (pages if pages else range(1,len(p.pages)+1)):out.pages.append(p.pages[n-1])
  with out.open_outline() as outline:
   for (title,_,_),n in zip(components,starts):outline.root.append(pikepdf.OutlineItem(title,n))
-  for n,title in enumerate(['1 Introduction and basis','2 DIALux modelling','3 Luminaire selection','4 Results and interpretation','5 Criteria comparison','6 Controls and energy','7 Discussion and conclusion','References and navigation']):outline.root[0].children.append(pikepdf.OutlineItem(title,n))
+  for n,title in enumerate(['1 Introduction and basis','2 DIALux modelling','3 Luminaire selection','4 Results and interpretation','5 Lighting requirements','6 Controls and energy','7 Discussion and conclusion','References']):outline.root[0].children.append(pikepdf.OutlineItem(title,n))
   for n,title in enumerate(['Room summary','Desk-018 maximum glare','Desk-021 minimum average','Desk-084 minimum uniformity']):outline.root[2].children.append(pikepdf.OutlineItem(title,9+n))
  out.docinfo['/Title']='BSE3125 - Times New Roman modular draft';out.remove_unreferenced_resources();out.save(target,compress_streams=True,object_stream_mode=pikepdf.ObjectStreamMode.generate)
 p=pdfium.PdfDocument(target);assert len(p)==14 and target.stat().st_size<10000000
