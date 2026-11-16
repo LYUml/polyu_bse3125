@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-11-16",
+  "scope": "Current engineering and latest modular report checked against original assignment and rubric; no model or report mutation",
+  "verdict": "Core academic engineering requirements are met under the declared ordinary-office assumptions; no need for wholesale redesign. This is not full statutory or installed-system certification.",
+  "original_brief": "01_Assignment_Brief/BSE3125 DIALux Assignment 2627.pdf",
+  "native_revalidation": "requirements-check-native-20261116.json",
+  "requirements": [
+    {
+      "requirement": "Use DIALux evo for assigned open-plan office",
+      "status": "met",
+      "evidence": "Saved/reopened native core/auxiliary v4; original drawing geometry and original input hashes verified."
+    },
+    {
+      "requirement": "International lighting guideline comparison",
+      "status": "met for selected ordinary-office criteria",
+      "evidence": "EN12464-1:2021 Table34 row34.2 checked:500lx/Uo0.60/Ra80/UGR19/cyl150lx/wall150lx/ceiling100lx;112 desk and288 supplemental native rows pass. Full DSE angular conformity not established."
+    },
+    {
+      "requirement": "Local building energy code",
+      "status": "design provisions meet selected BEC2024 criteria",
+      "evidence": "4328W/1022m2=4.235W/m2 versus7.2;32manualpoints;maxzone46.67m2;10minvacancy;120minoverride;>=50%power reduction and conditional daylight are specified rather than installed-tested."
+    },
+    {
+      "requirement": "Luminaire and system justification",
+      "status": "met",
+      "evidence": "4000lm/23W manufacturer ULD, CCT4000K/Ra>80, low-glare optic,600mmgrid, iteration and controls explained."
+    },
+    {
+      "requirement": "Proper independent CAD plan with luminaire schedule",
+      "status": "met",
+      "evidence": "NativeDWG reopened;186 fixtures consistent with shared dataset;ceilinggrid,legend,schedule;A2vectorplot scale1:100verified."
+    },
+    {
+      "requirement": "DIALux functions, result table and performance discussion",
+      "status": "covered in latest draft",
+      "evidence": "Sections2,4,5,6,7;model/isolux/taskplots;maintainedlighting/Uo/UGR/material/photometry explained."
+    },
+    {
+      "requirement": "One PDF/report<=10pages/total<=10MB",
+      "status": "latest modular draft meets limits",
+      "evidence": "9mainpagesincludingCAD+5appendix=14pages;1883123bytes;00_Submit still points to older192page version."
+    },
+    {
+      "requirement": "4-5 group members and submission metadata",
+      "status": "not verified",
+      "evidence": "Team roster and final submission identity are outside engineering verification; do not invent personal data."
+    }
+  ],
+  "engineering_conditions": [
+    "Furniture is a proposed112desk arrangement, not a provided furniture survey.",
+    "80/70/20%reflectance and opaquefacade are declared assumptions;actualdarkerfinishes/glazing/partitionsrequire review.",
+    "DSEscreenluminance has a bounded sampledcheck only, not completeangularverification.",
+    "No lowest-fixture-count or minimum-power optimum has been demonstrated; optimization is not an explicit assignment requirement.",
+    "Controls and50Waccessory allowance require actualequipment/commissioning confirmation for implementation."
+  ],
+  "next_steps": [
+    "Keep current engineering unless course-specific information contradicts its assumptions.",
+    "Once user approves report, place approved concise version in00_Submit; do not submit courseplatform."
+  ],
+  "source_references": {
+    "EN": "Local complete EN12464-1:2021 officeTable34 verified read-only; copyrighted copy not redistributed.",
+    "BEC": "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf"
+  },
+  "latest_draft_sha256": "160c3bb9cf17e3c8691913287ba4a4a0b8d0aa2faf647ab32ba3fd2cbc2ce9b0"
+}
