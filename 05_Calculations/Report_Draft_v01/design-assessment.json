@@ -1,0 +1,45 @@
+{
+  "status": "engineering assessment for first editorial draft; existing design retained",
+  "basis": "Actual reopened native results and existing shared design; no new simulation scenarios performed",
+  "unchanged_native_projects_CAD_and_prior_final_PDF": true,
+  "measured_simulation_metrics": {
+    "desk_count": 112,
+    "minimum_desk_mean_lx": 593.0,
+    "maximum_desk_mean_lx": 742.0,
+    "mean_of_desk_means_lx": 659.4732142857143,
+    "desks_with_mean_above_700_lx": 16,
+    "minimum_task_Uo": 0.8,
+    "maximum_directional_UGR": 18.1,
+    "LPD_including_50W_controls_W_m2": 4.234833659491194
+  },
+  "judgment": "A defensible and numerically passing undergraduate design under explicit assumptions; not demonstrated to be optimal, ready for construction or unconditionally compliant.",
+  "strengths": [
+    "All declared task positions evaluated, with separate limiting locations identified.",
+    "Low-glare product with manufacturer photometry and real native calculation.",
+    "Grid-aligned independent CAD and consistent fixture schedule.",
+    "Power budget and occupancy/manual control provisions explicitly stated."
+  ],
+  "limitations_and_priorities": [
+    {
+      "priority": 1,
+      "issue": "Light ceiling/wall reflectances, opaque facade and fixed proposed furniture are material assumptions.",
+      "action": "Confirm they are defensible against course information; test changes if darker finishes/glazing/partitions must be represented."
+    },
+    {
+      "priority": 2,
+      "issue": "186 fixtures pass; no fixture-count or mixed-output optimization comparison establishes minimum practical load.",
+      "action": "Optional optimization only if needed after first draft review; cannot infer excess solely from count."
+    },
+    {
+      "priority": 3,
+      "issue": "32 bench/circulation control zones are an academic proposal; programming, sensor coverage and accessory selection remain unverified.",
+      "action": "Explain operation simply; confirm compatibility and commissioning before implementation."
+    },
+    {
+      "priority": 4,
+      "issue": "Maximum sampled-direction UGR18.1 is below19 but actual fit-out views/screens are not fully represented.",
+      "action": "Retain seated-view scope and screen-reflection qualification; do not claim complete installed visual comfort."
+    }
+  ],
+  "recommended_next_step": "User evaluates draft language and depth first; no wholesale engineering changes justified by present evidence."
+}
