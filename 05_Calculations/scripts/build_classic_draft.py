@@ -37,10 +37,8 @@ def classic_table(title,rows,widths):
  t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('BACKGROUND',(0,0),(-1,0),light),('LINEABOVE',(0,0),(-1,0),.7,colors.black),('LINEBELOW',(0,0),(-1,0),.5,colors.black),('LINEBELOW',(0,-1),(-1,-1),.7,colors.black),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]))
  story.extend([P(title,ParagraphStyle('tablecaption',parent=small,fontName='Bold',keepWithNext=True,spaceAfter=6)),t,Spacer(1,8)])
 def footer(c,doc):
- c.setFont('Body',9);c.setFillColor(colors.black);c.drawString(72,34,'BSE3125 | Report draft 02');c.drawRightString(A4[0]-72,34,str(doc.page))
- c.setStrokeColor(colors.HexColor('#999999'));c.setLineWidth(.4);c.line(72,49,A4[0]-72,49)
- c.setFont('Body',9);c.drawString(72,A4[1]-35,'Open-plan office lighting design');c.drawRightString(A4[0]-72,A4[1]-35,'For review')
-story.extend([P('Lighting Design for an Open-plan Office',ParagraphStyle('title',parent=heading,fontSize=19,leading=23,alignment=TA_CENTER)),P('BSE3125 Optics and Lighting | Semester 1, 2026/27',ParagraphStyle('subtitle',parent=small,alignment=TA_CENTER,spaceAfter=18))])
+ c.setFont('Body',9);c.setFillColor(colors.black);c.drawCentredString(A4[0]/2,34,str(doc.page))
+story.extend([P('Lighting Design for an Open-plan Office',ParagraphStyle('title',parent=heading,fontSize=19,leading=23,alignment=TA_CENTER)),Spacer(1,18)])
 story.append(P('1. Introduction and design basis',heading));sub('1.1 Design objective');para(0,0)
 sub('1.2 Office geometry and proposed use');para(0,1);para(0,2)
 sub('1.3 Calculation assumptions');story.append(P('Table 1 summarises the principal model assumptions. Light ceiling and wall finishes support reflected illumination; darker finishes would require the design to be recalculated. No daylight contribution is credited because the glazing dimensions are unavailable.'))
