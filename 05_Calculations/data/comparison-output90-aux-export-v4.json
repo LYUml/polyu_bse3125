@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T13:34:01.216979+00:00",
+  "finished_utc": "2026-11-16T13:35:22.486297+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-aux-v2.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-aux-fresh-v2.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: PDF export destination 'C:\\\\\\\\Users\\\\\\\\lyuml-win\\\\\\\\Desktop\\\\\\\\polyu_bse3125\\\\\\\\05_Calculations\\\\\\\\models\\\\\\\\office-comparison-output90-aux-fresh-v2.pdf' was not verified; inspect pending dialogs before retry: [{\\\"title\\\": \\\"Exporting Report\\\", \\\"automation_id\\\": \\\"StiProgressWindow\\\", \\\"class\\\": \\\"Window\\\", \\\"children\\\": [{\\\"type\\\": \\\"TitleBar\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Button\\\", \\\"text\\\": \\\"Close\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"Formatting Objects\\\"}, {\\\"type\\\": \\\"ProgressBar\\\", \\\"text\\\": \\\"\\\"}, {\\\"type\\\": \\\"Button\\\", \\\"text\\\": \\\"Cancel\\\"}, {\\\"type\\\": \\\"Text\\\", \\\"text\\\": \\\"_Cancel\\\"}]}]\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: PDF export destination 'C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-comparison-output90-aux-fresh-v2.pdf' was not verified; inspect pending dialogs before retry: [{\"title\": \"Exporting Report\", \"automation_id\": \"StiProgressWindow\", \"class\": \"Window\", \"children\": [{\"type\": \"TitleBar\", \"text\": \"\"}, {\"type\": \"Button\", \"text\": \"Close\"}, {\"type\": \"Text\", \"text\": \"Formatting Objects\"}, {\"type\": \"ProgressBar\", \"text\": \"\"}, {\"type\": \"Button\", \"text\": \"Cancel\"}, {\"type\": \"Text\", \"text\": \"_Cancel\"}]}]"
+  }
+}

@@ -44,3 +44,9 @@ tmp/
 05_Calculations/models/office-comparison-*.evo
 05_Calculations/models/office-comparison-*.pdf
 05_Calculations/models/office-pre-comparison-session-*.evo
+
+# Personal group metadata and personalised final PDFs remain local.
+05_Calculations/local/
+05_Calculations/Final_v04/*.pdf
+05_Calculations/Final_v04/*.png
+00_Submit/BSE3125_Lighting_Design_Report.pdf

@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "native_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-aux-verified-v3.evo",
+  "native_sha256": "2ec3dc5e4c8a903ee685933ba5071e21fa743ac7788ee66585022ab4726cbe6d",
+  "fresh_result_file": "05_Calculations\\data\\comparison-output90-aux-fresh-results-v2.json",
+  "reopened_result_file": "05_Calculations\\data\\comparison-output90-aux-reopened-results-v2.json",
+  "fresh_pdf_sha256": "71ab19b046a169dee3823352c049b90d7c0768fd891e9d4d2aae35f7dcacabe3",
+  "reopened_pdf_sha256": "40f806b53c1d2e3e39e68aa99657aa8596e9b97b7fb2b78fb67883cfff2d6d55",
+  "exact_preserved_rows": 288,
+  "saved_bytes_unchanged_after_reopen_export": true
+}

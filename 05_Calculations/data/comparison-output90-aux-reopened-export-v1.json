@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-16T13:37:18.696502+00:00",
+  "finished_utc": "2026-11-16T13:38:29.716744+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "native guarded worker",
+  "arguments": [
+    "export-pdf",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-aux-v2.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-aux-reopened-v2.pdf"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"error\": \"ValueError: Expected one MenuSaveAs, found 0\"}\n",
+  "stderr": "",
+  "result": {
+    "error": "ValueError: Expected one MenuSaveAs, found 0"
+  }
+}

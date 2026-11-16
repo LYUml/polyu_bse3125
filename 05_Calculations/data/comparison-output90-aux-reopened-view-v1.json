@@ -1,0 +1,22 @@
+{
+  "backend": "pywinauto-uia",
+  "pid": 11240,
+  "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+  "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-aux-v2.evo* - DIALux evo 14.1  (64-bit)",
+  "controls": {
+    "Save": {
+      "count": 1,
+      "enabled": true
+    },
+    "CalculationButtonStart": {
+      "count": 1,
+      "enabled": false
+    },
+    "DiscardResultsButton": {
+      "count": 1,
+      "enabled": true
+    }
+  },
+  "dialogs": [],
+  "uses_codex_computer_use": false
+}
