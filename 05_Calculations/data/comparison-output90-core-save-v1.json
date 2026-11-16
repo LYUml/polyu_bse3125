@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-16T13:00:46.343785+00:00",
+  "finished_utc": "2026-11-16T13:00:58.540273+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-save-as",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-core-v1.evo",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-core-native-v2.evo"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"ValueError: Expected one SaveAs, found 0\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "ValueError: Expected one SaveAs, found 0"
+  }
+}

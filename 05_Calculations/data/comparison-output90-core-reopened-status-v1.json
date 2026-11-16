@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-11-16T13:07:24.308285+00:00",
+  "finished_utc": "2026-11-16T13:07:26.699016+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-status"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"backend\": \"pywinauto-uia\",\n  \"pid\": 11240,\n  \"executable\": \"C:\\\\Program Files\\\\DIAL GmbH\\\\DIALux\\\\DIALux_x64.exe\",\n  \"title\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-comparison-output90-core-v1.evo* - DIALux evo 14.1  (64-bit)\",\n  \"controls\": {\n    \"Save\": {\n      \"count\": 1,\n      \"enabled\": true\n    },\n    \"CalculationButtonStart\": {\n      \"count\": 1,\n      \"enabled\": false\n    },\n    \"DiscardResultsButton\": {\n      \"count\": 1,\n      \"enabled\": false\n    }\n  },\n  \"dialogs\": [],\n  \"uses_codex_computer_use\": false,\n  \"state\": \"ready\"\n}\n",
+  "stderr": "",
+  "result": {
+    "backend": "pywinauto-uia",
+    "pid": 11240,
+    "executable": "C:\\Program Files\\DIAL GmbH\\DIALux\\DIALux_x64.exe",
+    "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-core-v1.evo* - DIALux evo 14.1  (64-bit)",
+    "controls": {
+      "Save": {
+        "count": 1,
+        "enabled": true
+      },
+      "CalculationButtonStart": {
+        "count": 1,
+        "enabled": false
+      },
+      "DiscardResultsButton": {
+        "count": 1,
+        "enabled": false
+      }
+    },
+    "dialogs": [],
+    "uses_codex_computer_use": false,
+    "state": "ready"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-16T13:01:49.258737+00:00",
+  "finished_utc": "2026-11-16T13:01:59.565901+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-save",
+    "--expected-project",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-core-v1.evo"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"operation\": \"save\",\n  \"status\": \"saved\",\n  \"path\": \"C:\\\\Users\\\\lyuml-win\\\\Desktop\\\\polyu_bse3125\\\\05_Calculations\\\\models\\\\office-comparison-output90-core-v1.evo\",\n  \"bytes\": 193220037,\n  \"sha256\": \"e099a9e6612416ec8cef919bd997263e991da6e51b0cbddd75baa8812c21a628\",\n  \"evidence\": \"Expected project matched; native file updated and stabilized after UIA Invoke\",\n  \"uses_codex_computer_use\": false\n}\n",
+  "stderr": "",
+  "result": {
+    "operation": "save",
+    "status": "saved",
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-comparison-output90-core-v1.evo",
+    "bytes": 193220037,
+    "sha256": "e099a9e6612416ec8cef919bd997263e991da6e51b0cbddd75baa8812c21a628",
+    "evidence": "Expected project matched; native file updated and stabilized after UIA Invoke",
+    "uses_codex_computer_use": false
+  }
+}

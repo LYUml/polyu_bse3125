@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-16T13:06:27.015311+00:00",
+  "finished_utc": "2026-11-16T13:06:34.496548+00:00",
+  "toolkit_commit": "ade128b7ae446c6ea253776a5ead866280d6bf4a",
+  "interface": "CLI",
+  "arguments": [
+    "desktop-open",
+    "--path",
+    "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-comparison-output90-core-v1.evo"
+  ],
+  "exit_code": 2,
+  "stdout": "{\"ok\": false, \"error\": \"ValueError: Expected one OpenProject, found 0\"}\n",
+  "stderr": "",
+  "result": {
+    "ok": false,
+    "error": "ValueError: Expected one OpenProject, found 0"
+  }
+}
