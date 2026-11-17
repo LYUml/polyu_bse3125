@@ -1,0 +1,2505 @@
+{
+  "project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+  "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-task-development-v1.evo* - DIALux evo 14.1  (64-bit)",
+  "controls": [
+    {
+      "type": "Button",
+      "id": "CloseEnergyTachometerButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Potential",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerPotentialValue",
+      "text": "0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerValueTypeText",
+      "text": "kWh/a",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowEnergyTachometerMenuButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "EnergyTachometerChangeToEnergyPerformanceToolButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_minimumTextBlock",
+      "text": "0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerMaximumValue",
+      "text": "11246",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "",
+      "text": "System",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Minimize",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Maximize",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Close",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "File",
+      "text": "File",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_File",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Edit",
+      "text": "Edit",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Edit",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "MenuGotoConstructionMode",
+      "text": "Goto",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Goto",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "View",
+      "text": "View",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_View",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Help",
+      "text": "?",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_?",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "MenuAd_LumsearchMainPage",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Luminaire Finder",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Logged in",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Save",
+      "text": "Save",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Undo",
+      "text": "Undo",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Redo",
+      "text": "Redo",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "CalculationObjectTool",
+      "text": "Dial.Dialux.InteractionTools.Lighting.CalculationObjectTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "hideToolsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewRectCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw rectangular calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewPolygonalCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw polygonal calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewPointCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Place calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_ContourLines",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Isolines",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_PseudoColors",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "False colours",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_ValueChart",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Value chart",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_RemoveChartings",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Delete diagrams",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_AddRealSurfaceResults",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Results on surface",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateRectCalculationSurfaceCutout",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw rectangular cutout",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreatePolygonCalculationSurfaceCutout",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw polygonal cutout",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "VerboseActions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Active calculation object_Header",
+      "text": "Active calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Active calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DecreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "IncreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Objects",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Objects",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Calculation point",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Calculation surface",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Camera",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Properties_Header",
+      "text": "Properties",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Properties",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Properties_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Name",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "ObjectName",
+      "text": "Desk-01",
+      "enabled": true,
+      "value": "Desk-01"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Description",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "ObjectDescription",
+      "text": "",
+      "enabled": true,
+      "value": ""
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Positioning_Header",
+      "text": "Positioning",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Positioning",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Positioning_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Position",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Positioning_Z",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "Edit",
+      "id": "Positioning_X",
+      "text": "2.000",
+      "enabled": true,
+      "value": "2.000"
+    },
+    {
+      "type": "Edit",
+      "id": "Positioning_Y",
+      "text": "5.696",
+      "enabled": true,
+      "value": "5.696"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Rotation",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Rotation_X",
+      "text": "0.0",
+      "enabled": true,
+      "value": "0.0"
+    },
+    {
+      "type": "Edit",
+      "id": "Rotation_Y",
+      "text": "-0.0",
+      "enabled": true,
+      "value": "-0.0"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "\u00b0",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Rotation_Z",
+      "text": "-0.0",
+      "enabled": true,
+      "value": "-0.0"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Size",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Size_X",
+      "text": "1.000",
+      "enabled": true,
+      "value": "1.000"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Size_Y",
+      "text": "1.000",
+      "enabled": true,
+      "value": "1.000"
+    },
+    {
+      "type": "Button",
+      "id": "Calculation parameters_Header",
+      "text": "Calculation parameters",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Calculation parameters",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Calculation parameters_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "HorizontalIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PerpendicularIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PerpendicularIllumAdaptive",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "VerticalIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Ugr",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Gr",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CylIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "SemiCylIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "HemisphericalIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CameraIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DaylightQuotient",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "FreeIllum",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DuplicateCalculationParameter",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Perpendicular illuminance",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Height offset",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "HeightOffset_PerpendicularIllum",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "Button",
+      "id": "Space_Header",
+      "text": "Space",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Space",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Space_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Assignment",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "SpaceAssignmentComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings for measuring grid_Header",
+      "text": "Settings for measuring grid",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Settings for measuring grid",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings for measuring grid_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "Auto",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "Count",
+      "text": "Quantity",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Quantity",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Number of X",
+      "enabled": false
+    },
+    {
+      "type": "Edit",
+      "id": "GridPointCountX",
+      "text": "5",
+      "enabled": false,
+      "value": "5"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Number of Y",
+      "enabled": false
+    },
+    {
+      "type": "Edit",
+      "id": "GridPointCountY",
+      "text": "5",
+      "enabled": false,
+      "value": "5"
+    },
+    {
+      "type": "RadioButton",
+      "id": "Distance",
+      "text": "Distance",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Distance",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Distance X",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": false
+    },
+    {
+      "type": "Edit",
+      "id": "GridPointDistanceX",
+      "text": "0.200",
+      "enabled": false,
+      "value": "0.200"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Distance Y",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": false
+    },
+    {
+      "type": "Edit",
+      "id": "GridPointDistanceY",
+      "text": "0.200",
+      "enabled": false,
+      "value": "0.200"
+    },
+    {
+      "type": "CheckBox",
+      "id": "GridPointAdjustOnX",
+      "text": "Place points on X edge",
+      "enabled": true,
+      "checked": 0
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Place points on X edge",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "GridPointAdjustOnY",
+      "text": "Place points on Y edge",
+      "enabled": true,
+      "checked": 0
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Place points on Y edge",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Isolines_Header",
+      "text": "Isolines",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Isolines",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Isolines_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Colour selection",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Color",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "PART_InternalButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Font size",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "FontSizeAuto",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "FontSizeFixed",
+      "text": "User defined",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "User defined",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "FontSize",
+      "text": "0.025",
+      "enabled": true,
+      "value": "0.025"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Presets",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "IsolinePresets",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Values",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Select",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Configure",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "Value chart_Header",
+      "text": "Value chart",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Value chart",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Value chart_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Colour selection",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Color",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PART_InternalButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Font size",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "FontSizeAuto",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Automatic",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "FontSizeFixed",
+      "text": "User defined",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "User defined",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "FontSize",
+      "text": "0.025",
+      "enabled": true,
+      "value": "0.025"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Rotation",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Rotate90Clockwise",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Rotate90CounterClockwise",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ScrollBarUp",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "ScrollBarDown",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "WorkplaneTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.WorkplaneTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "TaskAreaTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.TaskAreaTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ActivityAreaTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.ActivityAreaTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "RoomMainSurfacesTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.RoomMainSurfacesTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "SpaceTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.Spaces.SpaceTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "EmergencyLightingAreasTool",
+      "text": "Dial.Dialux.InteractionTools.EmergencyLighting.EmergencyLightingAreasTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ObtrusiveLightTool",
+      "text": "Dial.Dialux.InteractionTools.Lighting.ObtrusiveLightTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "LinesAndTextTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.Dimensioning.LinesAndTextTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "MultiSelectionTool",
+      "text": "Dial.Dialux.InteractionTools.MultiSelection.MultiSelectionTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ViewTool",
+      "text": "Dial.Dialux.InteractionTools.Views.ViewTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ProjectTreeTool",
+      "text": "Dial.Dialux.InteractionTools.Project.ProjectTreeTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "hideToolsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "LightSceneName",
+      "text": "Active light scene: Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Not calculated",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings_Header",
+      "text": "Settings",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Settings",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "QualityRatingVisibilityCheckBox",
+      "text": "Show evaluation",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Show evaluation",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Legend",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Limit values of utilisation profile fulfilled",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Limit values of utilisation profile not fulfilled",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "No limit values available in utilisation profile",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Utilisation profile partially fulfilled, as some limit values not available",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "FilterControlSearchBox1",
+      "text": "",
+      "enabled": true,
+      "value": ""
+    },
+    {
+      "type": "Text",
+      "id": "searchInfoText",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Lighting Calculation",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "ResultGroupName",
+      "text": "Open plan office",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "ResultGroupName",
+      "text": "Desk-01",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultMonitorItem",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "ResultGroupName",
+      "text": "Working plane (Open plan office)",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultMonitorItem",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CommonCalculationButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "CalculationCommandText",
+      "text": "Calculation",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonStart",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "LightSceneCalculationModeComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "EnergyEstimationCalculationButtonStart",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "DiscardResultsButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "ComboBox",
+      "id": "DiscardResultsComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonShowCalcOptionsDropDown",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "WorkspaceSelectionComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowLightSceneTexturesButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "ComboBox",
+      "id": "LightSceneSelectionComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowResultsMonitor",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowNewsStream",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteSpaceContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_BuildingContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_StoreyContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_RoomContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowDwgPlansToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DwgPlansListPopupToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRenderer",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFloorPlan",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFrontView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRightView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonBackView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonLeftView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_moreViewButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewAll",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewSelected",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonMeasuringTape",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonAdjustReferenceCoordSys",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_TranslateInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_RotateInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_ScaleInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_PolygonModifyManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ViewOptions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "35.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "35.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "40.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "40.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "0.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "0.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "FalseColorConfigToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.10",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.20",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.30",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.75",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "20.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "30.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "50.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "75.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "100",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "200",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "300",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "750",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "15000",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Project",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Construction",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Light",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Calculation objects",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteSpaceContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_BuildingContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_StoreyContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_RoomContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowDwgPlansToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DwgPlansListPopupToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRenderer",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFloorPlan",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFrontView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRightView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonBackView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonLeftView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_moreViewButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewAll",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewSelected",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonMeasuringTape",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonAdjustReferenceCoordSys",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_TranslateInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_RotateInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_ScaleInteractionManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_PolygonModifyManipulator",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ViewOptions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "35.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "35.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "40.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "40.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "0.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "0.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "10.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "15.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "20.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "25.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "30.00",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "FalseColorConfigToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.10",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.20",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.30",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.75",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "20.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "30.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "50.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "75.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "100",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "200",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "300",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "750",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "15000",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButtonShowUserLogPopup",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "TextBlockNumberNewMessages",
+      "text": "2 new messages",
+      "enabled": true
+    }
+  ]
+}

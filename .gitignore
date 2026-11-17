@@ -8,21 +8,7 @@ tmp/
 *.dwl2
 *.log
 **/ErrorReports/
-02_References/local/
 06_Tools/.runtime/
-# Private and large delivery/engineering files stay local.
-00_Submit/*.pdf
-00_Submit/DIALux/
-03_Engineering/DIALux/
-03_Engineering/Native_Reports/
-04_Report/Private/
 04_Report/Build*/
-# Historical tracked files are retained explicitly; all other archives stay local.
-90_Archive/
-# Existing local working evidence.
-05_Calculations/data/cad_entities.json
-05_Calculations/data/source_plan_preview.png
-05_Calculations/data/baseline-page-*.png
-05_Calculations/data/ui-inventory-*.json
-05_Calculations/data/native-rectangle-command.png
-05_Calculations/data/desk01-page-*.png
+# Generated image previews; retained source assets are explicitly tracked.
+*.png

@@ -23,6 +23,6 @@ DIALux procedure/functions and figures (20%); luminaire/system selection (20%); 
 - Native engineering: `03_Engineering/project-index.json`; current CAD: `03_Engineering/CAD/manifest.json`.
 - Shared design: `05_Calculations/data/final-design.json`.
 - Directory/rebuild handover: `05_Calculations/workspace-verification.json`.
-- Historical engineering acceptance: `90_Archive/Development/Final_v04/assignment-acceptance-v4.json`; presentation checks: `90_Archive/Development/Final_v04/figure-layout-review.json`. Historical path references resolve through `05_Calculations/workspace-migration.json`.
+- Historical engineering acceptance: `99_Archive/Development/Final_v04/assignment-acceptance-v4.json`; presentation checks: `99_Archive/Development/Final_v04/figure-layout-review.json`. Historical path references resolve through `05_Calculations/workspace-migration.json`.
 
-The original assignment PDF and DWG retain their fingerprints. All relocated files were hash-checked. The post-migration report reproduces all 20 delivered pages exactly in text, dimensions and 72/150 dpi rendering. Historical pending/rejected experiments are archived, not current deliverables. The former detailed development specification is preserved under `90_Archive/Documentation`.
+The original assignment PDF and DWG retain their fingerprints. All relocated files were hash-checked. The post-migration report reproduces all 20 delivered pages exactly in text, dimensions and 72/150 dpi rendering. Historical pending/rejected experiments are archived, not current deliverables. The former detailed development specification is preserved under `99_Archive/Documentation`.

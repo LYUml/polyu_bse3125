@@ -1,0 +1,1398 @@
+{
+  "project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-task-development-v1.evo",
+  "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-task-development-v1.evo* - DIALux evo 14.1  (64-bit)",
+  "controls": [
+    {
+      "type": "Button",
+      "id": "CloseEnergyTachometerButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Potential",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerPotentialValue",
+      "text": "0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerValueTypeText",
+      "text": "kWh/a",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowEnergyTachometerMenuButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "EnergyTachometerChangeToEnergyPerformanceToolButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_minimumTextBlock",
+      "text": "0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "EnergyTachometerMaximumValue",
+      "text": "11246",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "",
+      "text": "System",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Minimize",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Restore",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Close",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "File",
+      "text": "File",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_File",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Edit",
+      "text": "Edit",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Edit",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "MenuGotoConstructionMode",
+      "text": "Goto",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Goto",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "View",
+      "text": "View",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_View",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Help",
+      "text": "?",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_?",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "MenuAd_LumsearchMainPage",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Luminaire Finder",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Logged in",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Save",
+      "text": "Save",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Undo",
+      "text": "Undo",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "Redo",
+      "text": "Redo",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "CalculationObjectTool",
+      "text": "Dial.Dialux.InteractionTools.Lighting.CalculationObjectTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "hideToolsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewRectCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw rectangular calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewPolygonalCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw polygonal calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_NewPointCalculationObject",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Place calculation object",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_ContourLines",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Isolines",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_PseudoColors",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "False colours",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateCharting_ValueChart",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Value chart",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_RemoveChartings",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Delete diagrams",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_AddRealSurfaceResults",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Results on surface",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreateRectCalculationSurfaceCutout",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw rectangular cutout",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "aid_CreatePolygonCalculationSurfaceCutout",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Draw polygonal cutout",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "VerboseActions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Place calculation surface_Header",
+      "text": "Place calculation surface",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Place calculation surface",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Position",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Position_X",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Position_Y",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Length",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Length",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Width",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "m",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "Width",
+      "text": "0.000",
+      "enabled": true,
+      "value": "0.000"
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "WorkplaneTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.WorkplaneTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "TaskAreaTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.TaskAreaTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ActivityAreaTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.ActivityAreaTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "RoomMainSurfacesTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.CalculationObjects.RoomMainSurfacesTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "SpaceTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.Spaces.SpaceTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "EmergencyLightingAreasTool",
+      "text": "Dial.Dialux.InteractionTools.EmergencyLighting.EmergencyLightingAreasTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ObtrusiveLightTool",
+      "text": "Dial.Dialux.InteractionTools.Lighting.ObtrusiveLightTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "Separator",
+      "text": "Dial.Dialux.InteractionTools.Construction.Separator",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "LinesAndTextTool",
+      "text": "Dial.Dialux.InteractionTools.Construction.Dimensioning.LinesAndTextTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "MultiSelectionTool",
+      "text": "Dial.Dialux.InteractionTools.MultiSelection.MultiSelectionTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ViewTool",
+      "text": "Dial.Dialux.InteractionTools.Views.ViewTool",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "ProjectTreeTool",
+      "text": "Dial.Dialux.InteractionTools.Project.ProjectTreeTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "hideToolsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "LightSceneName",
+      "text": "Active light scene: Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Not calculated",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings_Header",
+      "text": "Settings",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Settings",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Settings_Pin",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "QualityRatingVisibilityCheckBox",
+      "text": "Show evaluation",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Show evaluation",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Legend",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Limit values of utilisation profile fulfilled",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Limit values of utilisation profile not fulfilled",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "No limit values available in utilisation profile",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Utilisation profile partially fulfilled, as some limit values not available",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "FilterControlSearchBox1",
+      "text": "",
+      "enabled": true,
+      "value": ""
+    },
+    {
+      "type": "Text",
+      "id": "searchInfoText",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Lighting Calculation",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "ResultGroupName",
+      "text": "Open plan office",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultsMonitorGroup",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "ResultGroupName",
+      "text": "Working plane (Open plan office)",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionViewModels.ResultsMonitor.ResultMonitorItem",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "-",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CommonCalculationButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "CalculationCommandText",
+      "text": "Calculation",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonStart",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "LightSceneCalculationModeComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "EnergyEstimationCalculationButtonStart",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "DiscardResultsButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "ComboBox",
+      "id": "DiscardResultsComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonShowCalcOptionsDropDown",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "WorkspaceSelectionComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowLightSceneTexturesButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "ComboBox",
+      "id": "LightSceneSelectionComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowResultsMonitor",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowNewsStream",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteSpaceContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_BuildingContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_StoreyContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_RoomContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowDwgPlansToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DwgPlansListPopupToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRenderer",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFloorPlan",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFrontView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRightView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonBackView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonLeftView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_moreViewButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewAll",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewSelected",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonMeasuringTape",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonAdjustReferenceCoordSys",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ViewOptions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "FalseColorConfigToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.10",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.20",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.30",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.75",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "20.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "30.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "50.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "75.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "100",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "200",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "300",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "750",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "15000",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Project",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Construction",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Light",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Calculation objects",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_SiteSpaceContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_BuildingContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_StoreyContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButton_RoomContextSelectionButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowDwgPlansToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DwgPlansListPopupToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRenderer",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFloorPlan",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonFrontView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonRightView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonBackView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonLeftView",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_moreViewButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewAll",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonViewSelected",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonMeasuringTape",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CadCommandButtonAdjustReferenceCoordSys",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ViewOptions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "FalseColorConfigToggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.10",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.20",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.30",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "0.75",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5.00",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7.50",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "20.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "30.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "50.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "75.0",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "100",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "200",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "300",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "750",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "1000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "2000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "3000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "5000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "7500",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "10000",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "valueText",
+      "text": "15000",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButtonShowUserLogPopup",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "TextBlockNumberNewMessages",
+      "text": "2 new messages",
+      "enabled": true
+    }
+  ]
+}

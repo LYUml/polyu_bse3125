@@ -4,4 +4,4 @@
 
 `workspace-verification.json` verifies the reorganized handover and exact report reproduction. `workspace-migration.json` records every moved file, its hash and old-to-current path lookup. Historical JSON evidence retains original path strings to avoid rewriting hash-bound evidence. Resolve a former path with `06_Tools/resolve_evidence_path.py`.
 
-Final editable engineering lives in `03_Engineering`; report sources in `04_Report`; historical models and drafts in `90_Archive`.
+Final editable engineering lives in `03_Engineering`; report sources in `04_Report`; historical models and drafts in `99_Archive`.

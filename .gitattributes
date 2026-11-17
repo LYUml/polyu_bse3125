@@ -1,7 +1,30 @@
 * -text
 *.pdf binary
-*.evo binary
+*.evo filter=lfs diff=lfs merge=lfs -text
 *.dwg binary
 *.dxf binary
 *.uld binary
 *.ldt binary
+03_Engineering/Native_Reports/Final_Visual_Environment.pdf filter=lfs diff=lfs merge=lfs -text
+03_Engineering/Native_Reports/Final_Workstations.pdf filter=lfs diff=lfs merge=lfs -text
+03_Engineering/Native_Reports/Lower_Reflectance_Visual_Environment.pdf filter=lfs diff=lfs merge=lfs -text
+03_Engineering/Native_Reports/Lower_Reflectance_Workstations.pdf filter=lfs diff=lfs merge=lfs -text
+03_Engineering/Native_Reports/Output90_Visual_Environment.pdf filter=lfs diff=lfs merge=lfs -text
+03_Engineering/Native_Reports/Output90_Workstations.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-brightness-allareas-probe-v3.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-brightness-exposed-probe-v4.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-brightness-exposed-probe-v5.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-brightness-openings-probe-reopened-v9.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-brightness-openings-probe-v8.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-comparison-output90-aux-fresh-v1.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-comparison-output90-aux-fresh-v2.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-comparison-output90-core-fresh-v1.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-comparison-reflectance-aux-fresh-v1.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-comparison-reflectance-core-fresh-v1.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-powerbalance-alltasks-probe-v1.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-powerbalance-grid-probe-reopened-v4.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-powerbalance-grid-probe-v2.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-powerbalance-grid-probe-v3.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-review-40s-probe-reopened-v3.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-review-40s-probe-v2.pdf filter=lfs diff=lfs merge=lfs -text
+99_Archive/Development/models/office-review-brightness-probe-v2.pdf filter=lfs diff=lfs merge=lfs -text

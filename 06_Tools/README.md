@@ -10,4 +10,4 @@ Use the sibling `dialux-agent-toolkit/.venv/Scripts/python.exe` from the workspa
 - `.runtime`: local PDF assembly dependencies; excluded from Git.
 - `restructure_workspace.py`: one-time completed migration record generator; do not rerun over the reorganized workspace.
 
-Historical authoring/one-time acceptance scripts are preserved under `90_Archive/Development/scripts`; their old relative paths are archival context, not current entry points. Synthetic toolkit outputs are never assignment results.
+Historical authoring/one-time acceptance scripts are preserved under `99_Archive/Development/scripts`; their old relative paths are archival context, not current entry points. Synthetic toolkit outputs are never assignment results.

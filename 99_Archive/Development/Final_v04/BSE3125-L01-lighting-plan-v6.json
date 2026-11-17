@@ -1,0 +1,14 @@
+{
+  "source": "05_Calculations\\Final_v03\\BSE3125-L01-lighting-plan-v5.dxf",
+  "source_sha256": "316eb1796b2bfcb7dd8960f7a544cd45c920d21baa9f7dabeb2669e9108cb701",
+  "revised_dxf": "05_Calculations\\Final_v04\\BSE3125-L01-lighting-plan-v6.dxf",
+  "sha256": "74d3913c8c79dfb4046fbdaeec0586a0443373f66b5c00067d41cbf1f6157eed",
+  "all_186_fixture_records_identical": true,
+  "changes": [
+    "Lighter architectural underlay",
+    "Tabulated luminaire schedule",
+    "Shorter installation notes",
+    "Three actual spacing dimensions L001-L004",
+    "Revision P04"
+  ]
+}

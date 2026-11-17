@@ -1,0 +1,1147 @@
+{
+  "project": "C:/Users/lyuml-win/Desktop/polyu_bse3125/05_Calculations/models/office-baseline-v1.evo",
+  "title": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3125\\05_Calculations\\models\\office-baseline-v1.evo* - DIALux evo 14.1  (64-bit)",
+  "controls": [
+    {
+      "type": "MenuItem",
+      "id": "",
+      "text": "System",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Minimize",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Restore",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "",
+      "text": "Close",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "File",
+      "text": "File",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_File",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Edit",
+      "text": "Edit",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Edit",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "MenuGotoConstructionMode",
+      "text": "Goto",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_Goto",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "View",
+      "text": "View",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_View",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "Help",
+      "text": "?",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "_?",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "MenuAd_LumsearchMainPage",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Luminaire Finder",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "_toggleButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Logged in",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Save",
+      "text": "Save",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "Undo",
+      "text": "Undo",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "Redo",
+      "text": "Redo",
+      "enabled": false
+    },
+    {
+      "type": "TabItem",
+      "id": "OutputTreeTool",
+      "text": "Dial.Dialux.InteractionTools.Output.OutputTreeTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "hideToolsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_RenderProjectDocument",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Show entire documentation",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_LoadPageSelection",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Import page selection",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_SavePageSelection",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Export page selection",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "aid_SavePageSelectionAsDefault",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Save page selection as default",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "VerboseActions",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Edit",
+      "id": "SearchBox",
+      "text": "",
+      "enabled": true,
+      "value": ""
+    },
+    {
+      "type": "Text",
+      "id": "searchInfoText",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Search",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonEditMode",
+      "text": "Edit",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Edit",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "RemoveFilter",
+      "text": "Reset all filters",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Reset all filters",
+      "enabled": false
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "DIALux Agent Toolkit",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Cover",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Cover",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Preface",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Preface",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Table of Contents",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Table of Contents",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Contacts",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Contacts",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Description",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Description",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Images",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Images",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Luminaire list",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Luminaire list",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Product data sheets",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Product data sheets",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_Product data sheets_Philips - RC132V G6 43S/840 SIA W60L60 OC IA4 (1x 43S-NE/840)",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Philips - RC132V G6 43S/840 SIA W60L60 OC IA4 (1x 43S-NE/840)",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "DIALux Agent Toolkit",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Building Open plan office",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Luminaire list",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Luminaire list",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Storey Open plan office",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Room list / Light scene 1",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Room list / Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Luminaire list",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Luminaire list",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Calculation objects / Light scene 1",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Calculation objects / Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "CheckBox",
+      "id": "ExpandCheckBox",
+      "text": "",
+      "enabled": true,
+      "checked": 1
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Open plan office",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office_Summary / Light scene 1",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Summary / Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office_Luminaire layout plan",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Luminaire layout plan",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office_Luminaire list",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Luminaire list",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office_Calculation objects / Light scene 1",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Calculation objects / Light scene 1",
+      "enabled": true
+    },
+    {
+      "type": "ListItem",
+      "id": "DIALux Agent Toolkit_DIALux Agent Toolkit_Building Open plan office_Storey Open plan office_Open plan office_Working plane (Open plan office) / Light scene 1 / Perpendicular illuminance (adaptive)",
+      "text": "Dial.Dialux.GuiControls.Tree.TreeItemViewModel",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Working plane (Open plan office) / Light scene 1 / Perpendicular illuminance (adaptive)",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Glossary",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "OutputLayoutTool",
+      "text": "Dial.Dialux.InteractionTools.Output.OutputLayoutTool",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CommonCalculationButton",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "CalculationCommandText",
+      "text": "Calculation",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonStart",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "ComboBox",
+      "id": "LightSceneCalculationModeComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "EnergyEstimationCalculationButtonStart",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "DiscardResultsButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "DiscardResultsComboBox",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "CalculationButtonShowCalcOptionsDropDown",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ShowNewsStream",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonToggleEditPageConfiguration",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Configure page (F2)",
+      "enabled": false
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModePrint",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModePresentation",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModeTable",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "ComboBoxPaperSizes",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonZoomOnePage",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonZoomPageWidth",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Save as...",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonPrintDocument",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Print",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButtonLayoutSelection",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Layout alternatives",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageFirst",
+      "text": "PageFirst",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "buttonPagePrevious",
+      "text": "PagePrevious",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageGoTo",
+      "text": "Page 1 of 34",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Page 1 of 34",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageNext",
+      "text": "PageNext",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageLast",
+      "text": "PageLast",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeSinglePage",
+      "text": "ViewModeSinglePage",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeContinuous",
+      "text": "ViewModeContinuous",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeMultiplePages",
+      "text": "ViewModeMultiplePages",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "labelZoom",
+      "text": "100%",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PART_DecreaseRepeatButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PART_IncreaseRepeatButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DecreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "IncreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PageUp",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PageDown",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ProjectInfoMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Project",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.BuildingConstructionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Construction",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.LightingDesignMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Light",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Results.ResultMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Calculation objects",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ExportMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.ExportMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Export",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Output.OutputMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.Output.OutputMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Documentation",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonToggleEditPageConfiguration",
+      "text": "",
+      "enabled": false
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Configure page (F2)",
+      "enabled": false
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModePrint",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModePresentation",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "RadioButton",
+      "id": "ReportModeTable",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "ComboBox",
+      "id": "ComboBoxPaperSizes",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonZoomOnePage",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonZoomPageWidth",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "MenuItem",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Save as...",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ButtonPrintDocument",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Print",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButtonLayoutSelection",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Layout alternatives",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageFirst",
+      "text": "PageFirst",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "buttonPagePrevious",
+      "text": "PagePrevious",
+      "enabled": false
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageGoTo",
+      "text": "Page 1 of 34",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Page 1 of 34",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageNext",
+      "text": "PageNext",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonPageLast",
+      "text": "PageLast",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeSinglePage",
+      "text": "ViewModeSinglePage",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeContinuous",
+      "text": "ViewModeContinuous",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "buttonViewModeMultiplePages",
+      "text": "ViewModeMultiplePages",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "labelZoom",
+      "text": "100%",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PART_DecreaseRepeatButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PART_IncreaseRepeatButton",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "DecreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "IncreaseLarge",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PageUp",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "PageDown",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "TabItem",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.PluginSelectionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "",
+      "text": "Dial.Dialux.InteractionModes.PluginSelectionMode",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "_textBlock",
+      "text": "Brands",
+      "enabled": true
+    },
+    {
+      "type": "Button",
+      "id": "ToggleButtonShowUserLogPopup",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "type": "Text",
+      "id": "TextBlockNumberNewMessages",
+      "text": "2 new messages",
+      "enabled": true
+    }
+  ]
+}

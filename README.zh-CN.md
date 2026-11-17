@@ -11,7 +11,7 @@
 | `04_Report` | 当前报告文字、图表源资料、私人组员信息及生成输出 |
 | `05_Calculations` | 共用设计数据、计算结果、验证证据及迁移索引 |
 | `06_Tools` | 当前报告生成程序、工程工具和依赖 |
-| `90_Archive` | 历史草稿、旧工程、试验、截图和旧说明；不作为最终交付入口 |
+| `99_Archive` | 历史草稿、旧工程、试验、截图和旧说明；不作为最终交付入口 |
 
 ## 打开哪些文件
 
@@ -31,6 +31,8 @@
 & ../dialux-agent-toolkit/.venv/Scripts/python.exe -X utf8 06_Tools/rebuild_report.py 04_Report/Build_Check
 ```
 
-输出目录必须是新的；不会覆盖最终交付 PDF。报告生成只依赖当前目录，不依赖 `90_Archive`。迁移后重建的 20 页已逐页核对文字、尺寸及 72/150 dpi 像素，与提交 PDF 一致。
+输出目录必须是新的；不会覆盖最终交付 PDF。报告生成只依赖当前目录，不依赖 `99_Archive`。迁移后重建的 20 页已逐页核对文字、尺寸及 72/150 dpi 像素，与提交 PDF 一致。
 
 当前数据绑定：`05_Calculations/data/final-design.json`。目录验收：`05_Calculations/workspace-verification.json`。旧证据中的路径保持原样以保留历史，可通过 `06_Tools/resolve_evidence_path.py` 或迁移索引定位。
+
+2026-11-17: Native DIALux projects, full calculation reports, group metadata and historical coursework are now tracked and uploaded; large files use Git LFS. Generated previews, caches and runtime dependencies are excluded. Archive directory: `99_Archive`. Clone with Git LFS installed and run `git lfs pull` to retrieve native files.
