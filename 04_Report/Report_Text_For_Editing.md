@@ -85,8 +85,8 @@ Table 2. Manufacturer ratings and modelled layout choices.
 
 | Luminaire | Count | lm / W per fitting | Catalogue UGR | Connected kW* |
 | --- | --- | --- | --- | --- |
-| CoreLine [7] | 142 | 4300 / 32 | 19 | 4.54 |
-| PowerBalance 34S [8] | 186 | 3400 / 20 | 16 | 3.72 |
+| CoreLine [6] | 142 | 4300 / 32 | 19 | 4.54 |
+| PowerBalance 34S [7] | 186 | 3400 / 20 | 16 | 3.72 |
 | PowerBalance 40S [2] | 186 | 4000 / 23 | 16 | 4.28 |
 
 *Luminaire input only. The CoreLine trial used the automatic working plane and a different layout. At the same 186 positions, 34S and 40S gave 504 lx and 593 lx as their lowest desk means, respectively.
@@ -133,7 +133,7 @@ Table 3. Adopted requirements and calculated performance.
 | Occupancy shutoff | ≤15 min | 10 min specified |
 | Daylight response | Conditional on glazing and load | Pending glazing survey |
 
-Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.
+Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [8, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.
 
 ### 5.1 Illuminance and uniformity
 
@@ -147,15 +147,15 @@ The highest directional UGR is 18.1 in the baseline. The LDT check scales intens
 
 ### 6.1 Local and automatic control
 
-The office has 32 independent control zones: 28 for bench groups and four for circulation. Each has local manual switching and dimming. The largest zone is 46.67 m2, below the 250 m2 automatic-control limit. The 1042.10 m2 office requires 32 manual control points under BEC Table 5.5 without claiming a reduction for low power density [6]. Figure 5 shows their boundaries.
+The office has 32 independent control zones: 28 for bench groups and four for circulation. Each has local manual switching and dimming. The largest zone is 46.67 m2, below the 250 m2 automatic-control limit. The 1042.10 m2 office requires 32 manual control points under BEC Table 5.5 without claiming a reduction for low power density [8]. Figure 5 shows their boundaries.
 
-Each zone switches off after 10 minutes without occupancy, within the BEC limit of 15 minutes. A schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. Commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [6, Sec. 5.6.1].
+Each zone switches off after 10 minutes without occupancy, within the BEC limit of 15 minutes. A schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. Commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [8, Sec. 5.6.1].
 
 Figure 5. Proposed independent lighting control zones.
 
 ### 6.2 Daylight response
 
-Daylight-responsive control is proposed where the actual external glazing and lighting load trigger BEC clause 5.6.2 [6]. The window dimensions and grouping are needed to define these zones and check the exceptions. Where applicable, the controller must be able to reduce lighting power to 50% or less, or switch off, in response to daylight.
+Daylight-responsive control is proposed where the actual external glazing and lighting load trigger BEC clause 5.6.2 [8]. The window dimensions and grouping are needed to define these zones and check the exceptions. Where applicable, the controller must be able to reduce lighting power to 50% or less, or switch off, in response to daylight.
 
 ### 6.3 Connected power
 
@@ -191,18 +191,18 @@ Full output remains the design setting. The 593 lx minimum maintained desk mean 
 
 ## References
 
-[1] Light and lighting - Lighting of work places - Part 1: Indoor work places, BS EN 12464-1:2021, British Standards Institution, London, U.K., 2021, doi: 10.3403/30385601.
+[1] Light and lighting - Lighting of work places - Part 1: Indoor work places, BS EN 12464-1:2021, British Standards Institution, London, U.K., 2021, doi: 10.3403/30385601. https://doi.org/10.3403/30385601
 
-[2] Signify, "Philips PowerBalance gen2, RC461B 40S/840 SEIA W60L60 VPC U4 WH SC UE," product 910505103638. Accessed: Nov. 16, 2026. [Online]. Available:https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103638_EU/product
+[2] Signify, "Philips PowerBalance gen2, RC461B 40S/840 SEIA W60L60 VPC U4 WH SC UE," product 910505103638. Accessed: Nov. 16, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103638_EU/product
 
-[3] DIAL GmbH, "Parameters of a calculation object," Knowledge Base DIALux evo, Sep. 19, 2023. Accessed: Nov. 16, 2026. [Online]. Available:https://evo.support-en.dial.de/support/solutions/articles/9000075351-parameters-of-a-calculation-object
+[3] DIAL GmbH, "Parameters of a calculation object," Knowledge Base DIALux evo, Sep. 19, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000075351-parameters-of-a-calculation-object
 
-[4] DIAL GmbH, "Maintenance factors," Knowledge Base DIALux evo, Feb. 17, 2023. Accessed: Nov. 16, 2026. [Online]. Available:https://evo.support-en.dial.de/support/solutions/articles/9000122341-maintenance-factors
+[4] DIAL GmbH, "Maintenance factors," Knowledge Base DIALux evo, Feb. 17, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000122341-maintenance-factors
 
-[5] DIAL GmbH, "UGR method - Unified Glare Rating," Knowledge Base DIALux evo, May 21, 2026. Accessed: Nov. 16, 2026. [Online]. Available:https://evo.support-en.dial.de/support/solutions/articles/9000073310-ugr-method-unified-glare-rating
+[5] DIAL GmbH, "UGR method - Unified Glare Rating," Knowledge Base DIALux evo, May 21, 2026. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000073310-ugr-method-unified-glare-rating
 
-[6] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available:https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf
+[6] Signify, "Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/910505102802_EU/product
 
-[7] Signify, "Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802." [Online]. Available:https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/LP_CF_RC132V_EU/family
+[7] Signify, "Philips PowerBalance gen2, RC461B 34S/840, product 910505103630." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf
 
-[8] Signify, "Philips PowerBalance gen2, RC461B 34S/840, product 910505103630." [Online]. Available:https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf
+[8] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available: https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf

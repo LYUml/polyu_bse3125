@@ -39,9 +39,9 @@
     {
       "title": "Lighting controls and energy use",
       "paragraphs": [
-        "The office has 32 independent control zones: 28 for bench groups and four for circulation. Each has local manual switching and dimming. The largest zone is 46.67 m2, below the 250 m2 automatic-control limit. The 1042.10 m2 office requires 32 manual control points under BEC Table 5.5 without claiming a reduction for low power density [6]. Figure 5 shows their boundaries.",
-        "Each zone switches off after 10 minutes without occupancy, within the BEC limit of 15 minutes. A schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. Commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [6, Sec. 5.6.1].",
-        "Daylight-responsive control is proposed where the actual external glazing and lighting load trigger BEC clause 5.6.2 [6]. The window dimensions and grouping are needed to define these zones and check the exceptions. Where applicable, the controller must be able to reduce lighting power to 50% or less, or switch off, in response to daylight.",
+        "The office has 32 independent control zones: 28 for bench groups and four for circulation. Each has local manual switching and dimming. The largest zone is 46.67 m2, below the 250 m2 automatic-control limit. The 1042.10 m2 office requires 32 manual control points under BEC Table 5.5 without claiming a reduction for low power density [8]. Figure 5 shows their boundaries.",
+        "Each zone switches off after 10 minutes without occupancy, within the BEC limit of 15 minutes. A schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. Commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [8, Sec. 5.6.1].",
+        "Daylight-responsive control is proposed where the actual external glazing and lighting load trigger BEC clause 5.6.2 [8]. The window dimensions and grouping are needed to define these zones and check the exceptions. Where applicable, the controller must be able to reduce lighting power to 50% or less, or switch off, in response to daylight.",
         "The fittings draw 186 x 23 = 4278 W. With a provisional 50 W allowance for sensors and shared control equipment, the design load is 4328 W, or 4.153 W/m2 over 1042.10 m2. The BEC limit is 7.2 W/m2. A full-load scenario of 2500 h/year gives approximately 10.82 MWh/year. A controlled estimate requires logged occupancy, driver power at dimmed output and standby loads."
       ]
     },
@@ -102,18 +102,18 @@
     },
     {
       "id": 6,
-      "html": "Electrical and Mechanical Services Department, <i>Code of Practice for Energy Efficiency of Building Services Installation</i>, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available:",
-      "url": "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf"
+      "html": "Signify, \"Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802.\" Accessed: Nov. 18, 2026. [Online]. Available:",
+      "url": "https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/910505102802_EU/product"
     },
     {
       "id": 7,
-      "html": "Signify, \"Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802.\" [Online]. Available:",
-      "url": "https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/LP_CF_RC132V_EU/family"
+      "html": "Signify, \"Philips PowerBalance gen2, RC461B 34S/840, product 910505103630.\" Accessed: Nov. 18, 2026. [Online]. Available:",
+      "url": "https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf"
     },
     {
       "id": 8,
-      "html": "Signify, \"Philips PowerBalance gen2, RC461B 34S/840, product 910505103630.\" [Online]. Available:",
-      "url": "https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf"
+      "html": "Electrical and Mechanical Services Department, <i>Code of Practice for Energy Efficiency of Building Services Installation</i>, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available:",
+      "url": "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf"
     }
   ],
   "critical_desks": [

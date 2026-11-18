@@ -89,8 +89,8 @@ story.extend([layout_polar(W),P('Figure 3. Ceiling layout (a) and principal ligh
 sub('3.3 Output selection and installation')
 classic_table('Table 2. Manufacturer ratings and modelled layout choices.',[
  ['Luminaire','Count','lm / W per fitting','Catalogue UGR','Connected kW*'],
- ['CoreLine [7]','142','4300 / 32','19','4.54'],
- ['PowerBalance 34S [8]','186','3400 / 20','16','3.72'],
+ ['CoreLine [6]','142','4300 / 32','19','4.54'],
+ ['PowerBalance 34S [7]','186','3400 / 20','16','3.72'],
  ['PowerBalance 40S [2]','186','4000 / 23','16','4.28'],
 ], [W*.33,W*.10,W*.20,W*.18,W*.19])
 story.append(P('*Luminaire input only. The CoreLine trial used the automatic working plane and a different layout. At the same 186 positions, 34S and 40S gave 504 lx and 593 lx as their lowest desk means, respectively.',small))
@@ -117,7 +117,7 @@ classic_table('Table 3. Adopted requirements and calculated performance.',[
  ['Manual control points','>=32 for 1042.10 m2','32 proposed'],
  ['Occupancy shutoff','<=15 min','10 min specified'],
  ['Daylight response','Conditional on glazing and load','Pending glazing survey']], [W*.30,W*.34,W*.36])
-story.append(P('Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.',small))
+story.append(P('Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [8, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.',small))
 sub('5.1 Illuminance and uniformity');story.append(P('The background floor receives 617 lx against a 100 lx target. The regular ceiling grid delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.'))
 sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. The LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees). EN clause 5.9.2 and Table 7 set 1500 cd/m2 for Case A medium-luminance screens (high state up to 200 cd/m2) tilted up to 15 degrees from vertical [1]. The check covers sampled angles from 65 to 89 degrees. Projection is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
