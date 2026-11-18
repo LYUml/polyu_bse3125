@@ -8,17 +8,10 @@
   "table_font_pt": 10,
   "figure_captions": "10pt Times New Roman Italic below figure",
   "table_titles": "10pt Times New Roman Bold above table",
-  "narrative_pages": 8,
-  "status": "verified rebuild after workspace relocation",
+  "narrative_pages": 9,
+  "status": "revised report format",
   "guidance": [
     "https://students.unimelb.edu.au/academic-skills/reading-writing-and-referencing/reports/technical-report-writing",
     "https://www.sussex.ac.uk/webteam/gateway/file.php?name=technical-writing&site=23"
-  ],
-  "title_pt": 22,
-  "subtitle_pt": 12,
-  "reference_pt": 11,
-  "figure_label_font_pt_range": [
-    8,
-    10
   ]
 }

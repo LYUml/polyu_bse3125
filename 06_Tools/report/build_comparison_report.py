@@ -1,6 +1,7 @@
 """Modular undergraduate report: TNR12, numbered hierarchy, consistent figure/table styles."""
 from pathlib import Path
 import sys,json,hashlib,html
+from io import BytesIO
 root=Path(__file__).resolve().parents[2]
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -24,7 +25,7 @@ heading=ParagraphStyle('classicH1',parent=body,fontName='Bold',fontSize=15,leadi
 h2=ParagraphStyle('classicH2',parent=body,fontName='Bold',fontSize=12,leading=15,spaceBefore=8,spaceAfter=6,keepWithNext=True,alignment=0)
 caption=ParagraphStyle('classiccaption',parent=small,fontName='Italic',alignment=TA_CENTER,spaceBefore=5,spaceAfter=10)
 P=lambda s,style=body:Paragraph(html.escape(str(s)).replace('m2','m<super>2</super>').replace('&gt;=','&#8805;').replace('&lt;=','&#8804;'),style)
-from report_figures import layout_polar,task_map,critical_desks,zone_map,calculation_heights
+from report_figures import layout_polar,task_map,zone_map,calculation_heights
 story=[]
 def para(i,j):story.append(P(content['pages'][i]['paragraphs'][j].replace('lighting layout on page 7','lighting layout on page 9').replace('Figure 4 maps','Figure 3 maps').replace('Figure 2 shows the resulting room model','Figure 1 shows the resulting room model')))
 def sub(title):story.append(P(title,h2))
@@ -36,6 +37,14 @@ def image(name,width):
  p=root/'04_Report/Assets'/name
  with PILImage.open(p) as im:w,h=im.size
  return Image(str(p),width=width,height=width*h/w)
+def native_crop(source, number, bounds, width):
+ page=source[number-1]
+ w,h=page.get_size()
+ x0,y0,x1,y1=bounds
+ img=page.render(scale=2,crop=(w*x0,h*(1-y1),w*(1-x1),h*y0)).to_pil()
+ buffer=BytesIO()
+ img.save(buffer,format='PNG')
+ return Image(buffer,width=width,height=width*img.height/img.width)
 def classic_table(title,rows,widths):
  values=[[P(c,ParagraphStyle('cellhead',parent=small,fontName='Bold') if i==0 else small) for c in row] for i,row in enumerate(rows)]
  t=Table(values,colWidths=widths,hAlign='LEFT',repeatRows=1)
@@ -63,16 +72,43 @@ model_views.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING
 story.extend([model_views,P('Figure 1. Native room view (left) and adopted calculation heights (right).',caption)])
 sub('2.2 Task-area calculation');para(1,2)
 sub('2.3 Maintenance factor and glare');para(1,3);para(1,4)
+page('2.4 Native DIALux documentation')
+story.append(P('The documentation records four steps in the calculation workflow. Check the room geometry and maintenance factor against the source drawing and design assumptions. Confirm the modelled fitting positions against Drawing L01. Read local contours on each task surface and review directional glare at the seated observer.'))
+native=pdfium.PdfDocument(root/'03_Engineering/Native_Reports/Final_Workstations.pdf')
+native_panels=[
+ (254,(.12,.21,.90,.59),'(a) Room boundary and calculated workplane'),
+ (256,(.12,.20,.90,.59),'(b) Native luminaire placement plan'),
+ (529,(.14,.31,.95,.58),'(c) Desk-021 task grid and isolux contours'),
+ (316,(.07,.19,.74,.43),'(d) Desk-018 directional UGR and observer settings'),
+]
+cells=[[native_crop(native,n,bounds,W*.46),P(label,caption)] for n,bounds,label in native_panels]
+story.append(Table([cells[:2],cells[2:]],colWidths=[W/2,W/2],style=[('VALIGN',(0,0),(-1,-1),'TOP')]))
+native.close()
+story.append(P('Figure 2. Selected views from the reopened workstation calculation (native pages 254, 256, 529 and 316).',caption))
+story.append(P('The whole-room workplane is a diagnostic view. The explicit desk grids and seated views provide the adopted task and glare checks. The model uses a common luminaire group for the calculation copies, while Figure 5 shows the proposed building control zones.'))
+sub('Spacing and lumen-method checks')
+story.append(P('For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, SHR is about 1.20. Local spacings vary at columns and edges. The desk grids directly check uniformity at those locations. Using N = E x A / (flux x UF x MF), 186 fittings would require UF = 0.875 to average 500 lx over the whole 1042.10 m2 at MF 0.80. This is a threshold calculation. The L-shaped room and the individual desk criteria are assessed with the native model.'))
 page('3. Luminaire selection and lighting layout');sub('3.1 Selected luminaire');para(2,0)
-sub('3.2 Ceiling coordination and light distribution');para(2,1)
-story.extend([layout_polar(W),P('Figure 2. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2].',caption)])
-sub('3.3 Output selection and installation');para(2,2);para(2,3)
+sub('3.2 Ceiling coordination and light distribution')
+story.append(P('The 597 x 597 mm fitting occupies one 600 mm ceiling tile. Typical spacing is 2.4 m, with adjustments at columns and edges. The broad downward distributions in Figure 3 support overlap at desk height.'))
+story.extend([layout_polar(W),P('Figure 3. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2].',caption)])
+sub('3.3 Output selection and installation')
+classic_table('Table 2. Manufacturer ratings and modelled layout choices.',[
+ ['Luminaire','Count','lm / W per fitting','Catalogue UGR','Connected kW*'],
+ ['CoreLine [7]','142','4300 / 32','19','4.54'],
+ ['PowerBalance 34S [8]','186','3400 / 20','16','3.72'],
+ ['PowerBalance 40S [2]','186','4000 / 23','16','4.28'],
+], [W*.33,W*.10,W*.20,W*.18,W*.19])
+story.append(P('*Luminaire input only. The CoreLine trial used the automatic working plane and a different layout. At the same 186 positions, 34S and 40S gave 504 lx and 593 lx as their lowest desk means, respectively.',small))
+story.append(P(content['pages'][2]['paragraphs'][3],small))
 page('4. Simulation results and interpretation');sub('4.1 Distribution of task illumination');para(3,0)
-story.extend([task_map(W),P('Figure 3. Desk-average illuminance; A, B and C identify the three controlling desks.',caption)])
+story.extend([task_map(W),P('Figure 4. Desk-average illuminance; A, B and C identify the three controlling desks.',caption)])
 sub('4.2 Desks with the lowest lighting levels and highest glare');para(3,1)
-story.extend([critical_desks(W),P('Figure 4. Different desks control mean illuminance, uniformity and glare.',caption)])
-page('5. Comparison with lighting requirements');story.append(P('Table 2 compares the DIALux results with EN 12464-1:2021 and the lighting power limit in BEC 2024. The office activity and room assumptions are described in Section 1.'))
-classic_table('Table 2. Adopted requirements and calculated performance.',[
+for explanation in content['critical_desks']:
+ story.append(P(explanation))
+story.append(P('Appendix A includes the native task contours and directional glare result. The automatic WP1 surface samples the wider room, including column footprints. The 112 explicit desk surfaces define the task-area check for the proposed furniture plan.',small))
+page('5. Comparison with lighting requirements');story.append(P('Table 3 compares the DIALux results with EN 12464-1:2021 and the lighting power limit in BEC 2024. The office activity and room assumptions are described in Section 1.'))
+classic_table('Table 3. Adopted requirements and calculated performance.',[
  ['Quantity','Requirement','Calculated result'],
  ['Desk mean','>=500 lx','Lowest mean: 593 lx'],
  ['Desk uniformity','Uo >=0.60','Lowest Uo: 0.80'],
@@ -88,7 +124,7 @@ classic_table('Table 2. Adopted requirements and calculated performance.',[
  ['Occupancy shutoff','<=15 min','10 min specified'],
  ['Daylight response','Conditional on glazing and load','Pending glazing survey']], [W*.30,W*.34,W*.36])
 story.append(P('Sources: [1, Table 34 and Secs. 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Table 5.4] for power density. Illuminance results are the lowest surface means. *Conservative uniformity bound across a group of surfaces.',small))
-sub('5.1 Illuminance and uniformity');story.append(P('The desks meet the average illuminance and uniformity targets. The surrounding and background areas also meet their lower illuminance requirements, so the change in lighting level outside the desks is considered as well. Walls and ceiling are checked because their brightness affects the appearance of the room. For groups of calculation surfaces, the uniformity bound in Table 2 is the lowest point illuminance divided by the highest surface average, rounded down. This gives a conservative value for the group.'))
+sub('5.1 Illuminance and uniformity');story.append(P('The background floor receives 617 lx against a 100 lx target. The ceiling grid gives broad coverage for future desk relocation, but it also delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.'))
 sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. An independent LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm emitting aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees), below the 1500 cd/m2 Case A limit for medium-luminance displays [1, Table 7]. The check covers 65-89 degrees at the sampled angles. The flat-aperture formula is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
 story.extend([zone_map(W),P('Figure 5. Proposed independent lighting control zones.',caption)])
@@ -101,7 +137,7 @@ comparison={'cases':[dict(name=name,**load(root/'05_Calculations/data'/file)) fo
 rows=[['Case','Lowest desk mean','Lowest Uo','Highest UGR'],['Requirement','>=500 lx','>=0.60','<=19']]
 for c in comparison['cases']:
  rows.append([c['name'],f"{c['minimum_task_average_lx']:.0f} lx",f"{c['minimum_task_u0']:.2f}",f"{c['maximum_directional_ugr']:.1f}"])
-classic_table('Table 3. Workstation results for the three calculation conditions.',rows,[W*.34,W*.25,W*.20,W*.21])
+classic_table('Table 4. Workstation results by calculation condition.',rows,[W*.34,W*.25,W*.20,W*.21])
 sub('7.2 Design choice')
 for text in content['comparison']['interpretation']:story.append(P(text))
 sub('7.3 Maintenance and conclusion')
@@ -129,6 +165,5 @@ for ref in refs:
 
 doc=SimpleDocTemplate(str(out),pagesize=A4,leftMargin=72,rightMargin=72,topMargin=62,bottomMargin=62,title='BSE3125 - Lighting Design Report',author='BSE3125 design group')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
-p=pdfium.PdfDocument(out);assert len(p)==8,f'Unexpected narrative pagination: {len(p)}';p.close()
-(folder/'format-specification.json').write_text(json.dumps({'font':'Times New Roman','body_pt':12,'leading_pt':15,'side_margins_mm':25.4,'top_bottom_margins_mm':62*25.4/72,'numbered_section_and_subsection_hierarchy':True,'table_font_pt':10,'figure_captions':'10pt Times New Roman Italic below figure','table_titles':'10pt Times New Roman Bold above table','narrative_pages':8,'status':'comparison revision; engineering results require acceptance','guidance':['https://students.unimelb.edu.au/academic-skills/reading-writing-and-referencing/reports/technical-report-writing','https://www.sussex.ac.uk/webteam/gateway/file.php?name=technical-writing&site=23']},indent=2))
-print('Eight-page modular Times New Roman narrative generated')
+p=pdfium.PdfDocument(out);assert len(p)==9,f'Unexpected narrative pagination: {len(p)}';p.close()
+print('Nine-page modular Times New Roman narrative generated')

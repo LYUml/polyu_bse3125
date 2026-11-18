@@ -24,16 +24,16 @@
       "title": "Luminaire selection and layout",
       "paragraphs": [
         "The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, order code 910505103638. The design uses 186 fittings, each rated at 4000 lm and 23 W (174 lm/W). A colour temperature of 4000 K and a colour rendering index above 80 are appropriate for the office activities considered here [2]. The catalogue UGR 16 optic was also an important consideration because occupants will be using computer screens as well as reading printed material.",
-        "The 597 by 597 mm fitting fits within a 600 mm ceiling tile. Following the grid avoids fittings crossing tile joints. Spacing is generally about 2.4 m, with adjustments near columns and room edges. Figure 2 shows the layout and the two principal photometric planes. Their similar downward distributions support overlapping light at desk height. The curves help explain the choice of optic; the actual spacing and glare are assessed using the room calculation.",
-        "An earlier arrangement using the 3400 lm PowerBalance fitting gave a minimum desk average of 504 lx. Although this exceeded 500 lx, the margin was small. The 4000 lm version at the same positions increased the minimum to 593 lx, while the maximum calculated UGR remained below 19. Section 7 compares this design with a reduced-output case and a separate change in room reflectance.",
-        "Allow at least 86 mm for the fitting body, plus driver and maintenance clearance [2]. Drawing L01 on page 9 identifies each fitting and gives the luminaire schedule."
+        "The 597 by 597 mm fitting fits within a 600 mm ceiling tile. Following the grid avoids fittings crossing tile joints. Spacing is generally about 2.4 m, with adjustments near columns and room edges. Figure 3 shows the layout and the two principal photometric planes. Their similar downward distributions support overlapping light at desk height. The curves help explain the choice of optic; the actual spacing and glare are assessed using the room calculation.",
+        "Keeping the same 186 positions, the 3400 lm version achieved a minimum desk mean of 504 lx. The 4000 lm version raised it to 593 lx, with the maximum directional UGR still below 19. This gives more margin for darker finishes and output reduction.",
+        "Allow at least 86 mm for the fitting body, plus driver and maintenance clearance [2]. Drawing L01 on page 10 identifies each fitting and gives the luminaire schedule."
       ]
     },
     {
       "title": "Calculated performance and code comparison",
       "paragraphs": [
-        "All 112 desks meet the selected illuminance, uniformity and glare criteria. The lowest desk average is 593 lx, the lowest uniformity is 0.80 and the highest calculated UGR is 18.1. These values occur at different desks. Figure 3 shows the variation in desk-average illuminance across the office, with the three desks giving the limiting results identified.",
-        "Desk-021 has the lowest average illuminance: 593 lx, with a minimum of 525 lx, giving Uo = 525/593 = 0.89. Desk-084 has the lowest uniformity, at 0.80. Desk-018 gives the highest UGR when looking in the 180-degree direction. Figure 4 compares these three desks. The original isolux and glare outputs are retained in Appendix A."
+        "All 112 desks meet the selected illuminance, uniformity and glare criteria. The lowest desk average is 593 lx, the lowest uniformity is 0.80 and the highest calculated UGR is 18.1. These values occur at different desks. Figure 4 shows the variation in desk-average illuminance across the office, with the three desks giving the limiting results identified.",
+        "Desk-021 averages 593 lx at the south perimeter. Its centre is 2.40 m from the boundary; L140 and L136 are about 1.0 and 1.4 m away, bracketing the desk north to south. The perimeter limits additional coverage from rows farther south. L013 is about 7.7 m away."
       ]
     },
     {
@@ -53,11 +53,12 @@
         "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C.",
         "The maintenance factor uses LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80 [4]. The product declares L90 at 50,000 h [2]. The remaining factors assume prompt replacement, annual cleaning and retained room finishes.",
         "Full output remains the design setting. The 593 lx minimum maintained desk mean is 19% above 500 lx and corresponds to about 741 lx initially under the adopted MF. Local dimming can be commissioned against the installed finishes, desks and screens. Actual dimmed power should be verified separately."
-      ]
+      ],
+      "0": "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 4 shows the workstation results; Appendix C gives the auxiliary results and selected outputs."
     }
   ],
   "comparison": {
-    "method": "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 3 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
+    "method": "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 4 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
     "interpretation": [
       "At 90% output, the lowest desk average falls to 534 lx, only 6.8% above the requirement. Uniformity remains 0.80 and the maximum UGR falls to 17.7. This supports using dimming during commissioning, but full output is retained as the design condition to provide more allowance for differences between the assumed and actual office.",
       "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C."
@@ -67,8 +68,8 @@
       "Full output remains the design setting. The 593 lx minimum maintained desk mean is 19% above 500 lx and corresponds to about 741 lx initially under the adopted MF. Local dimming can be commissioned against the installed finishes, desks and screens. Actual dimmed power should be verified separately."
     ],
     "appendix": [
-      "Both cases meet the adopted auxiliary illuminance and uniformity criteria. At 90% output, the minimum seated cylindrical average falls from 224 lx to 201 lx and the ceiling average from 137 lx to 123 lx. With lower reflectances, these values are 200 lx and 123 lx. The corresponding workstation and glare results are given in Table 3.",
-      "The tests change one condition at a time. They do not establish the result of combining reduced output with darker finishes, or of adding partitions. The full-output design is retained, with dimming to be set after checking the actual office. Connected power remains 4328 W; electrical savings require driver power data and operating hours."
+      "Both cases meet the adopted auxiliary illuminance and uniformity criteria. At 90% output, the minimum seated cylindrical average falls from 224 lx to 201 lx and the ceiling average from 137 lx to 123 lx. With lower reflectances, these values are 200 lx and 123 lx. The corresponding workstation and glare results are given in Table 4.",
+      "The tests change one condition at a time. They do not establish the result of combining reduced output with darker finishes, or of adding partitions. The full-output design is retained, with dimming to be set after checking the actual office. The full-load budget is 4328 W including the provisional control allowance; electrical savings require driver power data and operating hours."
     ],
     "evidence_note": "The following five pages show Case B Desk-021 (original page 529); Case C room settings and Desk-018 glare (pages 254 and 316); Case B ceiling (page 379); and Case C ceiling (page 379). The original DIALux page numbers are retained. PDF bookmarks identify each case."
   },
@@ -103,6 +104,20 @@
       "id": 6,
       "html": "Electrical and Mechanical Services Department, <i>Code of Practice for Energy Efficiency of Building Services Installation</i>, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available:",
       "url": "https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf"
+    },
+    {
+      "id": 7,
+      "html": "Signify, \"Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802.\" [Online]. Available:",
+      "url": "https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/LP_CF_RC132V_EU/family"
+    },
+    {
+      "id": 8,
+      "html": "Signify, \"Philips PowerBalance gen2, RC461B 34S/840, product 910505103630.\" [Online]. Available:",
+      "url": "https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf"
     }
+  ],
+  "critical_desks": [
+    "Desk-084 has the lowest Uo (0.80), with a range of 521-736 lx around a 654 lx mean. L120 is only 0.36 m from the desk centre and sits toward one side of the desk. The native isolux plot shows a gradient across the task area, consistent with uneven overlap from the adjacent fittings.",
+    "At Desk-018 the highest directional UGR is 18.1 at 180 degrees. Several luminaires are close to the observer, with L028 and L014 within 1.5 m in plan. The directional result reflects the combined effect of source luminance, apparent position and background luminance. The export gives the total, so individual source contributions remain unquantified."
   ]
 }
