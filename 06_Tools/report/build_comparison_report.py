@@ -27,7 +27,7 @@ caption=ParagraphStyle('classiccaption',parent=small,fontName='Italic',alignment
 P=lambda s,style=body:Paragraph(html.escape(str(s)).replace('m2','m<super>2</super>').replace('&gt;=','&#8805;').replace('&lt;=','&#8804;'),style)
 from report_figures import layout_polar,task_map,zone_map,calculation_heights
 story=[]
-def para(i,j):story.append(P(content['pages'][i]['paragraphs'][j].replace('lighting layout on page 7','lighting layout on page 9').replace('Figure 4 maps','Figure 3 maps').replace('Figure 2 shows the resulting room model','Figure 1 shows the resulting room model')))
+def para(i,j):story.append(P(content['pages'][i]['paragraphs'][j]))
 def sub(title):story.append(P(title,h2))
 def page(title):
  if story:story.append(PageBreak())
@@ -123,9 +123,9 @@ classic_table('Table 3. Adopted requirements and calculated performance.',[
  ['Manual control points','>=32 for 1042.10 m2','32 proposed'],
  ['Occupancy shutoff','<=15 min','10 min specified'],
  ['Daylight response','Conditional on glazing and load','Pending glazing survey']], [W*.30,W*.34,W*.36])
-story.append(P('Sources: [1, Table 34 and Secs. 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Table 5.4] for power density. Illuminance results are the lowest surface means. *Conservative uniformity bound across a group of surfaces.',small))
+story.append(P('Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.',small))
 sub('5.1 Illuminance and uniformity');story.append(P('The background floor receives 617 lx against a 100 lx target. The ceiling grid gives broad coverage for future desk relocation, but it also delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.'))
-sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. An independent LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm emitting aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees), below the 1500 cd/m2 Case A limit for medium-luminance displays [1, Table 7]. The check covers 65-89 degrees at the sampled angles. The flat-aperture formula is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
+sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. The LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees). EN clause 5.9.2 and Table 7 set 1500 cd/m2 for Case A medium-luminance screens (high state up to 200 cd/m2) tilted up to 15 degrees from vertical [1]. The check covers sampled angles from 65 to 89 degrees. Projection is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
 story.extend([zone_map(W),P('Figure 5. Proposed independent lighting control zones.',caption)])
 sub('6.2 Daylight response');para(4,2)
@@ -133,7 +133,7 @@ sub('6.3 Connected power');para(4,3)
 page('7. Design comparison and conclusion')
 sub('7.1 Comparison of calculation conditions')
 story.append(P(content['comparison']['method']))
-comparison={'cases':[dict(name=name,**load(root/'05_Calculations/data'/file)) for name,file in [('Baseline','review-40s-reopened-tasks-v4.json'),('90% output','comparison-output90-core-reopened-results-v1.json'),('Lower reflectance','comparison-reflectance-core-reopened-results-v1.json')]]}
+comparison=load(folder/'comparison-summary.json')
 rows=[['Case','Lowest desk mean','Lowest Uo','Highest UGR'],['Requirement','>=500 lx','>=0.60','<=19']]
 for c in comparison['cases']:
  rows.append([c['name'],f"{c['minimum_task_average_lx']:.0f} lx",f"{c['minimum_task_u0']:.2f}",f"{c['maximum_directional_ugr']:.1f}"])

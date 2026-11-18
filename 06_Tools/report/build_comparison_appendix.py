@@ -16,10 +16,12 @@ small=ParagraphStyle('small',parent=body,fontSize=10,leading=12,spaceAfter=5)
 h=ParagraphStyle('h',parent=body,fontName='Bold',fontSize=15,leading=19,spaceAfter=12)
 h2=ParagraphStyle('h2',parent=body,fontName='Bold',spaceBefore=8,spaceAfter=6)
 P=lambda t,style=body:Paragraph(html.escape(str(t)).replace('&gt;=','&#8805;'),style)
-story=[P('Appendix C. Comparison calculations',h),P('C.1 Calculation conditions',h2),P('The baseline uses full output and ceiling/wall/floor reflectances of 80/70/20%. Case B changes only the scene output to 90%. Case C keeps full output and changes reflectances to 70/50/20%. All cases retain 186 luminaires, the same positions, desk surfaces, glare directions, columns and maintenance factor of 0.80. Each comparison was calculated in DIALux, saved and reopened.'),P('C.2 Lighting outside the desk plane',h2),P('Table C1. Auxiliary illuminance and uniformity comparisons.',small)]
-rows=[['Area','Metric','Required','Baseline','B: 90%','C: darker']]
+story=[P('Appendix C. Comparison calculations',h),P('C.1 Calculation conditions',h2),P('Baseline uses full output and ceiling/wall/floor reflectances of 80/70/20%. Case B changes output to 90%. Case C changes reflectances to 70/50/20%. Case D applies both changes. The layout, evaluation surfaces and MF 0.80 were retained. Each case was calculated, saved and reopened in DIALux.'),P('C.2 Lighting outside the desk plane',h2),P('Table C1. Auxiliary illuminance and uniformity comparisons.',small)]
+auxiliary_cases=[c for c in summary['cases'] if 'auxiliary_checks' in c]
+case_labels=['Baseline','B: 90%','C: darker','D: both']
+rows=[['Area','Metric','Required',*case_labels[:len(auxiliary_cases)]]]
 for key,label in [('desk cylindrical','Seated cylindrical'),('immediate surrounding','Immediate surround'),('background floor','Background'),('exposed walls','Walls'),('exposed ceiling','Ceiling')]:
-    cs=[c['combined_seated_cylindrical'] if key=='desk cylindrical' else c['auxiliary_checks'][key] for c in summary['cases']]
+    cs=[c['combined_seated_cylindrical'] if key=='desk cylindrical' else c['auxiliary_checks'][key] for c in auxiliary_cases]
     rows.append([label,'Mean (lx)',f">= {cs[0]['average_target_lx']:.0f}"]+[f"{c['minimum_surface_average_lx']:.0f}" for c in cs])
     if key in ('background floor', 'exposed ceiling'):
         values = [f"{c['minimum_surface_u0']:.2f}" for c in cs]
@@ -28,7 +30,7 @@ for key,label in [('desk cylindrical','Seated cylindrical'),('immediate surround
     rows.append(['','Uo',f">= {cs[0]['u0_target']:.2f}"]+values)
 cell=ParagraphStyle('cell',parent=small,spaceAfter=0)
 head=ParagraphStyle('cellhead',parent=cell,fontName='Bold')
-t=Table([[P(c,head if i==0 else cell) for c in row] for i,row in enumerate(rows)],colWidths=[89,66,72,74,74,A4[0]-144-375],repeatRows=1)
+t=Table([[P(c,head if i==0 else cell) for c in row] for i,row in enumerate(rows)],colWidths=[89,58,62]+[(A4[0]-144-209)/len(auxiliary_cases)]*len(auxiliary_cases),repeatRows=1)
 styles=[('VALIGN',(0,0),(-1,-1),'MIDDLE'),('BACKGROUND',(0,0),(-1,0),colors.HexColor('#F1F1F1')),('LINEABOVE',(0,0),(-1,0),.7,colors.black),('LINEBELOW',(0,0),(-1,0),.5,colors.black),('LINEBELOW',(0,-1),(-1,-1),.7,colors.black),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]
 for row in range(1,11,2):styles.extend([('SPAN',(0,row),(0,row+1)),('LINEBELOW',(0,row+1),(-1,row+1),.3,colors.HexColor('#BBBBBB'))])
 t.setStyle(TableStyle(styles))

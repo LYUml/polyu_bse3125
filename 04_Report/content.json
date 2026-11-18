@@ -48,9 +48,9 @@
     {
       "title": "Design comparison and conclusion",
       "paragraphs": [
-        "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 3 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
-        "At 90% output, the lowest desk average falls to 534 lx, only 6.8% above the requirement. Uniformity remains 0.80 and the maximum UGR falls to 17.7. This supports using dimming during commissioning, but full output is retained as the design condition to provide more allowance for differences between the assumed and actual office.",
-        "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C.",
+        "DIALux tested 90% output, lower ceiling/wall/floor reflectances (70/50/20%), and both together. The layout and MF were retained. Table 4 shows the workstation results.",
+        "At 90% output, the lowest desk mean is 534 lx, 6.8% above the target. The worst directional UGR falls from 18.1 to 17.7. Lower reflectance at full output reduces the minimum desk mean to 566 lx while the UGR rises to 18.6, leaving 0.4 below the limit.",
+        "With both changes, the lowest desk mean is 509 lx and maximum directional UGR is 18.2. The 9 lx illuminance margin supports keeping full output as the design setting and tuning the installed system after completion.",
         "The maintenance factor uses LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80 [4]. The product declares L90 at 50,000 h [2]. The remaining factors assume prompt replacement, annual cleaning and retained room finishes.",
         "Full output remains the design setting. The 593 lx minimum maintained desk mean is 19% above 500 lx and corresponds to about 741 lx initially under the adopted MF. Local dimming can be commissioned against the installed finishes, desks and screens. Actual dimmed power should be verified separately."
       ],
@@ -58,20 +58,20 @@
     }
   ],
   "comparison": {
-    "method": "Two further DIALux calculations were made with the same layout and maintenance factor. One reduced all luminaire outputs to 90%. The other retained full output and changed ceiling/wall/floor reflectances from 80/70/20% to 70/50/20%. Table 4 shows the workstation results; Appendix C gives the auxiliary results and selected outputs.",
+    "method": "DIALux tested 90% output, lower ceiling/wall/floor reflectances (70/50/20%), and both together. The layout and MF were retained. Table 4 shows the workstation results.",
     "interpretation": [
-      "At 90% output, the lowest desk average falls to 534 lx, only 6.8% above the requirement. Uniformity remains 0.80 and the maximum UGR falls to 17.7. This supports using dimming during commissioning, but full output is retained as the design condition to provide more allowance for differences between the assumed and actual office.",
-      "With the lower reflectances, the lowest desk average is 566 lx and the highest UGR rises to 18.6. Less light is reflected towards the desks, while a darker background can increase the contrast with the luminaires. The desk criteria are still met, although the glare margin is smaller. These are separate tests, so their results do not establish performance when both changes occur together. Both cases also meet the auxiliary criteria in Appendix C."
+      "At 90% output, the lowest desk mean is 534 lx, 6.8% above the target. The worst directional UGR falls from 18.1 to 17.7. Lower reflectance at full output reduces the minimum desk mean to 566 lx while the UGR rises to 18.6, leaving 0.4 below the limit.",
+      "With both changes, the lowest desk mean is 509 lx and maximum directional UGR is 18.2. The 9 lx illuminance margin supports keeping full output as the design setting and tuning the installed system after completion."
     ],
     "conclusion": [
       "The maintenance factor uses LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80 [4]. The product declares L90 at 50,000 h [2]. The remaining factors assume prompt replacement, annual cleaning and retained room finishes.",
       "Full output remains the design setting. The 593 lx minimum maintained desk mean is 19% above 500 lx and corresponds to about 741 lx initially under the adopted MF. Local dimming can be commissioned against the installed finishes, desks and screens. Actual dimmed power should be verified separately."
     ],
     "appendix": [
-      "Both cases meet the adopted auxiliary illuminance and uniformity criteria. At 90% output, the minimum seated cylindrical average falls from 224 lx to 201 lx and the ceiling average from 137 lx to 123 lx. With lower reflectances, these values are 200 lx and 123 lx. The corresponding workstation and glare results are given in Table 4.",
-      "The tests change one condition at a time. They do not establish the result of combining reduced output with darker finishes, or of adding partitions. The full-output design is retained, with dimming to be set after checking the actual office. The full-load budget is 4328 W including the provisional control allowance; electrical savings require driver power data and operating hours."
+      "All three comparison cases meet the adopted auxiliary criteria. The combined case gives the lowest seated cylindrical mean (180 lx) and ceiling mean (111 lx). Appendix C compares these surfaces; Table 4 gives the workstation results.",
+      "The combined case retains only 9 lx above the 500 lx desk requirement. Full output is the design basis. The 4328 W full-load budget includes the provisional control allowance. Actual electrical savings require driver power data and operating hours."
     ],
-    "evidence_note": "The following five pages show Case B Desk-021 (original page 529); Case C room settings and Desk-018 glare (pages 254 and 316); Case B ceiling (page 379); and Case C ceiling (page 379). The original DIALux page numbers are retained. PDF bookmarks identify each case."
+    "evidence_note": "Selected pages retain their original DIALux numbers. Case labels and PDF bookmarks identify the calculation conditions."
   },
   "subtitle": "BSE3125: Optics and Lighting",
   "references": [

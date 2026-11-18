@@ -1,4 +1,4 @@
-"""Rebuild the current 20-page report from the organised workspace into a fresh directory."""
+"""Rebuild the current report from the organised workspace into a fresh directory."""
 from pathlib import Path
 import subprocess,sys
 r=Path(__file__).resolve().parents[1];out=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else r/'04_Report/Build'

@@ -304,10 +304,97 @@
         "pass": true
       },
       "all_selected_metrics_pass": true
+    },
+    {
+      "name": "Combined",
+      "core_source": "comparison-combined-core-reopened-results.json",
+      "task_metrics_pass": true,
+      "minimum_task_average_lx": 509.0,
+      "minimum_task_u0": 0.79,
+      "maximum_directional_ugr": 18.2,
+      "aux_source": "comparison-combined-aux-reopened-results.json",
+      "auxiliary_checks": {
+        "desk cylindrical": {
+          "group": "desk cylindrical",
+          "surface_count": 112,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 180.0,
+          "minimum_surface_u0": 0.78,
+          "conservative_combined_u0_lower_bound": 0.608,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "surrounding cylindrical": {
+          "group": "surrounding cylindrical",
+          "surface_count": 28,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 195.0,
+          "minimum_surface_u0": 0.65,
+          "conservative_combined_u0_lower_bound": 0.5840336134453782,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "immediate surrounding": {
+          "group": "immediate surrounding",
+          "surface_count": 28,
+          "average_target_lx": 300,
+          "u0_target": 0.4,
+          "minimum_surface_average_lx": 520.0,
+          "minimum_surface_u0": 0.73,
+          "conservative_combined_u0_lower_bound": 0.6215780998389694,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "background floor": {
+          "group": "background floor",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 531.0,
+          "minimum_surface_u0": 0.64,
+          "conservative_combined_u0_lower_bound": 0.6384180790960452,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed walls": {
+          "group": "exposed walls",
+          "surface_count": 6,
+          "average_target_lx": 150,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 176.0,
+          "minimum_surface_u0": 0.3,
+          "conservative_combined_u0_lower_bound": 0.2216216216216216,
+          "pass": true,
+          "failing_surfaces": []
+        },
+        "exposed ceiling": {
+          "group": "exposed ceiling",
+          "surface_count": 1,
+          "average_target_lx": 100,
+          "u0_target": 0.1,
+          "minimum_surface_average_lx": 111.0,
+          "minimum_surface_u0": 0.84,
+          "conservative_combined_u0_lower_bound": 0.8378378378378378,
+          "pass": true,
+          "failing_surfaces": []
+        }
+      },
+      "combined_seated_cylindrical": {
+        "surface_count": 140,
+        "height_m": 1.2,
+        "average_target_lx": 150,
+        "u0_target": 0.1,
+        "minimum_surface_average_lx": 180.0,
+        "conservative_combined_u0_lower_bound": 0.556,
+        "pass": true
+      },
+      "all_selected_metrics_pass": true
     }
   ],
   "common_connected_power_W": 4328,
-  "common_conservative_LPD_W_m2": 4.234833659491194,
+  "common_conservative_LPD_W_m2": 4.153152288647923,
   "power_scope": "90% luminous output does not establish90%electric input; connected load unchanged",
-  "isolation": "Two separate single-factor scenarios, not a combined90%output+lower-reflectance test"
+  "isolation": "B varies output, C varies reflectance, and D combines both."
 }

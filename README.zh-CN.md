@@ -1,6 +1,6 @@
 # BSE3125 作业文件导航
 
-最新交付以 `00_Submit` 为准。报告正文含 CAD 共 9 页，连附录共 20 页，3,714,013 字节。2026-11-16 已完成目录整理和重新生成核对。
+最新交付以 `00_Submit` 为准。报告正文含 CAD 共 10 页，连附录共 25 页，5,855,381 字节。2026-11-18 完成报告与工程证据修订。
 
 | 文件夹 | 内容 |
 |---|---|
@@ -31,7 +31,7 @@
 & ../dialux-agent-toolkit/.venv/Scripts/python.exe -X utf8 06_Tools/rebuild_report.py 04_Report/Build_Check
 ```
 
-输出目录必须是新的；不会覆盖最终交付 PDF。报告生成只依赖当前目录，不依赖 `99_Archive`。迁移后重建的 20 页已逐页核对文字、尺寸及 72/150 dpi 像素，与提交 PDF 一致。
+输出目录必须是新的；不会覆盖最终交付 PDF。报告生成只依赖当前目录，不依赖 `99_Archive`。生成时逐页核对原始组件文字、尺寸及工况页眉以外的 72/150 dpi 像素。
 
 当前数据绑定：`05_Calculations/data/final-design.json`。目录验收：`05_Calculations/workspace-verification.json`。旧证据中的路径保持原样以保留历史，可通过 `06_Tools/resolve_evidence_path.py` 或迁移索引定位。
 

@@ -46,5 +46,21 @@
     "bytes": 15130419,
     "native_report": "03_Engineering/Native_Reports/Lower_Reflectance_Visual_Environment.pdf",
     "native_report_sha256": "11c28da76ae56be7c8a2aa90e731c5dd9f1a6ebf9da05ae7502d5e749f137401"
+  },
+  {
+    "engineering": "03_Engineering/DIALux/Comparisons/Combined_Workstations.evo",
+    "submission_copy": "00_Submit/DIALux/Comparisons/Combined_Workstations.evo",
+    "sha256": "67f121c6bb8c295d66bfad47fd886acdf9b67d50ab66b293d36af4dc5c7cdaf6",
+    "bytes": 193298222,
+    "native_report": "03_Engineering/Native_Reports/Combined_Workstations.pdf",
+    "native_report_sha256": "2105085c7758691794e8a9b477a1c5b474293a762a4bbd5bc36a5759e96674fa"
+  },
+  {
+    "engineering": "03_Engineering/DIALux/Comparisons/Combined_Visual_Environment.evo",
+    "submission_copy": "00_Submit/DIALux/Comparisons/Combined_Visual_Environment.evo",
+    "sha256": "32ec5adc3fb9688f7e913ae5bce928238a3d23a73fc3539b7c9a06792cb746cd",
+    "bytes": 15280117,
+    "native_report": "03_Engineering/Native_Reports/Combined_Visual_Environment.pdf",
+    "native_report_sha256": "8ee0aec96e9621ef624a37e49d8c27b21a9a32d5c56e1b9ad9c22dbf021e5c29"
   }
 ]
