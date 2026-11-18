@@ -1,0 +1,26 @@
+{
+  "source": "05_Calculations/data/snapped-layout-proposal-v3.json",
+  "hashes": {
+    "03_Engineering/CAD/Lighting_Layout.dwg": "27fa12f5edd32b91b85b0a491156b1a2c506e7926644746e2451f651fdcce66f",
+    "03_Engineering/CAD/Lighting_Layout.dxf": "f89a6332bcb646797a62fe18227d32880a08046809dbbfbbf305b2c04da6d118",
+    "03_Engineering/CAD/Lighting_Layout.pdf": "62de0eee03ce2b46df7f27b7c1d76374c0ac0b76928320dc947216ac376511b7"
+  },
+  "fixture_count": 186,
+  "old_edited_reopened_fixture_centres_and_rotations_match_to_six_decimals": true,
+  "native_reopen_verified": true,
+  "schedule_records_verified": true,
+  "dimension_records_verified": true,
+  "physical_scale": {
+    "pdf_curve_index": 422,
+    "pdf_object_type": "curve",
+    "maximum_coordinate_error_pt": 0.036850393700774475,
+    "verified": true,
+    "denominator": 100,
+    "pdf_points_per_model_metre": 28.34645669291339,
+    "coordinate_tolerance_pt": 0.25,
+    "outline_sha256": "fb69b263942518293552ac46c2eef8ca37936cb7c0845fc0aa03fc3c7c2fe346",
+    "warning": "Verifies this PDF vector outline at original page size, not downstream print scaling or all drawing dimensions."
+  },
+  "all_fixture_labels_verified": true,
+  "visual_review_verified": true
+}

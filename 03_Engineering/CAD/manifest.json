@@ -1,6 +1,6 @@
 {
   "drawing": "BSE3125-L01",
-  "revision": "P04",
+  "revision": "P05",
   "native": "03_Engineering/CAD/Lighting_Layout.dwg",
   "editable": "03_Engineering/CAD/Lighting_Layout.dxf",
   "plot": "03_Engineering/CAD/Lighting_Layout.pdf",
@@ -11,8 +11,9 @@
   "historical_evidence": "03_Engineering/CAD/Verification",
   "historical_path_resolution": "05_Calculations/workspace-migration.json",
   "hashes": {
-    "03_Engineering/CAD/Lighting_Layout.dwg": "2e4d2511d17ce96522b31a29e3ac7ba11e4e5c20121e520bda5dd98bc2538847",
-    "03_Engineering/CAD/Lighting_Layout.dxf": "330b39d015e50a6f1065cb078cfe0237692c660990da5642a4ab88a81ed8823c",
-    "03_Engineering/CAD/Lighting_Layout.pdf": "0064b113a6a0bd786e5df9f806683bfe08adcc34da241761a6db36fe25eb3ea1"
-  }
+    "03_Engineering/CAD/Lighting_Layout.dwg": "27fa12f5edd32b91b85b0a491156b1a2c506e7926644746e2451f651fdcce66f",
+    "03_Engineering/CAD/Lighting_Layout.dxf": "f89a6332bcb646797a62fe18227d32880a08046809dbbfbbf305b2c04da6d118",
+    "03_Engineering/CAD/Lighting_Layout.pdf": "62de0eee03ce2b46df7f27b7c1d76374c0ac0b76928320dc947216ac376511b7"
+  },
+  "current_evidence": "03_Engineering/CAD/Verification/P05.json"
 }

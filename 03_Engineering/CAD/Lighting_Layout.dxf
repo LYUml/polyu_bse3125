@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461361.987847222
+2461363.395960648
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461361.987847222
+2461363.395960648
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-92EC
+93DF
   9
 $SURFTAB1
  70
@@ -937,7 +937,7 @@ $FINGERPRINTGUID
   9
 $VERSIONGUID
   2
-{74027C11-6820-4151-B38A-088202579C1B}
+{493FE7D4-E48B-4804-84C1-63D57840AA65}
   9
 $EXTNAMES
 290
@@ -167751,7 +167751,7 @@ AcDbText
  40
 0.25
   1
-Drawing: BSE3125-L01     Revision: P04     Academic design
+Drawing: BSE3125-L01     Revision: P05     Group 4     18 November 2026
 100
 AcDbText
   0
@@ -168615,7 +168615,7 @@ AcDbText
  40
 0.21
   1
-Controls
+Controls (allowance)
 100
 AcDbText
   0
@@ -168903,7 +168903,7 @@ AcDbText
  40
 0.22
   1
-Light grey: existing ceiling grid
+Light grey: existing 600 x 600 mm grid
 100
 AcDbText
   0
@@ -169119,7 +169119,7 @@ AcDbText
  40
 0.22
   1
-   L120 has a 600 mm local grid shift.
+   Typical row spacing: 2400 mm.
 100
 AcDbText
   0
@@ -169584,6 +169584,318 @@ DSTYLE
 0.1
 1002
 }
+  0
+TEXT
+  5
+93D2
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+10.93
+ 30
+0.0
+ 40
+0.22
+  1
+8. L013 is 600 mm off the L012-L014 row.
+100
+AcDbText
+  0
+TEXT
+  5
+93D3
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+10.5
+ 30
+0.0
+ 40
+0.22
+  1
+   L012-L014 span: 4800 mm in plan.
+100
+AcDbText
+  0
+TEXT
+  5
+93D4
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+10.07
+ 30
+0.0
+ 40
+0.22
+  1
+9. L120 is 600 mm off the L119-L121 row.
+100
+AcDbText
+  0
+TEXT
+  5
+93D5
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+9.64
+ 30
+0.0
+ 40
+0.22
+  1
+   Offsets measured perpendicular to rows.
+100
+AcDbText
+  0
+TEXT
+  5
+93D6
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+9.21
+ 30
+0.0
+ 40
+0.22
+  1
+10. L001 centre to lower office wall: 990 mm.
+100
+AcDbText
+  0
+LINE
+  5
+93D7
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbLine
+ 10
+46.0
+ 20
+7.42
+ 30
+0.0
+ 11
+46.0
+ 21
+7.68
+ 31
+0.0
+  0
+TEXT
+  5
+93D8
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+7.07
+ 30
+0.0
+ 40
+0.22
+  1
+0
+100
+AcDbText
+  0
+LINE
+  5
+93D9
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbLine
+ 10
+48.0
+ 20
+7.42
+ 30
+0.0
+ 11
+48.0
+ 21
+7.68
+ 31
+0.0
+  0
+TEXT
+  5
+93DA
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+48.0
+ 20
+7.07
+ 30
+0.0
+ 40
+0.22
+  1
+2
+100
+AcDbText
+  0
+LINE
+  5
+93DB
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbLine
+ 10
+51.0
+ 20
+7.42
+ 30
+0.0
+ 11
+51.0
+ 21
+7.68
+ 31
+0.0
+  0
+TEXT
+  5
+93DC
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+51.0
+ 20
+7.07
+ 30
+0.0
+ 40
+0.22
+  1
+5
+100
+AcDbText
+  0
+LINE
+  5
+93DD
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbLine
+ 10
+46.0
+ 20
+7.55
+ 30
+0.0
+ 11
+51.0
+ 21
+7.55
+ 31
+0.0
+  0
+TEXT
+  5
+93DE
+330
+1F
+100
+AcDbEntity
+  8
+PLAN_NOTES
+100
+AcDbText
+ 10
+46.0
+ 20
+8.03
+ 30
+0.0
+ 40
+0.22
+  1
+Graphic scale (m)
+100
+AcDbText
   0
 VIEWPORT
   5
@@ -194769,7 +195081,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-11-16T14:42:30.942635+00:00
+1.4.5 @ 2026-11-18T00:30:11.021449+00:00
   0
 ENDSEC
   0
