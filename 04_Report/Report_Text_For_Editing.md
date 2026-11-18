@@ -55,11 +55,13 @@ Further calculations were made for the 0.5 m bands around the bench groups, the 
 
 ## 2.4 Native DIALux documentation
 
-The documentation records four steps in the calculation workflow. Check the room geometry and maintenance factor against the source drawing and design assumptions. Confirm the modelled fitting positions against Drawing L01. Read local contours on each task surface and review directional glare at the seated observer.
+The automatic whole-room plane reports 640 lx and Uo = 0.002 with a zero wall offset. This low uniformity rules out a claim of uniform task lighting everywhere. The adopted assessment covers the proposed desk positions, their surroundings and the accessible background. A revised seating plan requires a new desk assessment.
 
-Figure 2. Selected views from the reopened workstation calculation (native pages 254, 256, 529 and 316).
+Figure 2. Desk-021 calculation grid and isolux contours. Native workstation report, page 529.
 
-The whole-room workplane is a diagnostic view. The explicit desk grids and seated views provide the adopted task and glare checks. The model uses a common luminaire group for the calculation copies, while Figure 5 shows the proposed building control zones.
+### Reading the local result
+
+Each point samples the same horizontal task surface. With a mean of 593 lx and a minimum of 525 lx, Desk-021 has Uo = 525/593 = 0.89. Its low mean governs the illuminance margin. Desk-084 governs uniformity. This distinction would be lost in a room-wide average.
 
 ### Spacing and lumen-method checks
 
@@ -135,7 +137,7 @@ Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour 
 
 ### 5.1 Illuminance and uniformity
 
-The background floor receives 617 lx against a 100 lx target. The ceiling grid gives broad coverage for future desk relocation, but it also delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.
+The background floor receives 617 lx against a 100 lx target. The regular ceiling grid delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.
 
 ### 5.2 Glare and screen reflections
 

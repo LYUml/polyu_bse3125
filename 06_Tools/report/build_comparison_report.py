@@ -73,19 +73,13 @@ story.extend([model_views,P('Figure 1. Native room view (left) and adopted calcu
 sub('2.2 Task-area calculation');para(1,2)
 sub('2.3 Maintenance factor and glare');para(1,3);para(1,4)
 page('2.4 Native DIALux documentation')
-story.append(P('The documentation records four steps in the calculation workflow. Check the room geometry and maintenance factor against the source drawing and design assumptions. Confirm the modelled fitting positions against Drawing L01. Read local contours on each task surface and review directional glare at the seated observer.'))
+story.append(P('The automatic whole-room plane reports 640 lx and Uo = 0.002 with a zero wall offset. This low uniformity rules out a claim of uniform task lighting everywhere. The adopted assessment covers the proposed desk positions, their surroundings and the accessible background. A revised seating plan requires a new desk assessment.'))
 native=pdfium.PdfDocument(root/'03_Engineering/Native_Reports/Final_Workstations.pdf')
-native_panels=[
- (254,(.12,.21,.90,.59),'(a) Room boundary and calculated workplane'),
- (256,(.12,.20,.90,.59),'(b) Native luminaire placement plan'),
- (529,(.14,.31,.95,.58),'(c) Desk-021 task grid and isolux contours'),
- (316,(.07,.19,.74,.43),'(d) Desk-018 directional UGR and observer settings'),
-]
-cells=[[native_crop(native,n,bounds,W*.46),P(label,caption)] for n,bounds,label in native_panels]
-story.append(Table([cells[:2],cells[2:]],colWidths=[W/2,W/2],style=[('VALIGN',(0,0),(-1,-1),'TOP')]))
+story.append(native_crop(native,529,(.14,.31,.95,.63),W*.83))
 native.close()
-story.append(P('Figure 2. Selected views from the reopened workstation calculation (native pages 254, 256, 529 and 316).',caption))
-story.append(P('The whole-room workplane is a diagnostic view. The explicit desk grids and seated views provide the adopted task and glare checks. The model uses a common luminaire group for the calculation copies, while Figure 5 shows the proposed building control zones.'))
+story.append(P('Figure 2. Desk-021 calculation grid and isolux contours. Native workstation report, page 529.',caption))
+sub('Reading the local result')
+story.append(P('Each point samples the same horizontal task surface. With a mean of 593 lx and a minimum of 525 lx, Desk-021 has Uo = 525/593 = 0.89. Its low mean governs the illuminance margin. Desk-084 governs uniformity. This distinction would be lost in a room-wide average.'))
 sub('Spacing and lumen-method checks')
 story.append(P('For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, SHR is about 1.20. Local spacings vary at columns and edges. The desk grids directly check uniformity at those locations. Using N = E x A / (flux x UF x MF), 186 fittings would require UF = 0.875 to average 500 lx over the whole 1042.10 m2 at MF 0.80. This is a threshold calculation. The L-shaped room and the individual desk criteria are assessed with the native model.'))
 page('3. Luminaire selection and lighting layout');sub('3.1 Selected luminaire');para(2,0)
@@ -124,7 +118,7 @@ classic_table('Table 3. Adopted requirements and calculated performance.',[
  ['Occupancy shutoff','<=15 min','10 min specified'],
  ['Daylight response','Conditional on glazing and load','Pending glazing survey']], [W*.30,W*.34,W*.36])
 story.append(P('Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.',small))
-sub('5.1 Illuminance and uniformity');story.append(P('The background floor receives 617 lx against a 100 lx target. The ceiling grid gives broad coverage for future desk relocation, but it also delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.'))
+sub('5.1 Illuminance and uniformity');story.append(P('The background floor receives 617 lx against a 100 lx target. The regular ceiling grid delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.'))
 sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. The LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees). EN clause 5.9.2 and Table 7 set 1500 cd/m2 for Case A medium-luminance screens (high state up to 200 cd/m2) tilted up to 15 degrees from vertical [1]. The check covers sampled angles from 65 to 89 degrees. Projection is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
 story.extend([zone_map(W),P('Figure 5. Proposed independent lighting control zones.',caption)])

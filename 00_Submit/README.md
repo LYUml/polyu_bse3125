@@ -1,6 +1,6 @@
 # Final handover
 
-- `BSE3125_Lighting_Design_Report.pdf`: the combined report, formal lighting layout and simulation appendix (25 pages, 5.86 MB).
+- `BSE3125_Lighting_Design_Report.pdf`: the combined report, formal lighting layout and simulation appendix (25 pages, 5.04 MB).
 - `DIALux/Final/Office_Workstations.evo`: main final design; desk illuminance, uniformity and directional UGR.
 - `DIALux/Final/Office_Visual_Environment.evo`: matching final design; cylindrical, surrounding, background, wall and ceiling evaluations.
 - `DIALux/Comparisons`: three sensitivity studies, each with workstation and visual-environment models. `Output90` reduces scene output to 90%; `Lower_Reflectance` uses 70/50/20% finishes at full output; `Combined` applies both changes.
