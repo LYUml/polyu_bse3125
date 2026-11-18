@@ -107,7 +107,7 @@ Desk-021 averages 593 lx at the south perimeter. Its centre is 2.40 m from the b
 
 Desk-084 has the lowest Uo (0.80), with a range of 521-736 lx around a 654 lx mean. L120 is only 0.36 m from the desk centre and sits toward one side of the desk. The native isolux plot shows a gradient across the task area, consistent with uneven overlap from the adjacent fittings.
 
-At Desk-018 the highest directional UGR is 18.1 at 180 degrees. Several luminaires are close to the observer, with L028 and L014 within 1.5 m in plan. The directional result reflects the combined effect of source luminance, apparent position and background luminance. The export gives the total, so individual source contributions remain unquantified.
+At Desk-018 the highest directional UGR is 18.1 at 180 degrees (Appendix A, PDF p. 12, DIALux p. 316). Several luminaires are close to the observer, with L028 and L014 within 1.5 m in plan. The directional result reflects the combined effect of source luminance, apparent position and background luminance. The export gives the total, so individual source contributions remain unquantified.
 
 Appendix A includes the native task contours and directional glare result. The automatic WP1 surface samples the wider room, including column footprints. The 112 explicit desk surfaces define the task-area check for the proposed furniture plan.
 
