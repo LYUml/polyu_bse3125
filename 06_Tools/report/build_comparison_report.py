@@ -83,10 +83,13 @@ classic_table('Table 2. Adopted requirements and calculated performance.',[
  ['Background floor','>=100 lx; Uo >=0.10','617 lx; Uo =0.69'],
  ['Exposed walls','>=150 lx; Uo >=0.10','216 lx; Uo >=0.24*'],
  ['Exposed ceiling','>=100 lx; Uo >=0.10','137 lx; Uo =0.89'],
- ['Lighting power density','<=7.2 W/m2','4.235 W/m2']], [W*.30,W*.34,W*.36])
+ ['Lighting power density','<=7.2 W/m2','4.153 W/m2 including allowance'],
+ ['Manual control points','>=32 for 1042.10 m2','32 proposed'],
+ ['Occupancy shutoff','<=15 min','10 min specified'],
+ ['Daylight response','Conditional on glazing and load','Pending glazing survey']], [W*.30,W*.34,W*.36])
 story.append(P('Sources: [1, Table 34 and Secs. 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [6, Table 5.4] for power density. Illuminance results are the lowest surface means. *Conservative uniformity bound across a group of surfaces.',small))
 sub('5.1 Illuminance and uniformity');story.append(P('The desks meet the average illuminance and uniformity targets. The surrounding and background areas also meet their lower illuminance requirements, so the change in lighting level outside the desks is considered as well. Walls and ceiling are checked because their brightness affects the appearance of the room. For groups of calculation surfaces, the uniformity bound in Table 2 is the lowest point illuminance divided by the highest surface average, rounded down. This gives a conservative value for the group.'))
-sub('5.2 Glare and colour rendering');story.append(P('The maximum calculated UGR is below 19 for the seated positions and viewing directions tested. Colour rendering is taken from the manufacturer data. These results apply to the office tasks and arrangement described here; a different activity, such as unusually fine or low-contrast work, could require a higher lighting level.'))
+sub('5.2 Glare and screen reflections');story.append(P('The highest directional UGR is 18.1 in the baseline. An independent LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm emitting aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees), below the 1500 cd/m2 Case A limit for medium-luminance displays [1, Table 7]. The check covers 65-89 degrees at the sampled angles. The flat-aperture formula is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.'))
 page('6. Lighting controls and energy use');sub('6.1 Local and automatic control');para(4,0);para(4,1)
 story.extend([zone_map(W),P('Figure 5. Proposed independent lighting control zones.',caption)])
 sub('6.2 Daylight response');para(4,2)

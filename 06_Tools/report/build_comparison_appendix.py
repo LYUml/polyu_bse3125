@@ -21,14 +21,18 @@ rows=[['Area','Metric','Required','Baseline','B: 90%','C: darker']]
 for key,label in [('desk cylindrical','Seated cylindrical'),('immediate surrounding','Immediate surround'),('background floor','Background'),('exposed walls','Walls'),('exposed ceiling','Ceiling')]:
     cs=[c['combined_seated_cylindrical'] if key=='desk cylindrical' else c['auxiliary_checks'][key] for c in summary['cases']]
     rows.append([label,'Mean (lx)',f">= {cs[0]['average_target_lx']:.0f}"]+[f"{c['minimum_surface_average_lx']:.0f}" for c in cs])
-    rows.append(['','Uo bound',f">= {cs[0]['u0_target']:.2f}"]+[f"{math.floor(c['conservative_combined_u0_lower_bound']*100)/100:.2f}" for c in cs])
+    if key in ('background floor', 'exposed ceiling'):
+        values = [f"{c['minimum_surface_u0']:.2f}" for c in cs]
+    else:
+        values = [f"{math.floor(c['conservative_combined_u0_lower_bound']*100)/100:.2f}" for c in cs]
+    rows.append(['','Uo',f">= {cs[0]['u0_target']:.2f}"]+values)
 cell=ParagraphStyle('cell',parent=small,spaceAfter=0)
 head=ParagraphStyle('cellhead',parent=cell,fontName='Bold')
 t=Table([[P(c,head if i==0 else cell) for c in row] for i,row in enumerate(rows)],colWidths=[89,66,72,74,74,A4[0]-144-375],repeatRows=1)
 styles=[('VALIGN',(0,0),(-1,-1),'MIDDLE'),('BACKGROUND',(0,0),(-1,0),colors.HexColor('#F1F1F1')),('LINEABOVE',(0,0),(-1,0),.7,colors.black),('LINEBELOW',(0,0),(-1,0),.5,colors.black),('LINEBELOW',(0,-1),(-1,-1),.7,colors.black),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]
 for row in range(1,11,2):styles.extend([('SPAN',(0,row),(0,row+1)),('LINEBELOW',(0,row+1),(-1,row+1),.3,colors.HexColor('#BBBBBB'))])
 t.setStyle(TableStyle(styles))
-story.extend([t,Spacer(1,7),P('Mean values are the lowest surface averages. Uo bounds are the lowest point illuminance divided by the highest surface average in each group, rounded down. Seated cylindrical results cover the desks and surrounding bands. Each case includes all 288 auxiliary result rows.',small),P('C.3 Interpretation and limits',h2)])
+story.extend([t,Spacer(1,7),P('Mean values are the lowest surface averages. Background and ceiling use native single-surface Uo. Other Uo values are group bounds, calculated as the lowest point illuminance divided by the highest surface average, rounded down. Seated cylindrical results cover desks and surrounding bands.',small),P('C.3 Interpretation and limits',h2)])
 for text in content['comparison']['appendix']:story.append(P(text))
 story.extend([P('C.4 Selected DIALux outputs',h2),P(content['comparison']['evidence_note'],small)])
 doc=SimpleDocTemplate(str(out),pagesize=A4,leftMargin=72,rightMargin=72,topMargin=62,bottomMargin=62,title='BSE3125 comparison calculations')
