@@ -11,6 +11,7 @@ appendix=Path(sys.argv[3]).resolve() if len(sys.argv)>3 else f/'Build/comparison
 components=[('Main report',main,None),('L01 lighting layout',r/'03_Engineering/CAD/Lighting_Layout.pdf',[1]),('Appendix A - baseline workstation results',models/'Final_Workstations.pdf',[254,316,529,592]),('Appendix B - baseline background',models/'Final_Visual_Environment.pdf',[378]),('Appendix C - comparison calculations',appendix,[1]),('Case B - 90% output',models/'Output90_Workstations.pdf',[529]),('Case B - 90% output',models/'Output90_Visual_Environment.pdf',[379]),('Case C - lower reflectance',models/'Lower_Reflectance_Workstations.pdf',[254,316]),('Case C - lower reflectance',models/'Lower_Reflectance_Visual_Environment.pdf',[379])]
 components.append(('Case D - 90% output and lower reflectance',models/'Combined_Workstations.pdf',[254,316,529]))
 components.append(('Case D - 90% output and lower reflectance',models/'Combined_Visual_Environment.pdf',[379]))
+components.append(('Appendix D - native false-colour views', main.parent/'native-views.pdf', [1]))
 def add_case_label(page,label):
     w,h=map(float,list(page.mediabox)[2:])
     buffer=BytesIO()

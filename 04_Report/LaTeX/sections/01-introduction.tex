@@ -1,0 +1,25 @@
+\reportheading{1. Introduction and design basis}
+
+\subhead{1.1 Design objective}
+
+This project addresses the lighting needs of an open-plan office used for reading, paperwork, and computer work. To support these tasks, a maintained average illuminance of 500 lx is required on each desk, with a uniformity of at least 0.60 and a maximum UGR of 19 [1]. Ultimately, the aim is to provide enough light for these activities without large differences across the working area while reducing excessive glare from the fittings.
+
+\subhead{1.2 Office geometry and proposed use}
+
+The design features an L-shaped office extending around the central service core, with the traced internal wall enclosing an area of 1042.10 m². Subtracting the eight columns leaves a net floor area of 1032.57 m², which is slightly higher than the 1022 m² noted on the drawing. Specifically, the traced boundary defines the model and the BEC calculations use the 1042.10 m² internal floor area.
+
+Within this layout, the office space is arranged with 28 four-person bench groups, totalling 112 desks, each 1.6 by 0.8 m. Their positions serve as reference points for evaluating lighting across the workplace. Accordingly, the calculations below assume a fixed furniture arrangement, meaning a revision would be necessary if the desks are moved significantly.
+
+\subhead{1.3 Room conditions}
+
+Table 1 indicates the key assumptions implemented in DIALux. The relatively light ceiling and walls contribute reflected light onto the desks, whereas daylight is excluded because the window dimensions are not taken into account. Section 7 further evaluates the impact of changing these conditions.
+
+\tabletitle{Table 1. Principal room and calculation assumptions.}
+
+\begin{reporttable}{L{0.5}L{0.5}}
+\rowcolor{tablegrey} \textbf{Parameter} & \textbf{Adopted value} \\ \hline
+Ceiling / desk / seated eye height & 2.8 / 0.8 / 1.2 m \\
+Ceiling / wall / floor reflectance & 80 / 70 / 20\% \\
+Column reflectance / maintenance factor & 40\% / 0.80 \\
+Furniture and daylight & Proposed desks; no high partitions or simulated daylight \\
+\end{reporttable}

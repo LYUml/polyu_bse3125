@@ -1,0 +1,22 @@
+3.1 
+
+“order code 910505103638” is removed 
+
+174 reference https://www.signify.com/api/assets/v1/file/Signify/content/910505103636_EU.en_AA.PROF.FP/RC461B_40S_840_DEIA_W60L60_VPC_SC_UE.pdf
+
+500lux reference https://www.emsd.gov.hk/filemanager/en/content_2/Task_Lighting_Design.pdf
+
+UGR≤19 reference ​​https://www.beamsociety.org.hk/en/BEAM-Plus/-/media/7400264437D8466599EB31804B350988.ashx (compare with reference [1])
+
+
+
+4.2 
+
+(Appendix A, PDF p. 12, DIALux p. 316) can remove?
+
+
+
+
+6.1 
+
+[8, Sec. 5.6.1] can remove ?

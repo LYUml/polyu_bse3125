@@ -1,12 +1,15 @@
 # Current report sources
 
-- `content.json`: editable English narrative, title/subtitle and manufacturer, standards and software references.
-- `comparison-summary.json`: actual verified results for the four conditions.
-- `Assets/native-room-view.png`: original native room view. Other figures use native PDF excerpts or vectors generated from the shared datasets by `06_Tools/report/report_figures.py`.
-- `Private/group-details.json`: group names and IDs used on the title page.
-- `Build`: reproducible local main report, comparison appendix, combined PDF and page previews, excluded from Git.
-- `format-specification.json` and `reference-review.json`: formatting/source decisions.
+Edit the narrative and references in `LaTeX/sections/`. The document entry point is `LaTeX/main.tex`. The sections follow the nine narrative pages of the previous report. The title block, Times New Roman styles and table and caption definitions are in the entry point.
 
-From the workspace root, use the sibling toolkit Python to run `06_Tools/rebuild_report.py NEW_OUTPUT_DIRECTORY`. The output directory must not already exist. This rebuild does not replace the delivery PDF automatically. Current authoring has no dependency on archived drafts. The build verifies source text, dimensions and rendering, with case labels added to the top margin of comparison excerpts.
+From the workspace root, run the following PowerShell command, choosing a fresh output directory for each review.
 
-Main report: nine A4 pages plus A2 CAD = 10 pages; appendix: 15 pages; total: 25. The final delivery is always the PDF in `00_Submit`.
+```powershell
+& ../dialux-agent-toolkit/.venv/Scripts/python.exe -X utf8 06_Tools/rebuild_report.py 04_Report/Build/Review_New
+```
+
+The build uses XeLaTeX and the installed Times New Roman font. It generates the illustrations from the shared engineering data and native evidence, compiles the narrative, and assembles the original A2 lighting plan and simulation appendix. It writes the combined PDF, previews and assembly checks in the output directory. The reviewed delivery is in `00_Submit`.
+
+`Editorial_Inputs/` preserves the two original group files. `LaTeX/appendix-d.tex` and the false-colour images in `Assets/` supply Appendix D.
+
+`Report_Text_For_Editing.md` is the editorial snapshot for this revision. The previous ReportLab narrative and its `content.json` are retained for the earlier edition. The native comparison data is in `comparison-summary.json`.

@@ -83,7 +83,10 @@ def zone_map(width=451):
  for z in controls['zones']:
   circulation='circulation' in z['activity'].lower();geom=z['polygon'];polys=geom['coordinates'] if geom['type']=='MultiPolygon' else [geom['coordinates']]
   for p in polys:poly(d,p[0],xy,colors.HexColor('#D4DDE1') if circulation else colors.HexColor('#F3F5F6'),grey,.6)
-  point=shape(geom).representative_point();x,y=xy(point.x,point.y);label(d,x,y-2.5,z['id'],8,'middle',True)
+  center = shape(geom).centroid
+  x, y = xy(center.x, center.y)
+  # Centre the visible capitals and digits around the polygon's area centroid.
+  label(d, x, y - 2.65, z['id'], 8, 'middle', True)
  for c in room['obstacles']:
   x,y=xy(c['center_m'][0]-c['size_m'][0]/2,c['center_m'][1]-c['size_m'][1]/2);d.add(Rect(x,y,c['size_m'][0]*scale,c['size_m'][1]*scale,fillColor=grey,strokeColor=None))
  poly(d,room['contour'],xy,None,black,.7)

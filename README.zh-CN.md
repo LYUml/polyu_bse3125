@@ -1,10 +1,10 @@
 # BSE3125 作业文件导航
 
-最新交付以 `00_Submit` 为准。报告正文含 CAD 共 10 页，连附录共 25 页，5,036,287 字节。2026-11-18 完成报告与工程证据修订。
+最新交付以 `00_Submit` 为准。报告正文含 CAD 共 10 页，连附录共 26 页，7,173,082 字节。2026-11-22 完成 LaTeX 正文定稿。
 
 | 文件夹 | 内容 |
 |---|---|
-| `00_Submit` | 最终 PDF；`DIALux/Final` 两份最终方案工程；`DIALux/Comparisons` 四份对比工程 |
+| `00_Submit` | 最终 PDF；`DIALux/Final` 两份最终方案工程；`DIALux/Comparisons` 六份对比工程 |
 | `01_Assignment_Brief` | 原始题目 PDF 和原始 DWG，保持不变 |
 | `02_References` | 标准、厂家资料及原始光度文件 |
 | `03_Engineering` | 当前 DIALux 工程、CAD、完整原生计算报告及文件索引 |
@@ -19,9 +19,9 @@
 - 查看主要 DIALux 方案：`00_Submit/DIALux/Final/Office_Workstations.evo`，包含桌面照度、均匀度和眩光计算。
 - 查看辅助照明评价：同目录 `Office_Visual_Environment.evo`，包含柱面、周边、背景、墙面和天花计算。
 - 查看正式 CAD：`03_Engineering/CAD/Lighting_Layout.dwg`；同名 PDF 为 A2、1:100 原生出图。
-- 修改报告文字：`04_Report/content.json`；生成程序：`06_Tools/report`。
+- 修改报告文字：`04_Report/LaTeX/sections/`；生成程序：`06_Tools/report`。
 
-6 份提交目录中的 evo 文件均与已保存、重开验证的工程逐字节一致。它们合计约 622 MB；PDF 本身仍为 3.71 MB。组员信息、含学号的报告和大型 evo 文件只保留本机，不推送 Git。没有代为提交 Blackboard。
+提交目录中的 8 份 evo 文件均与已保存、重开验证的工程逐字节一致，合计约 830 MB。课程提交文件为根目录中的单份 PDF。
 
 ## 重新生成
 

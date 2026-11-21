@@ -4,7 +4,7 @@ Assignment production and repository synchronization are authorized. User author
 
 ## Deliverable
 
-One final PDF: 10 main pages including the independent A2 lighting layout, 15 appendix pages, 25 total pages, 5,036,287 bytes. Native final/comparison evo copies are additional local handover files under `00_Submit/DIALux`, organized separately from the PDF.
+One final PDF: 10 main pages including the independent A2 lighting layout, 16 appendix pages, 26 total pages, 7,173,082 bytes. Native final/comparison evo copies are additional local handover files under `00_Submit/DIALux`, organized separately from the PDF.
 
 ## Engineering basis
 
@@ -18,7 +18,7 @@ DIALux procedure/functions and figures (20%); luminaire/system selection (20%); 
 
 ## Current sources and evidence
 
-- Editable report: `04_Report/content.json`; assets: `04_Report/Assets`; private group metadata: `04_Report/Private`.
+- Editable report: `04_Report/LaTeX/main.tex` and `04_Report/LaTeX/sections/`; assets: `04_Report/Assets`; private group metadata: `04_Report/Private`.
 - Build: `06_Tools/rebuild_report.py`; authoring modules: `06_Tools/report`.
 - Native engineering: `03_Engineering/project-index.json`; current CAD: `03_Engineering/CAD/manifest.json`.
 - Shared design: `05_Calculations/data/final-design.json`.

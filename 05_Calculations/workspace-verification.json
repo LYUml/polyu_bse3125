@@ -1,12 +1,12 @@
 {
   "status": "revised academic submission checked against assignment brief",
-  "date": "2026-11-18",
+  "date": "2026-11-22",
   "delivery_pdf": "00_Submit/BSE3125_Lighting_Design_Report.pdf",
-  "delivery_pdf_sha256": "03c67aa5db4a31758faa23ebfbdb23ad5520002274a07d848c62b7901d1467dd",
-  "bytes": 5036287,
-  "total_pages": 25,
+  "delivery_pdf_sha256": "221db2903bb95c76b03aadfedc4f5248a2ba4450ff4d151581b8500391b1ddba",
+  "bytes": 7173082,
+  "total_pages": 26,
   "main_pages_including_CAD": 10,
-  "appendix_pages": 15,
+  "appendix_pages": 16,
   "source_pdf_text_dimensions_and_rendering_verified": true,
   "case_labels_added_in_top_margin_only": true,
   "original_assignment_input_sha256": {

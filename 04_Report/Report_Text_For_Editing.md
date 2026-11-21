@@ -12,17 +12,17 @@ RIOBA Ann Muniko 24114901D XIE Jingxuan 24110957D
 
 ### 1.1 Design objective
 
-This project considers the lighting of an open-plan office used for reading, paperwork and computer work. A maintained average illuminance of 500 lx is required on each desk, with a uniformity of at least 0.60 and a maximum UGR of 19 [1]. The aim is to provide enough light for these activities without large differences across the working area or excessive glare from the fittings.
+This project addresses the lighting needs of an open-plan office used for reading, paperwork, and computer work. To support these tasks, a maintained average illuminance of 500 lx is required on each desk, with a uniformity of at least 0.60 and a maximum UGR of 19 [1]. Ultimately, the aim is to provide enough light for these activities without large differences across the working area while reducing excessive glare from the fittings.
 
 ### 1.2 Office geometry and proposed use
 
-The office is L-shaped and extends around the central service core. The area enclosed by the traced internal wall boundaries is 1042.10 m2. Deducting the parts occupied by the eight columns gives 1032.57 m2. This differs from the 1022 m2 annotation on the drawing. The traced boundary defines the model and the 1042.10 m2 internal floor area used for BEC calculations.
+The design features an L-shaped office extending around the central service core, with the traced internal wall enclosing an area of 1042.10 m2. Subtracting the eight columns leaves a net floor area of 1032.57 m2, which is slightly higher than the 1022 m2 noted on the drawing. Specifically, the traced boundary defines the model and the BEC calculations use the 1042.10 m2 internal floor area. 
 
-The supplied drawing does not show office furniture, so 28 four-person bench groups have been arranged within the space. This gives 112 desks, each 1.6 by 0.8 m. Their positions provide a basis for checking the lighting where people would be working. The calculation assumes this furniture arrangement and would need to be reviewed if the desks were moved significantly.
+Within this layout, the office space is arranged with 28 four-person bench groups, totalling 112 desks, each 1.6 by 0.8 m. Their positions serve as reference points for evaluating lighting across the workplace. Accordingly, the calculations below assume a fixed furniture arrangement, meaning a revision would be necessary if the desks are moved significantly.
 
 ### 1.3 Room conditions
 
-Table 1 gives the main assumptions used in DIALux. The relatively light ceiling and walls contribute reflected light to the desks. Daylight is excluded because the window dimensions are not given. Section 7 considers changes to these conditions.
+Table 1 indicates the key assumptions implemented in DIALux. The relatively light ceiling and walls contribute reflected light onto the desks, whereas daylight is excluded because the window dimensions are not taken into account. Section 7 further evaluates the impact of changing these conditions.
 
 Table 1. Principal room and calculation assumptions.
 
@@ -37,47 +37,47 @@ Table 1. Principal room and calculation assumptions.
 
 ### 2.1 Geometry and manufacturer photometry
 
-The architectural drawing was imported into DIALux evo and checked against the 45 m overall dimension. The office boundary and eight full-height columns were modelled so that their obstruction of light is included.
+The architectural drawing imported into DIALux evo was verified against the 45 m overall dimension to reduce scale mismatches. Following this, to account for light obstruction, the office boundary and eight full-height columns were modelled.
 
-The manufacturer ULD file provides the light distribution used in the calculation [2]. DIALux accounts for reflected light using the surface reflectances in Table 1. The fittings occupy complete 600 mm ceiling tiles, with their emitting faces approximately level with the 2.8 m ceiling. The native report lists the luminaire reference position at 2.868 m, 68 mm above the adopted ceiling plane. Figure 1 shows the model and evaluation heights.
+Moreover, the light distribution data from the manufacturer's ULD file is used in the calculation [2], while DIALux calculates reflected light using the surface reflectances listed in Table 1. The fittings sit within the 600 mm ceiling tiles and have their light-emitting faces aligned with the 2.8 m ceiling, whereas in the DIALux simulation report, the luminaire reference position is listed at 2.868 m, which is 68 mm above the ceiling plane. Figure 1 depicts the model alongside the evaluation heights.
 
 Figure 1. Native room view (left) and adopted calculation heights (right).
 
 ### 2.2 Task-area calculation
 
-Each 1.6 by 0.8 m desk has a 10 by 5 calculation grid at 0.8 m. Under EN 12464-1 clause 5.4, a 2:1 area uses its short side, so the maximum spacing is 0.2 x 5^log10(0.8) = 0.171 m [1]. The 0.16 m grid meets this limit. DIALux reports Uo as minimum divided by mean illuminance [3]. Checking desks individually exposes local shortfalls that a room mean would hide.
+Each 1.6 by 0.8 m desk has a 10 by 5 calculation grid at 0.8 m height. According to EN 12464-1 clause 5.4, a 2:1 area is governed by its short side, which limits the maximum spacing to 0.2 x 5^log10(0.8) = 0.171 m [1]. As a result, the selected 0.16 m grid meets this requirement. Meanwhile, DIALux defines the overall uniformity Uo as the ratio of minimum to mean illuminance [3]. Ultimately, individual desk checks are essential to prevent some poorly lit workstations from being overlooked due to a satisfactory room average. 
 
 ### 2.3 Maintenance factor and glare
 
-A maintenance factor of 0.80 was applied to allow for the reduction in illumination during use [4]. Glare was calculated at a seated eye height of 1.2 m, with viewing directions at 15-degree intervals [5]. The manufacturer lists a catalogue UGR value for the fitting, but the glare experienced in the office also depends on its position and surroundings. The calculated room values are therefore used for the comparison with the UGR limit.
+By applying a maintenance factor of 0.80, the gradual reduction in illumination is accounted for over time [4]. In addition, glare was calculated at a seated eye height of 1.2 m across viewing directions at 15-degree intervals [5]. While the manufacturer gives a catalogue UGR value for the fitting, the glare experienced in the office also depends on luminaire positioning and office surroundings, therefore, the calculated room values are compared against the UGR limit.
 
-Further calculations were made for the 0.5 m bands around the bench groups, the remaining background floor, cylindrical illuminance at seated head height, and the exposed walls and ceiling. These use the same fittings and positions as the desk calculation. The desks are calculation surfaces; solid furniture, monitor screens and high partitions are not included. Separate copies were used for the output and reflectance comparisons, with all other inputs held constant.
+Furthermore, calculations were applied to the 0.5 m bands around the bench groups, the remaining background floor, cylindrical illuminance at seated head height, and the exposed walls and ceiling. The same fittings and positions were maintained for the desk calculation, where the desks serve as calculation surfaces, whereas solid furniture, monitor screens, and high partitions are excluded. Finally, separate copies were used for the output and reflectance comparisons, with all other inputs held constant.
 
 ## 2.4 Native DIALux documentation
 
-The automatic whole-room plane reports 640 lx and Uo = 0.002 with a zero wall offset. This low uniformity rules out a claim of uniform task lighting everywhere. The adopted assessment covers the proposed desk positions, their surroundings and the accessible background. A revised seating plan requires a new desk assessment.
+With a zero wall offset, the automatic whole-room plane reports 640 lx and Uo = 0.002, which rules out a claim of uniform task lighting everywhere. Instead, the adopted assessment evaluates the proposed desk positions, their surroundings, and the accessible background, meaning that a revised seating plan would require a new desk assessment.
 
-Figure 2. Desk-021 calculation grid and isolux contours. Native workstation report, page 529.
+Figure 2. Native DIALux workstation results, pp. 254, 256, 529 and 316, respectively.
 
 ### Reading the local result
 
-Each point samples the same horizontal task surface. With a mean of 593 lx and a minimum of 525 lx, Desk-021 has Uo = 525/593 = 0.89. Its low mean governs the illuminance margin. Desk-084 governs uniformity. This distinction would be lost in a room-wide average.
+Each point samples the same horizontal task surface to each point. With a mean of 593 lx and a minimum of 525 lx, Desk-021 has Uo = 525/593 = 0.89. Although its low mean governs the illuminance margin, Desk-084 governs uniformity, this distinction would be lost in a room-wide average.
 
 ### Spacing and lumen-method checks
 
-For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, SHR is about 1.20. Local spacings vary at columns and edges. The desk grids directly check uniformity at those locations. Using N = E x A / (flux x UF x MF), 186 fittings would require UF = 0.875 to average 500 lx over the whole 1042.10 m2 at MF 0.80. This is a threshold calculation. The L-shaped room and the individual desk criteria are assessed with the native model.
+For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, the SHR is about 1.20. However, local spacings vary around columns and edges; thus, the individual desk grids are used to directly verify uniformity at those locations. Using N = E x A / (flux x UF x MF), 186 fittings would require a UF of 0.875 to reach an average of 500 lx across the entire 1042.10 m2 floor area at an MF of 0.80. Since this serves only as a threshold calculation, the L-shaped room and the individual desk criteria are assessed with the DIALux evo model.
 
 ## 3. Luminaire selection and lighting layout
 
 ### 3.1 Selected luminaire
 
-The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, order code 910505103638. The design uses 186 fittings, each rated at 4000 lm and 23 W (174 lm/W). A colour temperature of 4000 K and a colour rendering index above 80 are appropriate for the office activities considered here [2]. The catalogue UGR 16 optic was also an important consideration because occupants will be using computer screens as well as reading printed material.
+The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, with 186 fittings in total. Each fitting is rated at 4000 lm and 23 W, achieving a high efficacy of approximately 174 lm/W [2] and delivering enough light to reach the office standard of 500 lx per desk surface [1, 9]. It also has a colour temperature of 4000 K and a colour rendering index above 80, which are appropriate for these office activities [2]. In particular,  the fitting is rated for a UGR of 16 rather than the UGR of 19 limit [1, 10], reducing perceived discomfort by preventing bright light from shining directly into the eyes of seated occupants using computer screens or reading printed materials.
 
 ### 3.2 Ceiling coordination and light distribution
 
-The 597 x 597 mm fitting occupies one 600 mm ceiling tile. Typical spacing is 2.4 m, with adjustments at columns and edges. The broad downward distributions in Figure 3 support overlap at desk height.
+Each 597 x 597 mm fitting occupies one 600 mm ceiling tile. While the typical spacing is 2.4 m, adjustments are made near columns and edges. As shown in Figure 3, the broad downward distribution ensures adequate beam overlap at desk height.
 
-Figure 3. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2].
+Figure 3. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2]. DIALux uses 1–186 and Drawing L01 uses L001–L186.
 
 ### 3.3 Output selection and installation
 
@@ -91,25 +91,25 @@ Table 2. Manufacturer ratings and modelled layout choices.
 
 *Luminaire input only. The CoreLine trial used the automatic working plane and a different layout. At the same 186 positions, 34S and 40S gave 504 lx and 593 lx as their lowest desk means, respectively.
 
-Allow at least 86 mm for the fitting body, plus driver and maintenance clearance [2]. Drawing L01 on page 10 identifies each fitting and gives the luminaire schedule.
+At least 86 mm of ceiling void depth is required for the fitting body, in addition to space for external drivers and maintenance access [2]. Drawing L01 on page 10 identifies each fitting and provides the luminaire schedule.
 
 ## 4. Simulation results and interpretation
 
 ### 4.1 Distribution of task illumination
 
-All 112 desks meet the selected illuminance, uniformity and glare criteria. The lowest desk average is 593 lx, the lowest uniformity is 0.80 and the highest calculated UGR is 18.1. These values occur at different desks. Figure 4 shows the variation in desk-average illuminance across the office, with the three desks giving the limiting results identified.
+All 112 desks meet the selected illuminance, uniformity, and glare requirements, with the lowest desk average at 593 lx, the lowest uniformity at 0.80, and the highest calculated UGR at 18.1. Due to these values occurring at different desks, Figure 4 illustrates the variation in desk-average illuminance across the office and identifies the three desks giving the limiting results. 
 
-Figure 4. Desk-average illuminance; A, B and C identify the three controlling desks.
+Figure 4. Desk-average illuminance; A, B and C identify the three controlling desks. Appendix D shows the native false-colour views.
 
 ### 4.2 Desks with the lowest lighting levels and highest glare
 
-Desk-021 averages 593 lx at the south perimeter. Its centre is 2.40 m from the boundary; L140 and L136 are about 1.0 and 1.4 m away, bracketing the desk north to south. The perimeter limits additional coverage from rows farther south. L013 is about 7.7 m away.
+Desk-021 averages 593 lx at the south perimeter, with its centre located 2.40 m from the boundary. While L140 and L136 are about 1.0 m and 1.4 m away, positioned on either side of the desk north to south, the perimeter limits additional coverage from rows farther south, leaving L013 about 7.7 m away.
 
-Desk-084 has the lowest Uo (0.80), with a range of 521-736 lx around a 654 lx mean. L120 is only 0.36 m from the desk centre and sits toward one side of the desk. The native isolux plot shows a gradient across the task area, consistent with uneven overlap from the adjacent fittings.
+Desk-084 has the lowest Uo (0.80), with a range of 521-736 lx around a 654 lx mean. L120 is only 0.36 m from the desk centre and sits toward one side of the desk, resulting in a gradient across the task area on the native isolux plot, consistent with uneven overlap from the adjacent fittings.
 
-At Desk-018 the highest directional UGR is 18.1 at 180 degrees (Appendix A, PDF p. 12, DIALux p. 316). Several luminaires are close to the observer, with L028 and L014 within 1.5 m in plan. The directional result reflects the combined effect of source luminance, apparent position and background luminance. The export gives the total, so individual source contributions remain unquantified.
+At Desk-018 the highest directional UGR is 18.1 at 180 degrees (Appendix A, PDF p. 12, DIALux p. 316), where several luminaires are close to the observer, with L028 and L014 within 1.5 m in plan. While the directional result reflects the combined effect of source luminance, apparent position, and background luminance, the export only gives the total, leaving individual contributions source unquantified.
 
-Appendix A includes the native task contours and directional glare result. The automatic WP1 surface samples the wider room, including column footprints. The 112 explicit desk surfaces define the task-area check for the proposed furniture plan.
+Appendix A includes the native task contours and directional glare result. The automatic WP1 surface samples the wider room, including column footprints; in contrast, the 112 explicit desk surfaces define the task-area check for the proposed furniture plan.
 
 ## 5. Comparison with lighting requirements
 
@@ -137,35 +137,35 @@ Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour 
 
 ### 5.1 Illuminance and uniformity
 
-The background floor receives 617 lx against a 100 lx target. The regular ceiling grid delivers more light than required in circulation. The four circulation zones allow reduced output to be tested against the background and nearby task criteria. Group uniformity bounds use the lowest point divided by the highest surface mean, rounded down.
+The background floor receives 617 lx, which is significantly higher than the 100 lx target, because the regular ceiling grid delivers more light than required in circulation areas. To address this, the four circulation zones provide a way to test reduced lighting outputs against the background and nearby task criteria, while group uniformity bounds are calculated using the lowest point divided by the highest surface mean, rounded down.
 
 ### 5.2 Glare and screen reflections
 
-The highest directional UGR is 18.1 in the baseline. The LDT check scales intensity to 4000 lm and divides by the projected area of the 510 x 510 mm aperture. The highest sampled luminance is 1334 cd/m2 (C44, gamma 65 degrees). EN clause 5.9.2 and Table 7 set 1500 cd/m2 for Case A medium-luminance screens (high state up to 200 cd/m2) tilted up to 15 degrees from vertical [1]. The check covers sampled angles from 65 to 89 degrees. Projection is undefined at 90 degrees. Confirm screen type, tilt and orientation at fit-out.
+In the baseline, the highest directional UGR is 18.1. To verify luminance limits, the LDT check scales intensity to 4000 lm and divides it by the projected area of the 510 x 510 mm aperture, which gives a maximum sampled luminance of 1334 cd/m2 (C44, gamma 65 degrees). This is below the 1500 cd/m2 limit set by EN clause 5.9.2 and Table 7 for Case A medium-luminance screens (high state up to 200 cd/m2) tilted up to 15 degrees from vertical [1]. While the check covers sampled angles from 65 to 89 degrees, since projection is undefined at 90 degrees, screen type, tilt, and orientation must be confirm at fit-out.
 
 ## 6. Lighting controls and energy use
 
 ### 6.1 Local and automatic control
 
-The office has 32 independent control zones: 28 for bench groups and four for circulation. Each has local manual switching and dimming. The largest zone is 46.67 m2, below the 250 m2 automatic-control limit. The 1042.10 m2 office requires 32 manual control points under BEC Table 5.5 without claiming a reduction for low power density [8]. Figure 5 shows their boundaries.
+The office is divided into 32 independent control zones: 28 for bench groups and four for circulation, each with local manual switching and dimming. The largest zone measures 46.67 m2, which is below the 250 m2 automatic-control limit. According to BEC Table 5.5, the 1042.10 m2 office requires 32 manual control points without needing a reduction for low power density [8], and Figure 5 illustrates their boundaries.
 
-Each zone switches off after 10 minutes without occupancy, within the BEC limit of 15 minutes. A schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. Commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [8, Sec. 5.6.1].
+Each zone switches off after 10 minutes without occupancy, which falls within the BEC limit of 15 minutes. In addition, a schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. To verify compliance, commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [8, Sec. 5.6.1].
 
-Figure 5. Proposed independent lighting control zones.
+Figure 5. Proposed independent lighting control zones. The DIALux calculation uses one luminaire group.
 
 ### 6.2 Daylight response
 
-Daylight-responsive control is proposed where the actual external glazing and lighting load trigger BEC clause 5.6.2 [8]. The window dimensions and grouping are needed to define these zones and check the exceptions. Where applicable, the controller must be able to reduce lighting power to 50% or less, or switch off, in response to daylight.
+In areas where the external glazing and lighting load meet BEC clause 5.6.2 criteria, daylight-responsive control is proposed [8]. However, window dimensions and grouping are still needed to define these zones and check the exceptions. Where it is required, the controller must also be able to reduce lighting power to 50% or less, or switch it off entirely, in response to daylight.
 
 ### 6.3 Connected power
 
-The fittings draw 186 x 23 = 4278 W. With a provisional 50 W allowance for sensors and shared control equipment, the design load is 4328 W, or 4.153 W/m2 over 1042.10 m2. The BEC limit is 7.2 W/m2. A full-load scenario of 2500 h/year gives approximately 10.82 MWh/year. A controlled estimate requires logged occupancy, driver power at dimmed output and standby loads.
+The fittings draw 186 x 23 = 4278 W. With a 50 W allowance for sensors and shared control equipment, the design load reaches 4328 W, or 4.153 W/m2 across 1042.10 m2, which is below the BEC limit of 7.2 W/m2. At full load for 2500 h/year, the energy use is about 10.82 MWh/year. However, a controlled estimate requires logged occupancy, driver power at dimmed output, and standby loads.
 
 ## 7. Design comparison and conclusion
 
 ### 7.1 Comparison of calculation conditions
 
-DIALux tested 90% output, lower ceiling/wall/floor reflectances (70/50/20%), and both together. The layout and MF were retained. Table 4 shows the workstation results.
+DIALux tested three sensitivity scenarios: 90% output, lower ceiling/wall/floor reflectances (70/50/20%), and both combined, while retaining the original layout and MF. Table 4 shows the workstation performance.  
 
 Table 4. Workstation results by calculation condition.
 
@@ -179,15 +179,15 @@ Table 4. Workstation results by calculation condition.
 
 ### 7.2 Design choice
 
-At 90% output, the lowest desk mean is 534 lx, 6.8% above the target. The worst directional UGR falls from 18.1 to 17.7. Lower reflectance at full output reduces the minimum desk mean to 566 lx while the UGR rises to 18.6, leaving 0.4 below the limit.
+At 90% output, the lowest desk mean is 534 lx, 6.8% above the target, and the worst directional UGR falls from 18.1 to 17.7. In contrast, lower reflectance at full output reduces the minimum desk mean to 566 lx while the UGR rises to 18.6, leaving a 0.4 margin below the limit.
 
-With both changes, the lowest desk mean is 509 lx and maximum directional UGR is 18.2. The 9 lx illuminance margin supports keeping full output as the design setting and tuning the installed system after completion.
+With both changes combined, the lowest desk mean is 509 lx and the maximum directional UGR is 18.2. This relatively narrow 9 lx illuminance margin supports keeping full output as the design setting and tuning the installed system after completion.
 
 ### 7.3 Maintenance and conclusion
 
-The maintenance factor uses LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, rounded down to 0.80 [4]. The product declares L90 at 50,000 h [2]. The remaining factors assume prompt replacement, annual cleaning and retained room finishes.
+The maintenance factor is calculated as LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, which is rounded down to 0.80 [4]. Specifically, the product declares L90 at 50,000 h [2], while the remaining factors assume prompt replacement, annual cleaning, and retained room finishes.
 
-Full output remains the design setting. The 593 lx minimum maintained desk mean is 19% above 500 lx and corresponds to about 741 lx initially under the adopted MF. Local dimming can be commissioned against the installed finishes, desks and screens. Actual dimmed power should be verified separately.
+Full output remains the design setting, as the 593 lx minimum maintained desk mean is 19% above the 500 lx target and corresponds to about 741 lx initially under the adopted MF. Accordingly, local dimming can be commissioned after installation against the actual finishes, desks, and screens, though dimmed power should be verified separately.
 
 ## References
 
@@ -206,3 +206,8 @@ Full output remains the design setting. The 593 lx minimum maintained desk mean 
 [7] Signify, "Philips PowerBalance gen2, RC461B 34S/840, product 910505103630." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf
 
 [8] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available: https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf
+
+[9] Electrical and Mechanical Services Department, Task Lighting Design, p. 4 (PDF). https://www.emsd.gov.hk/filemanager/en/content_2/Task_Lighting_Design.pdf
+
+[10] BEAM Society Limited, BEAM Plus Interiors, Version 2.0, Non-Residential, 2023, Health and Wellbeing, Unified Glare Rating, item (b), p. 173 (PDF). https://www.beamsociety.org.hk/en/BEAM-Plus/-/media/7400264437D8466599EB31804B350988.ashx
+

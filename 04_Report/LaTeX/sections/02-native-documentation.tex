@@ -1,0 +1,21 @@
+\reportheading{2.4 Native DIALux documentation}
+
+With a zero wall offset, the automatic whole-room plane reports 640 lx and \(U_{\mathrm{o}}\) = 0.002, which rules out a claim of uniform task lighting everywhere. Instead, the adopted assessment evaluates the proposed desk positions, their surroundings, and the accessible background, meaning that a revised seating plan would require a new desk assessment.
+
+\newcommand{\nativepanel}[3]{\begin{minipage}[c]{.486\linewidth}\centering
+  \includegraphics[width=#1\linewidth]{#2}\par
+  {\fontsize{10bp}{12bp}\selectfont\itshape #3\par}\end{minipage}}
+\reportfigure{%
+  \nativepanel{1}{workplane.png}{(a) Room boundary and workplane}\hfill
+  \nativepanel{1}{placement.png}{(b) Luminaire placement}\par\vspace{5bp}
+  \nativepanel{1}{desk.png}{(c) Desk-021 task grid and contours}\hfill
+  \nativepanel{.82}{observer.png}{(d) Desk-018 observer settings}%
+}{Figure 2. Native DIALux workstation results, pp. 254, 256, 529 and 316, respectively.}
+
+\subhead{Reading the local result}
+
+Each point samples the same horizontal task surface to each point. With a mean of 593 lx and a minimum of 525 lx, Desk-021 has \(U_{\mathrm{o}}\) = 525/593 = 0.89. Although its low mean governs the illuminance margin, Desk-084 governs uniformity, this distinction would be lost in a room-wide average.
+
+\subhead{Spacing and lumen-method checks}
+
+For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, the SHR is about 1.20. However, local spacings vary around columns and edges; thus, the individual desk grids are used to directly verify uniformity at those locations. Using N = E × A / (flux × UF × MF), 186 fittings would require a UF of 0.875 to reach an average of 500 lx across the entire 1042.10 m² floor area at an MF of 0.80. Since this serves only as a threshold calculation, the L-shaped room and the individual desk criteria are assessed with the DIALux evo model.
