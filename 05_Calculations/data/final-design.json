@@ -60,7 +60,7 @@
   "revised_acceptance": "05_Calculations/workspace-verification.json",
   "revised_native_persistence": "05_Calculations/data/review-native-persistence-v4.json",
   "historical_engineering_acceptance": "99_Archive/Development/Final_v03/assignment-acceptance-v3.json",
-  "final_pdf_sha256": "221db2903bb95c76b03aadfedc4f5248a2ba4450ff4d151581b8500391b1ddba",
+  "final_pdf_sha256": "3f9660e2a0c89b15efd9e1527ed347a6fed6e239795cdf56814d7f2eebedfff0",
   "comparison_summary": "04_Report/comparison-summary.json",
   "current_CAD": {
     "native": "03_Engineering/CAD/Lighting_Layout.dwg",
