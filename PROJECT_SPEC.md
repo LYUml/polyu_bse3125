@@ -4,7 +4,7 @@ Assignment production and repository synchronization are authorized. User author
 
 ## Deliverable
 
-One final PDF: 10 main pages including the independent A2 lighting layout, 16 appendix pages, 26 total pages, 7,173,161 bytes. Native final/comparison evo copies are additional local handover files under `00_Submit/DIALux`, organized separately from the PDF.
+One final PDF: 10 main pages including the independent A2 lighting layout, 16 appendix pages, 26 total pages, 7,173,103 bytes. Native final/comparison evo copies are additional local handover files under `00_Submit/DIALux`, organized separately from the PDF.
 
 ## Engineering basis
 
