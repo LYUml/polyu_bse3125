@@ -46,7 +46,7 @@ def layout_polar(width=451):
  label(d,350,194,'Intensity (cd/klm)',9,'middle')
  for y,col,dash,txt in [(53,blue,None,'C0-C180'),(38,black,[3,2],'C90-C270')]:
   d.add(Line(282,y+3,304,y+3,strokeColor=col,strokeWidth=1.1,strokeDashArray=dash));label(d,310,y,txt,9)
- label(d,275,19,'Manufacturer LDT [2]',9)
+ label(d,275,19,'Manufacturer LDT [3]',9)
  return d
 
 def task_map(width=451):

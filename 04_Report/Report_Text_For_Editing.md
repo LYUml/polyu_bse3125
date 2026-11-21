@@ -16,7 +16,7 @@ This project addresses the lighting needs of an open-plan office used for readin
 
 ### 1.2 Office geometry and proposed use
 
-The L-shaped office wraps around the central service core. For the BEC lighting power density calculation, the internal floor area of 1042.10 m² is measured to the inner faces of the enclosing walls and includes the column footprints [11]. 
+The L-shaped office wraps around the central service core. For the BEC lighting power density calculation, the internal floor area of 1042.10 m² is measured to the inner faces of the enclosing walls and includes the column footprints [2]. 
 
 Within this layout, the office space is arranged with 28 four-person bench groups, totalling 112 desks, each 1.6 by 0.8 m. Their positions serve as reference points for evaluating lighting across the workplace. Accordingly, the calculations below assume a fixed furniture arrangement, meaning a revision would be necessary if the desks are moved significantly.
 
@@ -39,17 +39,17 @@ Table 1. Principal room and calculation assumptions.
 
 The architectural drawing imported into DIALux evo was verified against the 45 m overall dimension to reduce scale mismatches. Following this, to account for light obstruction, the office boundary and eight full-height columns were modelled.
 
-Moreover, the light distribution data from the manufacturer's ULD file is used in the calculation [2], while DIALux calculates reflected light using the surface reflectances listed in Table 1. The fittings sit within the 600 mm ceiling tiles and have their light-emitting faces aligned with the 2.8 m ceiling, whereas in the DIALux simulation report, the luminaire reference position is listed at 2.868 m, which is 68 mm above the ceiling plane. Figure 1 depicts the model alongside the evaluation heights.
+Moreover, the light distribution data from the manufacturer's ULD file is used in the calculation [3], while DIALux calculates reflected light using the surface reflectances listed in Table 1. The fittings sit within the 600 mm ceiling tiles and have their light-emitting faces aligned with the 2.8 m ceiling, whereas in the DIALux simulation report, the luminaire reference position is listed at 2.868 m, which is 68 mm above the ceiling plane. Figure 1 depicts the model alongside the evaluation heights.
 
 Figure 1. Native room view (left) and adopted calculation heights (right).
 
 ### 2.2 Task-area calculation
 
-Each 1.6 by 0.8 m desk has a 10 by 5 calculation grid at 0.8 m height. According to EN 12464-1 clause 5.4, a 2:1 area is governed by its short side, which limits the maximum spacing to 0.2 x 5^log10(0.8) = 0.171 m [1]. As a result, the selected 0.16 m grid meets this requirement. Meanwhile, DIALux defines the overall uniformity Uo as the ratio of minimum to mean illuminance [3]. Ultimately, individual desk checks are essential to prevent some poorly lit workstations from being overlooked due to a satisfactory room average. 
+Each 1.6 by 0.8 m desk has a 10 by 5 calculation grid at 0.8 m height. According to EN 12464-1 clause 5.4, a 2:1 area is governed by its short side, which limits the maximum spacing to 0.2 x 5^log10(0.8) = 0.171 m [1]. As a result, the selected 0.16 m grid meets this requirement. Meanwhile, DIALux defines the overall uniformity Uo as the ratio of minimum to mean illuminance [4]. Ultimately, individual desk checks are essential to prevent some poorly lit workstations from being overlooked due to a satisfactory room average. 
 
 ### 2.3 Maintenance factor and glare
 
-By applying a maintenance factor of 0.80, the gradual reduction in illumination is accounted for over time [4]. In addition, glare was calculated at a seated eye height of 1.2 m across viewing directions at 15-degree intervals [5]. While the manufacturer gives a catalogue UGR value for the fitting, the glare experienced in the office also depends on luminaire positioning and office surroundings, therefore, the calculated room values are compared against the UGR limit.
+By applying a maintenance factor of 0.80, the gradual reduction in illumination is accounted for over time [5]. In addition, glare was calculated at a seated eye height of 1.2 m across viewing directions at 15-degree intervals [6]. While the manufacturer gives a catalogue UGR value for the fitting, the glare experienced in the office also depends on luminaire positioning and office surroundings, therefore, the calculated room values are compared against the UGR limit.
 
 Furthermore, calculations were applied to the 0.5 m bands around the bench groups, the remaining background floor, cylindrical illuminance at seated head height, and the exposed walls and ceiling. The same fittings and positions were maintained for the desk calculation, where the desks serve as calculation surfaces, whereas solid furniture, monitor screens, and high partitions are excluded. Finally, separate copies were used for the output and reflectance comparisons, with all other inputs held constant.
 
@@ -71,13 +71,13 @@ For a typical 2.4 m spacing and a nominal 2.0 m height above the desk plane, the
 
 ### 3.1 Selected luminaire
 
-The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, with 186 fittings in total. Each fitting is rated at 4000 lm and 23 W, achieving a high efficacy of approximately 174 lm/W [2] and delivering enough light to reach the office standard of 500 lx per desk surface [1, 9]. It also has a colour temperature of 4000 K and a colour rendering index above 80, which are appropriate for these office activities [2]. In particular,  the fitting is rated for a UGR of 16 rather than the UGR of 19 limit [1, 10], reducing perceived discomfort by preventing bright light from shining directly into the eyes of seated occupants using computer screens or reading printed materials.
+The selected fitting is the Philips PowerBalance gen2 RC461B 40S/840, with 186 fittings in total. Each fitting is rated at 4000 lm and 23 W, achieving a high efficacy of approximately 174 lm/W [3] and delivering enough light to reach the office standard of 500 lx per desk surface [1], [7]. It also has a colour temperature of 4000 K and a colour rendering index above 80, which are appropriate for these office activities [3]. In particular,  the fitting is rated for a UGR of 16 rather than the UGR of 19 limit [1], [8], reducing perceived discomfort by preventing bright light from shining directly into the eyes of seated occupants using computer screens or reading printed materials.
 
 ### 3.2 Ceiling coordination and light distribution
 
 Each 597 x 597 mm fitting occupies one 600 mm ceiling tile. While the typical spacing is 2.4 m, adjustments are made near columns and edges. As shown in Figure 3, the broad downward distribution ensures adequate beam overlap at desk height.
 
-Figure 3. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [2]. DIALux uses 1–186 and Drawing L01 uses L001–L186.
+Figure 3. Ceiling layout (a) and principal light distributions from the manufacturer LDT (b) [3]. DIALux uses 1–186 and Drawing L01 uses L001–L186.
 
 ### 3.3 Output selection and installation
 
@@ -85,13 +85,13 @@ Table 2. Manufacturer ratings and modelled layout choices.
 
 | Luminaire | Count | lm / W per fitting | Catalogue UGR | Connected kW* |
 | --- | --- | --- | --- | --- |
-| CoreLine [6] | 142 | 4300 / 32 | 19 | 4.54 |
-| PowerBalance 34S [7] | 186 | 3400 / 20 | 16 | 3.72 |
-| PowerBalance 40S [2] | 186 | 4000 / 23 | 16 | 4.28 |
+| CoreLine [9] | 142 | 4300 / 32 | 19 | 4.54 |
+| PowerBalance 34S [10] | 186 | 3400 / 20 | 16 | 3.72 |
+| PowerBalance 40S [3] | 186 | 4000 / 23 | 16 | 4.28 |
 
 *Luminaire input only. The CoreLine trial used the automatic working plane and a different layout. At the same 186 positions, 34S and 40S gave 504 lx and 593 lx as their lowest desk means, respectively.
 
-At least 86 mm of ceiling void depth is required for the fitting body, in addition to space for external drivers and maintenance access [2]. Drawing L01 on page 10 identifies each fitting and provides the luminaire schedule.
+At least 86 mm of ceiling void depth is required for the fitting body, in addition to space for external drivers and maintenance access [3]. Drawing L01 on page 10 identifies each fitting and provides the luminaire schedule.
 
 ## 4. Simulation results and interpretation
 
@@ -133,7 +133,7 @@ Table 3. Adopted requirements and calculated performance.
 | Occupancy shutoff | ≤15 min | 10 min specified |
 | Daylight response | Conditional on glazing and load | Pending glazing survey |
 
-Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [2] for colour rendering; [8, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.
+Sources: [1, Table 34, row 34.2 and clauses 5.3.4-5.3.5, 5.6.2]; [3] for colour rendering; [11, Tables 5.4-5.5 and clauses 5.6.1-5.6.2] for energy and controls. *Conservative uniformity bound across a group.
 
 ### 5.1 Illuminance and uniformity
 
@@ -147,15 +147,15 @@ In the baseline, the highest directional UGR is 18.1. To verify luminance limits
 
 ### 6.1 Local and automatic control
 
-The office is divided into 32 independent control zones: 28 for bench groups and four for circulation, each with local manual switching and dimming. The largest zone measures 46.67 m2, which is below the 250 m2 automatic-control limit. According to BEC Table 5.5, the 1042.10 m2 office requires 32 manual control points without needing a reduction for low power density [8], and Figure 5 illustrates their boundaries.
+The office is divided into 32 independent control zones: 28 for bench groups and four for circulation, each with local manual switching and dimming. The largest zone measures 46.67 m2, which is below the 250 m2 automatic-control limit. According to BEC Table 5.5, the 1042.10 m2 office requires 32 manual control points without needing a reduction for low power density [11], and Figure 5 illustrates their boundaries.
 
-Each zone switches off after 10 minutes without occupancy, which falls within the BEC limit of 15 minutes. In addition, a schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. To verify compliance, commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [8, Sec. 5.6.1].
+Each zone switches off after 10 minutes without occupancy, which falls within the BEC limit of 15 minutes. In addition, a schedule switches lighting off outside working hours, with local overrides limited to 120 minutes. To verify compliance, commissioning must confirm at least 50% power reduction, including sensor and driver standby consumption [11, Sec. 5.6.1].
 
 Figure 5. Proposed independent lighting control zones. The DIALux calculation uses one luminaire group.
 
 ### 6.2 Daylight response
 
-In areas where the external glazing and lighting load meet BEC clause 5.6.2 criteria, daylight-responsive control is proposed [8]. However, window dimensions and grouping are still needed to define these zones and check the exceptions. Where it is required, the controller must also be able to reduce lighting power to 50% or less, or switch it off entirely, in response to daylight.
+In areas where the external glazing and lighting load meet BEC clause 5.6.2 criteria, daylight-responsive control is proposed [11]. However, window dimensions and grouping are still needed to define these zones and check the exceptions. Where it is required, the controller must also be able to reduce lighting power to 50% or less, or switch it off entirely, in response to daylight.
 
 ### 6.3 Connected power
 
@@ -185,7 +185,7 @@ With both changes combined, the lowest desk mean is 509 lx and the maximum direc
 
 ### 7.3 Maintenance and conclusion
 
-The maintenance factor is calculated as LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, which is rounded down to 0.80 [4]. Specifically, the product declares L90 at 50,000 h [2], while the remaining factors assume prompt replacement, annual cleaning, and retained room finishes.
+The maintenance factor is calculated as LLMF x LSF x LMF x RSMF = 0.90 x 1.00 x 0.95 x 0.94 = 0.8037, which is rounded down to 0.80 [5]. Specifically, the product declares L90 at 50,000 h [3], while the remaining factors assume prompt replacement, annual cleaning, and retained room finishes.
 
 Full output remains the design setting, as the 593 lx minimum maintained desk mean is 19% above the 500 lx target and corresponds to about 741 lx initially under the adopted MF. Accordingly, local dimming can be commissioned after installation against the actual finishes, desks, and screens, though dimmed power should be verified separately.
 
@@ -193,22 +193,22 @@ Full output remains the design setting, as the 593 lx minimum maintained desk me
 
 [1] Light and lighting - Lighting of work places - Part 1: Indoor work places, BS EN 12464-1:2021, British Standards Institution, London, U.K., 2021, doi: 10.3403/30385601. https://doi.org/10.3403/30385601
 
-[2] Signify, "Philips PowerBalance gen2, RC461B 40S/840 SEIA W60L60 VPC U4 WH SC UE," product 910505103638. Accessed: Nov. 16, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103638_EU/product
+[2] Electrical and Mechanical Services Department, Technical Guidelines on Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed., sec. 5.4.1(c), “Internal Floor Area,” p. 51. https://www.emsd.gov.hk/beeo/en/pee/TG-BEC_2024.pdf
 
-[3] DIAL GmbH, "Parameters of a calculation object," Knowledge Base DIALux evo, Sep. 19, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000075351-parameters-of-a-calculation-object
+[3] Signify, "Philips PowerBalance gen2, RC461B 40S/840 SEIA W60L60 VPC U4 WH SC UE," product 910505103638. Accessed: Nov. 16, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-powerbalance-gen2/910505103638_EU/product
 
-[4] DIAL GmbH, "Maintenance factors," Knowledge Base DIALux evo, Feb. 17, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000122341-maintenance-factors
+[4] DIAL GmbH, "Parameters of a calculation object," Knowledge Base DIALux evo, Sep. 19, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000075351-parameters-of-a-calculation-object
 
-[5] DIAL GmbH, "UGR method - Unified Glare Rating," Knowledge Base DIALux evo, May 21, 2026. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000073310-ugr-method-unified-glare-rating
+[5] DIAL GmbH, "Maintenance factors," Knowledge Base DIALux evo, Feb. 17, 2023. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000122341-maintenance-factors
 
-[6] Signify, "Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/910505102802_EU/product
+[6] DIAL GmbH, "UGR method - Unified Glare Rating," Knowledge Base DIALux evo, May 21, 2026. Accessed: Nov. 16, 2026. [Online]. Available: https://evo.support-en.dial.de/support/solutions/articles/9000073310-ugr-method-unified-glare-rating
 
-[7] Signify, "Philips PowerBalance gen2, RC461B 34S/840, product 910505103630." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf
+[7] Electrical and Mechanical Services Department, Task Lighting Design, p. 4 (PDF). https://www.emsd.gov.hk/filemanager/en/content_2/Task_Lighting_Design.pdf
 
-[8] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available: https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf
+[8] BEAM Society Limited, BEAM Plus Interiors, Version 2.0, Non-Residential, 2023, Health and Wellbeing, Unified Glare Rating, item (b), p. 173 (PDF). https://www.beamsociety.org.hk/en/BEAM-Plus/-/media/7400264437D8466599EB31804B350988.ashx
 
-[9] Electrical and Mechanical Services Department, Task Lighting Design, p. 4 (PDF). https://www.emsd.gov.hk/filemanager/en/content_2/Task_Lighting_Design.pdf
+[9] Signify, "Philips CoreLine Panel gen6, RC132V G6 43S/840, product 910505102802." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/global/prof/indoor-luminaires/recessed/philips-coreline-panel-gen6/910505102802_EU/product
 
-[10] BEAM Society Limited, BEAM Plus Interiors, Version 2.0, Non-Residential, 2023, Health and Wellbeing, Unified Glare Rating, item (b), p. 173 (PDF). https://www.beamsociety.org.hk/en/BEAM-Plus/-/media/7400264437D8466599EB31804B350988.ashx
+[10] Signify, "Philips PowerBalance gen2, RC461B 34S/840, product 910505103630." Accessed: Nov. 18, 2026. [Online]. Available: https://www.signify.com/api/assets/v1/file/Signify/content/910505103630_EU.en_AA.PROF.FP/Localized_commercial_leaflet_910505103630_en_AA.pdf
 
-[11] Electrical and Mechanical Services Department, Technical Guidelines on Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed., sec. 5.4.1(c), “Internal Floor Area,” p. 51. https://www.emsd.gov.hk/beeo/en/pee/TG-BEC_2024.pdf
+[11] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special Administrative Region, 2024, sec. 5, pp. 16-21. Accessed: Nov. 16, 2026. [Online]. Available: https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf
