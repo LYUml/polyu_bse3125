@@ -16,7 +16,7 @@ This project addresses the lighting needs of an open-plan office used for readin
 
 ### 1.2 Office geometry and proposed use
 
-The design features an L-shaped office extending around the central service core, with the traced internal wall enclosing an area of 1042.10 m2. Subtracting the eight columns leaves a net floor area of 1032.57 m2. The BEC lighting power density calculation uses 1042.10 m² because the internal floor area is measured to the inside faces of the enclosing walls and includes the area occupied by columns [11]. 
+The design features an L-shaped office extending around the central service core, with the traced internal wall enclosing an area of 1042.10 m2. The BEC lighting power density calculation uses 1042.10 m² because the internal floor area is measured to the inside faces of the enclosing walls and includes the area occupied by columns [11]. 
 
 Within this layout, the office space is arranged with 28 four-person bench groups, totalling 112 desks, each 1.6 by 0.8 m. Their positions serve as reference points for evaluating lighting across the workplace. Accordingly, the calculations below assume a fixed furniture arrangement, meaning a revision would be necessary if the desks are moved significantly.
 

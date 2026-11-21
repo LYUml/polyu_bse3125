@@ -2,7 +2,7 @@
 
 [中文文件导航](README.zh-CN.md)
 
-Current handover: `00_Submit/BSE3125_Lighting_Design_Report.pdf` (10 main pages including CAD, 26 pages total, 7,173,237 bytes). `00_Submit/DIALux/Final` contains the two final-scheme native models; `Comparisons` contains six native comparison models. All eight are byte-identical to the saved/reopened verified originals. No course-platform submission has been made.
+Current handover: `00_Submit/BSE3125_Lighting_Design_Report.pdf` (10 main pages including CAD, 26 pages total, 7,173,161 bytes). `00_Submit/DIALux/Final` contains the two final-scheme native models; `Comparisons` contains six native comparison models. All eight are byte-identical to the saved/reopened verified originals. No course-platform submission has been made.
 
 | Directory | Purpose |
 |---|---|
